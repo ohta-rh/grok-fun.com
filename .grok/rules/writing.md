@@ -56,3 +56,4 @@
 - 公式カードに無い数字を図に公式価格として書くな
 - Imagine の作例写真は Imagine の TIPS だけ（このプロンプトでこう出た）
 - `public/tips/{slug}.jpg` は OGP。本文の図は `public/tips/fig-{name}.jpg`
+- 本文の図は TIPS 1 本につき 1 枚。Imagine の作例を足すときだけ 2 枚

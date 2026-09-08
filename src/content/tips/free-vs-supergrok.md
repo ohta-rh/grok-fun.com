@@ -52,19 +52,11 @@ Lite も比較表に名前と Get Lite があります。金額はトップカ�
 
 2026 年 6 月から、grok.com とアプリの上限は製品ごとの日次回数ではなく、**1 週間の枠を Chat・Imagine・Voice・Build で共有**します（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。
 
-<figure class="article-hero">
-  <img src="/tips/fig-bill-pool.jpg" alt="週の枠は Chat Imagine Voice Build で 1 本" width="1280" height="720" />
-  <figcaption>枠は 1 本。動画と長いコーディングの方が、チャットより多く使う。</figcaption>
-</figure>
-
 残りは **設定 → Usage**。内訳と次のリセットを見ます。使い切ると有料機能はリセットまで止まります。無料枠の Chat と Voice は別スケジュールで残ります。抜け道は追加クレジット、上のプラン、Auto Top Up です。
 
 「昨日は画像が出たのに今日は出ない」は、画像の上限が変わったのではなく、同じ週の枠を別の作業で使った、が多いです。
 
-<figure class="article-hero">
-  <img src="/tips/fig-bill-not.jpg" alt="X Premium でも Cursor でも SuperGrok でも、欲しいものが付かない" width="1280" height="720" />
-  <figcaption>X に入っても grok.com の SuperGrok は付かない。Cursor でも Imagine の枠は上がらない。SuperGrok でも API は付かない。</figcaption>
-</figure>
+X に入っても grok.com の SuperGrok は付かない。Cursor でも Imagine の枠は上がらない。SuperGrok でも API は付かない。
 
 ## 追加クレジット
 
@@ -84,10 +76,7 @@ API クレジットは返金されません。SuperGrok に入っても API は�
 
 ## 解約は払った場所で
 
-<figure class="article-hero">
-  <img src="/tips/fig-bill-cancel.jpg" alt="払った場所で解約する" width="1280" height="720" />
-  <figcaption>grok.com で払った分は grok.com の請求。アプリならストア。X と Cursor はそれぞれの設定。</figcaption>
-</figure>
+grok.com で払った分は grok.com の請求。アプリならストア。X と Cursor はそれぞれの設定。
 
 | 払った場所 | 止める場所 |
 |---|---|
