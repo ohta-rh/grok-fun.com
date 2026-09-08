@@ -92,15 +92,15 @@ const jsonLd = {
     <StaleBanner lastVerified={entry.data.last_verified} />
     <Content />
     <aside class="sources">
-      <h2>確認に使った一次情報</h2>
+      <h2>確かめるのに使った一次情報</h2>
       {entry.data.source_url.length > 0 ? (
         <ul>
           {entry.data.source_url.map((u) => <li><a href={u} rel="external noopener">{u}</a></li>)}
         </ul>
       ) : (
-        <p>一次情報の URL はありません。運営者の操作確認に基づきます。</p>
+        <p>一次情報の URL はありません。運営者が実際に操作して確かめました。</p>
       )}
-      <p>{entry.data.last_verified} に確認しました。料金・制限・画面は変わります。数字は公式で確認してください。</p>
+      <p>{entry.data.last_verified} に確かめました。料金や制限や画面は変わります。数字は公式ページで確かめてください。</p>
     </aside>
     <RelatedTips related={related} />
     <ReactionBar />

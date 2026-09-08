@@ -2,45 +2,48 @@
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 ---
-<Base title="About" description="Grok JP は Grok の非公式ファンコミュニティです。xAI とは関係ありません。商標、ロゴ、引用、分析ツールについての表示。">
+<Base title="About" description="Grok JP は、Grok を日本語で使う人のための非公式ファンサイトです。xAI とは関係ありません。商標、ロゴ、引用、アクセス解析について書いています。">
   <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'About' }]} />
   <p class="card-head"><span class="tag">series</span> <span>最終確認 <time datetime="2026-09-08">2026-09-08</time></span></p>
   <h1>About</h1>
-  <p class="lead">Grok JP は、日本語で Grok を追うファンのための場所です。<strong>xAI 社および Grok の公式サイトではありません。</strong></p>
+  <p class="lead">Grok JP は、日本語で Grok を使う人のための場所です。<strong>xAI と Grok の公式サイトではありません。</strong></p>
 
   <h2>非公式であること</h2>
   <ul>
-    <li>このサイトは xAI Corp. と提携、承認、後援の関係にありません。</li>
-    <li>運営は日本の個人です。掲載内容は運営者が実際に試して確認したものですが、公式の見解ではありません。</li>
-    <li>問い合わせや不具合の報告は、公式（<a href="https://grok.com">grok.com</a> / <a href="https://x.ai">x.ai</a>）に行ってください。ここでは受け付けられません。</li>
+    <li>このサイトは xAI Corp. と提携も承認も後援もされていません。</li>
+    <li>運営しているのは日本の個人です。書いてあることは運営者が実際に試して確かめたものですが、公式の見解ではありません。</li>
+    <li>問い合わせや不具合の報告は、公式（<a href="https://grok.com">grok.com</a> / <a href="https://x.ai">x.ai</a>）にお願いします。ここでは受け付けられません。</li>
   </ul>
 
   <h2>商標とロゴ</h2>
   <ul>
-    <li>Grok および xAI は xAI Corp. の商標です。X は X Corp. の商標です。</li>
-    <li>このサイトは <strong>Grok / xAI のロゴやワードマーク画像を使用していません。</strong> 上部の「非公式」の判子と favicon は、このサイトのオリジナルです。</li>
-    <li>権利者からの要請があれば、該当ページを速やかに取り下げます。</li>
+    <li>Grok と xAI は xAI Corp. の商標です。X は X Corp. の商標です。</li>
+    <li>このサイトは <strong>Grok と xAI のロゴ画像を使っていません。</strong> 上の「非公式」の判子と favicon は、このサイトで作ったものです。</li>
+    <li>権利者から要請があれば、そのページをすぐに取り下げます。</li>
   </ul>
 
-  <h2>書き方の方針</h2>
+  <h2>書き方</h2>
   <ul>
-    <li>各ページに「最終確認日」と、確認に使った一次情報の URL を付けます。</li>
-    <li>料金や制限の数値は変わります。確認できない数値は書かず、「公式を確認してください」と書きます。</li>
-    <li>公式ニュースの全文翻訳はしません。要約と短い引用と原文リンクに留めます。</li>
+    <li>どのページにも、最後に確かめた日と、確かめるのに使った一次情報の URL を付けます。</li>
+    <li>料金や制限の数字は変わります。確かめられない数字は書かず、「公式ページを見てください」と書きます。</li>
+    <li>公式ニュースの全文は翻訳しません。要約と短い引用と原文のリンクにとどめます。</li>
     <li>Bot 用のプロンプト集は作りません。<a href="https://grokguide.jp" rel="external">grokguide.jp</a> を案内します。</li>
   </ul>
 
-  <h2>分析ツール</h2>
+  <h2>アクセス解析</h2>
   <p>アクセスの傾向を知るために Google Tag Manager を使っています。広告は出していません。</p>
 
   <h2>サイト名とドメイン</h2>
-  <p>サイト名は「Grok JP」、ドメインは grok-fun.com です。名前に Grok を含みますが、公式サイトではありません。</p>
+  <p>サイト名は「Grok JP」、ドメインは grok-fun.com です。名前に Grok が入っていますが、公式サイトではありません。</p>
 
   <h2>いま読めるもの</h2>
   <ul>
     <li><a href="/tips/">TIPS の一覧</a></li>
-    <li><a href="/tips/japanese-fix/">日本語で固定する</a></li>
-    <li><a href="/tips/free-vs-supergrok/">やりたいことから払う場所を決める</a></li>
-    <li><a href="/tips/bot-build-chat-map/">チャット、Bot、Build は別物</a></li>
+    <li><a href="/tips/japanese-fix/">英語で返ってきたら、会話の最初に 3 行貼る</a></li>
+    <li><a href="/tips/three-entrances/">Grok は grok.com、公式アプリ、X の 3 か所から使える</a></li>
+    <li><a href="/tips/free-vs-supergrok/">Grok の有料は 1 つじゃない。やりたいことで払う場所が決まる</a></li>
+    <li><a href="/tips/imagine-quickstart/">Imagine で 1 枚目を出すなら、何を、どこで、どんな絵で、を 1 文に</a></li>
+    <li><a href="/tips/imagine-video/">動画は、先に絵を出してから動きを一つ書く</a></li>
+    <li><a href="/tips/bot-build-chat-map/">チャット、Grok Bot、Grok Build は別の道具</a></li>
   </ul>
 </Base>

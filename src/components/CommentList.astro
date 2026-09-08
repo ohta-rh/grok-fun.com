@@ -1,17 +1,17 @@
 ---
-// コメント一覧 + フォーム。初期表示は劣化状態（「いま反応を受け付けていません」）。
+// コメント一覧 + フォーム。初期表示は劣化状態（「いまはコメントを受け付けていません」）。
 // widget.ts が GET /api/comments に成功したら一覧とフォームを出す。
 // Turnstile サイトキーは公開値（HTML に出る）。secret は Worker の TURNSTILE_SECRET_KEY。
 const siteKey: string = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '0x4AAAAAAEsxJhZPYnoRS04f';
 ---
 <section class="comments" data-comments data-sitekey={siteKey} aria-labelledby="comments-heading">
   <h2 id="comments-heading" data-comments-heading>コメント</h2>
-  <p class="comments-status" data-comments-status>いま反応を受け付けていません。記事の内容には影響ありません。</p>
+  <p class="comments-status" data-comments-status>いまはコメントを受け付けていません。記事はそのまま読めます。</p>
   <ol class="comment-list" data-comment-list></ol>
   {siteKey ? (
     <form class="comment-form" data-comment-form hidden novalidate>
       <div class="field">
-        <label for="comment-nickname">ニックネーム（任意・24 文字まで）</label>
+        <label for="comment-nickname">ニックネーム（書かなくても大丈夫です。24 文字まで）</label>
         <input id="comment-nickname" name="nickname" type="text" maxlength="24" placeholder="匿名" autocomplete="nickname" />
       </div>
       <div class="field">
@@ -26,10 +26,10 @@ const siteKey: string = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '0x4AAAAAAE
         <button type="submit" class="btn" data-submit>書き込む</button>
       </div>
       <p class="comment-error" data-error role="alert" hidden></p>
-      <p class="comment-note">アカウント不要。投稿は公開されます。運営が削除することがあります。</p>
+      <p class="comment-note">アカウントは要りません。書いた内容はそのまま公開されます。運営が消すことがあります。</p>
     </form>
     <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onloadTurnstileCallback" defer></script>
   ) : (
-    <p class="comment-note" data-comments-pending hidden>コメントの投稿はまだ準備中です。リアクションは使えます。</p>
+    <p class="comment-note" data-comments-pending hidden>コメントはまだ準備中です。リアクションは使えます。</p>
   )}
 </section>

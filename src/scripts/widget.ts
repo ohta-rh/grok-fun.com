@@ -33,9 +33,9 @@ interface ApiError {
 
 const SLUG_RE = /^[a-z0-9][a-z0-9/-]{0,120}$/;
 const OFFLINE = 'いま反応を受け付けていません';
-const COMMENTS_OFFLINE = 'いま反応を受け付けていません。記事の内容には影響ありません。';
+const COMMENTS_OFFLINE = 'いまはコメントを受け付けていません。記事はそのまま読めます。';
 const COMMENTS_STOPPED = 'コメントは現在停止中です。';
-const COMMENTS_PENDING = 'コメントの投稿はまだ準備中です。リアクションは使えます。';
+const COMMENTS_PENDING = 'コメントはまだ準備中です。リアクションは使えます。';
 
 // Turnstile の api.js は defer で後から動く。onload コールバックはこの時点で用意しておく
 const turnstileLoaded = new Promise<void>((resolve) => {
