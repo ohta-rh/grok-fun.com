@@ -53,7 +53,7 @@ X の中の Grok は、公開投稿や会話が学習に使われる設定があ
 
 ## 課金も入口ごとに別
 
-**X Premium に入っても、grok.com の SuperGrok は付いてきません。** 契約する場所が違います。Cursor のプランに入っていると Grok Bot が使えることもありますが、それも grok.com の週間枠とは別です。どこで払うかは <a href="/tips/free-vs-supergrok/">払う場所</a> に書いています。
+**X Premium に入っても、grok.com の SuperGrok は付いてきません。** 契約する場所が違います。Cursor のプランに入っていると Grok Bot が使えることもありますが、それも grok.com の上限とは別です。どこで払うかは <a href="/tips/free-vs-supergrok/">払う場所</a> に書いています。
 
 ## 公式アプリの見分け方
 

@@ -22,7 +22,7 @@ Every page carries an unofficial banner. Official Grok / xAI logos are not used.
 - Hosting: Cloudflare Workers Static Assets / 配信は Cloudflare Workers Static Assets
 - Package manager: **pnpm** / パッケージマネージャは **pnpm**
 - Worker handles `/api/*` only (likes and comments). `run_worker_first` stays **false** — turning it on would send every request through the Worker and burn the free quota.
-- Worker は `/api/*` だけ（いいねとコメント）。`run_worker_first` は **false のまま**。true にすると全リクエストが Worker を通り、無料枠を食います。
+- Worker は `/api/*` だけ（いいねとコメント）。`run_worker_first` は **false のまま**。true にすると全リクエストが Worker を通り、無料の分を食います。
 - Comments and reactions: D1 `grok-fun-community` + Turnstile. Articles stay static if D1 is gone.
 - コメントとリアクションは D1 `grok-fun-community` と Turnstile。D1 が落ちても記事は残ります。
 - Analytics: Google Tag Manager `GTM-NQMPJ2FS` (GA4). Do not add a second gtag.js.

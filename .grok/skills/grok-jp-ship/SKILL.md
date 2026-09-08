@@ -24,7 +24,7 @@ Follow **chrome-isolated-shots**: unique `--user-data-dir` under `/tmp`, wait un
 
 Look for: judgment written inside the figure, titles wrapping, Imagine proof photo only, no metaphor stills, no overflow, no squeezed table columns.
 
-On 390px, table rows are cards. Read every visible label aloud. If a label names a UI widget or sounds translated, do not ship — rewrite in `.grok/rules/writing.md` terms (いくら、何ができる、どこで払う) and rebuild.
+On 390px, table rows are cards. Read the whole article, not the diff. If a sentence is English in Japanese clothes, rewrite that section from a LINE 3-liner. Do not search-replace one word. Then rebuild.
 
 ## Do not
 

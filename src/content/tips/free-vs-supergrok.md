@@ -1,6 +1,6 @@
 ---
 title: やりたいことから払う場所を決める（Grok の料金）
-description: SuperGrok Heavy は公式の最上位。公式に出ている値段は Free、$30、Plus $100。X と Cursor と API は別契約。週の枠は 1 本。
+description: SuperGrok Heavy は公式の最上位。公式に出ている値段は Free、$30、Plus $100。X と Cursor と API は別契約。上限は 1 週間で 1 つ。
 order: 3
 product: chat
 last_verified: "2026-09-08"
@@ -33,8 +33,8 @@ image_caption: やりたいことから、払う場所を決める。
 |---|---|---|
 | grok.com / 公式アプリでチャット、Imagine、Voice | grok.com の SuperGrok 系 | Free $0 / SuperGrok $30 / Plus $100。Heavy は比較表と Get Heavy にある |
 | X の中だけで使う | X Premium / Premium+ | X 側。SuperGrok は付かない。ターミナルの Build は発表時点で Premium+ |
-| Grok Bot だけ（すでに Cursor） | cursor.com の個人 Pro | $20〜。grok.com の週間枠は上がらない |
-| 自分のアプリから呼ぶ | console.x.ai の API | 従量。SuperGrok の週の枠ではない。返金なし |
+| Grok Bot だけ（すでに Cursor） | cursor.com の個人 Pro | $20〜。grok.com で使える量は増えない |
+| 自分のアプリから呼ぶ | console.x.ai の API | 使った分だけ。grok.com の上限とは別。返金なし |
 
 </div>
 
@@ -55,8 +55,8 @@ X Premium に入っても grok.com は無料のまま、が普通です。入口
 |---|---|---|
 | Free | <span class="num">$0</span> | まず 1 週間使う。上限はゆるい |
 | SuperGrok Lite | 値段は出ていない。Get Lite はある | 比較表の列。入る前に契約画面で金額を見る |
-| SuperGrok | <span class="num">$30 / 月</span> | いちばん多い選択。Grok 4.6、Imagine、Voice、Grok Bot、枠の引き上げ |
-| SuperGrok Plus | <span class="num">$100 / 月</span> | 1080p 動画。Chat / Imagine / Voice / Build の枠を大きくする。返答の高速化、混雑時の優先、新機能の先行 |
+| SuperGrok | <span class="num">$30 / 月</span> | いちばん多い選択。Grok 4.6、Imagine、Voice、Grok Bot。上限が上がる |
+| SuperGrok Plus | <span class="num">$100 / 月</span> | 1080p 動画。Chat / Imagine / Voice / Build の上限が大きくなる。返答の高速化、混雑時の優先、新機能の先行 |
 | SuperGrok Heavy | 値段は出ていない。比較表と Get Heavy がある | 公式の最上位。下の節 |
 
 </div>
@@ -78,21 +78,21 @@ Heavy を「公式の値段に無いから公式ではない」と書くのは�
 Heavy を検討するのは、次が分かってからです。
 
 - 画面の **Build Mode** が要る
-- SuperGrok（$30）や Plus（$100）の週の枠では足りない
+- SuperGrok（$30）や Plus（$100）では足りない
 
 チャットと Imagine だけなら、先に $30 を使い切ってからで足ります。
 
-## 週の枠は 1 本
+## 上限は 1 週間で 1 つ
 
-2026 年 6 月から、grok.com とアプリの上限は製品ごとの日次回数ではなく、**1 週間の枠を Chat・Imagine・Voice・Build で共有**します（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。
+2026 年 6 月から、チャットも Imagine も、上限は 1 週間で 1 つです（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。日ごとの回数ではない。
 
-- 枠は製品ごとに分かれない。Chat を使うと、同じ週の Imagine も減る
-- 動画と長いコーディングは、チャットより多く使う
+- チャットを使うと、同じ週の Imagine も減る
+- 動画と長いコーディングは、チャットより減りが早い
 - 残りは **設定 → Usage**。使った割合、製品ごとの内訳（FAQ 上は API / Build / Chat / Imagine / Voice）、次のリセット、追加クレジットの残高
-- 使い切ると有料機能はリセットまで止まる。**無料枠の Chat と Voice は別スケジュールで残る**
+- 使い切ると有料機能はリセットまで止まる。**無料の Chat と Voice は、別の回数で残る**
 - 抜け道は追加クレジット、上のプラン、Auto Top Up
 
-「昨日は画像が出たのに今日は出ない」は、画像の上限が変わったのではなく、同じ週の枠を別の作業で使った、が多いです。
+「昨日は画像が出たのに今日は出ない」は、同じ 1 週間の上限を、別の作業で使ったことが多いです。
 
 ## 付かないもの（ここが取り違えの本体）
 
@@ -100,8 +100,8 @@ Heavy を検討するのは、次が分かってからです。
 
 | 払ったもの | 付かないもの |
 |---|---|
-| X Premium / Premium+ | grok.com の SuperGrok。Imagine / Voice の週間枠も grok.com 側では上がらない |
-| Cursor の個人 Pro | grok.com の週間枠。Imagine の枚数は増えない |
+| X Premium / Premium+ | grok.com の SuperGrok。Imagine や Voice の上限も grok.com 側では上がらない |
+| Cursor の個人 Pro | grok.com で使える量。Imagine の枚数は増えない |
 | SuperGrok / Plus / Heavy | console.x.ai の API クレジット。API は別会計で、返金なし |
 
 </div>
@@ -110,13 +110,13 @@ Heavy を検討するのは、次が分かってからです。
 
 ## 追加クレジット（Extra Usage Credits）
 
-週の枠を使い切ったあとの前払いです。FAQ に書かれている条件は次です。
+1 週間の上限を使い切ったあとの前払いです。FAQ に書かれている条件は次です。
 
 - **Web からだけ**買える。アプリのストア課金では買えない
 - **$5 から**
-- プランに含まれる週の枠を使い切ったあとで減る。枠が残っているうちは減らない
+- プランに入っている 1 週間の上限を使い切ったあとで減る。当たるまでは減らない
 - 有効期限は **約 1 年**
-- 含まれる枠より、1 回あたりの単価は高い
+- プランに入っている分より、1 回あたりの単価は高い
 - **Auto Top Up** を付けると、残高が減ったときに指定額を自動で足す。1 か月の上限も設定できる
 
 公式の FAQ は、**毎週のように上限に当たるなら、クレジットを買い続けるより上のプランに変えるほうが安い**と案内しています。たまに超える月の穴埋めに使う、と考えてください。
@@ -129,13 +129,13 @@ X 側の Grok は X のプランに従います。grok.com 側は SuperGrok 系�
 
 ## Cursor は Grok Bot の入口
 
-<a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26</a> では、Grok Bot は SuperGrok / Plus / Heavy と、Cursor Pro / Pro+ / Ultra、Cursor Teams に含まれる、とあります。Bot の利用量は Grok や Cursor の枠とは別に数える、と公式に書いてあります。
+<a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26</a> では、Grok Bot は SuperGrok / Plus / Heavy と、Cursor Pro / Pro+ / Ultra、Cursor Teams に含まれる、とあります。Bot の利用量は Grok や Cursor の上限とは別に数える、と公式に書いてあります。
 
 <a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-09-08）の個人 Pro は月 <span class="num">$20</span> で、**Grok Bot access** とあります。Hobby（無料）には Grok Bot と書かれていません。
 
 公式の書き方は揃っていません。ニュースは SuperGrok と Cursor Pro を含む一方、取得時点の <a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a> は Plus / Heavy と Cursor Pro+ 以上だけを挙げています。**自分のプランで Bot が使えるかは、プラン画面で確認**してください。
 
-Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor の個人 Pro（取得時点 <span class="num">$20</span>）の方が SuperGrok（$30）より安い、という比較になります。ただし grok.com の週間枠も API クレジットも付きません。
+Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor の個人 Pro（取得時点 <span class="num">$20</span>）の方が SuperGrok（$30）より安い、という比較になります。ただし grok.com の上限も API クレジットも付きません。
 
 ## API は別会計
 
@@ -171,22 +171,22 @@ Web とアプリで別アカウントに入っていると、片方だけ有料�
 
 ## 円の価格
 
-ストアの円は、公式 USD の為替換算ではありません。ストアの価格帯に丸められ、手数料の分だけ Web より高くなることがあります。PC 中心なら grok.com、スマホ中心ならストア、と先に決めてから比べてください。追加クレジットは Web だけなので、枠を超えがちな人は Web 契約の方が融通が利きます。
+ストアの円は、公式 USD の為替換算ではありません。ストアの価格帯に丸められ、手数料の分だけ Web より高くなることがあります。PC 中心なら grok.com、スマホ中心ならストア、と先に決めてから比べてください。追加クレジットは Web だけなので、すぐ上限に当たる人は Web 契約の方が融通が利きます。
 
 ## 決め方
 
 1. 無料で 1 週間使う。当たった曜日と、そのとき何をしていたか（長文、画像、動画、Voice）をメモする
 2. Usage の内訳を見る。動画が主因なら Plus、チャットだけなら SuperGrok で足りることが多い
 3. 入口を決める。X の中だけなら X。grok.com なら SuperGrok。Bot だけで Cursor なら Cursor
-4. **Heavy は最後。** Build Mode が要る、または $30 / $100 の枠では足りない、と Usage で分かってから。金額は契約画面
+4. **Heavy は最後。** Build Mode が要る、または $30 や $100 では足りない、と Usage で分かってから。金額は契約画面
 
 ## よくある取り違え
 
 - 「X Premium なのに grok.com が無料」: 別契約なので正常
-- 「Cursor Pro なのに Imagine の枠が同じ」: Cursor は Grok Bot 側
+- 「Cursor Pro なのに Imagine の上限が同じ」: Cursor は Grok Bot 側
 - 「SuperGrok なのに API が使えない」: API は console.x.ai
 - 「X Premium なのにターミナルの Build が使えない」: 発表時点では Premium+ か SuperGrok
-- 「画像の上限が急に減った」: 週の共有枠を別の作業で使っている。Usage を見る
+- 「画像の上限が急に減った」: 同じ 1 週間の上限を、別の作業で使っている。Usage を見る
 - 「円が公式の USD と合わない」: ストア価格が正
 - 「身に覚えのない高額請求」: FAQ は Heavy の年払いが多いと書く。請求画面を見る
 - 「Web で解約ボタンが開かない」: 広告ブロッカーを疑う。シークレットで <a href="https://grok.com/?_s=billing" rel="external">grok.com の請求</a> を開く
