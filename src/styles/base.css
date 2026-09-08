@@ -20,7 +20,7 @@ a { color: var(--indigo); text-decoration-thickness: 1px; text-underline-offset:
 a:hover { text-decoration-thickness: 2px; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; }
 
-h1, h2, h3 { line-height: 1.4; font-weight: 700; margin: 0; overflow-wrap: break-word; }
+h1, h2, h3 { line-height: 1.4; font-weight: 700; margin: 0; overflow-wrap: anywhere; }
 h1 { font-size: 1.75rem; }
 h2 { font-size: 1.25rem; margin-top: var(--section); padding-bottom: 0.25rem; border-bottom: 2px solid var(--rule); }
 h3 { font-size: 1.05rem; margin-top: 1.75rem; }
