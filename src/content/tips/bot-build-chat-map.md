@@ -1,6 +1,6 @@
 ---
-title: Grok Bot と Grok Build とチャットを混ぜない（地図）
-description: チャット、Grok Bot、Grok Build は別のもの。それぞれ何をする道具か、どれを使うべきかの地図。Bot プロンプト集は grokguide.jp へ。
+title: チャット、Bot、Build は別物
+description: チャット、Grok Bot、Grok Build は別のもの。それぞれ何をする道具か、どれを選ぶべきかを一枚で整理。Bot プロンプト集は grokguide.jp へ。
 order: 5
 product: series
 last_verified: "2026-09-08"
