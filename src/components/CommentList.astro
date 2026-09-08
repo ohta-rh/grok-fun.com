@@ -1,8 +1,8 @@
 ---
 // コメント一覧 + フォーム。初期表示は劣化状態（「いま反応を受け付けていません」）。
 // widget.ts が GET /api/comments に成功したら一覧とフォームを出す。
-// Turnstile のサイトキーはビルド時 env PUBLIC_TURNSTILE_SITE_KEY。無ければフォームを出さず「準備中」。
-const siteKey: string = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? '';
+// Turnstile サイトキーは公開値（HTML に出る）。secret は Worker の TURNSTILE_SECRET_KEY。
+const siteKey: string = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '0x4AAAAAAEsxJhZPYnoRS04f';
 ---
 <section class="comments" data-comments data-sitekey={siteKey} aria-labelledby="comments-heading">
   <h2 id="comments-heading" data-comments-heading>コメント</h2>
