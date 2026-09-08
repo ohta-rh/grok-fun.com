@@ -1,0 +1,17 @@
+:root {
+  --ink: #1C2230;
+  --paper: #F3F4F0;
+  --rule: #C9CCC4;
+  --indigo: #2B4C9B;
+  --marker: #FFD64A;
+  --stamp: #C8322B;
+  --ink-60: color-mix(in oklab, var(--ink) 60%, var(--paper));
+  --marker-35: color-mix(in oklab, var(--marker) 35%, var(--paper));
+
+  --font-sans: 'BIZ UDPGothic', 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  --measure: 40rem;
+  --gutter: clamp(16px, 4vw, 48px);
+  --section: 2.5rem;
+}

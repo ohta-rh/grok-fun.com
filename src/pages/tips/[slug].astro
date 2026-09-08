@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import StaleBanner from '../../components/StaleBanner.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const tips = (await getCollection('tips')).sort((a, b) => a.data.order - b.data.order);
+  return tips.map((entry, i) => ({
+    params: { slug: entry.id },
+    props: { entry, prev: tips[i - 1] ?? null, next: tips[i + 1] ?? null },
+  }));
+}
+
+const { entry, prev, next } = Astro.props;
+const { Content } = await render(entry);
+const url = `https://grok-fun.com/tips/${entry.id}/`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: entry.data.title,
+  description: entry.data.description,
+  inLanguage: 'ja',
+  dateModified: entry.data.last_verified,
+  mainEntityOfPage: url,
+  author: { '@type': 'Organization', name: 'Grok JP（非公式ファンコミュニティ）' },
+  publisher: { '@type': 'Organization', name: 'Grok JP（非公式ファンコミュニティ）' },
+  isBasedOn: entry.data.source_url,
+};
+---
+<Base title={entry.data.title} description={entry.data.description} type="article" jsonLd={jsonLd}>
+  <article>
+    <p class="card-head">
+      <span class="tag">{entry.data.product}</span>
+      <span>TIPS {String(entry.data.order).padStart(2, '0')}</span>
+      <span>最終確認 <time datetime={entry.data.last_verified}>{entry.data.last_verified}</time></span>
+    </p>
+    <h1>{entry.data.title}</h1>
+    <p class="lead">{entry.data.description}</p>
+    <StaleBanner lastVerified={entry.data.last_verified} />
+    <Content />
+    <aside class="sources">
+      <h2>確認に使った一次情報</h2>
+      {entry.data.source_url.length > 0 ? (
+        <ul>
+          {entry.data.source_url.map((u) => <li><a href={u} rel="external noopener">{u}</a></li>)}
+        </ul>
+      ) : (
+        <p>一次情報の URL はありません。運営者の操作確認に基づきます。</p>
+      )}
+      <p>{entry.data.last_verified} に確認しました。料金・制限・画面は変わります。数字は公式で確認してください。</p>
+    </aside>
+  </article>
+  <nav class="prev-next" aria-label="前後の TIPS">
+    <span>{prev && <a href={`/tips/${prev.id}/`}>← {prev.data.title}</a>}</span>
+    <span>{next && <a href={`/tips/${next.id}/`}>{next.data.title} →</a>}</span>
+  </nav>
+</Base>

@@ -1,0 +1,14 @@
+// 初回公開は assets-only。Worker の main と D1 はまだ書かない（content-strategy.md）。
+// コミュニティ（コメント / リアクション）を入れるスライスで main / d1_databases を追加する。
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "grok-fun",
+  "compatibility_date": "2026-08-15",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [{ "pattern": "grok-fun.com", "custom_domain": true }],
+  "observability": { "enabled": true }
+}

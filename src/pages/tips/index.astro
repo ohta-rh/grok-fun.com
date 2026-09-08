@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const tips = (await getCollection('tips')).sort((a, b) => a.data.order - b.data.order);
+---
+<Base title="TIPS" description="Grok を日本語で使うための TIPS。検証済み、日付付き、一次情報リンク付き。数は少なく、戻ってきたときに足りる形で。">
+  <p class="card-head"><span class="tag">series</span> <span>{tips.length} 本</span></p>
+  <h1>TIPS</h1>
+  <p class="lead">Grok を日本語で使うときの、短い実用メモです。番号順に読むと、はじめての人でも一通りつながるようにしています。</p>
+  <ol class="tips-list">
+    {tips.map((t) => (
+      <li>
+        <span class="num">TIPS {String(t.data.order).padStart(2, '0')} · {t.data.product}</span><br />
+        <a href={`/tips/${t.id}/`}>{t.data.title}</a>
+        <p>{t.data.description}</p>
+        <p class="meta">最終確認 <time datetime={t.data.last_verified}>{t.data.last_verified}</time></p>
+      </li>
+    ))}
+  </ol>
+</Base>

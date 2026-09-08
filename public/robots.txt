@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://grok-fun.com/sitemap-index.xml

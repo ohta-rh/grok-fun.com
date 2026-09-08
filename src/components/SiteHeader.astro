@@ -1,0 +1,15 @@
+---
+const { pathname } = Astro.url;
+const current = (prefix: string) => (pathname === prefix || (prefix !== '/' && pathname.startsWith(prefix)) ? 'page' : undefined);
+---
+<header class="site-header">
+  <div class="wrap">
+    <div class="site-name"><a href="/">Grok JP</a></div>
+    <p class="site-tagline">ファンコミュニティ（非公式）</p>
+    <nav class="site-nav" aria-label="サイト内">
+      <a href="/" aria-current={current('/')}>ホーム</a>
+      <a href="/tips/" aria-current={current('/tips/')}>TIPS</a>
+      <a href="/about/" aria-current={current('/about/')}>About</a>
+    </nav>
+  </div>
+</header>

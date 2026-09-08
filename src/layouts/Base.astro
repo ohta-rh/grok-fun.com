@@ -1,0 +1,58 @@
+---
+import '@fontsource/biz-udpgothic/400.css';
+import '@fontsource/biz-udpgothic/700.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '../styles/tokens.css';
+import '../styles/base.css';
+import UnofficialBanner from '../components/UnofficialBanner.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  type?: 'website' | 'article';
+  jsonLd?: Record<string, unknown>;
+}
+const SITE_NAME = 'Grok JP';
+const { title, description, type = 'website', jsonLd } = Astro.props;
+const fullTitle = title === SITE_NAME ? `${SITE_NAME} — ファンコミュニティ（非公式）` : `${title} | ${SITE_NAME}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary" />
+    {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <script>
+      import '../scripts/gtm';
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQMPJ2FS" height="0" width="0" title="Google Tag Manager"></iframe>
+    </noscript>
+    <UnofficialBanner />
+    <SiteHeader />
+    <main>
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+    <SiteFooter />
+  </body>
+</html>

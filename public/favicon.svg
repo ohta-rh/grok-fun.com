@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#F3F4F0"/>
+  <g transform="rotate(-6 32 32)">
+    <rect x="9" y="9" width="46" height="46" rx="4" fill="none" stroke="#C8322B" stroke-width="4"/>
+    <text x="32" y="45" text-anchor="middle" font-family="'BIZ UDPGothic','Hiragino Sans',sans-serif" font-weight="700" font-size="34" fill="#C8322B">非</text>
+  </g>
+</svg>
