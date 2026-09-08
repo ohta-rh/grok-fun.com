@@ -23,6 +23,6 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 ## Do
 
 1. Thicken the existing five TIPS. No new pages unless asked.
-2. Infographic: Imagine, natural Japanese in the picture, inspect the file, copy to `public/tips/fig-{name}.jpg`. One figure per TIPS (plus Imagine proof photo only on the Imagine TIPS).
+2. Infographic: Imagine, natural Japanese in the picture, inspect the file, copy to `public/tips/fig-{name}.jpg`. One figure per TIPS, except billing (choose + stairs) and the Imagine proof photo.
 3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Card amounts on 2026-09-08: Free $0, SuperGrok $30, Plus $100.
 4. After figures or copy change, ship with **grok-jp-ship**.

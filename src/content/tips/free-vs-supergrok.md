@@ -42,6 +42,11 @@ X Premium に入っても grok.com は無料のまま、が普通です。入口
 
 ## grok.com の階段（Free → SuperGrok → Plus → Heavy）
 
+<figure class="article-hero">
+  <img src="/tips/fig-bill-ladder.jpg" alt="grok.com の Free $0、SuperGrok $30、Plus $100、Heavy。Heavy は公式の最上位で、金額は契約画面" width="1280" height="720" />
+  <figcaption>Heavy は公式の最上位。金額は契約画面。</figcaption>
+</figure>
+
 <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> を 2026-09-08 に開くと、個人向けの金額カードは 3 枚です。同じページの比較表には、その下に **Lite** と **Heavy** の列もあります。
 
 <div class="table-scroll">
