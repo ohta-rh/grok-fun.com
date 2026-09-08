@@ -57,3 +57,4 @@
 - Imagine の作例写真は Imagine の TIPS だけ（このプロンプトでこう出た）
 - `public/tips/{slug}.jpg` は OGP。本文の図は `public/tips/fig-{name}.jpg`
 - 本文の図は TIPS 1 本につき 1 枚。Imagine の作例を足すときだけ 2 枚
+- 図を減らしたら、図が担っていた判断は同じコミットで本文に移せ。穴を残すな。Heavy のような公式プランを図だけに頼るな

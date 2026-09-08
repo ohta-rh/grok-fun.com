@@ -17,6 +17,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | Dump “わかりにくいので画面で確認” as the article | Write やりたいこと → 払う場所 first |
 | Garbled / calqued Japanese in the figure | Read every label aloud. Redo if it sounds like a translation |
 | Invented 無制限, 2024, Lite $10 as current card | Only dated primary-source numbers |
+| Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
 
 ## Do
 
