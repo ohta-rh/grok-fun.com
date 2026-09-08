@@ -11,6 +11,7 @@
     "build": "pnpm check:worker && astro check && astro build",
     "preview": "wrangler dev",
     "deploy": "wrangler deploy",
+    "indexnow": "node scripts/indexnow.mjs",
     "d1:migrate": "wrangler d1 migrations apply grok-fun-community --local",
     "d1:migrate:remote": "wrangler d1 migrations apply grok-fun-community --remote"
   },

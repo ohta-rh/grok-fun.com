@@ -11,6 +11,10 @@
 /robots.txt
   Cache-Control: public, max-age=86400
 
+/4b5ffb1695a64c1ca278bc90e0a1bbbb.txt
+  Cache-Control: public, max-age=3600
+  Content-Type: text/plain; charset=utf-8
+
 /sitemap-index.xml
   Cache-Control: public, max-age=3600
 
