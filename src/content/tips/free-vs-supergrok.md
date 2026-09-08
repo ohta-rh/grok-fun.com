@@ -73,13 +73,9 @@ X 側の Grok は、X のプランに従います。grok.com 側は SuperGrok �
 
 <a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a> を 2026-09-08 に取得した時点で、個人向け（Individual）のカードは月 $20（Pro）で、**Grok Bot access** と明記されています。同じカードに Pro+ と Ultra のタブもあります。金額はタブで変わるので、契約画面で確認してください。Hobby（無料）には Grok Bot と書かれていません。
 
-Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor の個人向け Pro（取得時点 $20）の方が SuperGrok（$30）より安い、という比較になります。ただし次は付いてきません。
+Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor の個人向け Pro（取得時点 $20）の方が SuperGrok（$30）より安い、という比較になります。ただし grok.com の週間枠（Chat / Imagine / Voice）も、API クレジットも付きません。
 
-- grok.com の Chat / Imagine / Voice の週間枠
-- 公式アプリの SuperGrok 特典
-- API のクレジット
-
-公式の書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含む一方、取得時点の <a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a> は SuperGrok Plus / Heavy と Cursor Pro+ 以上だけを挙げています。Hobby（無料）には Grok Bot と書かれていません。**自分のプランで Bot が使えるかは、プラン画面で確認**してください。
+公式の書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含む一方、取得時点の <a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a> は SuperGrok Plus / Heavy と Cursor Pro+ 以上だけを挙げています。**自分のプランで Bot が使えるかは、プラン画面で確認**してください。
 
 ## 週間の利用枠の仕組み
 
@@ -126,7 +122,7 @@ FAQ には、**身に覚えのない高額の請求は、API ではなく SuperG
 |---|---|
 | grok.com（Web） | grok.com の請求（Billing）画面。広告ブロッカーでボタンが開かないことがある |
 | iPhone / iPad のアプリ | Apple のサブスクリプション管理 |
-| Android のアプリ | Google Play の定期購入 |
+| Android のアプリ | Google Play の定期購入。返金は FAQ 上 xAI の申請フォーム |
 | X Premium | X の設定。返金も X に申請します |
 | Cursor | Cursor の請求画面 |
 
