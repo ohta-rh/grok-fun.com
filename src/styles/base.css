@@ -89,6 +89,20 @@ main { flex: 1; padding-bottom: var(--section); }
 .lead { font-size: 1.05rem; margin-top: 0.75rem; }
 h1 + .lead { margin-top: 0.75rem; }
 
+.article-hero { margin: 1.25rem 0 0; }
+.article-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+.article-hero figcaption {
+  font-size: 0.85rem;
+  color: var(--ink-60);
+  margin-top: 0.4rem;
+}
+
 /* stale banner */
 .stale { border: 1px solid var(--stamp); border-left-width: 3px; padding: 0.5rem 0.75rem; margin: 1rem 0; font-size: 0.9rem; }
 

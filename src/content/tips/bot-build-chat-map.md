@@ -13,6 +13,9 @@ related:
   - japanese-fix
   - free-vs-supergrok
   - three-entrances
+image: /tips/bot-build-chat-map.jpg
+image_alt: ノートと判子とキーボードが同じ机に並んでいる
+image_caption: ノートがチャット、判子が Bot、キーボードが Build。名前が似ていても道具は別です。
 ---
 
 ## 3 つは別の道具
@@ -26,6 +29,8 @@ related:
 | **Grok Build** | ターミナルで動くコーディングエージェント。ファイルを編集し、コマンドを実行する | 自分の PC のターミナル | 開発者 |
 
 チャットの入口は 3 つあります（<a href="/tips/three-entrances/">grok.com / 公式アプリ / X</a>）。Bot と Build は、入っているプランによって使える入口が違います。
+
+プログラムを書かない人は、チャットで足ります。Build を入れる必要はありません。
 
 ## チャット: まずここ
 

@@ -15,6 +15,9 @@ related:
   - three-entrances
   - bot-build-chat-map
   - imagine-quickstart
+image: /tips/free-vs-supergrok.jpg
+image_alt: 机の上に封蝋の違う紙が 4 枚並んでいる。文字も数字も無い
+image_caption: 払う場所は 4 つ。封が違う紙を 1 枚にまとめられないのと同じです。
 ---
 
 ## 課金は 4 系統ある

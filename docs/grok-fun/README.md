@@ -7,6 +7,7 @@
 | [fable-review.md](fable-review.md) | Fable 5.1 による企画レビュー。must / should / nit と凍結事項。**改訂しない** | 1 |
 | [magi-verdict.md](magi-verdict.md) | MAGI 3-0 Conditional Approval + Fable の must + **オーナー決定**（記事は静的、v1 でリアクション + コメント、D1 使い捨て、フルシリーズ、**無人運用**、**サイト名 Grok JP**、**TIPS-first**、**GTM 初日から**、**AdSense は公開後**）。凍結事項の一覧 | 2 |
 | [content-strategy.md](content-strategy.md) | **コンテンツ戦略（凍結）**。北極星「日本一 = 戻ってくる場所」、薄いローンチ（ホーム + About + TIPS 4〜6）、週 1 本、取り込みは信頼が取れるまで OFF、計測はリピート訪問・コメント密度・長尾クエリ | 3 |
+| [writing.md](writing.md) | TIPS の書き方。正本は `.grok/rules/writing.md`（ヘッダー画像、直訳禁止、一次情報） | 3b |
 | [research-competitors.md](research-competitors.md) | 競合調査。シリーズ横断の日本語ハブは無い。grokguide.jp は Bot プロンプトのみ | 4 |
 | [research-cloudflare.md](research-cloudflare.md) | Cloudflare Free 制限（公式）。assets-first、Worker は `/api/*` のみ、D1、Turnstile | 5 |
 | [research-seo-content.md](research-seo-content.md) | キーワード Tier A/B/C、要約 + 引用 + 原文リンク方針、frontmatter スキーマ、SLA | 6 |
