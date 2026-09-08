@@ -1,7 +1,7 @@
 ---
 title: チャット、Bot、Build は別物
 description: チャット、Grok Bot、Grok Build は別のもの。それぞれ何をする道具か、どれを選ぶべきかを一枚で整理。Bot プロンプト集は grokguide.jp へ。
-order: 5
+order: 6
 product: series
 last_verified: "2026-09-08"
 source_url:

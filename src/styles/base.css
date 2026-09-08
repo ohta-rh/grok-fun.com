@@ -195,12 +195,14 @@ main { flex: 1; padding-bottom: var(--section); }
 .lead + * { margin-top: 1.5rem; }
 
 .article-hero { margin: 1.25rem 0 0; }
-.article-hero img {
+.article-hero img,
+.article-hero video {
   display: block;
   width: 100%;
   height: auto;
   border: 1px solid var(--rule);
   border-radius: 2px;
+  background: var(--ink);
 }
 .article-hero figcaption {
   font-size: 0.85rem;

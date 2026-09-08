@@ -12,6 +12,7 @@ related:
   - three-entrances
   - free-vs-supergrok
   - japanese-fix
+  - imagine-video
 image: /tips/imagine-quickstart.jpg
 image_alt: 雨の京都の路地に白い猫が座っている。夕方のフィルム写真
 image_caption: このページの型（白い猫 / 雨の京都の路地 / film photo）で出した作例。文字の無い看板の方が、「文字を入れるな」より通ります。
@@ -22,7 +23,7 @@ image_caption: このページの型（白い猫 / 雨の京都の路地 / film 
 1. Imagine を開く（grok.com の左、公式アプリの下タブ。X からは出ないことが多い）
 2. 被写体 + 場面 + 画風で 1 文
 3. 同じ文で 2〜3 回出して選ぶ
-4. 決まってから動画にする（動画の方が枠を多く使う）
+4. 決まってから動画にする（<a href="/tips/imagine-video/">動きは一つ。動画は枠を多く使う</a>）
 
 見当たらなければ別の入口を試します（<a href="/tips/three-entrances/">入口は grok.com / 公式アプリ / X</a>）。会話で使い方を聞くなら、冒頭で日本語と範囲を固定します（<a href="/tips/japanese-fix/">会話の冒頭で日本語に固定する</a>）。
 

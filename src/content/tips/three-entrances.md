@@ -13,6 +13,7 @@ related:
   - japanese-fix
   - free-vs-supergrok
   - imagine-quickstart
+  - imagine-video
 image: /tips/three-entrances.jpg
 image_alt: 机の上にノート PC、スマートフォン、新聞が並んでいる。画面に文字は無い
 image_caption: 入口は grok.com、公式アプリ、X の 3 つ。

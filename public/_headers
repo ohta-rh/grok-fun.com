@@ -17,3 +17,11 @@
 /sitemap-0.xml
   Cache-Control: public, max-age=3600
 
+/tips/vid-cat.mp4
+  Cache-Control: public, max-age=86400
+  Content-Type: video/mp4
+
+/tips/vid-lantern.mp4
+  Cache-Control: public, max-age=86400
+  Content-Type: video/mp4
+
