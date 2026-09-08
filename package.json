@@ -12,9 +12,7 @@
     "preview": "wrangler dev",
     "deploy": "wrangler deploy",
     "d1:migrate": "wrangler d1 migrations apply grok-fun-community --local",
-    "d1:migrate:remote": "wrangler d1 migrations apply grok-fun-community --remote",
-    "d1:migrate:local": "wrangler d1 migrations apply grok-fun-community --local",
-    "d1:migrate": "wrangler d1 migrations apply grok-fun-community --remote"
+    "d1:migrate:remote": "wrangler d1 migrations apply grok-fun-community --remote"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

@@ -7,14 +7,21 @@ last_verified: "2026-09-08"
 source_url:
   - https://grok.com
   - https://x.ai/news
+  - https://docs.x.ai/grok/faq
+related:
+  - three-entrances
+  - free-vs-supergrok
+  - japanese-fix
 ---
 
 ## 4 手順
 
-1. **Imagine を開く。** grok.com なら左のメニュー、公式アプリなら下のタブに「Imagine」があります。見当たらなければ別の入口を試します（<a href="/tips/three-entrances/">TIPS 02</a>）。
+1. **Imagine を開く。** grok.com なら左のメニュー、公式アプリなら下のタブに「Imagine」があります。見当たらなければ別の入口を試します（<a href="/tips/three-entrances/">入口は grok.com / 公式アプリ / X</a>）。X の中からは出ないことがあります。
 2. **1 文で書く。** 「被写体 + 場面 + 画風」の順で 1 文にします。長い説明より、この 3 つが揃っている方が安定します。
 3. **生成して選ぶ。** 複数の候補が出ます。気に入ったものを開き、保存します。
-4. **必要なら動画にする。** 出た画像から短い動画を作る操作があります。画像が決まってから動かすと、やり直しが減ります。
+4. **必要なら動画にする。** 出た画像から短い動画を作る操作があります。画像が決まってから動かすと、やり直しが減ります。動画は画像より週間の利用枠を多く使います。
+
+会話で Imagine の使い方を聞くなら、冒頭で日本語と範囲を固定すると説明がブレません（<a href="/tips/japanese-fix/">会話の冒頭で日本語に固定する</a>）。
 
 ## 日本語プロンプトの型
 
@@ -31,7 +38,9 @@ source_url:
 
 ## 無料枠の上限
 
-無料で 1 日に生成できる枚数や本数には上限があります。上限は時期や混雑で変わり、日本語の公式ページにはまとまっていません。上限に当たったときの表示を信じて、数字はこのページに書きません。最新の条件は <a href="https://grok.com">grok.com</a> と <a href="https://x.ai/news">x.ai/news</a> で確認してください。上限に当たる頻度が高いなら、SuperGrok を検討します（<a href="/tips/free-vs-supergrok/">TIPS 03</a>）。
+無料で生成できる枚数や本数には上限があります。2026 年 6 月以降、grok.com とアプリの上限は「1 日の回数」ではなく、**1 週間ぶんの利用枠を Chat・Imagine・Voice・Build で共有する**方式です。画像をたくさん出すと、その週のチャットも減ります。内訳は設定の Usage で見ます。仕組みは <a href="/tips/free-vs-supergrok/">課金の 4 系統</a> に書いています。
+
+上限の数字は時期や混雑で変わり、日本語の公式ページにはまとまっていません。上限に当たったときの表示を信じて、数字はこのページに書きません。最新の条件は <a href="https://grok.com">grok.com</a> と <a href="https://x.ai/news">x.ai/news</a> で確認してください。上限に当たる頻度が高いなら、SuperGrok を検討します。
 
 ## 気をつけること
 

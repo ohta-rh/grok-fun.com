@@ -10,6 +10,7 @@ const tips = defineCollection({
     product: z.enum(['chat', 'bot', 'build', 'imagine', 'voice', 'automations', 'api', 'series']),
     last_verified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD'),
     source_url: z.array(z.string().url()).default([]),
+    related: z.array(z.string()).max(4).default([]),
   }),
 });
 

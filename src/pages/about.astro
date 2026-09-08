@@ -1,7 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 ---
 <Base title="About" description="Grok JP は Grok の非公式ファンコミュニティです。xAI とは関係ありません。商標、ロゴ、引用、分析ツールについての表示。">
+  <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'About' }]} />
   <p class="card-head"><span class="tag">series</span> <span>最終確認 <time datetime="2026-09-08">2026-09-08</time></span></p>
   <h1>About</h1>
   <p class="lead">Grok JP は、日本語で Grok を追うファンのための場所です。<strong>xAI 社および Grok の公式サイトではありません。</strong></p>
@@ -33,4 +35,12 @@ import Base from '../layouts/Base.astro';
 
   <h2>サイト名とドメイン</h2>
   <p>サイト名は「Grok JP」、ドメインは grok-fun.com です。名前に Grok を含みますが、公式サイトではありません。</p>
+
+  <h2>いま読めるもの</h2>
+  <ul>
+    <li><a href="/tips/">TIPS の一覧</a></li>
+    <li><a href="/tips/japanese-fix/">日本語で固定する</a></li>
+    <li><a href="/tips/free-vs-supergrok/">課金は 4 系統</a></li>
+    <li><a href="/tips/bot-build-chat-map/">チャット、Bot、Build は別物</a></li>
+  </ul>
 </Base>

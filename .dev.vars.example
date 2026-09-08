@@ -5,3 +5,6 @@ TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
 IP_HASH_SALT=local-dev-salt
 # キルスイッチ。1 でコメント投稿と通報を止める（リアクションは動く）。通常は未設定
 # COMMENTS_DISABLED=1
+#
+# コメントフォームのサイトキーは Worker ではなく Astro のビルド時。
+# PUBLIC_TURNSTILE_SITE_KEY=1x00000000000000000000AA を環境変数に置く。未設定ならフォームは出ない。

@@ -1,10 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 
 const tips = (await getCollection('tips')).sort((a, b) => a.data.order - b.data.order);
 ---
 <Base title="TIPS" description="Grok を日本語で使うための TIPS。検証済み、日付付き、一次情報リンク付き。数は少なく、戻ってきたときに足りる形で。">
+  <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'TIPS' }]} />
   <p class="card-head"><span class="tag">series</span> <span>{tips.length} 本</span></p>
   <h1>TIPS</h1>
   <p class="lead">Grok を日本語で使うときの、短い実用メモです。番号順に読むと、はじめての人でも一通りつながるようにしています。</p>

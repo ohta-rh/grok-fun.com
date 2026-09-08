@@ -1,6 +1,6 @@
 ---
-title: Grok の課金は 3 系統（grok.com・X・API）で別々
-description: grok.com の SuperGrok、X の Premium、console.x.ai の API は別々の課金。週間の利用枠、追加クレジット、Grok Bot の扱い、解約場所、ストアの円価格と USD の違いを公式ページに沿って整理。
+title: Grok の課金は 4 系統（grok.com・X・Cursor・API）で別々
+description: grok.com の SuperGrok、X の Premium、Cursor の Grok Bot、console.x.ai の API は別契約。週間枠、追加クレジット、解約場所、円価格を公式に沿って整理。
 order: 3
 product: chat
 last_verified: "2026-09-08"
@@ -8,23 +8,33 @@ source_url:
   - https://x.ai/pricing
   - https://docs.x.ai/grok/faq
   - https://x.ai/news/grok-bot-more-plans
+  - https://x.ai/news/grok-build-cli
+  - https://cursor.com/pricing
   - https://help.x.com/en/using-x/x-premium
+related:
+  - three-entrances
+  - bot-build-chat-map
+  - imagine-quickstart
 ---
 
-## 課金は 3 系統ある
+## 課金は 4 系統ある
 
-「Grok の有料プラン」は 1 つではありません。契約する場所が 3 つあり、それぞれ請求元も、上限の数え方も違います。
+「Grok の有料プラン」は 1 つではありません。契約する場所が 4 つあり、それぞれ請求元も、上限の数え方も違います。
 
 | 系統 | 契約する場所 | 何に対して払うか | 請求元 |
 |---|---|---|---|
 | **SuperGrok 系** | grok.com / 公式アプリ | 週ごとの利用枠。Chat・Imagine・Voice・Build で共有 | xAI（Web）か Apple / Google（ストア） |
-| **X Premium / Premium+** | X | X の中の Grok の扱い | X |
+| **X Premium / Premium+** | X | X の中の Grok。Premium+ は Grok Build（ターミナル）も公式発表に含まれる | X |
+| **Cursor** | cursor.com | エディタの利用に加えて、プランによっては Grok Bot | Cursor |
 | **API** | console.x.ai | 使ったトークン量。前払いのクレジットから減る | xAI |
 
-ここで押さえるのは 2 点です。
+ここで押さえるのは 3 点です。
 
-- **X Premium に入っても、grok.com の SuperGrok は付いてきません。** 別の契約です。どちらに入るかは、どの入口で使うかで決めます（<a href="/tips/three-entrances/">TIPS 02</a>）。
+- **X Premium に入っても、grok.com の SuperGrok は付いてきません。** 別の契約です。どの入口で使うかで決めます（<a href="/tips/three-entrances/">入口は grok.com / 公式アプリ / X</a>）。
+- **Cursor のプランに Grok Bot が付いていても、grok.com の週間枠は上がりません。** Imagine や Voice の上限は別です。
 - **SuperGrok の週間の利用枠は、API のクレジットではありません。** SuperGrok に入っても API は使えませんし、API のクレジットを買っても grok.com の上限は上がりません。API のクレジットは返金されません。
+
+チャットと Bot と Build の役割の違いは <a href="/tips/bot-build-chat-map/">チャット、Bot、Build は別物</a> に分けています。このページは「どこで払うか」だけです。
 
 ## x.ai/pricing に載っている個人向けプラン
 
@@ -40,11 +50,37 @@ source_url:
 
 金額は USD で、予告なく変わります。契約前に必ず公式ページと、使っている入口の料金画面を見てください。
 
+## X の Premium と grok.com は同期しない
+
+X 側の Grok は、X のプランに従います。grok.com 側は SuperGrok の契約に従います。片方が有料でも、もう片方は無料のまま、ということが普通に起きます。会話の履歴も入口をまたいで見えるとは限りません。
+
+ターミナルの **Grok Build** は、2026-05-25 の公式発表では SuperGrok と **X Premium+** の加入者が使えるとあります。通常の X Premium では足りません。画面の中でサイトを作る Build Mode とも別物です。
+
+## Cursor は 4 本目の入口（Grok Bot）
+
+<a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26 の公式発表</a>では、Grok Bot は次のプランに含まれるとされています。
+
+- SuperGrok / SuperGrok Plus / SuperGrok Heavy
+- Cursor Pro / Pro+ / Ultra
+- Cursor Teams（Standard と Premium）
+
+**Bot の利用量は Grok や Cursor のプランの利用量とは別に数える**、と公式に書いてあります。
+
+<a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a> を 2026-09-08 に取得した時点で、個人向け（Individual）のカードは月 $20（Pro）で、**Grok Bot access** と明記されています。同じカードに Pro+ と Ultra のタブもあります。金額はタブで変わるので、契約画面で確認してください。Hobby（無料）には Grok Bot と書かれていません。
+
+Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor の個人向け Pro（取得時点 $20）の方が SuperGrok（$30）より安い、という比較になります。ただし次は付いてきません。
+
+- grok.com の Chat / Imagine / Voice の週間枠
+- 公式アプリの SuperGrok 特典
+- API のクレジット
+
+公式の導入ページとニュースで、Bot が使えるプランの書き方が揃っていない時期があります。**自分のプランで Bot が使えるかは、自分のアカウントのプラン画面で確認**してください。
+
 ## 週間の利用枠の仕組み
 
 2026 年 6 月から、grok.com とアプリの上限は「製品ごとの 1 日の回数」ではなく、**1 週間ぶんの利用枠を Chat・Imagine・Voice・Build で共有する**方式になりました（<a href="https://docs.x.ai/grok/faq" rel="external">docs.x.ai の FAQ</a>）。
 
-- 製品ごとに消費する計算資源が違います。動画生成や長いコーディング作業は、チャットより枠を多く使います。
+- 製品ごとに消費する計算資源が違います。動画生成や長いコーディング作業は、チャットより枠を多く使います。Imagine の枚数が急に減ったと感じたら、同じ週にチャットや Voice を使っていないかを見ます（<a href="/tips/imagine-quickstart/">Imagine の手順と上限</a>）。
 - 残りは **設定 → Usage** で確認できます。使った割合、製品ごとの内訳、次のリセット時刻、追加クレジットの残高が出ます。
 - 週の枠を使い切ると、有料の機能は次のリセットまで止まります。**無料枠の Chat と Voice は、それとは別のスケジュールで引き続き使えます。**
 
@@ -62,12 +98,6 @@ source_url:
 - **Auto Top Up**（自動チャージ）を有効にすると、残高が減ったときに指定額を自動で買い足します。1 か月の上限額も設定できます。
 
 公式の FAQ は、**毎週のように上限に当たるなら、クレジットを買い続けるより上のプランに変えるほうが安い**と案内しています。追加クレジットは、たまに超える月の穴埋めに使うものと考えてください。
-
-## Grok Bot はどのプランに含まれるか
-
-<a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26 の公式発表</a>では、Grok Bot は **SuperGrok、SuperGrok Plus、SuperGrok Heavy** に加えて、Cursor のいくつかのプランにも含まれるとされています。また、**Bot の利用量は Grok や Cursor のプランの利用量とは別に数える**とあります。
-
-一方で、docs.x.ai の Grok Bot の導入ページは、取得時点でまだ Plus と Heavy だけを挙げていました。公式の記述が揃っていないので、**自分のプランで Bot が使えるかは、自分のアカウントのプラン画面で確認**してください。Bot とチャットと Build の違いは <a href="/tips/bot-build-chat-map/">TIPS 05</a> にまとめています。
 
 ## API はまったく別の会計
 
@@ -93,6 +123,7 @@ FAQ には、**身に覚えのない高額の請求は、API ではなく SuperG
 | iPhone / iPad のアプリ | Apple のサブスクリプション管理 |
 | Android のアプリ | Google Play の定期購入 |
 | X Premium | X の設定。返金も X に申請します |
+| Cursor | Cursor の請求画面 |
 
 「アプリで払ったのに Web で無料のまま」「Web で払ったのにアプリで反映されない」は、**Web とアプリで違うアカウントにサインインしている**ことがほとんどです。特に Apple の「メールを非公開」でサインインすると、見た目が別のアドレスになり、別アカウントになりがちです。両方のサインイン方法を揃えてから、公式に問い合わせてください。
 
@@ -110,13 +141,15 @@ App Store や Google Play で契約すると、円で請求されます。この
 
 1. **無料で 1 週間使う。** 上限に当たった曜日と、当たったときに何をしていたか（長文、画像、動画、Voice）をメモします。
 2. **Usage の内訳を見る。** どの製品が枠を食っているかで、必要なプランが違います。動画が主因なら Plus、チャットだけなら SuperGrok で足りることが多いです。
-3. **入口を決める。** X の中で使うことが多ければ X Premium、grok.com やアプリが中心なら SuperGrok。
+3. **入口を決める。** X の中で使うことが多ければ X Premium、grok.com やアプリが中心なら SuperGrok。Grok Bot だけが目的で Cursor を使うなら Cursor の個人プラン。
 4. **上のプランは最後。** 毎週上限に当たるようになってから考えます。たまに超えるだけなら追加クレジットで足ります。
 
 ## よくある取り違え
 
 - 「X Premium に入ったのに grok.com で無料のまま」: 契約が別なので正常です。
+- 「Cursor Pro に入ったのに Imagine の上限が同じ」: Cursor は Grok Bot 側です。grok.com の週間枠は別です。
 - 「SuperGrok に入ったのに API が使えない」: API は console.x.ai で別に払います。
+- 「X Premium なのに Grok Build（ターミナル）が使えない」: 公式発表時点では Premium+ か SuperGrok が必要です。
 - 「画像の上限が急に減った」: 週の共有枠を別の作業で使っています。Usage を見ます。
 - 「円の価格が公式の USD と合わない」: 上記の理由で合いません。ストア価格が正です。
 - 「身に覚えのない高額請求」: Heavy の年払いになっていないか、grok.com の請求画面で確認します。

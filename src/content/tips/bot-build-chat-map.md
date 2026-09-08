@@ -5,9 +5,14 @@ order: 5
 product: series
 last_verified: "2026-09-08"
 source_url:
-  - https://x.ai
-  - https://grok.com
+  - https://x.ai/news/grok-build-cli
+  - https://x.ai/news/grok-bot-more-plans
+  - https://x.ai/news/grok-build-mode
   - https://grokguide.jp
+related:
+  - japanese-fix
+  - free-vs-supergrok
+  - three-entrances
 ---
 
 ## 3 つは別の道具
@@ -17,16 +22,18 @@ source_url:
 | 名前 | 何をするもの | 使う場所 | 向いている人 |
 |---|---|---|---|
 | **チャット** | その場で質問して答えをもらう。使い捨ての会話 | grok.com / 公式アプリ / X | 全員 |
-| **Grok Bot** | 役割と指示をあらかじめ保存した「自分用の Grok」。毎回同じ振る舞いをさせる | grok.com / アプリの Bot 機能 | 同じ作業を繰り返す人 |
+| **Grok Bot** | 役割と指示をあらかじめ保存した、自分用のエージェント。チャットの前置き保存から、仕事を任せる同僚まで幅がある | grok.com / アプリ / Cursor | 同じ作業を繰り返す人、任せておきたい人 |
 | **Grok Build** | ターミナルで動くコーディングエージェント。ファイルを編集し、コマンドを実行する | 自分の PC のターミナル | 開発者 |
+
+チャットの入口は 3 つあります（<a href="/tips/three-entrances/">grok.com / 公式アプリ / X</a>）。Bot と Build は、入っているプランによって使える入口が違います。
 
 ## チャット: まずここ
 
-日本語の質問、要約、翻訳、相談はすべてチャットで足ります。会話の 1 行目で言語と範囲を固定すると安定します（<a href="/tips/japanese-fix/">TIPS 01</a>）。
+日本語の質問、要約、翻訳、相談はすべてチャットで足ります。会話の 1 行目で言語と範囲を固定すると安定します（<a href="/tips/japanese-fix/">会話の冒頭で日本語に固定する</a>）。
 
 「毎回同じ前置きを書いている」と気づいたら、次の Bot に移る合図です。
 
-## Grok Bot: 前置きを保存する
+## Grok Bot: 前置きを保存する、あるいは仕事を任せる
 
 Bot は、チャットに毎回貼っていた指示を保存して名前を付けたものです。作るときに書くのは 4 つだけです。
 
@@ -37,29 +44,33 @@ Bot は、チャットに毎回貼っていた指示を保存して名前を付�
 禁止: ○○（例: 文体を変えない。英語で答えない）
 ```
 
+2026-08-26 の公式発表では、Grok Bot は SuperGrok 系に加えて **Cursor の個人プラン（Pro / Pro+ / Ultra）と Teams** にも含まれます。Bot の利用量は Grok や Cursor のプランの利用量とは別に数えます。Cursor の個人向け Pro は、取得時点で月 $20 で Grok Bot access と書かれています。SuperGrok（$30）より安いですが、**grok.com の Chat / Imagine / Voice の週間枠は付いてきません。** どこで払うかは <a href="/tips/free-vs-supergrok/">課金の 4 系統</a> を見てください。自分のプランで Bot が使えるかは、プラン画面で確認します。
+
 Bot 用のプロンプトは、<a href="https://grokguide.jp" rel="external">grokguide.jp</a> に多数まとまっています。このサイトでは Bot のプロンプト集は作りません。作り方の型と、日本語で使うときの注意だけを書きます。
 
 ## Grok Build: 開発者向け。非エンジニアには不要
 
-Grok Build は、ターミナル（黒い画面）で動く AI コーディングアシスタントです。コードを読み、ファイルを書き換え、シェルコマンドを実行します。インストールは公式のスクリプトで行います。
+Grok Build は、ターミナル（黒い画面）で動く AI コーディングアシスタントです。コードを読み、ファイルを書き換え、シェルコマンドを実行します。2026-05-25 の公式発表では、**SuperGrok と X Premium+** の加入者が使えるとあります。通常の X Premium では足りません。インストールは公式のスクリプトで行います。
 
 ```
 curl -fsSL https://x.ai/cli/install.sh | bash
 grok
 ```
 
-初回起動でブラウザが開き、grok.com のアカウントでサインインします。
+Windows は PowerShell で `irm https://x.ai/cli/install.ps1 | iex` です。初回起動でブラウザが開き、grok.com のアカウントでサインインします。
 
 **チャットで「コードを書いて」と頼むのと違うのは、Build は自分の PC のファイルを直接触ることです。** 便利ですが、触ってよいフォルダで動かしてください。プログラムを書かない人は、チャットで足ります。
+
+名前が似ている **Build Mode**（grok.com の画面の中でサイトやアプリを作る機能）は別物です。2026-07-28 の発表時点では SuperGrok Heavy 向けの試験機能でした。ターミナルの Grok Build とは違います。
 
 ## 混ぜると起きること
 
 - Bot 用のプロンプトをチャットに貼っても、会話が終われば消えます。繰り返すなら Bot にします。
-- 「Grok Build の使い方」を検索して、Bot の解説を読んでしまう。名前が似ていますが別物です。
+- 「Grok Build の使い方」を検索して、Bot の解説や Build Mode の解説を読んでしまう。名前が似ていますが別物です。
 - Build にチャットのつもりで雑談すると、ファイルを触られることがあります。Build は作業用と割り切ります。
 
 ## どれを使うか（1 行で）
 
 - 1 回きりの質問: **チャット**
-- 同じ指示を何度も: **Grok Bot**
+- 同じ指示を何度も、または仕事を任せておきたい: **Grok Bot**
 - 自分の PC のコードを書き換えたい: **Grok Build**
