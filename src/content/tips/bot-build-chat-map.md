@@ -52,7 +52,7 @@ FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だ
 禁止: ○○（例: 文体を変えない。英語で答えない）
 ```
 
-対象プランは公式内で食い違っています。2026-08-26 のニュースは SuperGrok と Cursor Pro を含む一方、取得時点の導入ページは SuperGrok Plus / Heavy と Cursor Pro+ 以上だけです。Cursor の個人向け Pro は、料金表に月 $20 と Grok Bot access とあります。**画面で確認してください。** Bot の利用量は Grok や Cursor の枠とは別に数えます。grok.com の週間枠（Chat / Imagine / Voice）は付きません（<a href="/tips/free-vs-supergrok/">課金の 4 系統</a>）。
+対象プランは公式内で食い違っています。2026-08-26 のニュースは SuperGrok と Cursor Pro を含む一方、取得時点の導入ページは SuperGrok Plus / Heavy と Cursor Pro+ 以上だけです。Cursor の個人向け Pro は、料金表に月 $20 と Grok Bot access とあります。**画面で確認してください。** Bot の利用量は Grok や Cursor の枠とは別に数えます。grok.com の週間枠（Chat / Imagine / Voice）は付きません（<a href="/tips/free-vs-supergrok/">払う場所</a>）。
 
 Bot 用のプロンプトは、<a href="https://grokguide.jp" rel="external">grokguide.jp</a> に多数まとまっています。このサイトでは Bot のプロンプト集は作りません。作り方の型と、日本語で使うときの注意だけを書きます。
 

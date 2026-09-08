@@ -19,15 +19,10 @@ image_caption: このページの型（白い猫 / 雨の京都の路地 / film 
 
 ## 4 手順
 
-<figure class="infofig" aria-label="Imagine の 4 手順">
-  <figcaption class="infofig-title">画像が決まってから、動画にする</figcaption>
-  <ol class="infofig-steps">
-    <li><span class="infofig-n">1</span><div><strong>Imagine を開く</strong><p>grok.com の左メニューか、公式アプリの下タブ。X からは出ないことが多い。</p></div></li>
-    <li><span class="infofig-n">2</span><div><strong>1 文で書く</strong><p>被写体 + 場面 + 画風。長い説明よりこの 3 つ。</p></div></li>
-    <li><span class="infofig-n">3</span><div><strong>同じ文で 2〜3 回出して選ぶ</strong><p>近いものを残してから、どれか 1 つだけ直す。</p></div></li>
-    <li><span class="infofig-n">4</span><div><strong>決まってから動画にする</strong><p>動画は画像より週間の枠を多く使う。</p></div></li>
-  </ol>
-</figure>
+1. Imagine を開く（grok.com の左、公式アプリの下タブ。X からは出ないことが多い）
+2. 被写体 + 場面 + 画風で 1 文
+3. 同じ文で 2〜3 回出して選ぶ
+4. 決まってから動画にする（動画の方が枠を多く使う）
 
 見当たらなければ別の入口を試します（<a href="/tips/three-entrances/">入口は grok.com / 公式アプリ / X</a>）。会話で使い方を聞くなら、冒頭で日本語と範囲を固定します（<a href="/tips/japanese-fix/">会話の冒頭で日本語に固定する</a>）。
 
@@ -50,7 +45,7 @@ image_caption: このページの型（白い猫 / 雨の京都の路地 / film 
 
 ## 無料枠の上限
 
-無料で生成できる枚数や本数には上限があります。2026 年 6 月以降、grok.com とアプリの上限は「1 日の回数」ではなく、**1 週間ぶんの利用枠を Chat・Imagine・Voice・Build で共有する**方式です。画像をたくさん出すと、その週のチャットも減ります。内訳は設定の Usage で見ます。仕組みは <a href="/tips/free-vs-supergrok/">課金の 4 系統</a> に書いています。
+無料で生成できる枚数や本数には上限があります。2026 年 6 月以降、grok.com とアプリの上限は「1 日の回数」ではなく、**1 週間ぶんの利用枠を Chat・Imagine・Voice・Build で共有する**方式です。画像をたくさん出すと、その週のチャットも減ります。内訳は設定の Usage で見ます。仕組みは <a href="/tips/free-vs-supergrok/">払う場所</a> に書いています。
 
 上限の数字は時期や混雑で変わり、日本語の公式ページにはまとまっていません。上限に当たったときの表示を信じて、数字はこのページに書きません。最新の条件は <a href="https://grok.com">grok.com</a> と <a href="https://x.ai/news">x.ai/news</a> で確認してください。上限に当たる頻度が高いなら、SuperGrok を検討します。
 

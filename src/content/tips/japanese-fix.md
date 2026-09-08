@@ -47,11 +47,12 @@ image_caption: 会話の冒頭で言語と範囲を決める。
 
 崩れたら 3 行を全部貼り直す必要はありません。
 
-<figure class="infofig" aria-label="崩れたときに送る文">
-  <figcaption class="infofig-title">英語に戻ったら、この 2 行だけ送る</figcaption>
-  <pre class="infofig-paste">日本語で続けてください。
-範囲は ○○ だけです（例: Imagine のプロンプト）。</pre>
-</figure>
+英語に戻ったら、この 2 行だけ送ります。
+
+```
+日本語で続けてください。
+範囲は ○○ だけです（例: Imagine のプロンプト）。
+```
 
 ファイルを貼るときも同じです。PDF や英語のスライドを添付する前に、3 行を先に送っておくと崩れにくいです。貼る場所は grok.com か公式アプリです（<a href="/tips/three-entrances/">入口の使い分け</a>）。
 

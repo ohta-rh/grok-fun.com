@@ -32,14 +32,7 @@ Web は **grok.com** を使います。FAQ によると grok.x.ai など別ホ�
 
 見当たらないときの順番です。
 
-<figure class="infofig" aria-label="機能が見当たらないとき">
-  <figcaption class="infofig-title">無いときは入口を変える。設定を疑うのはそのあと</figcaption>
-  <ol class="infofig-steps">
-    <li><span class="infofig-n">1</span><div><strong>今の入口のメニューを全部見る</strong><p>grok.com なら左、公式アプリなら下のタブ。</p></div></li>
-    <li><span class="infofig-n">2</span><div><strong>公式アプリ ⇄ grok.com を入れ替える</strong><p>片方にしか出ない機能がある。</p></div></li>
-    <li><span class="infofig-n">3</span><div><strong>X の中からは探さない</strong><p>Imagine とターミナルの Build は、X から出ないことが多い。</p></div></li>
-  </ol>
-</figure>
+無いときは、設定を疑う前に入口を変えます。今のメニューを全部見る。公式アプリと grok.com を入れ替える。Imagine とターミナルの Build は、X の中からは探さない。
 
 ## アカウント
 
@@ -55,7 +48,7 @@ X の中の Grok は、公開投稿や会話が学習に使われる設定があ
 
 ## 課金も入口ごとに別
 
-**X Premium に入っても、grok.com の SuperGrok は付いてきません。** 契約する場所が違います。Cursor のプランに入っていると Grok Bot が使えることもありますが、それも grok.com の週間枠とは別です。どこで払うかは <a href="/tips/free-vs-supergrok/">課金の 4 系統</a> に整理しています。
+**X Premium に入っても、grok.com の SuperGrok は付いてきません。** 契約する場所が違います。Cursor のプランに入っていると Grok Bot が使えることもありますが、それも grok.com の週間枠とは別です。どこで払うかは <a href="/tips/free-vs-supergrok/">払う場所</a> に書いています。
 
 ## 公式アプリの見分け方
 
