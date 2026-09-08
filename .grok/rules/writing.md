@@ -46,8 +46,10 @@
 
 差し込む図は賑やかしではない。そのページの判断が 10 秒で読める図にする。
 
-- **文字・数字・構造が正確である図は HTML**（`Infographic.astro`）。Imagine にラベルや料金を描かせない
+- **文字・数字・構造が正確である図は HTML**（`Infographic.astro` か本文の `<figure class="infofig">`）。Imagine にラベルや料金を描かせない
 - 紙面トークン（paper / ink / indigo / marker）。影とヒーローは使わない
 - 公式カードに無い数字を図に書かない。日付付きの一次情報だけ
-- Imagine の作例写真は「このプロンプトでこう出た」の証拠としてだけ使う。雰囲気用の静物は置かない
-- `public/tips/{slug}.jpg` は OGP 用。ページ本体の図は HTML
+- レイアウト: 既定は 1 列。4 項目は最大 2×2。本文の measure は 40rem なので 4 列は使うな
+- `public/tips/{slug}.jpg` は OGP 兼ヘッダー（全 TIPS）。読める文字・数字・ロゴ・実在の人物を描かない
+- 本文の追加写真は別名（例: `usage-pool.jpg`）。比喩だけ。意味は figcaption に書く。事実を写真に載せない
+- Imagine の作例写真は Imagine の TIPS だけ（「このプロンプトでこう出た」の証拠）。出荷前にファイルを目で見る

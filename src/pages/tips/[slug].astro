@@ -78,17 +78,15 @@ const jsonLd = {
     <h1>{entry.data.title}</h1>
     <p class="lead">{entry.data.description}</p>
     <Infographic slug={entry.id} />
-    {entry.id === 'imagine-quickstart' && (
-      <figure class="article-hero">
-        <img
-          src={entry.data.image}
-          alt={entry.data.image_alt}
-          width="1280"
-          height="720"
-        />
-        <figcaption>{entry.data.image_caption}</figcaption>
-      </figure>
-    )}
+    <figure class="article-hero">
+      <img
+        src={entry.data.image}
+        alt={entry.data.image_alt}
+        width="1280"
+        height="720"
+      />
+      <figcaption>{entry.data.image_caption}</figcaption>
+    </figure>
     <StaleBanner lastVerified={entry.data.last_verified} />
     <Content />
     <aside class="sources">

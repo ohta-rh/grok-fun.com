@@ -32,9 +32,19 @@ Web は **grok.com** を使います。FAQ によると grok.x.ai など別ホ�
 
 見当たらないときの順番です。
 
-1. 今開いている入口のメニューを一通り見る
-2. 公式アプリと grok.com を入れ替えて見る
-3. X の中から探さない（Imagine や Build は X から出ないことが多い）
+<figure class="infofig" aria-label="機能が見当たらないとき">
+  <figcaption class="infofig-title">無いときは入口を変える。設定を疑うのはそのあと</figcaption>
+  <ol class="infofig-steps">
+    <li><span class="infofig-n">1</span><div><strong>今の入口</strong><p>開いているメニューを一通り見る。</p></div></li>
+    <li><span class="infofig-n">2</span><div><strong>入れ替え</strong><p>公式アプリと grok.com を入れ替えて見る。</p></div></li>
+    <li><span class="infofig-n">3</span><div><strong>X では探さない</strong><p>Imagine やターミナルの Build は X から出ないことが多い。</p></div></li>
+  </ol>
+</figure>
+
+<figure class="article-hero">
+  <img src="/tips/find-entrance.jpg" alt="ノート PC とスマホと新聞の上に虫眼鏡がある" width="1280" height="720" />
+  <figcaption>機能が無いときは、壊れているより先に、入口を間違えていないかを見る。</figcaption>
+</figure>
 
 ## アカウント
 

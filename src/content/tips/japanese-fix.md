@@ -50,7 +50,17 @@ image_caption: 会話の 1 行目を塗る。英語の資料を後から貼っ�
 - コードやエラーログが英語のとき
 - 長い会話で、途中から別の機能の話にそれたとき
 
-崩れたら 3 行を全部貼り直す必要はありません。「日本語で続けてください。範囲は Imagine のプロンプトだけです。」の 2 点で足ります。
+崩れたら 3 行を全部貼り直す必要はありません。
+
+<figure class="infofig" aria-label="崩れたときの 2 行">
+  <figcaption class="infofig-title">英語に戻ったら、この 2 点だけ送る</figcaption>
+  <ol class="infofig-steps">
+    <li><span class="infofig-n">1</span><div><strong>言語</strong><p>日本語で続けてください。</p></div></li>
+    <li><span class="infofig-n">2</span><div><strong>範囲</strong><p>範囲は ○○ だけです（例: Imagine のプロンプト）。</p></div></li>
+  </ol>
+</figure>
+
+「日本語で続けてください。範囲は Imagine のプロンプトだけです。」の 2 点で足ります。
 
 ファイルを貼るときも同じです。PDF や英語のスライドを添付する前に、3 行を先に送っておくと崩れにくいです。貼る場所は grok.com か公式アプリです（<a href="/tips/three-entrances/">入口の使い分け</a>）。
 

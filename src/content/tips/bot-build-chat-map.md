@@ -81,6 +81,27 @@ Windows は PowerShell で `irm https://x.ai/cli/install.ps1 | iex` です。初
 
 ## どれを使うか（1 行で）
 
+<figure class="infofig" aria-label="どれを開くか">
+  <figcaption class="infofig-title">迷ったら、この 1 行</figcaption>
+  <div class="infofig-grid3">
+    <div>
+      <p class="infofig-kicker">1 回きり</p>
+      <h3>チャット</h3>
+      <p>要約、相談、翻訳。プログラムを書かない人はここで足りる。</p>
+    </div>
+    <div>
+      <p class="infofig-kicker">任せる</p>
+      <h3>Grok Bot</h3>
+      <p>別アプリ。クラウドのコンピュータで仕事を進める。</p>
+    </div>
+    <div>
+      <p class="infofig-kicker">PC のファイル</p>
+      <h3>Grok Build</h3>
+      <p>ターミナル。画面の中の Build Mode とは別。</p>
+    </div>
+  </div>
+</figure>
+
 - 1 回きりの質問: **チャット**
 - 同じ指示を何度も、または仕事を任せておきたい: **Grok Bot**
 - 自分の PC のコードを書き換えたい: **Grok Build**

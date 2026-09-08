@@ -87,6 +87,20 @@ Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor
 
 「昨日は画像を何枚出せたのに今日は出ない」と感じるのは、画像の上限が変わったのではなく、週の枠を別の作業で使ったからです。まず Usage の内訳を見ます。
 
+<figure class="infofig" aria-label="週間の共有枠">
+  <figcaption class="infofig-title">枠は 1 つ。Chat / Imagine / Voice / Build で分けない</figcaption>
+  <ol class="infofig-steps">
+    <li><span class="infofig-n">1</span><div><strong>共有</strong><p>週の枠は製品ごとではなく、まとめて減る。</p></div></li>
+    <li><span class="infofig-n">2</span><div><strong>重い作業</strong><p>動画と長いコーディングは、チャットより多く使う。</p></div></li>
+    <li><span class="infofig-n">3</span><div><strong>確認</strong><p>設定 → Usage。内訳と次のリセットを見る。</p></div></li>
+  </ol>
+</figure>
+
+<figure class="article-hero">
+  <img src="/tips/usage-pool.jpg" alt="4 枚の白紙カードを 1 本の蛍光マーカーが横断している" width="1280" height="720" />
+  <figcaption>4 製品でも枠は 1 本。マーカーが全部をまたいでいるのがその意味です。</figcaption>
+</figure>
+
 ## 追加クレジット（Extra Usage Credits）
 
 週の枠を使い切ったあとに使う、前払いのクレジットです。FAQ に書かれている条件は次のとおりです。
@@ -127,6 +141,32 @@ FAQ には、**身に覚えのない高額の請求は、API ではなく SuperG
 | Cursor | Cursor の請求画面 |
 
 「アプリで払ったのに Web で無料のまま」「Web で払ったのにアプリで反映されない」は、**Web とアプリで違うアカウントにサインインしている**ことがほとんどです。特に Apple の「メールを非公開」でサインインすると、見た目が別のアドレスになり、別アカウントになりがちです。両方のサインイン方法を揃えてから、公式に問い合わせてください。
+
+<figure class="infofig" aria-label="解約する場所">
+  <figcaption class="infofig-title">解約は、払った場所でしかできない</figcaption>
+  <div class="infofig-grid3">
+    <div>
+      <p class="infofig-kicker">Web</p>
+      <h3>grok.com</h3>
+      <p>請求画面。広告ブロッカーでボタンが開かないことがある。</p>
+    </div>
+    <div>
+      <p class="infofig-kicker">ストア</p>
+      <h3>Apple / Google</h3>
+      <p>アプリで契約したなら、ストアの定期購入。Android の返金は xAI の申請フォーム。</p>
+    </div>
+    <div>
+      <p class="infofig-kicker">ほか</p>
+      <h3>X / Cursor</h3>
+      <p>X Premium は X。Cursor は Cursor の請求。</p>
+    </div>
+  </div>
+</figure>
+
+<figure class="article-hero">
+  <img src="/tips/cancel-where.jpg" alt="色の違う財布が 3 つ並んでいる" width="1280" height="720" />
+  <figcaption>財布は 3 つ。Web で払った分をストアでは止められない。</figcaption>
+</figure>
 
 ## ストアの円価格は USD 価格と一致しない
 
