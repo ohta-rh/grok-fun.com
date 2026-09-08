@@ -15,8 +15,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | Metaphor still that needs “ノートがチャット” | Don't ship it |
 | “Heavy は金額が無いから公式ではない” | Heavy exists on x.ai/pricing comparison + Get Heavy. Amount ≠ existence |
 | Dump “わかりにくいので画面で確認” as the article | Write やりたいこと → 払う場所 first |
-| Garbled / calqued Japanese in the figure | Read every label aloud. Redo if it sounds like a translation |
-| 金額カード / トップの金額カード | 公式の値段。表の見出しも音読する |
+| Copy that fails 音読 (headers, table labels, captions, alt, figure text) | Rewrite the meaning. Do not add a row to a word list |
 | Invented 無制限, 2024, Lite $10 as current card | Only dated primary-source numbers |
 | Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
 | Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. On a narrow screen, rows stack as cards. Do not squeeze columns or rely on horizontal scroll |
@@ -25,5 +24,6 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 
 1. Thicken the existing five TIPS. No new pages unless asked.
 2. Infographic: Imagine, natural Japanese in the picture, inspect the file, copy to `public/tips/fig-{name}.jpg`. One figure per TIPS, except billing (choose + stairs) and the Imagine proof photo.
-3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Card amounts on 2026-09-08: Free $0, SuperGrok $30, Plus $100.
-4. After figures or copy change, ship with **grok-jp-ship**.
+3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Amounts shown on 2026-09-08: Free $0, SuperGrok $30, Plus $100.
+4. Before ship: read title, headings, table headers, captions, alt aloud. If it sounds like a translation or names a UI widget, rewrite.
+5. After figures or copy change, ship with **grok-jp-ship**.

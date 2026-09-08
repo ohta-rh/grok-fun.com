@@ -22,7 +22,9 @@ No GitHub Actions. Live site is Cloudflare Workers Static Assets from this Mac.
 
 Follow **chrome-isolated-shots**: unique `--user-data-dir` under `/tmp`, wait until the PNG size is stable, then kill the process group (Chrome writes the file then hangs). Do not kill the MCP profile browser.
 
-Look for: judgment written inside the figure, infofig 1-col on 390px, 2×2 max on 1280px, titles wrapping, Imagine proof photo only, no metaphor stills, no overflow.
+Look for: judgment written inside the figure, titles wrapping, Imagine proof photo only, no metaphor stills, no overflow, no squeezed table columns.
+
+On 390px, table rows are cards. Read every visible label aloud. If a label names a UI widget or sounds translated, do not ship — rewrite in `.grok/rules/writing.md` terms (いくら、何ができる、どこで払う) and rebuild.
 
 ## Do not
 
