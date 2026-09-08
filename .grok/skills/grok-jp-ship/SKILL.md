@@ -22,7 +22,7 @@ No GitHub Actions. Live site is Cloudflare Workers Static Assets from this Mac.
 
 Follow **chrome-isolated-shots**: unique `--user-data-dir` under `/tmp`, wait until the PNG size is stable, then kill the process group (Chrome writes the file then hangs). Do not kill the MCP profile browser.
 
-Look for: infofig 1-col on 390px, 2×2 max on 1280px, titles wrapping, extra jpgs loading, no overflow.
+Look for: judgment written inside the figure, infofig 1-col on 390px, 2×2 max on 1280px, titles wrapping, Imagine proof photo only, no metaphor stills, no overflow.
 
 ## Do not
 

@@ -22,24 +22,14 @@ image_caption: このページの型（白い猫 / 雨の京都の路地 / film 
 <figure class="infofig" aria-label="Imagine の 4 手順">
   <figcaption class="infofig-title">画像が決まってから、動画にする</figcaption>
   <ol class="infofig-steps">
-    <li><span class="infofig-n">1</span><div><strong>開く</strong><p>grok.com の左メニューか、公式アプリのタブ。X からは出ないことが多い。</p></div></li>
-    <li><span class="infofig-n">2</span><div><strong>1 文</strong><p>被写体 + 場面 + 画風。長い説明よりこの 3 つ。</p></div></li>
-    <li><span class="infofig-n">3</span><div><strong>選ぶ</strong><p>同じ文で 2〜3 回出して、近いものを残す。</p></div></li>
-    <li><span class="infofig-n">4</span><div><strong>動かす</strong><p>動画は画像より枠を多く使う。決まってから。</p></div></li>
+    <li><span class="infofig-n">1</span><div><strong>Imagine を開く</strong><p>grok.com の左メニューか、公式アプリの下タブ。X からは出ないことが多い。</p></div></li>
+    <li><span class="infofig-n">2</span><div><strong>1 文で書く</strong><p>被写体 + 場面 + 画風。長い説明よりこの 3 つ。</p></div></li>
+    <li><span class="infofig-n">3</span><div><strong>同じ文で 2〜3 回出して選ぶ</strong><p>近いものを残してから、どれか 1 つだけ直す。</p></div></li>
+    <li><span class="infofig-n">4</span><div><strong>決まってから動画にする</strong><p>動画は画像より週間の枠を多く使う。</p></div></li>
   </ol>
 </figure>
 
-<figure class="article-hero">
-  <img src="/tips/imagine-steps.jpg" alt="矢印でつながった 4 枚の空のポラロイド" width="1280" height="720" />
-  <figcaption>4 手順。空の枠は「先に型、あとに中身」です。</figcaption>
-</figure>
-
-1. **Imagine を開く。** grok.com なら左のメニュー、公式アプリなら下のタブに「Imagine」があります。見当たらなければ別の入口を試します（<a href="/tips/three-entrances/">入口は grok.com / 公式アプリ / X</a>）。X の中からは出ないことがあります。
-2. **1 文で書く。** 「被写体 + 場面 + 画風」の順で 1 文にします。長い説明より、この 3 つが揃っている方が安定します。
-3. **生成して選ぶ。** 複数の候補が出ます。気に入ったものを開き、保存します。
-4. **必要なら動画にする。** 出た画像から短い動画を作る操作があります。画像が決まってから動かすと、やり直しが減ります。動画は画像より週間の利用枠を多く使います。
-
-会話で Imagine の使い方を聞くなら、冒頭で日本語と範囲を固定すると説明がブレません（<a href="/tips/japanese-fix/">会話の冒頭で日本語に固定する</a>）。
+見当たらなければ別の入口を試します（<a href="/tips/three-entrances/">入口は grok.com / 公式アプリ / X</a>）。会話で使い方を聞くなら、冒頭で日本語と範囲を固定します（<a href="/tips/japanese-fix/">会話の冒頭で日本語に固定する</a>）。
 
 ## 日本語プロンプトの型
 

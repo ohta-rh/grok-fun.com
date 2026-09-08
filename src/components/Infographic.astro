@@ -5,33 +5,53 @@ interface Props {
 const { slug } = Astro.props;
 ---
 {slug === 'japanese-fix' && (
-  <figure class="infofig" aria-label="会話冒頭の 3 行">
-    <figcaption class="infofig-title">会話を開いたら、質問の前にこの 3 行</figcaption>
-    <ol class="infofig-steps">
-      <li><span class="infofig-n">1</span><div><strong>言語</strong><p>回答はすべて日本語。英語の資料を貼っても日本語で。</p></div></li>
-      <li><span class="infofig-n">2</span><div><strong>範囲</strong><p>この会話で扱うのは ○○ だけ（例: Imagine のプロンプト）。</p></div></li>
-      <li><span class="infofig-n">3</span><div><strong>範囲外</strong><p>外れたら「範囲外です」と 1 行。深掘りしない。</p></div></li>
-    </ol>
+  <figure class="infofig" aria-label="会話冒頭に貼る 3 行">
+    <figcaption class="infofig-title">質問の前に、これを貼る</figcaption>
+    <pre class="infofig-paste">この会話では、回答をすべて日本語にしてください。英語の資料を貼っても日本語で答えてください。
+この会話で扱う範囲: ○○（例: Grok Imagine の使い方）
+範囲外の話題を振ったら「範囲外です」と 1 行で答えて、深掘りしないでください。</pre>
+    <div class="infofig-vs">
+      <div class="infofig-bad">
+        <p class="infofig-kicker">弱い</p>
+        <p>日本語で教えて</p>
+      </div>
+      <div class="infofig-good">
+        <p class="infofig-kicker">足りる</p>
+        <p>英語の資料を貼っても日本語で</p>
+      </div>
+    </div>
   </figure>
 )}
 {slug === 'three-entrances' && (
-  <figure class="infofig" aria-label="入口 3 つの使い分け">
-    <figcaption class="infofig-title">同じ Grok。入る場所でできることが違う</figcaption>
+  <figure class="infofig" aria-label="入口 3 つでできること">
+    <figcaption class="infofig-title">同じ Grok。入口で、出る機能が違う</figcaption>
     <div class="infofig-grid3">
       <div>
-        <p class="infofig-kicker">PC</p>
+        <p class="infofig-kicker">PC・ブラウザ</p>
         <h3>grok.com</h3>
-        <p>長文、ファイル、コピペ。Imagine と Voice はここか公式アプリ。ターミナルの Build は別。</p>
+        <ul class="infofig-chips">
+          <li class="yes">長文・ファイル・コピペ</li>
+          <li class="yes">Imagine / Voice</li>
+          <li class="no">ターミナルの Build は別</li>
+        </ul>
       </div>
       <div>
         <p class="infofig-kicker">スマホ</p>
         <h3>公式アプリ</h3>
-        <p>移動中、写真、音声。開発元が xAI か確認。ストア検索だけでは危ない。</p>
+        <ul class="infofig-chips">
+          <li class="yes">写真・音声・移動中</li>
+          <li class="yes">Imagine / Voice</li>
+          <li class="no">開発元が xAI 以外は偽アプリ</li>
+        </ul>
       </div>
       <div>
         <p class="infofig-kicker">タイムライン</p>
         <h3>X</h3>
-        <p>投稿の背景を聞く。課金は X のプラン。grok.com の SuperGrok は付かない。</p>
+        <ul class="infofig-chips">
+          <li class="yes">投稿の背景を聞く</li>
+          <li class="no">Imagine は出ないことが多い</li>
+          <li class="no">SuperGrok は付かない</li>
+        </ul>
       </div>
     </div>
   </figure>
@@ -44,7 +64,7 @@ const { slug } = Astro.props;
         <p class="infofig-kicker">grok.com</p>
         <h3>SuperGrok</h3>
         <p class="infofig-num">$30<span>/月</span></p>
-        <p>週の利用枠を Chat / Imagine / Voice / Build で共有。Plus は $100。</p>
+        <p>週の枠を Chat / Imagine / Voice / Build で共有。Plus は $100。</p>
       </div>
       <div>
         <p class="infofig-kicker">X</p>
@@ -65,6 +85,11 @@ const { slug } = Astro.props;
         <p>grok-4.6 は 100 万トークン入力 $2 / 出力 $6（20 万未満）。返金なし。</p>
       </div>
     </div>
+    <ul class="infofig-not">
+      <li><strong>X Premium</strong>でも grok.com の SuperGrok は付かない</li>
+      <li><strong>Cursor</strong>でも Imagine / Voice の枠は上がらない</li>
+      <li><strong>SuperGrok</strong>でも API クレジットは付かない</li>
+    </ul>
     <p class="infofig-note">金額は 2026-09-08 の公式カード。Lite / Heavy は名前だけ出て金額は非表示。自分の画面で確認。</p>
   </figure>
 )}
@@ -83,22 +108,34 @@ const { slug } = Astro.props;
 )}
 {slug === 'bot-build-chat-map' && (
   <figure class="infofig" aria-label="チャット・Bot・Build の違い">
-    <figcaption class="infofig-title">名前が似ていても、道具は 3 つ</figcaption>
+    <figcaption class="infofig-title">名前が似ていても、開く場所が違う</figcaption>
     <div class="infofig-grid3">
       <div>
-        <p class="infofig-kicker">全員</p>
+        <p class="infofig-kicker">grok.com / アプリ / X</p>
         <h3>チャット</h3>
-        <p>その場の質問。入口は grok.com / 公式アプリ / X。前置きは会話が終わると消える。</p>
+        <ul class="infofig-chips">
+          <li class="yes">1 回きりの質問・要約・翻訳</li>
+          <li class="yes">プログラムを書かない人はここ</li>
+          <li class="no">会話が終わると前置きは消える</li>
+        </ul>
       </div>
       <div>
-        <p class="infofig-kicker">繰り返す人</p>
+        <p class="infofig-kicker">x.ai/bot か Cursor</p>
         <h3>Grok Bot</h3>
-        <p>役割を保存した同僚。別アプリ。利用量は Grok や Cursor の枠と別勘定。</p>
+        <ul class="infofig-chips">
+          <li class="yes">仕事を任せる別アプリ</li>
+          <li class="yes">クラウドのコンピュータ</li>
+          <li class="no">チャットの前置き保存ではない</li>
+        </ul>
       </div>
       <div>
-        <p class="infofig-kicker">開発者</p>
+        <p class="infofig-kicker">自分の PC のターミナル</p>
         <h3>Grok Build</h3>
-        <p>自分の PC のファイルを触る。発表時点では SuperGrok か X Premium+。画面の Build Mode とは別。</p>
+        <ul class="infofig-chips">
+          <li class="yes">ファイルを直接触る</li>
+          <li class="yes">SuperGrok か X Premium+</li>
+          <li class="no">画面の Build Mode とは別</li>
+        </ul>
       </div>
     </div>
   </figure>

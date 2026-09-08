@@ -15,7 +15,7 @@ related:
   - imagine-quickstart
 image: /tips/three-entrances.jpg
 image_alt: 机の上にノート PC、スマートフォン、新聞が並んでいる。画面に文字は無い
-image_caption: 入口は 3 つ。同じ Grok でも、画面と入る機能は入口ごとに違う。
+image_caption: 入口は grok.com、公式アプリ、X の 3 つ。
 ---
 
 ## 入口は 3 つ
@@ -35,15 +35,10 @@ Web は **grok.com** を使います。FAQ によると grok.x.ai など別ホ�
 <figure class="infofig" aria-label="機能が見当たらないとき">
   <figcaption class="infofig-title">無いときは入口を変える。設定を疑うのはそのあと</figcaption>
   <ol class="infofig-steps">
-    <li><span class="infofig-n">1</span><div><strong>今の入口</strong><p>開いているメニューを一通り見る。</p></div></li>
-    <li><span class="infofig-n">2</span><div><strong>入れ替え</strong><p>公式アプリと grok.com を入れ替えて見る。</p></div></li>
-    <li><span class="infofig-n">3</span><div><strong>X では探さない</strong><p>Imagine やターミナルの Build は X から出ないことが多い。</p></div></li>
+    <li><span class="infofig-n">1</span><div><strong>今の入口のメニューを全部見る</strong><p>grok.com なら左、公式アプリなら下のタブ。</p></div></li>
+    <li><span class="infofig-n">2</span><div><strong>公式アプリ ⇄ grok.com を入れ替える</strong><p>片方にしか出ない機能がある。</p></div></li>
+    <li><span class="infofig-n">3</span><div><strong>X の中からは探さない</strong><p>Imagine とターミナルの Build は、X から出ないことが多い。</p></div></li>
   </ol>
-</figure>
-
-<figure class="article-hero">
-  <img src="/tips/find-entrance.jpg" alt="ノート PC とスマホと新聞の上に虫眼鏡がある" width="1280" height="720" />
-  <figcaption>機能が無いときは、壊れているより先に、入口を間違えていないかを見る。</figcaption>
 </figure>
 
 ## アカウント

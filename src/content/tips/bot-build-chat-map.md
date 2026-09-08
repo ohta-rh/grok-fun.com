@@ -16,7 +16,7 @@ related:
   - three-entrances
 image: /tips/bot-build-chat-map.jpg
 image_alt: ノートと判子とキーボードが同じ机に並んでいる
-image_caption: ノートがチャット、判子が Bot、キーボードが Build。名前が似ていても道具は別です。
+image_caption: チャット、Grok Bot、Grok Build は別の道具。
 ---
 
 ## 3 つは別の道具
@@ -81,27 +81,6 @@ Windows は PowerShell で `irm https://x.ai/cli/install.ps1 | iex` です。初
 
 ## どれを使うか（1 行で）
 
-<figure class="infofig" aria-label="どれを開くか">
-  <figcaption class="infofig-title">迷ったら、この 1 行</figcaption>
-  <div class="infofig-grid3">
-    <div>
-      <p class="infofig-kicker">1 回きり</p>
-      <h3>チャット</h3>
-      <p>要約、相談、翻訳。プログラムを書かない人はここで足りる。</p>
-    </div>
-    <div>
-      <p class="infofig-kicker">任せる</p>
-      <h3>Grok Bot</h3>
-      <p>別アプリ。クラウドのコンピュータで仕事を進める。</p>
-    </div>
-    <div>
-      <p class="infofig-kicker">PC のファイル</p>
-      <h3>Grok Build</h3>
-      <p>ターミナル。画面の中の Build Mode とは別。</p>
-    </div>
-  </div>
-</figure>
-
 - 1 回きりの質問: **チャット**
-- 同じ指示を何度も、または仕事を任せておきたい: **Grok Bot**
-- 自分の PC のコードを書き換えたい: **Grok Build**
+- 同じ指示を何度も、または仕事を任せておきたい: **Grok Bot**（別アプリ。チャットの前置き保存ではない）
+- 自分の PC のコードを書き換えたい: **Grok Build**（ターミナル。画面の Build Mode とは別）
