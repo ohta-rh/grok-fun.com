@@ -18,6 +18,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | Garbled / calqued Japanese in the figure | Read every label aloud. Redo if it sounds like a translation |
 | Invented 無制限, 2024, Lite $10 as current card | Only dated primary-source numbers |
 | Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
+| Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. Do not shrink type on 390px |
 
 ## Do
 

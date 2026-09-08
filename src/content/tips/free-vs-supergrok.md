@@ -27,6 +27,8 @@ image_caption: やりたいことから、払う場所を決める。
 
 「Grok の有料」は 1 本ではありません。やりたいことを先に決めると、払う場所が決まります。
 
+<div class="table-scroll">
+
 | やりたいこと | 払う場所 | 2026-09-08 に公式へ出ていたこと |
 |---|---|---|
 | grok.com / 公式アプリでチャット、Imagine、Voice | grok.com の SuperGrok 系 | 金額カードは Free $0 / SuperGrok $30 / Plus $100。Heavy は比較表と Get Heavy にある |
@@ -34,19 +36,25 @@ image_caption: やりたいことから、払う場所を決める。
 | Grok Bot だけ（すでに Cursor） | cursor.com の個人 Pro | $20〜。grok.com の週間枠は上がらない |
 | 自分のアプリから呼ぶ | console.x.ai の API | 従量。SuperGrok の週の枠ではない。返金なし |
 
+</div>
+
 X Premium に入っても grok.com は無料のまま、が普通です。入口の違いは <a href="/tips/three-entrances/">grok.com / 公式アプリ / X</a>。チャットと Bot と Build の違いは <a href="/tips/bot-build-chat-map/">別の道具</a>。
 
 ## grok.com の階段（Free → SuperGrok → Plus → Heavy）
 
 <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> を 2026-09-08 に開くと、個人向けの金額カードは 3 枚です。同じページの比較表には、その下に **Lite** と **Heavy** の列もあります。
 
+<div class="table-scroll">
+
 | プラン | トップの金額カード | 何のための段か |
 |---|---|---|
-| **Free** | $0 | まず 1 週間使う。上限はゆるい |
-| **SuperGrok Lite** | カードに金額なし。Get Lite はある | 比較表の列。入る前に契約画面で金額を見る |
-| **SuperGrok** | **$30 / 月** | いちばん多い選択。Grok 4.6、Imagine、Voice、Grok Bot、枠の引き上げ |
-| **SuperGrok Plus** | **$100 / 月** | 1080p 動画。Chat / Imagine / Voice / Build の枠を大きくする。返答の高速化、混雑時の優先、新機能の先行 |
-| **SuperGrok Heavy** | カードに金額なし。比較表と Get Heavy がある | 公式の最上位。下の節 |
+| Free | <span class="num">$0</span> | まず 1 週間使う。上限はゆるい |
+| SuperGrok Lite | カードに金額なし。Get Lite はある | 比較表の列。入る前に契約画面で金額を見る |
+| SuperGrok | <span class="num">$30 / 月</span> | いちばん多い選択。Grok 4.6、Imagine、Voice、Grok Bot、枠の引き上げ |
+| SuperGrok Plus | <span class="num">$100 / 月</span> | 1080p 動画。Chat / Imagine / Voice / Build の枠を大きくする。返答の高速化、混雑時の優先、新機能の先行 |
+| SuperGrok Heavy | カードに金額なし。比較表と Get Heavy がある | 公式の最上位。下の節 |
+
+</div>
 
 金額は USD で、予告なく変わります。契約前に公式ページと、使っている入口の料金画面を見てください。
 
@@ -83,11 +91,15 @@ Heavy を検討するのは、次が分かってからです。
 
 ## 付かないもの（ここが取り違えの本体）
 
+<div class="table-scroll">
+
 | 払ったもの | 付かないもの |
 |---|---|
 | X Premium / Premium+ | grok.com の SuperGrok。Imagine / Voice の週間枠も grok.com 側では上がらない |
 | Cursor の個人 Pro | grok.com の週間枠。Imagine の枚数は増えない |
 | SuperGrok / Plus / Heavy | console.x.ai の API クレジット。API は別会計で、返金なし |
+
+</div>
 
 3 つとも「Grok 有料」に見えますが、契約が違います。
 
@@ -114,25 +126,31 @@ X 側の Grok は X のプランに従います。grok.com 側は SuperGrok 系�
 
 <a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26</a> では、Grok Bot は SuperGrok / Plus / Heavy と、Cursor Pro / Pro+ / Ultra、Cursor Teams に含まれる、とあります。Bot の利用量は Grok や Cursor の枠とは別に数える、と公式に書いてあります。
 
-<a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-09-08）の個人 Pro は月 $20 で、**Grok Bot access** とあります。Hobby（無料）には Grok Bot と書かれていません。
+<a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-09-08）の個人 Pro は月 <span class="num">$20</span> で、**Grok Bot access** とあります。Hobby（無料）には Grok Bot と書かれていません。
 
 公式の書き方は揃っていません。ニュースは SuperGrok と Cursor Pro を含む一方、取得時点の <a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a> は Plus / Heavy と Cursor Pro+ 以上だけを挙げています。**自分のプランで Bot が使えるかは、プラン画面で確認**してください。
 
-Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor の個人 Pro（取得時点 $20）の方が SuperGrok（$30）より安い、という比較になります。ただし grok.com の週間枠も API クレジットも付きません。
+Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor の個人 Pro（取得時点 <span class="num">$20</span>）の方が SuperGrok（$30）より安い、という比較になります。ただし grok.com の週間枠も API クレジットも付きません。
 
 ## API は別会計
 
 <a href="https://console.x.ai" rel="external">console.x.ai</a> はトークンの従量です。<a href="https://docs.x.ai/docs/models" rel="external">公式のモデル表</a>（2026-09-08）の grok-4.6 は、100 万トークンあたり次です。プロンプトが 20 万に達した回は、その回の全トークンが上の単価です。
 
+<div class="table-scroll">
+
 | 種類 | 20 万トークン以下 | 20 万超 |
 |---|---|---|
-| 入力 | $2 | $4 |
-| 入力（キャッシュ済み） | $0.50 | $1 |
-| 出力 | $6 | $12 |
+| 入力 | <span class="num">$2</span> | <span class="num">$4</span> |
+| 入力（キャッシュ済み） | <span class="num">$0.50</span> | <span class="num">$1</span> |
+| 出力 | <span class="num">$6</span> | <span class="num">$12</span> |
+
+</div>
 
 API クレジットは返金されません。SuperGrok に入っても API は使えません。「API に使えると思って SuperGrok に入った」はよくある取り違えです。
 
 ## 解約は払った場所で
+
+<div class="table-scroll">
 
 | 払った場所 | 止める場所 |
 |---|---|
@@ -141,6 +159,8 @@ API クレジットは返金されません。SuperGrok に入っても API は�
 | Android | Google Play。返金は FAQ 上 xAI の申請フォーム |
 | X Premium | X の設定。返金も X |
 | Cursor | Cursor の請求 |
+
+</div>
 
 Web とアプリで別アカウントに入っていると、片方だけ有料に見えます。Apple の「メールを非公開」が原因のことが多いです。両方のサインインを揃えてから、公式に問い合わせてください。
 

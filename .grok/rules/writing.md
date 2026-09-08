@@ -58,3 +58,7 @@
 - `public/tips/{slug}.jpg` は OGP。本文の図は `public/tips/fig-{name}.jpg`
 - 本文の図は TIPS 1 本につき 1 枚。Imagine の作例を足すときだけ 2 枚
 - 図を減らしたら、図が担っていた判断は同じコミットで本文に移せ。穴を残すな。Heavy のような公式プランを図だけに頼るな
+
+## 表
+
+Markdown の表は `<div class="table-scroll">` で包む。390px で文字を縮めるな。数字は 15px のまま横に送る。
