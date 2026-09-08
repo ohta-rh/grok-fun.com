@@ -16,9 +16,10 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | “Heavy は金額が無いから公式ではない” | Heavy exists on x.ai/pricing comparison + Get Heavy. Amount ≠ existence |
 | Dump “わかりにくいので画面で確認” as the article | Write やりたいこと → 払う場所 first |
 | Garbled / calqued Japanese in the figure | Read every label aloud. Redo if it sounds like a translation |
+| 金額カード / トップの金額カード | 公式の値段。表の見出しも音読する |
 | Invented 無制限, 2024, Lite $10 as current card | Only dated primary-source numbers |
 | Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
-| Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. Do not shrink type on 390px |
+| Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. On a narrow screen, rows stack as cards. Do not squeeze columns or rely on horizontal scroll |
 
 ## Do
 

@@ -1,9 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-import { readdirSync, readFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { labelTableCells } from './scripts/label-tables.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
@@ -29,6 +30,19 @@ function lastmods() {
 
 const LASTMOD = lastmods();
 
+/**
+ * @param {string} dir
+ * @param {string[]} out
+ */
+function walkHtml(dir, out = []) {
+  for (const ent of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, ent.name);
+    if (ent.isDirectory()) walkHtml(p, out);
+    else if (ent.name.endsWith('.html')) out.push(p);
+  }
+  return out;
+}
+
 export default defineConfig({
   site: 'https://grok-fun.com',
   output: 'static',
@@ -42,6 +56,19 @@ export default defineConfig({
         return item;
       },
     }),
+    {
+      name: 'table-labels',
+      hooks: {
+        'astro:build:done': ({ dir }) => {
+          const rootDir = fileURLToPath(dir);
+          for (const file of walkHtml(rootDir)) {
+            const src = readFileSync(file, 'utf8');
+            const next = labelTableCells(src);
+            if (next !== src) writeFileSync(file, next);
+          }
+        },
+      },
+    },
   ],
   markdown: {
     // Shiki は style 属性をインラインで吐く。CSP style-src 'self' と衝突するので切る

@@ -154,3 +154,7 @@ M1 → M2 → M3 → M4 → M5 の順で `base.css` を編集し、`npm run buil
 ## Implementation notes
 
 - M5: Astro 7 の既定 Markdown は Sätteri。`markdown.rehypePlugins` は `@astrojs/markdown-remark` が要り、パイプラインを unified に戻す。依存を増やさず、各 TIPS の表を `<div class="table-scroll">` で包んだ。新しい表も同じ包みが要る。
+
+## Owner overrides
+
+- M4 / M5 の「min-width 34rem + 横スクロール」は、390px で列が欠け、文字が縦に積んで見えた。オーナー: スマホファースト、横スクロールは可能な限りしない。狭い画面は行をカード（thead のラベル + 全文折り返し）。40rem 以上で表組。

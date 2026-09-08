@@ -1,6 +1,6 @@
 ---
 title: やりたいことから払う場所を決める（Grok の料金）
-description: SuperGrok Heavy は公式の最上位。金額カードに出ているのは Free、$30、Plus $100。X と Cursor と API は別契約。週の枠は 1 本。
+description: SuperGrok Heavy は公式の最上位。公式に出ている値段は Free、$30、Plus $100。X と Cursor と API は別契約。週の枠は 1 本。
 order: 3
 product: chat
 last_verified: "2026-09-08"
@@ -29,9 +29,9 @@ image_caption: やりたいことから、払う場所を決める。
 
 <div class="table-scroll">
 
-| やりたいこと | 払う場所 | 2026-09-08 に公式へ出ていたこと |
+| やりたいこと | 払う場所 | 公式に出ていたこと |
 |---|---|---|
-| grok.com / 公式アプリでチャット、Imagine、Voice | grok.com の SuperGrok 系 | 金額カードは Free $0 / SuperGrok $30 / Plus $100。Heavy は比較表と Get Heavy にある |
+| grok.com / 公式アプリでチャット、Imagine、Voice | grok.com の SuperGrok 系 | Free $0 / SuperGrok $30 / Plus $100。Heavy は比較表と Get Heavy にある |
 | X の中だけで使う | X Premium / Premium+ | X 側。SuperGrok は付かない。ターミナルの Build は発表時点で Premium+ |
 | Grok Bot だけ（すでに Cursor） | cursor.com の個人 Pro | $20〜。grok.com の週間枠は上がらない |
 | 自分のアプリから呼ぶ | console.x.ai の API | 従量。SuperGrok の週の枠ではない。返金なし |
@@ -47,17 +47,17 @@ X Premium に入っても grok.com は無料のまま、が普通です。入口
   <figcaption>Heavy は公式の最上位。金額は契約画面。</figcaption>
 </figure>
 
-<a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> を 2026-09-08 に開くと、個人向けの金額カードは 3 枚です。同じページの比較表には、その下に **Lite** と **Heavy** の列もあります。
+<a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> を 2026-09-08 に開くと、個人向けに出ている値段は 3 つです。同じページの比較表には、その下に **Lite** と **Heavy** の列もあります。
 
 <div class="table-scroll">
 
-| プラン | トップの金額カード | 何のための段か |
+| プラン | 公式の値段 | 何のため |
 |---|---|---|
 | Free | <span class="num">$0</span> | まず 1 週間使う。上限はゆるい |
-| SuperGrok Lite | カードに金額なし。Get Lite はある | 比較表の列。入る前に契約画面で金額を見る |
+| SuperGrok Lite | 値段は出ていない。Get Lite はある | 比較表の列。入る前に契約画面で金額を見る |
 | SuperGrok | <span class="num">$30 / 月</span> | いちばん多い選択。Grok 4.6、Imagine、Voice、Grok Bot、枠の引き上げ |
 | SuperGrok Plus | <span class="num">$100 / 月</span> | 1080p 動画。Chat / Imagine / Voice / Build の枠を大きくする。返答の高速化、混雑時の優先、新機能の先行 |
-| SuperGrok Heavy | カードに金額なし。比較表と Get Heavy がある | 公式の最上位。下の節 |
+| SuperGrok Heavy | 値段は出ていない。比較表と Get Heavy がある | 公式の最上位。下の節 |
 
 </div>
 
@@ -65,7 +65,7 @@ X Premium に入っても grok.com は無料のまま、が普通です。入口
 
 ## SuperGrok Heavy は公式プランである
 
-Heavy を「金額カードに無いから公式ではない」と書くのは誤りです。2026-09-08 の公式に、次が出ています。
+Heavy を「公式の値段に無いから公式ではない」と書くのは誤りです。2026-09-08 の公式に、次が出ています。
 
 - <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の比較表に **SuperGrok Heavy** の列がある
 - 同じページに **Get Heavy** がある（リンク先は grok.com の契約）
@@ -73,7 +73,7 @@ Heavy を「金額カードに無いから公式ではない」と書くのは�
 - <a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26 の Grok Bot</a> は、対象プランに SuperGrok / Plus / **Heavy** を並べている
 - FAQ は、身に覚えのない高額請求が **Heavy の年払い**であることが多い、と書いている。API だと思い込む前に、grok.com の請求画面でプランと支払い周期を見る
 
-トップの 3 枚カードに Heavy の月額は出ていません。外部サイトが月 $300 と書くのは、2025-07 の発表報道に基づくことが多いです。**今の公式カードの価格として断定しません。** 金額は契約画面です。
+先頭の 3 つの値段に Heavy の月額は出ていません。外部サイトが月 $300 と書くのは、2025-07 の発表報道に基づくことが多いです。**今の公式の値段として断定しません。** 金額は契約画面です。
 
 Heavy を検討するのは、次が分かってからです。
 
