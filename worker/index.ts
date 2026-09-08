@@ -54,6 +54,7 @@ function json(data: unknown, status = 200): Response {
       'content-type': 'application/json; charset=utf-8',
       'cache-control': 'no-store',
       'x-content-type-options': 'nosniff',
+      'x-robots-tag': 'noindex, nofollow',
     },
   });
 }

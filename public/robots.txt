@@ -1,3 +1,4 @@
+# grok-fun.com — 静的ページはクロールしてよい。/api/ は JSON なので不要。
 User-agent: *
 Allow: /
 Disallow: /api/
