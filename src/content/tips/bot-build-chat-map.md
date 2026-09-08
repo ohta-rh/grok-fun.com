@@ -8,6 +8,7 @@ source_url:
   - https://x.ai/news/grok-build-cli
   - https://x.ai/news/grok-bot-more-plans
   - https://x.ai/news/grok-build-mode
+  - https://docs.x.ai/grok-bot/get-started
   - https://grokguide.jp
 related:
   - japanese-fix
@@ -49,7 +50,9 @@ Bot は、チャットに毎回貼っていた指示を保存して名前を付�
 禁止: ○○（例: 文体を変えない。英語で答えない）
 ```
 
-2026-08-26 の公式発表では、Grok Bot は SuperGrok 系に加えて **Cursor の個人プラン（Pro / Pro+ / Ultra）と Teams** にも含まれます。Bot の利用量は Grok や Cursor のプランの利用量とは別に数えます。Cursor の個人向け Pro は、取得時点で月 $20 で Grok Bot access と書かれています。SuperGrok（$30）より安いですが、**grok.com の Chat / Imagine / Voice の週間枠は付いてきません。** どこで払うかは <a href="/tips/free-vs-supergrok/">課金の 4 系統</a> を見てください。自分のプランで Bot が使えるかは、プラン画面で確認します。
+FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だと書いています。デスクトップアプリ（macOS / Windows / Linux）は <a href="https://x.ai/bot" rel="external">x.ai/bot</a> から入れます。
+
+対象プランは公式内で食い違っています。2026-08-26 のニュースは SuperGrok と Cursor Pro を含む一方、取得時点の導入ページは SuperGrok Plus / Heavy と Cursor Pro+ 以上だけです。Cursor の個人向け Pro は、料金表に月 $20 と Grok Bot access とあります。**画面で確認してください。** Bot の利用量は Grok や Cursor の枠とは別に数えます。grok.com の週間枠（Chat / Imagine / Voice）は付きません（<a href="/tips/free-vs-supergrok/">課金の 4 系統</a>）。
 
 Bot 用のプロンプトは、<a href="https://grokguide.jp" rel="external">grokguide.jp</a> に多数まとまっています。このサイトでは Bot のプロンプト集は作りません。作り方の型と、日本語で使うときの注意だけを書きます。
 
@@ -67,6 +70,8 @@ Windows は PowerShell で `irm https://x.ai/cli/install.ps1 | iex` です。初
 **チャットで「コードを書いて」と頼むのと違うのは、Build は自分の PC のファイルを直接触ることです。** 便利ですが、触ってよいフォルダで動かしてください。プログラムを書かない人は、チャットで足ります。
 
 名前が似ている **Build Mode**（grok.com の画面の中でサイトやアプリを作る機能）は別物です。2026-07-28 の発表時点では SuperGrok Heavy 向けの試験機能でした。ターミナルの Grok Build とは違います。
+
+以前あった **Grok Studio** は、FAQ によるとサポート終了です。代わりに Grok Build を使います。サードパーティ経由で Studio に残っている場合は、資格情報を取り消すよう案内されています。
 
 ## 混ぜると起きること
 

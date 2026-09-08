@@ -1,0 +1,105 @@
+---
+interface Props {
+  slug: string;
+}
+const { slug } = Astro.props;
+---
+{slug === 'japanese-fix' && (
+  <figure class="infofig" aria-label="会話冒頭の 3 行">
+    <figcaption class="infofig-title">会話を開いたら、質問の前にこの 3 行</figcaption>
+    <ol class="infofig-steps">
+      <li><span class="infofig-n">1</span><div><strong>言語</strong><p>回答はすべて日本語。英語の資料を貼っても日本語で。</p></div></li>
+      <li><span class="infofig-n">2</span><div><strong>範囲</strong><p>この会話で扱うのは ○○ だけ（例: Imagine のプロンプト）。</p></div></li>
+      <li><span class="infofig-n">3</span><div><strong>範囲外</strong><p>外れたら「範囲外です」と 1 行。深掘りしない。</p></div></li>
+    </ol>
+  </figure>
+)}
+{slug === 'three-entrances' && (
+  <figure class="infofig" aria-label="入口 3 つの使い分け">
+    <figcaption class="infofig-title">同じ Grok。入る場所でできることが違う</figcaption>
+    <div class="infofig-grid3">
+      <div>
+        <p class="infofig-kicker">PC</p>
+        <h3>grok.com</h3>
+        <p>長文、ファイル、コピペ。Imagine / Voice / Build はここか公式アプリ。</p>
+      </div>
+      <div>
+        <p class="infofig-kicker">スマホ</p>
+        <h3>公式アプリ</h3>
+        <p>移動中、写真、音声。開発元が xAI か確認。ストア検索だけでは危ない。</p>
+      </div>
+      <div>
+        <p class="infofig-kicker">タイムライン</p>
+        <h3>X</h3>
+        <p>投稿の背景を聞く。課金は X のプラン。grok.com の SuperGrok は付かない。</p>
+      </div>
+    </div>
+  </figure>
+)}
+{slug === 'free-vs-supergrok' && (
+  <figure class="infofig" aria-label="課金 4 系統">
+    <figcaption class="infofig-title">契約する場所が違う。1 つの「Grok 有料」ではない</figcaption>
+    <div class="infofig-grid4">
+      <div>
+        <p class="infofig-kicker">grok.com</p>
+        <h3>SuperGrok</h3>
+        <p class="infofig-num">$30<span>/月</span></p>
+        <p>週の利用枠を Chat / Imagine / Voice / Build で共有。Plus は $100。</p>
+      </div>
+      <div>
+        <p class="infofig-kicker">X</p>
+        <h3>Premium</h3>
+        <p class="infofig-num">X 側</p>
+        <p>X の中の Grok。Build（ターミナル）は発表時点で Premium+。</p>
+      </div>
+      <div>
+        <p class="infofig-kicker">cursor.com</p>
+        <h3>Cursor</h3>
+        <p class="infofig-num">$20<span>/月〜</span></p>
+        <p>個人 Pro に Grok Bot access。grok.com の週間枠は付かない。</p>
+      </div>
+      <div>
+        <p class="infofig-kicker">console.x.ai</p>
+        <h3>API</h3>
+        <p class="infofig-num">従量</p>
+        <p>grok-4.6 は 100 万トークン入力 $2 / 出力 $6（20 万未満）。返金なし。</p>
+      </div>
+    </div>
+    <p class="infofig-note">金額は 2026-09-08 の公式カード。Lite / Heavy は名前だけ出て金額は非表示。自分の画面で確認。</p>
+  </figure>
+)}
+{slug === 'imagine-quickstart' && (
+  <figure class="infofig" aria-label="Imagine プロンプトの型">
+    <figcaption class="infofig-title">1 文は 3 つ。長い説明よりこの順</figcaption>
+    <ol class="infofig-flow">
+      <li><strong>被写体</strong><p>白い猫</p></li>
+      <li class="infofig-plus" aria-hidden="true">+</li>
+      <li><strong>場面</strong><p>雨の京都の路地、夕方</p></li>
+      <li class="infofig-plus" aria-hidden="true">+</li>
+      <li><strong>画風</strong><p>film photo</p></li>
+    </ol>
+    <p class="infofig-note">下の写真が、この型で出した作例。地名は日本語、画風の固有名は英語が安定。</p>
+  </figure>
+)}
+{slug === 'bot-build-chat-map' && (
+  <figure class="infofig" aria-label="チャット・Bot・Build の違い">
+    <figcaption class="infofig-title">名前が似ていても、道具は 3 つ</figcaption>
+    <div class="infofig-grid3">
+      <div>
+        <p class="infofig-kicker">全員</p>
+        <h3>チャット</h3>
+        <p>その場の質問。入口は grok.com / 公式アプリ / X。前置きは会話が終わると消える。</p>
+      </div>
+      <div>
+        <p class="infofig-kicker">繰り返す人</p>
+        <h3>Grok Bot</h3>
+        <p>役割を保存した同僚。別アプリ。利用量は Grok や Cursor の枠と別勘定。</p>
+      </div>
+      <div>
+        <p class="infofig-kicker">開発者</p>
+        <h3>Grok Build</h3>
+        <p>自分の PC のファイルを触る。発表時点では SuperGrok か X Premium+。画面の Build Mode とは別。</p>
+      </div>
+    </div>
+  </figure>
+)}

@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import RelatedTips from '../../components/RelatedTips.astro';
 import ReactionBar from '../../components/ReactionBar.astro';
 import CommentList from '../../components/CommentList.astro';
+import Infographic from '../../components/Infographic.astro';
 import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
@@ -76,15 +77,18 @@ const jsonLd = {
     </p>
     <h1>{entry.data.title}</h1>
     <p class="lead">{entry.data.description}</p>
-    <figure class="article-hero">
-      <img
-        src={entry.data.image}
-        alt={entry.data.image_alt}
-        width="1280"
-        height="720"
-      />
-      <figcaption>{entry.data.image_caption}</figcaption>
-    </figure>
+    <Infographic slug={entry.id} />
+    {entry.id === 'imagine-quickstart' && (
+      <figure class="article-hero">
+        <img
+          src={entry.data.image}
+          alt={entry.data.image_alt}
+          width="1280"
+          height="720"
+        />
+        <figcaption>{entry.data.image_caption}</figcaption>
+      </figure>
+    )}
     <StaleBanner lastVerified={entry.data.last_verified} />
     <Content />
     <aside class="sources">

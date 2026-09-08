@@ -8,6 +8,7 @@ source_url:
   - https://grok.com
   - https://x.ai/grok
   - https://help.x.com/en/using-x/about-grok
+  - https://docs.x.ai/grok/faq
 related:
   - japanese-fix
   - free-vs-supergrok
@@ -27,6 +28,8 @@ image_caption: 入口は 3 つ。同じ Grok でも、画面と入る機能は�
 
 同じ Grok ですが、**画面と入れる機能が入口ごとに違います。** 「アプリにはあるのに Web に無い」「X からだと出ない」は珍しくありません。目当ての機能が見つからないときは、別の入口を試すのが最短です。Imagine も、入口によってメニューの場所が違います（<a href="/tips/imagine-quickstart/">Imagine で 1 枚目を出す</a>）。
 
+Web は **grok.com** を使います。FAQ によると grok.x.ai など別ホストだと Projects などの機能が欠けることがあります。Companions（コンパニオン）は取得時点で iOS のみで、Web と Android には出す予定が無いと FAQ にあります。
+
 見当たらないときの順番です。
 
 1. 今開いている入口のメニューを一通り見る
@@ -40,6 +43,10 @@ image_caption: 入口は 3 つ。同じ Grok でも、画面と入る機能は�
 - 会話の履歴は入口をまたいで見えるとは限りません。同じアカウントでも、X 側の会話と grok.com 側の会話は別に扱われることがあります。仕様は変わるので、履歴の扱いは公式で確認してください。
 
 「Web で話した内容がアプリに無い」は故障ではなく、入口が別扱いのことが多いです。残したい会話は、使う入口を先に決めてから始めます。
+
+ファイルを貼るなら grok.com か公式アプリです。FAQ では Web でおおよそ 100 個、1 ファイル 150 MB までとあります。数字は変わるので、エラー表示を優先してください。
+
+X の中の Grok は、公開投稿や会話が学習に使われる設定があります。使いたくない場合は、X の「プライバシーと安全 → データ共有とパーソナライズ → Grok」から外せます（<a href="https://help.x.com/en/using-x/about-grok" rel="external">X の解説</a>）。grok.com 側の学習設定とは別です。
 
 ## 課金も入口ごとに別
 

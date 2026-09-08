@@ -103,6 +103,97 @@ h1 + .lead { margin-top: 0.75rem; }
   margin-top: 0.4rem;
 }
 
+.infofig {
+  margin: 1.25rem 0 0;
+  border: 1px solid var(--rule);
+  padding: 1rem 1rem 1.1rem;
+  background: color-mix(in oklab, var(--paper) 92%, var(--marker));
+}
+.infofig-title {
+  margin: 0 0 0.85rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.infofig-note {
+  margin: 0.85rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-60);
+}
+.infofig h3 { margin: 0.15rem 0 0.35rem; font-size: 1.05rem; border: 0; padding: 0; }
+.infofig p { margin: 0; font-size: 0.88rem; }
+.infofig-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--indigo);
+  margin: 0;
+}
+.infofig-num {
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 500;
+  background: var(--marker);
+  display: inline-block;
+  padding: 0 0.25rem;
+  margin: 0.25rem 0 0.4rem;
+}
+.infofig-num span { font-size: 0.75rem; }
+.infofig-grid3, .infofig-grid4 {
+  display: grid;
+  gap: 0.75rem;
+}
+.infofig-grid3 { grid-template-columns: 1fr; }
+.infofig-grid4 { grid-template-columns: 1fr 1fr; }
+.infofig-grid3 > div, .infofig-grid4 > div {
+  border-top: 2px solid var(--indigo);
+  padding-top: 0.5rem;
+}
+.infofig-steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+.infofig-steps li { display: flex; gap: 0.75rem; align-items: flex-start; margin: 0; }
+.infofig-n {
+  flex: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: grid;
+  place-items: center;
+  background: var(--indigo);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+.infofig-flow {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.35rem;
+  align-items: stretch;
+}
+.infofig-flow li {
+  margin: 0;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  padding: 0.5rem 0.65rem;
+  min-width: 7.5rem;
+  flex: 1;
+}
+.infofig-flow .infofig-plus {
+  border: 0;
+  background: none;
+  min-width: 0;
+  flex: none;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-mono);
+  color: var(--indigo);
+  padding: 0;
+}
+
+@media (min-width: 48rem) {
+  .infofig-grid3 { grid-template-columns: 1fr 1fr 1fr; }
+  .infofig-grid4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+}
+
 /* stale banner */
 .stale { border: 1px solid var(--stamp); border-left-width: 3px; padding: 0.5rem 0.75rem; margin: 1rem 0; font-size: 0.9rem; }
 

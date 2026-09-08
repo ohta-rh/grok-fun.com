@@ -10,6 +10,8 @@ source_url:
   - https://x.ai/news/grok-bot-more-plans
   - https://x.ai/news/grok-build-cli
   - https://cursor.com/pricing
+  - https://docs.x.ai/docs/models
+  - https://docs.x.ai/grok-bot/get-started
   - https://help.x.com/en/using-x/x-premium
 related:
   - three-entrances
@@ -77,15 +79,15 @@ Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor
 - 公式アプリの SuperGrok 特典
 - API のクレジット
 
-公式の導入ページとニュースで、Bot が使えるプランの書き方が揃っていない時期があります。**自分のプランで Bot が使えるかは、自分のアカウントのプラン画面で確認**してください。
+公式の書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含む一方、取得時点の <a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a> は SuperGrok Plus / Heavy と Cursor Pro+ 以上だけを挙げています。Hobby（無料）には Grok Bot と書かれていません。**自分のプランで Bot が使えるかは、プラン画面で確認**してください。
 
 ## 週間の利用枠の仕組み
 
 2026 年 6 月から、grok.com とアプリの上限は「製品ごとの 1 日の回数」ではなく、**1 週間ぶんの利用枠を Chat・Imagine・Voice・Build で共有する**方式になりました（<a href="https://docs.x.ai/grok/faq" rel="external">docs.x.ai の FAQ</a>）。
 
 - 製品ごとに消費する計算資源が違います。動画生成や長いコーディング作業は、チャットより枠を多く使います。Imagine の枚数が急に減ったと感じたら、同じ週にチャットや Voice を使っていないかを見ます（<a href="/tips/imagine-quickstart/">Imagine の手順と上限</a>）。
-- 残りは **設定 → Usage** で確認できます。使った割合、製品ごとの内訳、次のリセット時刻、追加クレジットの残高が出ます。
-- 週の枠を使い切ると、有料の機能は次のリセットまで止まります。**無料枠の Chat と Voice は、それとは別のスケジュールで引き続き使えます。**
+- 残りは **設定 → Usage** で確認できます。使った割合、製品ごとの内訳（FAQ 上は API / Build / Chat / Imagine / Voice）、次のリセット時刻、追加クレジットの残高が出ます。
+- 週の枠を使い切ると、有料の機能は次のリセットまで止まります。**無料枠の Chat と Voice は、それとは別のスケジュールで引き続き使えます。** 追加クレジットを買う、上のプランに変える、Auto Top Up を付ける、の 3 つが公式の抜け道です。
 
 「昨日は画像を何枚出せたのに今日は出ない」と感じるのは、画像の上限が変わったのではなく、週の枠を別の作業で使ったからです。まず Usage の内訳を見ます。
 
@@ -104,7 +106,7 @@ Grok Bot だけが目的で、すでに Cursor を使っているなら、Cursor
 
 ## API はまったく別の会計
 
-開発者向けの <a href="https://console.x.ai" rel="external">console.x.ai</a> は、使ったトークン量に対する従量課金です。x.ai/pricing に載っている grok-4.6 の単価は、100 万トークンあたり次のとおりです。
+開発者向けの <a href="https://console.x.ai" rel="external">console.x.ai</a> は、使ったトークン量に対する従量課金です。<a href="https://docs.x.ai/docs/models" rel="external">公式のモデル表</a>（2026-09-08）の grok-4.6 は、100 万トークンあたり次のとおりです。プロンプトが 20 万トークンに達したリクエストは、その回の全トークンが上の単価になります。
 
 | 種類 | プロンプトが 20 万トークン以下 | 20 万トークン超 |
 |---|---|---|
@@ -122,7 +124,7 @@ FAQ には、**身に覚えのない高額の請求は、API ではなく SuperG
 
 | 契約した場所 | 解約する場所 |
 |---|---|
-| grok.com（Web） | grok.com の請求（Billing）画面 |
+| grok.com（Web） | grok.com の請求（Billing）画面。広告ブロッカーでボタンが開かないことがある |
 | iPhone / iPad のアプリ | Apple のサブスクリプション管理 |
 | Android のアプリ | Google Play の定期購入 |
 | X Premium | X の設定。返金も X に申請します |
@@ -155,4 +157,5 @@ App Store や Google Play で契約すると、円で請求されます。この
 - 「X Premium なのに Grok Build（ターミナル）が使えない」: 公式発表時点では Premium+ か SuperGrok が必要です。
 - 「画像の上限が急に減った」: 週の共有枠を別の作業で使っています。Usage を見ます。
 - 「円の価格が公式の USD と合わない」: 上記の理由で合いません。ストア価格が正です。
-- 「身に覚えのない高額請求」: Heavy の年払いになっていないか、grok.com の請求画面で確認します。
+- 「身に覚えのない高額請求」: FAQ は API より SuperGrok Heavy の年払いが多いと書いています。grok.com の請求画面で確認します。
+- 「Web で解約ボタンが開かない」: 広告ブロッカーを疑います。シークレットウィンドウで <a href="https://grok.com/?_s=billing" rel="external">grok.com の請求</a> を開きます。
