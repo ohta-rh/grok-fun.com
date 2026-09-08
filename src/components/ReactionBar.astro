@@ -1,0 +1,23 @@
+---
+// リアクションチップ。JS 無しでは disabled のまま、注記「いま反応を受け付けていません」が出る。
+// API が返ったら src/scripts/widget.ts が有効化する。
+const EMOJIS = [
+  { emoji: '👍', label: 'いいね' },
+  { emoji: '🔥', label: 'アツい' },
+  { emoji: '🤔', label: 'うーん' },
+  { emoji: '📌', label: 'あとで見る' },
+  { emoji: '😂', label: '笑った' },
+];
+---
+<section class="reactions" data-reactions aria-label="この記事へのリアクション">
+  <div class="reaction-bar">
+    {EMOJIS.map(({ emoji, label }) => (
+      <button type="button" class="chip" data-emoji={emoji} aria-pressed="false" title={label} disabled>
+        <span class="chip-emoji" aria-hidden="true">{emoji}</span>
+        <span class="visually-hidden">{label}</span>
+        <span class="chip-count" data-count></span>
+      </button>
+    ))}
+    <span class="reactions-note" data-reactions-note>いま反応を受け付けていません</span>
+  </div>
+</section>

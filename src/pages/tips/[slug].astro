@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import StaleBanner from '../../components/StaleBanner.astro';
+import ReactionBar from '../../components/ReactionBar.astro';
+import CommentList from '../../components/CommentList.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -50,8 +52,14 @@ const jsonLd = {
       <p>{entry.data.last_verified} に確認しました。料金・制限・画面は変わります。数字は公式で確認してください。</p>
     </aside>
   </article>
+  <hr />
+  <ReactionBar />
+  <CommentList />
   <nav class="prev-next" aria-label="前後の TIPS">
     <span>{prev && <a href={`/tips/${prev.id}/`}>← {prev.data.title}</a>}</span>
     <span>{next && <a href={`/tips/${next.id}/`}>{next.data.title} →</a>}</span>
   </nav>
+  <script>
+    import '../../scripts/widget';
+  </script>
 </Base>

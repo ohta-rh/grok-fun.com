@@ -1,0 +1,7 @@
+# ローカル用。コピーして .dev.vars に（.dev.vars は git 管理外）。
+# Turnstile のテストキー（常に成功）。本番では絶対に使わない。
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+# IP ハッシュのソルト。本番は `wrangler secret put IP_HASH_SALT`（値は openssl rand -hex 16 など）
+IP_HASH_SALT=local-dev-salt
+# キルスイッチ。1 でコメント投稿と通報を止める（リアクションは動く）。通常は未設定
+# COMMENTS_DISABLED=1

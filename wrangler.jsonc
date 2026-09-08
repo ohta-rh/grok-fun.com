@@ -1,14 +1,29 @@
-// 初回公開は assets-only。Worker の main と D1 はまだ書かない（content-strategy.md）。
-// コミュニティ（コメント / リアクション）を入れるスライスで main / d1_databases を追加する。
+// 記事は Static Assets（dist/）から直接配信。Worker は /api/* だけ。
+// run_worker_first は false 固定（true にすると全 request が Worker を通り Free 枠を食う）。
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "grok-fun",
+  "main": "worker/index.ts",
   "compatibility_date": "2026-08-15",
   "assets": {
     "directory": "./dist",
+    "binding": "ASSETS",
     "not_found_handling": "404-page",
-    "html_handling": "auto-trailing-slash"
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": false
   },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "grok-fun-community",
+      "database_id": "612b5098-e177-416f-80ff-a93ab90dfba7",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // 03:00 JST。90 日より古いコメントと通報を消す
+  "triggers": { "crons": ["0 18 * * *"] },
+  // workers.dev では配信しない（custom domain のみ）。サブドメイン自体は cron 登録に必要なので存在はする
+  "workers_dev": false,
   "routes": [{ "pattern": "grok-fun.com", "custom_domain": true }],
   "observability": { "enabled": true }
 }
