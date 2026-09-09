@@ -121,8 +121,9 @@ tbody td:first-child {
   line-height: 1.45;
 }
 
+/* 2〜3 列だけ表にする。4 列は本文幅に収らないので、PC でもカードのまま。 */
 @media (min-width: 40rem) {
-  thead {
+  .table-scroll:not(:has(thead th:nth-child(4))) thead {
     position: static;
     width: auto;
     height: auto;
@@ -132,31 +133,41 @@ tbody td:first-child {
     clip: unset;
     white-space: normal;
   }
-  tbody tr {
+  .table-scroll:not(:has(thead th:nth-child(4))) tbody tr {
     display: table-row;
     padding: 0;
     border: 0;
   }
-  table {
+  .table-scroll:not(:has(thead th:nth-child(4))) table {
     border: 1px solid var(--rule);
   }
-  th, td {
+  .table-scroll:not(:has(thead th:nth-child(4))) th,
+  .table-scroll:not(:has(thead th:nth-child(4))) td {
     padding: 0.5rem 0.7rem;
     border: 1px solid var(--rule);
     line-break: strict;
   }
-  th {
+  .table-scroll:not(:has(thead th:nth-child(4))) th {
     font-weight: 700;
     white-space: nowrap;
     background: color-mix(in oklab, var(--rule) 28%, var(--paper));
   }
-  tbody td {
+  .table-scroll:not(:has(thead th:nth-child(4))) tbody td {
     display: table-cell;
     font-weight: inherit;
     line-height: 1.5;
   }
-  tbody td + td { margin-top: 0; }
-  tbody td::before { content: none; }
+  .table-scroll:not(:has(thead th:nth-child(4))) tbody td + td { margin-top: 0; }
+  .table-scroll:not(:has(thead th:nth-child(4))) tbody td::before { content: none; }
+
+  .table-scroll:has(thead th:nth-child(4)) tbody tr {
+    border: 1px solid var(--rule);
+    padding: 0.9rem 1rem;
+    margin: 0 0 0.65rem;
+  }
+  .table-scroll:has(thead th:nth-child(4)) tbody tr:last-child {
+    margin-bottom: 0;
+  }
 }
 
 /* layout: 1 column */
