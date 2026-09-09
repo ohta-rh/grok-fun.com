@@ -29,7 +29,7 @@ image_caption: 払う場所は 4 つあります。何をしたいかで、ど�
 
 <div class="table-scroll">
 
-| やりたいこと | 払う場所 | 2026-09-08 に確認したこと |
+| やりたいこと | 払う場所 | 確認したこと |
 |---|---|---|
 | grok.com や公式アプリで、チャット、Imagine、Voice を使う | grok.com の SuperGrok | Free $0、SuperGrok $30、Plus $100。Heavy も比較表と Get Heavy にあります |
 | X の中だけで使う | X Premium か Premium+ | X に払います。SuperGrok は付きません。ターミナルの Grok Build は発表時点で Premium+ から |

@@ -10,10 +10,31 @@ export function stripTags(html) {
 
 /**
  * @param {string} html
+ * @param {number} offset
+ * @returns {boolean}
+ */
+function alreadyWrapped(html, offset) {
+  const before = html.slice(Math.max(0, offset - 240), offset);
+  return /<div\b[^>]*\btable-scroll\b[^>]*>\s*$/i.test(before);
+}
+
+/**
+ * @param {string} html
+ * @returns {string}
+ */
+export function wrapTables(html) {
+  return html.replace(/<table\b[\s\S]*?<\/table>/gi, (table, offset) => {
+    if (alreadyWrapped(html, offset)) return table;
+    return `<div class="table-scroll">${table}</div>`;
+  });
+}
+
+/**
+ * @param {string} html
  * @returns {string}
  */
 export function labelTableCells(html) {
-  return html.replace(/<table\b[\s\S]*?<\/table>/gi, (table) => {
+  const labeled = html.replace(/<table\b[\s\S]*?<\/table>/gi, (table) => {
     const thead = table.match(/<thead\b[\s\S]*?<\/thead>/i)?.[0] ?? '';
     const heads = [...thead.matchAll(/<th\b[^>]*>([\s\S]*?)<\/th>/gi)].map((m) =>
       stripTags(m[1]).replace(/\s+/g, ' ').trim(),
@@ -43,4 +64,5 @@ export function labelTableCells(html) {
       return token.replace(/<td/i, `<td data-label="${label}"`);
     });
   });
+  return wrapTables(labeled);
 }

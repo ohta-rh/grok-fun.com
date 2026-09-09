@@ -18,7 +18,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | English FAQ copied into Japanese word order | Rewrite the whole paragraph from a 3-line LINE message. Do not swap one noun |
 | Invented 無制限, 2024, Lite $10 as current card | Only dated primary-source numbers |
 | Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
-| Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. On a narrow screen, rows stack as cards. Do not squeeze columns or rely on horizontal scroll |
+| Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. Every width: label + value rows. Do not squeeze columns or rely on horizontal scroll |
 
 ## Do
 
