@@ -97,9 +97,11 @@ thead {
 }
 tbody tr {
   display: block;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--rule);
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--rule);
+  margin: 0 0 0.65rem;
 }
+tbody tr:last-child { margin-bottom: 0; }
 tbody td {
   display: block;
   padding: 0;
@@ -119,55 +121,6 @@ tbody td:not([data-label])::before { content: none; }
 tbody td:first-child {
   font-weight: 700;
   line-height: 1.45;
-}
-
-/* 2〜3 列だけ表にする。4 列は本文幅に収らないので、PC でもカードのまま。 */
-@media (min-width: 40rem) {
-  .table-scroll:not(:has(thead th:nth-child(4))) thead {
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    clip: unset;
-    white-space: normal;
-  }
-  .table-scroll:not(:has(thead th:nth-child(4))) tbody tr {
-    display: table-row;
-    padding: 0;
-    border: 0;
-  }
-  .table-scroll:not(:has(thead th:nth-child(4))) table {
-    border: 1px solid var(--rule);
-  }
-  .table-scroll:not(:has(thead th:nth-child(4))) th,
-  .table-scroll:not(:has(thead th:nth-child(4))) td {
-    padding: 0.5rem 0.7rem;
-    border: 1px solid var(--rule);
-    line-break: strict;
-  }
-  .table-scroll:not(:has(thead th:nth-child(4))) th {
-    font-weight: 700;
-    white-space: nowrap;
-    background: color-mix(in oklab, var(--rule) 28%, var(--paper));
-  }
-  .table-scroll:not(:has(thead th:nth-child(4))) tbody td {
-    display: table-cell;
-    font-weight: inherit;
-    line-height: 1.5;
-  }
-  .table-scroll:not(:has(thead th:nth-child(4))) tbody td + td { margin-top: 0; }
-  .table-scroll:not(:has(thead th:nth-child(4))) tbody td::before { content: none; }
-
-  .table-scroll:has(thead th:nth-child(4)) tbody tr {
-    border: 1px solid var(--rule);
-    padding: 0.9rem 1rem;
-    margin: 0 0 0.65rem;
-  }
-  .table-scroll:has(thead th:nth-child(4)) tbody tr:last-child {
-    margin-bottom: 0;
-  }
 }
 
 /* layout: 1 column */
