@@ -121,18 +121,7 @@ tbody td:first-child {
   line-height: 1.45;
 }
 
-/* 本文は 40rem。その幅で 3〜4 列にすると日本語が 1 字ずつ折れる。
-   表は本文より広げ、列を固定幅にしてから表レイアウトにする。 */
-@media (min-width: 60rem) {
-  .wrap { overflow: visible; }
-  .table-scroll {
-    width: min(56rem, calc(100vw - 2 * var(--gutter)));
-    max-width: none;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .table-scroll > table { table-layout: fixed; }
+@media (min-width: 40rem) {
   thead {
     position: static;
     width: auto;
@@ -148,16 +137,18 @@ tbody td:first-child {
     padding: 0;
     border: 0;
   }
+  table {
+    border: 1px solid var(--rule);
+  }
   th, td {
-    padding: 0.55rem 0.75rem;
-    border-bottom: 1px solid var(--rule);
+    padding: 0.5rem 0.7rem;
+    border: 1px solid var(--rule);
     line-break: strict;
-    overflow-wrap: break-word;
   }
   th {
     font-weight: 700;
-    border-bottom-width: 2px;
     white-space: nowrap;
+    background: color-mix(in oklab, var(--rule) 28%, var(--paper));
   }
   tbody td {
     display: table-cell;
