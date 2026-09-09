@@ -13,6 +13,7 @@
 | [research-seo-content.md](research-seo-content.md) | キーワード Tier A/B/C、要約 + 引用 + 原文リンク方針、frontmatter スキーマ、SLA | 6 |
 | [architecture.md](architecture.md) | システム構成、スタック、コスト（$0）、データフロー、API 設計、D1 スキーマ、wrangler 設定、CSP（GTM 許可）、リスク、将来拡張 | 7 |
 | [visual-design.md](visual-design.md) | ビジュアルアイデンティティ「参考書 × 索引カード」。トークン、タイポ、ワイヤーフレーム、コンポーネント、コピーの声 | 8 |
+| [fable-table.md](fable-table.md) | 表コンポーネント（2026-09-09）。1 列目を行見出し、残りを本文列。40rem で 3 列以上の表組はしない | 8b |
 | [implementation-plan.md](implementation-plan.md) | フェーズ 0〜3 の手順（フェーズ 1 は TIPS-first、1.5 の無人取り込みは信頼条件後）、ファイル一覧、パッケージ、環境変数、テスト方針、リスク | 9 |
 | [operations.md](operations.md) | **無人運用**。GitHub Actions なし。この Mac の launchd が 12 時間ごとに Grok Build（`grok --prompt-file .grok/ops/ingest.md`）を起動し、x.ai/news → 要約 Markdown → `pnpm build` → commit → push → Workers Builds が deploy。週次 reverify も同経路。コメント掃除は Worker Cron。キルスイッチ `COMMENTS_DISABLED`、失敗表、通知は失敗時のみ（macOS 通知 + ログ + Cloudflare メール）。**ローンチ期間中は ingest / reverify OFF** | 10 |
 

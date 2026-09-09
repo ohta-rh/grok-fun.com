@@ -1,4 +1,4 @@
-/** Add data-label on tbody cells from thead, so narrow screens can stack rows as cards. */
+/** Label tbody cells from thead, promote the first cell of each row to a row header. */
 
 /**
  * @param {string} html
@@ -26,6 +26,26 @@ export function wrapTables(html) {
   return html.replace(/<table\b[\s\S]*?<\/table>/gi, (table, offset) => {
     if (alreadyWrapped(html, offset)) return table;
     return `<div class="table-scroll">${table}</div>`;
+  });
+}
+
+/**
+ * First tbody cell of each row becomes `<th scope="row">` with no data-label.
+ *
+ * @param {string} html
+ * @returns {string}
+ */
+export function promoteRowHeaders(html) {
+  return html.replace(/<table\b[\s\S]*?<\/table>/gi, (table) => {
+    return table.replace(/<tbody\b[\s\S]*?<\/tbody>/gi, (tbody) => {
+      return tbody.replace(/<tr\b[^>]*>[\s\S]*?<\/tr>/gi, (tr) => {
+        if (/<th\b/i.test(tr)) return tr;
+        return tr.replace(/<td\b([^>]*)>([\s\S]*?)<\/td>/i, (_m, attrs, inner) => {
+          const cleaned = String(attrs).replace(/\s*data-label="[^"]*"/gi, '');
+          return `<th scope="row"${cleaned}>${inner}</th>`;
+        });
+      });
+    });
   });
 }
 
@@ -64,5 +84,5 @@ export function labelTableCells(html) {
       return token.replace(/<td/i, `<td data-label="${label}"`);
     });
   });
-  return wrapTables(labeled);
+  return wrapTables(promoteRowHeaders(labeled));
 }

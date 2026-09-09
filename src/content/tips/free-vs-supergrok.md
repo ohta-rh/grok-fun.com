@@ -29,7 +29,7 @@ image_caption: 払う場所は 4 つあります。何をしたいかで、ど�
 
 <div class="table-scroll">
 
-| やりたいこと | 払う場所 | 確認したこと |
+| やりたいこと | 払う先 | 確認済み |
 |---|---|---|
 | grok.com や公式アプリで、チャット、Imagine、Voice を使う | grok.com の SuperGrok | Free $0、SuperGrok $30、Plus $100。Heavy も比較表と Get Heavy にあります |
 | X の中だけで使う | X Premium か Premium+ | X に払います。SuperGrok は付きません。ターミナルの Grok Build は発表時点で Premium+ から |
@@ -51,7 +51,7 @@ X Premium に入っても、grok.com は無料のままです。故障ではな�
 
 <div class="table-scroll">
 
-| プラン | いくら | どんな人向け |
+| プラン | いくら | 誰に |
 |---|---|---|
 | Free | <span class="num">$0</span> | まず 1 週間使ってみる人。使える量は少なめです |
 | SuperGrok Lite | 値段は先頭に出ていません。Get Lite のボタンはあります | 比較表に列があります。入るなら、契約する画面で金額を見てください |
@@ -143,7 +143,7 @@ Grok Bot だけが目的で、もう Cursor を使っているなら、Cursor �
 
 <div class="table-scroll">
 
-| 種類 | 20 万トークンまで | 20 万を超えたとき |
+| 種類 | 20 万まで | 20 万超 |
 |---|---|---|
 | 入力 | <span class="num">$2</span> | <span class="num">$4</span> |
 | 入力（キャッシュ済み） | <span class="num">$0.50</span> | <span class="num">$1</span> |
