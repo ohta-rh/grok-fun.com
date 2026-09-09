@@ -81,9 +81,12 @@ th, td {
   margin: 1.15em 0;
   padding: 0;
 }
-.table-scroll > table { margin: 0; }
+.table-scroll > table {
+  margin: 0;
+  border: 1px solid var(--rule);
+}
 
-/* mobile-first: one field per line, labels from data-label. no horizontal scroll */
+/* 1 行 = 見出し + 値。列に潰さず、カードの余白も積まない */
 thead {
   position: absolute;
   width: 1px;
@@ -97,30 +100,36 @@ thead {
 }
 tbody tr {
   display: block;
-  padding: 0.9rem 1rem;
-  border: 1px solid var(--rule);
-  margin: 0 0 0.65rem;
-}
-tbody tr:last-child { margin-bottom: 0; }
-tbody td {
-  display: block;
-  padding: 0;
+  padding: 0.45rem 0.7rem;
+  margin: 0;
   border: 0;
+  border-bottom: 1px solid var(--rule);
 }
-tbody td + td { margin-top: 0.7rem; }
+tbody tr:last-child { border-bottom: 0; }
+tbody td {
+  display: grid;
+  grid-template-columns: 7.25rem 1fr;
+  column-gap: 0.7rem;
+  align-items: start;
+  padding: 0.14rem 0;
+  border: 0;
+  line-height: 1.5;
+}
+tbody td + td { margin-top: 0; }
 tbody td::before {
   content: attr(data-label);
-  display: block;
   font-size: 12px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.5;
   color: var(--ink-60);
-  margin-bottom: 0.15rem;
+  margin: 0;
+}
+tbody td:not([data-label]) {
+  display: block;
 }
 tbody td:not([data-label])::before { content: none; }
 tbody td:first-child {
   font-weight: 700;
-  line-height: 1.45;
 }
 
 /* layout: 1 column */
