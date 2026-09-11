@@ -6,6 +6,7 @@ import RelatedTips from '../../components/RelatedTips.astro';
 import ReactionBar from '../../components/ReactionBar.astro';
 import CommentList from '../../components/CommentList.astro';
 import Infographic from '../../components/Infographic.astro';
+import HeroFigure from '../../components/HeroFigure.astro';
 import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
@@ -28,7 +29,8 @@ export async function getStaticPaths() {
 }
 
 const { entry, prev, next, related } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
+const toc = headings.filter((h) => h.depth === 2);
 const url = `https://grok-fun.com/tips/${entry.id}/`;
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -79,17 +81,19 @@ const jsonLd = {
     <p class="lead">{entry.data.description}</p>
     <Infographic slug={entry.id} />
     {entry.id === 'imagine-quickstart' && (
-      <figure class="article-hero">
-        <img
-          src={entry.data.image}
-          alt={entry.data.image_alt}
-          width="1280"
-          height="720"
-        />
-        <figcaption>{entry.data.image_caption}</figcaption>
-      </figure>
+      <HeroFigure src={entry.data.image} alt={entry.data.image_alt} caption={entry.data.image_caption} />
     )}
     <StaleBanner lastVerified={entry.data.last_verified} />
+    {toc.length >= 6 && (
+      <details class="toc">
+        <summary>このページの内容</summary>
+        <ol>
+          {toc.map((h) => (
+            <li><a href={`#${h.slug}`}>{h.text}</a></li>
+          ))}
+        </ol>
+      </details>
+    )}
     <Content />
     <aside class="sources">
       <h2>確かめるのに使った一次情報</h2>
@@ -107,10 +111,22 @@ const jsonLd = {
     <CommentList />
   </article>
   <nav class="prev-next" aria-label="前後の TIPS">
-    <span>{prev && <a href={`/tips/${prev.id}/`}>← {prev.data.title}</a>}</span>
-    <span>{next && <a href={`/tips/${next.id}/`}>{next.data.title} →</a>}</span>
+    {prev ? (
+      <a href={`/tips/${prev.id}/`}>
+        <span class="prev-next-kicker">前の TIPS</span>
+        <span class="prev-next-title">{prev.data.title}</span>
+      </a>
+    ) : <span></span>}
+    {next ? (
+      <a href={`/tips/${next.id}/`}>
+        <span class="prev-next-kicker">次の TIPS</span>
+        <span class="prev-next-title">{next.data.title}</span>
+      </a>
+    ) : <span></span>}
   </nav>
   <script>
     import '../../scripts/widget';
+    import '../../scripts/copy';
+    import '../../scripts/stale';
   </script>
 </Base>

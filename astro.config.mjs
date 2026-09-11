@@ -5,6 +5,7 @@ import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { labelTableCells } from './scripts/label-tables.mjs';
+import { enhanceHeroImages } from './scripts/enhance-heroes.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
@@ -63,7 +64,7 @@ export default defineConfig({
           const rootDir = fileURLToPath(dir);
           for (const file of walkHtml(rootDir)) {
             const src = readFileSync(file, 'utf8');
-            const next = labelTableCells(src);
+            const next = enhanceHeroImages(labelTableCells(src));
             if (next !== src) writeFileSync(file, next);
           }
         },

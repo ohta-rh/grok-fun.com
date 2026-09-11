@@ -31,6 +31,10 @@ interface ApiError {
   message?: string;
 }
 
+function turnstileSize(): 'compact' | 'normal' {
+  return window.matchMedia('(max-width: 22.49rem)').matches ? 'compact' : 'normal';
+}
+
 const SLUG_RE = /^[a-z0-9][a-z0-9/-]{0,120}$/;
 const OFFLINE = 'いま反応を受け付けていません';
 const COMMENTS_OFFLINE = 'いまはコメントを受け付けていません。記事はそのまま読めます。';
@@ -241,6 +245,7 @@ async function startReport(li: HTMLLIElement, id: number, button: HTMLButtonElem
       sitekey: ctx.siteKey,
       theme: 'light',
       language: 'ja',
+      size: turnstileSize(),
       callback: async (token: string) => {
         const res = await api<{ reported: boolean; hidden: boolean }>('/api/reports', {
           method: 'POST',
@@ -351,7 +356,7 @@ function setupForm(
   let widgetId: string | null = null;
   if (ctx.turnstile && holder) {
     try {
-      widgetId = ctx.turnstile.render(holder, { sitekey: ctx.siteKey, theme: 'light', language: 'ja' });
+      widgetId = ctx.turnstile.render(holder, { sitekey: ctx.siteKey, theme: 'light', language: 'ja', size: turnstileSize() });
     } catch {
       widgetId = null;
     }

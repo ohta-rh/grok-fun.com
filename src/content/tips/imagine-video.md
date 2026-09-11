@@ -38,7 +38,7 @@ image_caption: 下の動画は、この静止画をもとに動かしたもの�
 画像の TIPS と同じ文で出した猫を、動き一つ（雨が降り続ける、カメラがゆっくり寄る）で動かしました。2026-09-09 に出した 720p、6 秒です。
 
 <figure class="article-hero">
-  <video controls playsinline preload="metadata" poster="/tips/imagine-video.jpg" width="1280" height="720">
+  <video controls playsinline preload="none" poster="/tips/imagine-video-720.webp" width="1280" height="720">
     <source src="/tips/vid-cat.mp4" type="video/mp4" />
   </video>
   <figcaption>雨が降って、カメラがゆっくり寄ります。動きはそれだけです。</figcaption>
@@ -65,7 +65,7 @@ image_caption: 下の動画は、この静止画をもとに動かしたもの�
 ```
 
 <figure class="article-hero">
-  <video controls playsinline preload="metadata" poster="/tips/vid-lantern.jpg" width="1280" height="720">
+  <video controls playsinline preload="none" poster="/tips/vid-lantern-720.webp" width="1280" height="720">
     <source src="/tips/vid-lantern.mp4" type="video/mp4" />
   </video>
   <figcaption>蒸気が流れて、提灯が揺れます。人は足していません。</figcaption>

@@ -3,6 +3,6 @@ interface Props { lastVerified: string }
 const { lastVerified } = Astro.props;
 const days = Math.floor((Date.now() - new Date(`${lastVerified}T00:00:00+09:00`).getTime()) / 86400000);
 ---
-{days > 60 && (
-  <p class="stale">このページは <time datetime={lastVerified}>{lastVerified}</time> に確かめたものです。そのあとで変わっているかもしれません。</p>
-)}
+<p class="stale" data-last-verified={lastVerified} hidden={days <= 60}>
+  このページは <time datetime={lastVerified}>{lastVerified}</time> に確かめたものです。そのあとで変わっているかもしれません。
+</p>

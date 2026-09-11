@@ -1,4 +1,6 @@
 ---
+import HeroFigure from './HeroFigure.astro';
+
 interface Props {
   slug: string;
 }
@@ -8,8 +10,8 @@ const figures: Record<string, { src: string; alt: string; caption: string }[]> =
   'japanese-fix': [
     {
       src: '/tips/fig-jp-paste.jpg',
-      alt: '「質問を書く前に、この 3 行を貼る」と書いた紙。貼る 3 行のほかに、「日本語で教えて」だけの弱い例と、英語の資料を貼っても日本語で、と書いた足りる例が並んでいる',
-      caption: '質問を書く前に、この 3 行を貼ります。「日本語で教えて」だけでは足りません。',
+      alt: '「下の 3 行を貼る」と書いた紙。弱い例は「日本語で教えて」の 1 行だけ。足りる例は、すべて日本語で、英語の資料を貼っても日本語で、話題は ○○ だけ、と書いてある',
+      caption: '下の 3 行をコピーして貼ります。「日本語で教えて」だけでは足りません。',
     },
   ],
   'three-entrances': [
@@ -50,9 +52,6 @@ const figures: Record<string, { src: string; alt: string; caption: string }[]> =
 };
 const set = figures[slug] ?? [];
 ---
-{set.map((fig) => (
-  <figure class="article-hero">
-    <img src={fig.src} alt={fig.alt} width="1280" height="720" />
-    <figcaption>{fig.caption}</figcaption>
-  </figure>
+{set.map((fig, i) => (
+  <HeroFigure src={fig.src} alt={fig.alt} caption={fig.caption} priority={i === 0} />
 ))}

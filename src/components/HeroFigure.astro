@@ -1,0 +1,28 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption: string;
+  priority?: boolean;
+  width?: number;
+  height?: number;
+}
+const { src, alt, caption, priority = false, width = 1280, height = 720 } = Astro.props;
+const stem = src.replace(/\.[^.]+$/, '');
+---
+<figure class="article-hero">
+  <a href={src}>
+    <img
+      src={src}
+      srcset={`${stem}-720.webp 720w, ${stem}-1280.webp 1280w`}
+      sizes="(max-width: 40rem) 100vw, 40rem"
+      alt={alt}
+      width={width}
+      height={height}
+      decoding="async"
+      loading={priority ? undefined : 'lazy'}
+      fetchpriority={priority ? 'high' : undefined}
+    />
+  </a>
+  <figcaption>{caption}</figcaption>
+</figure>
