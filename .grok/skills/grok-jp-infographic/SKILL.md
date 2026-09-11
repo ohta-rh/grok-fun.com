@@ -1,15 +1,21 @@
 ---
 name: grok-jp-infographic
 description: >
-  Make grok-fun.com TIPS infographics at the billing-page tone. Use when
-  drawing or replacing a TIPS figure, the user says インフォグラフィック,
-  図を作れ, トーン, /grok-jp-infographic, or a figure looks like beige HTML
-  cards. Canonical examples are the two billing figures, not their layout.
+  Required for every grok-fun.com TIPS body figure. Open this before image_gen,
+  image_edit, HTML→JPG, Infographic.astro art, or thickening a TIPS that has a
+  figure. Use when the user says インフォグラフィック, 図を作れ, 図を直して,
+  トーン, /grok-jp-infographic, or a figure looks like beige HTML cards.
+  Canonical examples are the two billing figures, not their layout. Skipping
+  this skill is a ship-blocker.
 ---
 
 # Grok JP infographic tone
 
 Writing rules stay in `.grok/rules/writing.md`. This file is the tone bar.
+
+## Required
+
+Open this file before any TIPS body figure. Do not call `image_gen` / `image_edit`, raster HTML, or swap `Infographic.astro` art until it is open. The global imagine default “exact text → HTML” does **not** apply to TIPS body figures, except the 3-line paste card. This file wins. Skipping it is a ship-blocker.
 
 ## Canonical examples (tone, not layout)
 

@@ -72,9 +72,9 @@ Writing rules: [`.grok/rules/writing.md`](.grok/rules/writing.md)
 - News ingest stays off until Search Console is clean **and** 90 days after launch.
 - ニュースの自動取り込みは、Search Console がきれいになること **かつ** 公開から 90 日、の両方を満たすまで動かさない。
 
-Repeatable work lives in [`.grok/skills/grok-jp-tips`](.grok/skills/grok-jp-tips) and [`.grok/skills/grok-jp-ship`](.grok/skills/grok-jp-ship).
+Repeatable work lives in [`.grok/skills/grok-jp-tips`](.grok/skills/grok-jp-tips), [`.grok/skills/grok-jp-infographic`](.grok/skills/grok-jp-infographic) (required before any TIPS body figure), and [`.grok/skills/grok-jp-ship`](.grok/skills/grok-jp-ship).
 
-繰り返しの手順は [`.grok/skills/grok-jp-tips`](.grok/skills/grok-jp-tips) と [`.grok/skills/grok-jp-ship`](.grok/skills/grok-jp-ship) です。
+繰り返しの手順は [`.grok/skills/grok-jp-tips`](.grok/skills/grok-jp-tips)、図は必須の [`.grok/skills/grok-jp-infographic`](.grok/skills/grok-jp-infographic)、公開は [`.grok/skills/grok-jp-ship`](.grok/skills/grok-jp-ship) です。
 
 ## Docs / 文書
 

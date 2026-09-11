@@ -25,6 +25,8 @@ Follow **chrome-isolated-shots**: unique `--user-data-dir` under `/tmp`, wait un
 
 Look for: judgment written inside the figure, titles wrapping, Imagine proof photo only, no metaphor stills, no overflow, no squeezed table columns.
 
+If `public/tips/fig-*` or `Infographic.astro` changed: open **grok-jp-infographic** and compare the live figure to `fig-bill-choose.jpg` / `fig-bill-ladder.jpg`. Beige HTML cards, empty boxes, kicker + heading → do not ship. Tone, not layout.
+
 On 390px, table rows are cards. Read the whole article, not the diff. If a sentence is English in Japanese clothes, rewrite that section from a LINE 3-liner. Do not search-replace one word. Then rebuild.
 
 ## Do not
@@ -32,3 +34,4 @@ On 390px, table rows are cards. Read the whole article, not the diff. If a sente
 - Add TIPS pages as part of a ship
 - Turn news ingest on
 - Install a second gtag.js (GTM-NQMPJ2FS is already on the site)
+- Ship a new or replaced body figure without **grok-jp-infographic** having been opened in that turn

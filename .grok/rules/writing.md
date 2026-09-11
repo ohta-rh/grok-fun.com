@@ -44,7 +44,7 @@
 
 ## 図（インフォグラフィック）
 
-判断は図の中に、自然な日本語で書く。ベージュの HTML カード（kicker + 見出し + 短文）は図ではない。トーンの正本は `.grok/skills/grok-jp-infographic`。
+判断は図の中に、自然な日本語で書く。ベージュの HTML カード（kicker + 見出し + 短文）は図ではない。**図を触る前に** `.grok/skills/grok-jp-infographic` **を開け。読まずに図を出すな。**
 
 - **Imagine で 16:9 の図を作れ。** 紙面（aged cream か lined notebook / navy ink / yellow highlighter）。料金の 2 枚をトーンの参照にする。構図はコピーするな
 - 図の日本語は本文と同じ基準。音読しておかしくない短文。直訳（写真の文法、選択の整理、用途で選ぶ支払い）は図の中でも禁止

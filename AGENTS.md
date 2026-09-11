@@ -2,7 +2,7 @@
 
 日本語の非公式 Grok ファンコミュニティ。Astro 7 の静的サイト + Cloudflare Workers Static Assets。Worker は `/api/*` だけ。`run_worker_first` は **false 固定**（true にすると全リクエストが Worker を通り Free 枠を食う）。
 
-パッケージマネージャは **pnpm**。GitHub Actions は使わない。デプロイは `pnpm build` のあと `wrangler deploy`。繰り返し手順は `.grok/skills/grok-jp-tips` と `.grok/skills/grok-jp-ship`。
+パッケージマネージャは **pnpm**。GitHub Actions は使わない。デプロイは `pnpm build` のあと `wrangler deploy`。繰り返し手順は `.grok/skills/grok-jp-tips`、`.grok/skills/grok-jp-infographic`、`.grok/skills/grok-jp-ship`。TIPS の本文図を出す前に **grok-jp-infographic を開け**。読まずに出すな。
 
 ## 公開する日本語（最優先）
 
@@ -17,7 +17,7 @@
 書き方の正本は **`.grok/rules/writing.md`**。要約:
 
 - 新しい TIPS ページを勝手に増やさない。既存を厚くする。
-- 各 TIPS の図は **インフォグラフィック**（`Infographic.astro`）。トーンは `.grok/skills/grok-jp-infographic`。OGP 用 JPG と Imagine の作例写真は別。
+- 各 TIPS の図は **インフォグラフィック**（`Infographic.astro`）。出す前に `.grok/skills/grok-jp-infographic` を開く。必須。グローバル imagine の「正確な文字は HTML」は、3 行貼り付けカード以外の本文図では使わない。OGP 用 JPG と Imagine の作例写真は別。
 - 内部リンクは前後ナビだけに頼らない。本文の文脈リンクと、記事末の「関連する TIPS」の両方。アンカーは「TIPS 01」ではなく、リンク先の内容が分かる語。
 - 公式ニュースの全文翻訳はしない。要約 + 短い引用 + 原文リンク。
 - Bot 用プロンプト集は作らない。grokguide.jp へ送る。
