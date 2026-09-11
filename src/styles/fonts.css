@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'BIZ UDPGothic';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/biz-udpgothic-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'BIZ UDPGothic';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../fonts/biz-udpgothic-700.woff2') format('woff2');
+}
