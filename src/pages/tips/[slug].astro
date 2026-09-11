@@ -11,7 +11,7 @@ import { getCollection, render } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
 export async function getStaticPaths() {
-  const tips = (await getCollection('tips')).sort((a, b) => a.data.order - b.data.order);
+  const tips = (await getCollection('tips')).sort((a, b) => b.data.order - a.data.order);
   const byId = new Map(tips.map((t) => [t.id, t]));
   return tips.map((entry, i) => {
     for (const id of entry.data.related) {

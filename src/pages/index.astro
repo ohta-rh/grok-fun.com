@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-const tips = (await getCollection('tips')).sort((a, b) => a.data.order - b.data.order);
+const tips = (await getCollection('tips')).sort((a, b) => b.data.order - a.data.order);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
