@@ -22,6 +22,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | Invented 無制限, 2024, Lite $10 as current card | Only dated primary-source numbers |
 | Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
 | Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. First column is the row heading; remaining cells stack to the right. Do not squeeze columns or rely on horizontal scroll |
+| 取り違えが事実ダンプ、困ることの再掲、禁止の命令文 | Quoted mix-up then the judgment. Canonical: `free-vs-supergrok` and `imagine-video` |
 
 ## Do
 
