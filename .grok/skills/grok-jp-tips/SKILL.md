@@ -1,6 +1,6 @@
 ---
 name: grok-jp-tips
-description: Write and revise Grok JP TIPS on grok-fun.com. Use when thickening TIPS, making Imagine infographics, fact-checking billing, or the user says TIPS書いて / 記事を厚く / インフォグラフィック / ファクトチェック / /grok-jp-tips. Do not add TIPS pages unless asked.
+description: Write and revise Grok JP TIPS on grok-fun.com. Use when thickening TIPS, making infographics, fact-checking billing, or the user says TIPS書いて / 記事を厚く / インフォグラフィック / ファクトチェック / /grok-jp-tips. Figures follow grok-jp-infographic. Do not add TIPS pages unless asked.
 ---
 
 # Grok JP TIPS
@@ -11,7 +11,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 
 | Failure | Do this |
 |---|---|
-| Beige HTML cards sold as infographics | Imagine 16:9 poster with the judgment in the picture |
+| Beige HTML cards sold as infographics | Follow **grok-jp-infographic**. Imagine with the billing JPGs as tone refs |
 | Metaphor still that needs “ノートがチャット” | Don't ship it |
 | “Heavy は金額が無いから公式ではない” | Heavy exists on x.ai/pricing comparison + Get Heavy. Amount ≠ existence |
 | Dump “わかりにくいので画面で確認” as the article | Write やりたいこと → 払う場所 first |
@@ -23,7 +23,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 ## Do
 
 1. Thicken existing TIPS. No new pages unless asked.
-2. Infographic: Imagine, natural Japanese in the picture, inspect the file, copy to `public/tips/fig-{name}.jpg`. One figure per TIPS, except billing (choose + stairs) and Imagine proof stills/videos.
+2. Infographic: follow **grok-jp-infographic**. Tone is paper / navy ink / yellow highlighter / dense 音読 Japanese. Inspect the file. Copy to `public/tips/fig-{name}.jpg`. One figure per TIPS, except billing (choose + stairs), Grok Bot (judgment + architecture), and Imagine proof stills/videos.
 3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Amounts shown on 2026-09-08: Free $0, SuperGrok $30, Plus $100.
 4. Write the LINE 3-liner first. Then add dates and numbers. If a sentence is English in Japanese clothes, rewrite the section — never search-replace one word.
 5. Before ship: read the whole article aloud, not the diff. Then **grok-jp-ship**.

@@ -20,6 +20,7 @@ const FIG_TO_SLUG = {
   'fig-bill-ladder': 'free-vs-supergrok',
   'fig-bot': 'bot-build-chat-map',
   'fig-grok-bot-arch': 'grok-bot-cloud-computer',
+  'fig-grok-bot-diff': 'grok-bot-cloud-computer',
   'fig-entrances': 'three-entrances',
   'fig-imagine-formula': 'imagine-quickstart',
   'fig-imagine-video': 'imagine-video',
