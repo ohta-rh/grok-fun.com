@@ -3,7 +3,7 @@ title: Grok Bot はチャットの続きではない。クラウドにコンピ�
 description: Grok Bot は、クラウドに自分用のコンピュータを持つ別のアプリです。同じアカウントの Bot は 1 台を共有します。ノートを閉じても仕事は続きます。チャットの前置きを保存するものではありません。
 order: 7
 product: bot
-last_verified: "2026-09-11"
+last_verified: "2026-09-12"
 source_url:
   - https://x.ai/news/introducing-grok-bot
   - https://x.ai/news/grok-bot-more-plans
@@ -138,7 +138,7 @@ Grok Bot はクラウドにデータを置く前提です。Cursor の Legacy Pr
 
 ## プランと使用量
 
-2026-09-11 に開いた公式は、対象の書き方が揃っていません。**自分のプランで使えるかは、契約する画面で確かめてください。**
+2026-09-12 に開いた公式は、対象の書き方が揃っていません。**自分のプランで使えるかは、契約する画面で確かめてください。**
 
 <div class="table-scroll">
 
@@ -146,6 +146,7 @@ Grok Bot はクラウドにデータを置く前提です。Cursor の Legacy Pr
 |---|---|
 | 2026-08-11 の発表 | SuperGrok、Plus、Heavy。Cursor の Pro、Pro+、Ultra。Teams の Standard と Premium |
 | 2026-08-26 の発表 | SuperGrok と Cursor Pro と、Teams の全部 |
+| 2026-09-12 の料金 | SuperGrok（$30）に Grok Bot access とある |
 | 導入ページ | Plus、Heavy。Cursor の Pro+、Ultra。Teams の Standard か Premium |
 | Cursor の案内 | 個人の有料 Cursor 全部。個人の SuperGrok、Plus、Heavy。X Premium+。Lite は対象外 |
 
@@ -184,7 +185,7 @@ Grok Bot だけが目的で、もう Cursor を使っているなら、Cursor �
 ## 取り違え
 
 - チャットに Bot 用の長い指示を貼っても、会話が終われば消えます
-- Grok Build は自分の PC のファイルを触ります。Bot のクラウドコンピュータとは別です。画面の中の Build Mode とも別です
+- ターミナルの grok は、自分の PC でも Bot のコンピュータでも動かせます。画面の中の Build とは別です。Bot の会話で重い仕事をしない書き方は <a href="/tips/bot-uses-build/">重い仕事は grok に渡す</a> です
 - Bot をいくつ作っても、ログインは共有です。「この Bot だけがこのパスワードを知っている」にはなりません
 - プラグインを止めても、そのサービスのウェブサイトは残ります
 - Bot を消しても、コンピュータ上のファイルとログインは残ることがあります

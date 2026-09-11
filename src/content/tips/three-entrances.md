@@ -3,7 +3,7 @@ title: Grok は grok.com、公式アプリ、X の 3 か所から使える
 description: Grok は grok.com、公式アプリ、X の中の 3 か所から使えます。同じ Grok でも、入る場所によって出てくるメニューが違います。無いと思ったら、別の入口を開いてみてください。似た名前の偽アプリには気をつけて。
 order: 2
 product: chat
-last_verified: "2026-09-08"
+last_verified: "2026-09-12"
 source_url:
   - https://grok.com
   - https://x.ai/grok
@@ -39,7 +39,7 @@ Web は **grok.com** を使います。公式の FAQ によると、grok.x.ai �
 
 1. 今いる画面のメニューを全部開いてみる
 2. 公式アプリと grok.com を入れ替えてみる
-3. Imagine と、ターミナルで動く Grok Build は、X の中では探さない
+3. Imagine と、画面の中の Build と、ターミナルの grok は、X の中では探さない。仕事を任せる Grok Bot も、この 3 つの入口とは別のアプリです（<a href="/tips/grok-bot-cloud-computer/">クラウドにコンピュータを持つ</a>）
 
 ## アカウント
 

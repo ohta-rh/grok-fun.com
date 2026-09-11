@@ -3,7 +3,7 @@ title: Imagine で 1 枚目を出すなら、何を、どこで、どんな絵�
 description: Imagine で絵を出すときは、何を（被写体）、どこで（場面）、どんな絵で（画風）、の 3 つを 1 文に書きます。日本語で通ります。画風の名前だけは英語のほうが安定します。何枚出せるかは、自分のプラン画面に書いてあります。
 order: 4
 product: imagine
-last_verified: "2026-09-08"
+last_verified: "2026-09-12"
 source_url:
   - https://grok.com
   - https://x.ai/news

@@ -3,7 +3,7 @@ title: 動画は、先に絵を出してから動きを一つ書く（Imagine）
 description: Imagine で動画を作るときは、いきなり動画にせず、先に静止画を出して、それに動きを一つだけ書き足します。動画はチャットより早く使える量が減ります。720p が 480p になるのは故障ではありません。
 order: 5
 product: imagine
-last_verified: "2026-09-09"
+last_verified: "2026-09-12"
 source_url:
   - https://grok.com/imagine
   - https://x.ai/news/grok-imagine-video-1-5
@@ -86,7 +86,7 @@ image_caption: 下の動画は、この静止画をもとに動かしたもの�
 
 - **透かしは消せません。** 生成した画像と動画には Grok の透かしが入ります。消したり隠したりすることは利用規約で禁じられています（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）
 - **720p が 480p になるのは故障ではありません。** その解像度の分を使い切ると落ちます。Usage を見てください
-- 1080p の動画は SuperGrok Plus からです（2026-09-08 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a>）
+- 1080p の動画は SuperGrok Plus からです（2026-09-12 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a>）
 - 無料と SuperGrok で何本出せるかは、時期で変わるのでこのページには書きません
 
 ## API は別

@@ -27,6 +27,6 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 
 1. Thicken existing TIPS. No new pages unless asked.
 2. **Before any figure:** open **grok-jp-infographic** and follow it. Required. Do not generate, raster, or replace a body figure with that file closed.
-3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Amounts shown on 2026-09-08: Free $0, SuperGrok $30, Plus $100.
+3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Amounts shown on 2026-09-12: Free $0, SuperGrok $30, Plus $100. Cursor Pro $20, Pro+ $60, Ultra $200. Screen Build is on every plan as of 2026-08-19; terminal grok is not the same thing.
 4. Write the LINE 3-liner first. Then add dates and numbers. If a sentence is English in Japanese clothes, rewrite the section — never search-replace one word.
 5. After the draft exists, read the **whole article** aloud, not the diff. Calque → rewrite that section from the 3-liner before touching figures. Then **grok-jp-ship**.
