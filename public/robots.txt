@@ -4,3 +4,4 @@ Allow: /
 Disallow: /api/
 
 Sitemap: https://grok-fun.com/sitemap-index.xml
+# TIPS の更新: https://grok-fun.com/rss.xml

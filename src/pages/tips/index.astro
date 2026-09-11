@@ -9,7 +9,7 @@ const tips = (await getCollection('tips')).sort((a, b) => b.data.order - a.data.
   <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'TIPS' }]} />
   <p class="card-head"><span class="tag">series</span> <span>{tips.length} 本</span></p>
   <h1>TIPS</h1>
-  <p class="lead">Grok を日本語で使うときの、短い実用メモです。新しいものから並べています。</p>
+  <p class="lead">Grok を日本語で使うときの、短い実用メモです。新しいものから並べています。更新は <a href="/rss.xml">RSS</a> でも受け取れます。</p>
   <ol class="tips-list">
     {tips.map((t) => (
       <li>

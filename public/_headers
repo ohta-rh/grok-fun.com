@@ -21,6 +21,10 @@
 /sitemap-0.xml
   Cache-Control: public, max-age=3600
 
+/rss.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/rss+xml; charset=utf-8
+
 /tips/vid-cat.mp4
   Cache-Control: public, max-age=86400
   Content-Type: video/mp4
