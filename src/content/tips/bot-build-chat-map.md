@@ -11,6 +11,7 @@ source_url:
   - https://docs.x.ai/grok-bot/get-started
   - https://grokguide.jp
 related:
+  - grok-bot-cloud-computer
   - japanese-fix
   - free-vs-supergrok
   - three-entrances
