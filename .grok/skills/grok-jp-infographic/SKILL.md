@@ -33,15 +33,16 @@ Live bar: https://grok-fun.com/tips/free-vs-supergrok/
 | Paper | Aged cream or lined notebook. Not white UI. Not beige cards |
 | Ink | Navy handwriting mixed with print |
 | Highlighter | Yellow on the one decision |
-| Language | Complete 音読 Japanese sentences. Product names English |
+| Language | Complete 音読 Japanese sentences. Product names English. Garbled kanji is a discard — never ship. Write only the strings you listed; extra invented Japanese is a discard |
 | Density | Every region is a judgment or a dated fact. No empty boxes |
 | Composition | Free. New subject → new layout |
+| Metaphor | No decoding required. No 出荷伝票 / 工場 / 経営. The judgment in plain Japanese |
 
 ## Method
 
 1. Write the LINE 3-liner for the figure. List every string that will appear, in 音読 Japanese.
 2. `image_edit` with the two billing JPGs as style refs. 16:9. Prompt the tone and the exact Japanese. Say the layout is new.
-3. Read the output file. Garbled kanji, invented numbers, 無制限, official-looking fake prices → discard and regenerate. Do not ship a figure you have not opened.
+3. Read the output file. Garbled kanji, extra invented Japanese, 出荷伝票-style metaphor, invented numbers, 無制限, official-looking fake prices → discard and regenerate. Do not ship a figure you have not opened. If a pass adds filler sentences, throw it away — do not crop around the garbage.
 4. Copy to `public/tips/fig-{name}.jpg`. Make `*-720.webp` (720×405) and `*-1280.webp` (1280×720). Wire `Infographic.astro` and `scripts/indexnow.mjs`.
 
 HTML→JPG only when Imagine would garble an exact paste (the 3-line Japanese-fix card). The HTML must still hit this tone. Kicker + heading + three empty boxes is not a figure.

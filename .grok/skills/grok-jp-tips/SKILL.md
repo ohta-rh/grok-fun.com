@@ -12,6 +12,8 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | Failure | Do this |
 |---|---|
 | Beige HTML cards, or a figure shipped without opening grok-jp-infographic | Open **grok-jp-infographic** first. Required. Imagine with the billing JPGs as tone refs |
+| Garbled Japanese in a figure | Discard. Regenerate. Never crop around the garbage |
+| 出荷伝票 / 工場 / 経営 as the lesson | Plain 音読 judgment. Bot は号令と検品、Build は制作 |
 | Metaphor still that needs “ノートがチャット” | Don't ship it |
 | “Heavy は金額が無いから公式ではない” | Heavy exists on x.ai/pricing comparison + Get Heavy. Amount ≠ existence |
 | Dump “わかりにくいので画面で確認” as the article | Write やりたいこと → 払う場所 first |

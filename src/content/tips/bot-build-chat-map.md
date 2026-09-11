@@ -12,7 +12,7 @@ source_url:
   - https://grokguide.jp
 related:
   - grok-bot-cloud-computer
-  - japanese-fix
+  - bot-uses-build
   - free-vs-supergrok
   - three-entrances
 image: /tips/bot-build-chat-map.jpg

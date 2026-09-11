@@ -17,10 +17,10 @@ source_url:
   - https://cursor.com/help/grok-bot/plans
   - https://x.ai/bot
 related:
+  - bot-uses-build
   - bot-build-chat-map
   - free-vs-supergrok
   - three-entrances
-  - japanese-fix
 image: /tips/grok-bot-cloud-computer.jpg
 image_alt: 紙に「チャットは会話が終わる。Grok Bot はコンピュータを持つ。」と大きく書いてある
 image_caption: チャットは会話が終われば終わりです。Grok Bot はクラウドにコンピュータを持ちます。
