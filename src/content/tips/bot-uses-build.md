@@ -1,6 +1,6 @@
 ---
 title: Grok Bot に全部やらせない。重い仕事は grok に渡す
-description: Grok Bot に調査も絵も全部頼むと、会話の残りがすぐ減ります。Bot のコンピュータに Grok Build を入れて、そっちに渡してください。出てきたものは、Bot が読んでから使います。
+description: SuperGrok の人向けです。とくに Heavy。Bot に調査も絵も全部頼むと会話の残りがすぐ減るので、コンピュータの grok に渡してください。出てきたものは読んでから使います。
 order: 8
 product: bot
 last_verified: "2026-09-12"
@@ -24,7 +24,9 @@ image_caption: 調査も Imagine も、Bot のコンピュータに入れた gro
 
 Grok Bot に長い調査を頼むと、会話が長くなります。Imagine で絵も出させて、下書きも書かせると、もっと長くなります。使える量は、その会話から減っていきます。ノートを閉じても仕事は続きます。続きがあるのに、残りだけ先に尽きます。
 
-チャットと Bot と Build は、別の道具です。分け方は <a href="/tips/bot-build-chat-map/">3 つは別</a> に書きました。
+この書き方は、**SuperGrok に入っている人向け**です。とくに Heavy で、調査も Imagine も長い仕事を Bot の会話に全部載せている人です。チャットだけで足りる人は、やらなくて大丈夫です。
+
+チャットと Bot と Build は、別の道具です。分け方は <a href="/tips/bot-build-chat-map/">3 つは別</a> に書きました。プランの話は <a href="/tips/free-vs-supergrok/">払う場所は 4 つ</a> です。
 
 ## 何を分けるか
 
