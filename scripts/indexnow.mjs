@@ -26,6 +26,7 @@ const FIG_TO_SLUG = {
   'fig-imagine-video': 'imagine-video',
   'fig-jp-paste': 'japanese-fix',
   'fig-bot-uses-build': 'bot-uses-build',
+  'fig-bot-uses-build-arch': 'bot-uses-build',
   'vid-cat': 'imagine-video',
   'vid-lantern': 'imagine-video',
 };

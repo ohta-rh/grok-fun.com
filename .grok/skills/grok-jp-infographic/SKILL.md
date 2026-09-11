@@ -51,4 +51,4 @@ OGP (`public/tips/{slug}.jpg`) may be a one-line judgment card. Body figures may
 
 ## Counts
 
-One body figure per TIPS. Exceptions: billing (choose + stairs) and Grok Bot (judgment + architecture). If you drop a figure, move its facts into the article in the same commit.
+One body figure per TIPS. Exceptions: billing (choose + stairs), Grok Bot (judgment + architecture), and Bot-runs-Build (judgment + architecture). If you drop a figure, move its facts into the article in the same commit. Figure Japanese is the same 音読 bar as the article. Telegram titles that need decoding are a discard.

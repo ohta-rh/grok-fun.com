@@ -18,6 +18,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | “Heavy は金額が無いから公式ではない” | Heavy exists on x.ai/pricing comparison + Get Heavy. Amount ≠ existence |
 | Dump “わかりにくいので画面で確認” as the article | Write やりたいこと → 払う場所 first |
 | English FAQ copied into Japanese word order | Rewrite the whole paragraph from a 3-line LINE message. Do not swap one noun |
+| 直訳の骨格が残る（A は B を持つ / A を B と数えない / 公式が推奨しているとは書いていない / X する側は Y だけ） | Throw the section away. LINE 3-liner, then dates. Noun-swap is the same defect |
 | Invented 無制限, 2024, Lite $10 as current card | Only dated primary-source numbers |
 | Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
 | Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. First column is the row heading; remaining cells stack to the right. Do not squeeze columns or rely on horizontal scroll |
@@ -28,4 +29,4 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 2. **Before any figure:** open **grok-jp-infographic** and follow it. Required. Do not generate, raster, or replace a body figure with that file closed.
 3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Amounts shown on 2026-09-08: Free $0, SuperGrok $30, Plus $100.
 4. Write the LINE 3-liner first. Then add dates and numbers. If a sentence is English in Japanese clothes, rewrite the section — never search-replace one word.
-5. Before ship: read the whole article aloud, not the diff. Then **grok-jp-ship**.
+5. After the draft exists, read the **whole article** aloud, not the diff. Calque → rewrite that section from the 3-liner before touching figures. Then **grok-jp-ship**.
