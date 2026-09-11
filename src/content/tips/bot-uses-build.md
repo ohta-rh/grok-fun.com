@@ -1,6 +1,6 @@
 ---
-title: Grok Bot に全部やらせない。重い仕事は grok に渡す
-description: SuperGrok の人向けです。とくに Heavy。Bot に調査も絵も全部頼むと会話の残りがすぐ減るので、コンピュータの grok に渡してください。出てきたものは読んでから使います。
+title: Grok Bot に全部やらせない。重い仕事は Grok Build に渡す
+description: SuperGrok の人向けです。とくに Heavy。Bot に調査も絵も全部頼むと会話の残りがすぐ減るので、コンピュータの Grok Build に渡してください。出てきたものは読んでから使います。
 order: 8
 product: bot
 last_verified: "2026-09-12"
@@ -16,8 +16,8 @@ related:
   - free-vs-supergrok
   - imagine-quickstart
 image: /tips/bot-uses-build.jpg
-image_alt: 紙に「重い仕事は grok に渡す。」と大きく書いてある
-image_caption: 調査も Imagine も、Bot のコンピュータに入れた grok に渡します。出てきたものは、そのまま使いません。
+image_alt: 紙に「重い仕事は Grok Build に渡す。」と大きく書いてある
+image_caption: 調査も Imagine も、Bot のコンピュータに入れた Grok Build に渡します。出てきたものは、そのまま使いません。
 ---
 
 ## 困ること
@@ -30,7 +30,7 @@ Grok Bot に長い調査を頼むと、会話が長くなります。Imagine で
 
 ## 何を分けるか
 
-Bot には「やってください」「これを通していいですか」だけ頼みます。調べること、絵を出すこと、ファイルを触ることは、Bot のコンピュータに入れた grok にやらせます。
+Bot には「やってください」「これを通していいですか」だけ頼みます。調べること、絵を出すこと、ファイルを触ることは、Bot のコンピュータに入れた Grok Build にやらせます。コマンドは grok です。
 
 公式が「そう使え」と書いてあるわけではありません。書いてあるのは、Bot のコンピュータにターミナルがあることと、grok の入れ方です。
 
