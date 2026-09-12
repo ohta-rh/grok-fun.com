@@ -4,8 +4,16 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 
 const tips = (await getCollection('tips')).sort((a, b) => b.data.order - a.data.order);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ホーム', item: 'https://grok-fun.com/' },
+    { '@type': 'ListItem', position: 2, name: 'TIPS', item: 'https://grok-fun.com/tips/' },
+  ],
+};
 ---
-<Base title="TIPS" description="Grok を日本語で使うときの TIPS です。実際に試して、日付と一次情報のリンクを付けています。数は少なく、戻ってきたときにここだけで足りるようにしています。">
+<Base title="TIPS" description="Grok を日本語で使うときの TIPS です。実際に試して、日付と一次情報のリンクを付けています。数は少なく、戻ってきたときにここだけで足りるようにしています。" jsonLd={jsonLd}>
   <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'TIPS' }]} />
   <p class="card-head"><span class="tag">series</span> <span>{tips.length} 本</span></p>
   <h1>TIPS</h1>
