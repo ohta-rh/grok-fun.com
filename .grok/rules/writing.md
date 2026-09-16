@@ -7,7 +7,7 @@
 必須 frontmatter:
 
 - `title` 60 字以内。検索語ではなく、読んだあとに残る判断
-- `description` 160 字以内。meta に出る。結論を先に
+- `description` 150〜160 字。meta に出る。結論を先に。短いと検索結果に出ても中身が分からない
 - `order` `product` `last_verified`（YYYY-MM-DD）
 - `source_url` 一次情報。料金・制限・発表は 1 本以上
 - `related` 最大 4。自分自身は不可。無い slug はビルド失敗

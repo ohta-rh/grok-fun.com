@@ -1,6 +1,6 @@
 ---
 title: Grok は grok.com、公式アプリ、X の 3 か所から使える
-description: Grok は grok.com、公式アプリ、X の中の 3 か所から使えます。同じ Grok でも、入る場所によって出てくるメニューが違います。無いと思ったら、別の入口を開いてみてください。似た名前の偽アプリには気をつけて。
+description: Grok は grok.com、公式アプリ、X の中の 3 か所から使えます。同じ Grok でも、入る場所によって出てくるメニューが違います。無いと思ったら設定より先に、別の入口を開いてください。X Premium に入っても grok.com は別です。入れるアプリは、開発元が xAI かを見てください。
 order: 2
 product: chat
 last_verified: "2026-09-12"

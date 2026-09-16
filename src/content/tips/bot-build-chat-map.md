@@ -1,6 +1,6 @@
 ---
 title: チャット、Grok Bot、Grok Build は別の道具
-description: Grok の名前が付いたものは、チャット、Grok Bot、Grok Build の 3 つあって、それぞれ別の道具です。質問したいだけならチャットで足ります。Bot は仕事を任せる別のアプリです。Build はターミナルと、画面の中とで場所が違います。
+description: Grok の名前が付いたものは、チャット、Grok Bot、Grok Build の 3 つあって、それぞれ別の道具です。質問したいだけならチャットで足ります。Bot は仕事を任せる別のアプリです。Build はターミナルと、画面の中とで場所が違います。混ぜて検索すると、どれを開けばいいか分かりません。
 order: 6
 product: series
 last_verified: "2026-09-12"

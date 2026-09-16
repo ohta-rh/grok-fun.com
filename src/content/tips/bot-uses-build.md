@@ -1,6 +1,6 @@
 ---
 title: Grok Bot に全部やらせない。重い仕事は Grok Build に渡す
-description: SuperGrok の人向けです。とくに Heavy。Bot に調査も絵も全部頼むと会話の残りがすぐ減るので、コンピュータの Grok Build に渡してください。出てきたものは読んでから使います。
+description: SuperGrok の人向けです。とくに Heavy。Bot に調査も絵も全部頼むと会話の残りがすぐ減るので、コンピュータの Grok Build に渡してください。Bot には「やってください」だけ頼みます。出てきたものは読んでから使います。チャットだけで足りる人は、この手順はやらなくて大丈夫です。
 order: 8
 product: bot
 last_verified: "2026-09-12"
