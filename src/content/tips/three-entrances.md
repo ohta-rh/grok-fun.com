@@ -3,7 +3,7 @@ title: Grok は grok.com、公式アプリ、X の 3 か所から使える
 description: Grok は grok.com、公式アプリ、X の中の 3 か所から使えます。同じ Grok でも、入る場所によって出てくるメニューが違います。無いと思ったら設定より先に、別の入口を開いてください。X Premium に入っても grok.com は別です。入れるアプリは、開発元が xAI かを見てください。
 order: 2
 product: chat
-last_verified: "2026-09-12"
+last_verified: "2026-09-17"
 source_url:
   - https://grok.com
   - https://x.ai/grok
@@ -51,7 +51,7 @@ Web は **grok.com** を使います。公式の FAQ によると、grok.x.ai �
 
 ファイルを貼るなら grok.com か公式アプリです。FAQ では、Web はだいたい 100 個まで、1 ファイル 150 MB までとあります。数字は変わるので、画面に出るエラーのほうを信じてください。
 
-X の中の Grok には、公開している投稿や Grok との会話が学習に使われる設定があります。使われたくないときは、X の「プライバシーと安全 → データ共有とパーソナライズ → Grok」で外せます（<a href="https://help.x.com/en/using-x/about-grok" rel="external">X の解説</a>）。grok.com 側の学習の設定とは別です。
+X の中の Grok には、公開している投稿や Grok との会話が学習に使われる設定があります。使われたくないときは、X の設定のプライバシーから外します。画面の名前は時期で変わるので、<a href="https://help.x.com/en/using-x/about-grok" rel="external">X の解説</a>を見てください。grok.com 側の学習の設定とは別です。
 
 ## 払う場所も入口ごとに別
 

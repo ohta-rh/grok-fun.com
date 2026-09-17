@@ -3,10 +3,11 @@ title: Grok Bot に全部やらせない。重い仕事は Grok Build に渡す
 description: SuperGrok の人向けです。とくに Heavy。Bot に調査も絵も全部頼むと会話の残りがすぐ減るので、コンピュータの Grok Build に渡してください。Bot には「やってください」だけ頼みます。出てきたものは読んでから使います。チャットだけで足りる人は、この手順はやらなくて大丈夫です。
 order: 8
 product: bot
-last_verified: "2026-09-12"
+last_verified: "2026-09-17"
 source_url:
   - https://docs.x.ai/grok-bot/computer-and-apps
   - https://x.ai/news/grok-build-cli
+  - https://x.ai/news/grok-build-memory
   - https://docs.x.ai/grok-bot/skills-routines-and-automations
   - https://docs.x.ai/grok-bot/faq
   - https://x.ai/news/introducing-grok-bot
@@ -57,6 +58,8 @@ grok
 ```
 
 入り方は、grok.com のアカウントか、API キーです。Bot の会話の残りとは別に減ります。どっちが減るかは、どちらで入ったかで決まります。払う場所は <a href="/tips/free-vs-supergrok/">4 つ</a> あります。
+
+2026-09-16 の発表で、ターミナルの grok は次のセッションでもプロジェクトの決まりごとを読む、とあります。新しいセッションから効きます。それでも、出てきたものは読んでから使います。Skill に書いたやり方の代わりにはなりません。
 
 公式は、手で入れたものは、コンピュータを更新すると消えることがある、と書いています。残したい成果は `/workspace` に置きます。消えたら、入れ直します。
 

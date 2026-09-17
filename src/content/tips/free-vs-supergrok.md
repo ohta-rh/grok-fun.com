@@ -3,7 +3,7 @@ title: Grok の有料は 1 つじゃない。やりたいことで払う場所�
 description: Grok の有料は 1 つではありません。チャットと Imagine なら grok.com の SuperGrok、X の中だけなら X Premium、Grok Bot だけなら Cursor、アプリから呼ぶなら API と、やりたいことで払う場所が変わります。X で払っても grok.com は無料のままです。
 order: 3
 product: chat
-last_verified: "2026-09-12"
+last_verified: "2026-09-17"
 source_url:
   - https://x.ai/pricing
   - https://docs.x.ai/grok/faq
@@ -48,7 +48,7 @@ X Premium に入っても、grok.com は無料のままです。故障ではな�
   <figcaption>Heavy はいちばん上にあります。月額は料金ページの先頭に出ていないので、契約する画面で見ます。</figcaption>
 </figure>
 
-<a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> を 2026-09-12 に開くと、個人向けの値段は 3 つ並んでいます。同じページの比較表には、そのほかに **Lite** と **Heavy** と **Business** の列もあります。Business の月額は先頭に出ていません。会社向けで、金額は契約する画面で見てください。
+<a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> を 2026-09-17 に開くと、個人向けの値段は 3 つ並んでいます。同じページの比較表には、そのほかに **Lite** と **Heavy** と **Business** の列もあります。Business の月額は先頭に出ていません。会社向けで、金額は契約する画面で見てください。
 
 <div class="table-scroll">
 
@@ -66,7 +66,7 @@ X Premium に入っても、grok.com は無料のままです。故障ではな�
 
 ## SuperGrok Heavy はある
 
-「値段が出ていないから Heavy は無い」と書くのは間違いです。2026-09-12 の公式に、次のことが書いてあります。
+「値段が出ていないから Heavy は無い」と書くのは間違いです。2026-09-17 の公式に、次のことが書いてあります。
 
 - <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の比較表に **SuperGrok Heavy** の列がある
 - 同じページに **Get Heavy** のボタンがある。押すと grok.com の契約画面に行く
@@ -129,15 +129,15 @@ X の中の Grok は X のプランで動きます。grok.com は SuperGrok の�
 
 <a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26 の発表</a>では、Grok Bot は SuperGrok、Plus、Heavy と、Cursor の Pro、Pro+、Ultra、Teams に含まれる、とあります。Bot の使用量は Grok や Cursor で使える量とは別に数える、とも書いてあります。
 
-<a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-09-12）の個人向けは、Pro が月 <span class="num">$20</span>、Pro+ が月 <span class="num">$60</span>、Ultra が月 <span class="num">$200</span> です。Pro から **Grok Bot access** と書いてあります。Pro+ と Ultra は Bot の使える量が増えます。無料の Hobby には Grok Bot の記載がありません。
+<a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-09-17）の個人向けは、Pro が月 <span class="num">$20</span>、Pro+ が月 <span class="num">$60</span>、Ultra が月 <span class="num">$200</span> です。Pro から **Grok Bot access** と書いてあります。Pro+ と Ultra は Bot の使える量が増えます。無料の Hobby には Grok Bot の記載がありません。
 
-公式の書き方は揃っていません。2026-09-12 の料金ページの SuperGrok（$30）にも Grok Bot access とあります。同じ日の<a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a>は Plus、Heavy と、Cursor の Pro+ 以上だけです。**自分のプランで Bot が使えるかは、契約する画面で確かめてください。**
+公式の書き方は揃っていません。2026-09-17 の料金ページの SuperGrok（$30）にも Grok Bot access とあります。同じ日の<a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a>は Plus、Heavy と、Cursor の Pro+ 以上だけです。**自分のプランで Bot が使えるかは、契約する画面で確かめてください。**
 
 Grok Bot だけが目的で、もう Cursor を使っているなら、Cursor の個人向け Pro（確認した時点で <span class="num">$20</span>）のほうが SuperGrok（$30）より安くすみます。ただし grok.com で使える量も、API のクレジットも付いてきません。
 
 ## API は別に払う
 
-<a href="https://console.x.ai" rel="external">console.x.ai</a> は、使ったトークンの分だけ払います。<a href="https://docs.x.ai/docs/models" rel="external">公式のモデル表</a>（2026-09-12）では、grok-4.6 は 100 万トークンあたり次の値段です。1 回のプロンプトが 20 万トークンに達すると、その回は全部が右の単価になります。
+<a href="https://console.x.ai" rel="external">console.x.ai</a> は、使ったトークンの分だけ払います。<a href="https://docs.x.ai/docs/models" rel="external">公式のモデル表</a>（2026-09-17）では、grok-4.6 は 100 万トークンあたり次の値段です。1 回のプロンプトが 20 万トークンに達すると、その回は全部が右の単価になります。
 
 <div class="table-scroll">
 

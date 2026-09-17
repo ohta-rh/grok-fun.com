@@ -3,12 +3,13 @@ title: チャット、Grok Bot、Grok Build は別の道具
 description: Grok の名前が付いたものは、チャット、Grok Bot、Grok Build の 3 つあって、それぞれ別の道具です。質問したいだけならチャットで足ります。Bot は仕事を任せる別のアプリです。Build はターミナルと、画面の中とで場所が違います。混ぜて検索すると、どれを開けばいいか分かりません。
 order: 6
 product: series
-last_verified: "2026-09-12"
+last_verified: "2026-09-17"
 source_url:
   - https://x.ai/news/grok-build-cli
   - https://x.ai/news/grok-bot-more-plans
   - https://x.ai/news/grok-build-mode
   - https://x.ai/news/grok-build-for-everyone
+  - https://x.ai/news/grok-build-memory
   - https://docs.x.ai/grok-bot/get-started
   - https://grokguide.jp
 related:
@@ -58,7 +59,7 @@ FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だ
 やらないこと: ○○（例: 文体を変えない。英語で答えない）
 ```
 
-対象のプランは、公式の中で書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-12 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあります。同じ日の導入ページは Plus、Heavy と、Cursor の Pro+ 以上だけです。Cursor の個人向け Pro は月 $20 で Grok Bot access とあります。**自分のプランで使えるかは、契約する画面で確かめてください。** Bot の使用量は、Grok や Cursor で使える量とは別に数えます。grok.com のチャットや Imagine の使える量は増えません（<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
+対象のプランは、公式の中で書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあります。同じ日の導入ページは Plus、Heavy と、Cursor の Pro+ 以上だけです。Cursor の個人向け Pro は月 $20 で Grok Bot access とあります。**自分のプランで使えるかは、契約する画面で確かめてください。** Bot の使用量は、Grok や Cursor で使える量とは別に数えます。grok.com のチャットや Imagine の使える量は増えません（<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
 
 Bot 用のプロンプトは、<a href="https://grokguide.jp" rel="external">grokguide.jp</a> にたくさんまとまっています。このサイトでは Bot のプロンプト集は作りません。作り方の形と、日本語で使うときの注意だけを書いています。
 
@@ -74,6 +75,8 @@ grok
 ```
 
 Windows は PowerShell で `irm https://x.ai/cli/install.ps1 | iex` です。最初に起動するとブラウザが開いて、grok.com のアカウントでサインインします。チャットで「コードを書いて」と頼むのと違い、ファイルを直接書き換えます。触ってよいフォルダの中で動かしてください。
+
+2026-09-16 の発表で、ターミナルの grok はプロジェクトの決まりごとを次のセッションでも読む、とあります。新しいセッションを開いてから効きます。メモに書いてあっても、今の会話で別のことを言えば、今の会話のほうが使われます。
 
 **画面の中の Build** は、grok.com と公式アプリの会話の中で、サイトやアプリを作る機能です。2026-07-28 の発表時点では SuperGrok Heavy 向けの試験機能でした。<a href="https://x.ai/news/grok-build-for-everyone" rel="external">2026-08-19 の発表</a>では、全プランの Web とスマホに出たとあります。ターミナルの grok とは別です。
 

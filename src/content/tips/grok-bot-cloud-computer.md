@@ -3,7 +3,7 @@ title: Grok Bot はチャットの続きではない。クラウドにコンピ�
 description: Grok Bot は、クラウドに自分用のコンピュータを持つ別のアプリです。同じアカウントの Bot は 1 台を共有します。ノートを閉じても仕事は続きます。チャットの前置きを保存するものではありません。入れる場所は x.ai/bot で、サインインは Cursor のアカウントです。ホストは Cursor です。
 order: 7
 product: bot
-last_verified: "2026-09-12"
+last_verified: "2026-09-17"
 source_url:
   - https://x.ai/news/introducing-grok-bot
   - https://x.ai/news/grok-bot-more-plans
@@ -138,7 +138,7 @@ Grok Bot はクラウドにデータを置く前提です。Cursor の Legacy Pr
 
 ## プランと使用量
 
-2026-09-12 に開いた公式は、対象の書き方が揃っていません。**自分のプランで使えるかは、契約する画面で確かめてください。**
+2026-09-17 に開いた公式は、対象の書き方が揃っていません。**自分のプランで使えるかは、契約する画面で確かめてください。**
 
 <div class="table-scroll">
 
@@ -146,7 +146,7 @@ Grok Bot はクラウドにデータを置く前提です。Cursor の Legacy Pr
 |---|---|
 | 2026-08-11 の発表 | SuperGrok、Plus、Heavy。Cursor の Pro、Pro+、Ultra。Teams の Standard と Premium |
 | 2026-08-26 の発表 | SuperGrok と Cursor Pro と、Teams の全部 |
-| 2026-09-12 の料金 | SuperGrok（$30）に Grok Bot access とある |
+| 2026-09-17 の料金 | SuperGrok（$30）に Grok Bot access とある |
 | 導入ページ | Plus、Heavy。Cursor の Pro+、Ultra。Teams の Standard か Premium |
 | Cursor の案内 | 個人の有料 Cursor 全部。個人の SuperGrok、Plus、Heavy。X Premium+。Lite は対象外 |
 
@@ -154,7 +154,7 @@ Grok Bot はクラウドにデータを置く前提です。Cursor の Legacy Pr
 
 Cursor の案内では、個人の SuperGrok や X Premium+ は、Grok Bot の画面から **リンク**します。Cursor のプランが変わるわけではありません。すでに Cursor の有料に入っているときは、リンクしても使用量は足されません。FAQ は、Cursor と SuperGrok の両方があるときは、多いほうを使う、と書いています。足し算ではありません。
 
-使用量は 1 週間ごとです。macOS と iPhone は、同じ Cursor アカウントなら同じ残りです。使い切ったあとは、Cursor 側の On-demand が付いていれば続きます。付いていなければ、リセットまで止まります。無料の試用は日数ではなく、使った分のクレジットです。長い仕事 1 回で尽きることがあります。戻ってきません。
+使用量は 1 週間ごとです。macOS と iPhone は、同じ Cursor アカウントなら同じ残りです。使い切ったあとは、Cursor 側の On-demand が付いていれば続きます。付いていなければ、リセットまで止まります。無料の試用は、使った分のクレジットです。Cursor の案内には、7 日の期限も付く、とあります。長い仕事 1 回で尽きることがあります。戻ってきません。
 
 Grok Bot だけが目的で、もう Cursor を使っているなら、Cursor の個人向け Pro のほうが SuperGrok より安くすむことがあります。ただし grok.com で使える量も、API のクレジットも付いてきません（<a href="/tips/free-vs-supergrok/">払う場所は 4 つ</a>）。
 
