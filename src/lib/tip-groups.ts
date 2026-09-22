@@ -21,6 +21,15 @@ export const CHAT_READING_ORDER = [
   'japanese-fix',
 ] as const;
 
+/** One line for the home map. The full titles live on /tips/. */
+export const GROUP_BLURB: Record<string, string> = {
+  chat: '入口、払い方、チャットで選ぶ Heavy と Expert mode。',
+  imagine: '1 枚目の出し方と、動画にする順番。',
+  bot: 'クラウドのコンピュータと、重い仕事の渡し方。',
+  automations: '決めた時刻に、チャットの仕事を走らせる。',
+  series: 'チャット、Grok Bot、Grok Build は別の道具。',
+};
+
 export const CHAT_BLURB: Record<string, string> = {
   'three-entrances': 'どこから入るか',
   'free-vs-supergrok': '無料で足りるか、払うか',

@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import { groupTips } from '../lib/tip-groups';
+import { GROUP_BLURB, groupTips } from '../lib/tip-groups';
 
 const groups = groupTips(await getCollection('tips'));
 const latestNews = (await getCollection('news')).sort((a, b) => b.data.published.localeCompare(a.data.published))[0];
@@ -64,25 +64,19 @@ const jsonLd = {
   </ul>
 
   <h2>TIPS</h2>
-  {groups.map((g) => (
-    <section>
-      <h3>
-        {g.product === 'chat'
-          ? <a href="/tips/chat/">{g.label}</a>
-          : g.label}（{g.items.length} 本）
-      </h3>
-      <ol class="tips-list">
-        {g.items.map((t) => (
-          <li>
-            <span class="num">TIPS {String(t.data.order).padStart(2, '0')}</span><br />
-            <a href={`/tips/${t.id}/`}>{t.data.title}</a>
-            <p>{t.data.description}</p>
-            <p class="meta">最終確認 <time datetime={t.data.last_verified}>{t.data.last_verified}</time></p>
-          </li>
-        ))}
-      </ol>
-    </section>
-  ))}
+  <p>上は、最初に読む 5 本です。製品ごとのタイトルと、最後に確かめた日は、<a href="/tips/">TIPS の一覧</a>に全部あります。</p>
+  <ul class="read-paths">
+    {groups.map((g) => (
+      <li>
+        {g.product === 'chat' ? (
+          <a href="/tips/chat/">{g.label}（{g.items.length} 本）</a>
+        ) : (
+          <strong>{g.label}（{g.items.length} 本）</strong>
+        )}
+        <p>{GROUP_BLURB[g.product]}</p>
+      </li>
+    ))}
+  </ul>
 
   <h2>このサイトの約束</h2>
   <ul>

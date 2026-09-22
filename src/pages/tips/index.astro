@@ -18,7 +18,7 @@ const jsonLd = {
   <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'TIPS' }]} />
   <p class="card-head"><span class="tag">series</span> <span>{groups.reduce((n, g) => n + g.items.length, 0)} 本</span></p>
   <h1>TIPS</h1>
-  <p class="lead">Grok を日本語で使うときの、短い実用メモです。製品ごとにまとめています。更新は <a href="/rss.xml">RSS</a> でも受け取れます。</p>
+  <p class="lead">ここが全部の一覧です。ホームは、最初に読む 5 本だけを置いています。更新は <a href="/rss.xml">RSS</a> でも受け取れます。</p>
   {groups.map((g) => (
     <section>
       <h2>
