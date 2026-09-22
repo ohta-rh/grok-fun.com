@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import StaleBanner from '../../components/StaleBanner.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import RelatedTips from '../../components/RelatedTips.astro';
+import SameProductTips from '../../components/SameProductTips.astro';
 import ReactionBar from '../../components/ReactionBar.astro';
 import CommentList from '../../components/CommentList.astro';
 import Infographic from '../../components/Infographic.astro';
@@ -21,14 +22,17 @@ export async function getStaticPaths() {
     const related = entry.data.related
       .map((id) => byId.get(id))
       .filter((t): t is CollectionEntry<'tips'> => t !== undefined);
+    const sameProduct = tips
+      .filter((t) => t.data.product === entry.data.product && t.id !== entry.id)
+      .sort((a, b) => a.data.order - b.data.order);
     return {
       params: { slug: entry.id },
-      props: { entry, prev: tips[i - 1] ?? null, next: tips[i + 1] ?? null, related },
+      props: { entry, prev: tips[i - 1] ?? null, next: tips[i + 1] ?? null, related, sameProduct },
     };
   });
 }
 
-const { entry, prev, next, related } = Astro.props;
+const { entry, prev, next, related, sameProduct } = Astro.props;
 const { Content, headings } = await render(entry);
 const toc = headings.filter((h) => h.depth === 2);
 const url = `https://grok-fun.com/tips/${entry.id}/`;
@@ -115,6 +119,7 @@ const jsonLd = {
       <p>{entry.data.last_verified} に確かめました。料金や制限や画面は変わります。数字は公式ページで確かめてください。</p>
     </aside>
     <RelatedTips related={related} />
+    <SameProductTips tips={sameProduct} product={entry.data.product} />
     <ReactionBar />
     <CommentList />
   </article>

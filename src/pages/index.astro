@@ -1,9 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
+import { groupTips } from '../lib/tip-groups';
 
-const tips = (await getCollection('tips')).sort((a, b) => b.data.order - a.data.order);
-const news = (await getCollection('news')).sort((a, b) => b.data.published.localeCompare(a.data.published));
+const groups = groupTips(await getCollection('tips'));
+const latestNews = (await getCollection('news')).sort((a, b) => b.data.published.localeCompare(a.data.published))[0];
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -25,17 +26,15 @@ const jsonLd = {
   <p class="lead">Grok を日本語で使うときに困ること、公式ページを読んでも分からないことを、実際に試してから、日付と一次情報のリンクを付けて書いています。記事の数は増やしません。しばらくぶりに戻ってきたとき、ここを見れば足りる状態にしておきます。</p>
   <p>このサイトは <strong>xAI とは関係のない、ファンの非公式サイト</strong>です。公式のロゴは使っていません。料金や制限は変わるので、数字は<a href="https://x.ai/grok">公式ページ</a>で確かめてください。</p>
 
-  {news.length > 0 && (
+  {latestNews && (
     <>
-      <h2>ニュース</h2>
+      <h2>最新ニュース</h2>
       <ol class="tips-list">
-        {news.map((n) => (
-          <li>
-            <span class="num">{n.data.published}</span><br />
-            <a href={`/news/${n.id}/`}>{n.data.title}</a>
-            <p>{n.data.description}</p>
-          </li>
-        ))}
+        <li>
+          <span class="num">{latestNews.data.published}</span><br />
+          <a href={`/news/${latestNews.id}/`}>{latestNews.data.title}</a>
+          <p>{latestNews.data.description}</p>
+        </li>
       </ol>
     </>
   )}
@@ -65,16 +64,25 @@ const jsonLd = {
   </ul>
 
   <h2>TIPS</h2>
-  <ol class="tips-list">
-    {tips.map((t) => (
-      <li>
-        <span class="num">TIPS {String(t.data.order).padStart(2, '0')} · {t.data.product}</span><br />
-        <a href={`/tips/${t.id}/`}>{t.data.title}</a>
-        <p>{t.data.description}</p>
-        <p class="meta">最終確認 <time datetime={t.data.last_verified}>{t.data.last_verified}</time></p>
-      </li>
-    ))}
-  </ol>
+  {groups.map((g) => (
+    <section>
+      <h3>
+        {g.product === 'chat'
+          ? <a href="/tips/chat/">{g.label}</a>
+          : g.label}（{g.items.length} 本）
+      </h3>
+      <ol class="tips-list">
+        {g.items.map((t) => (
+          <li>
+            <span class="num">TIPS {String(t.data.order).padStart(2, '0')}</span><br />
+            <a href={`/tips/${t.id}/`}>{t.data.title}</a>
+            <p>{t.data.description}</p>
+            <p class="meta">最終確認 <time datetime={t.data.last_verified}>{t.data.last_verified}</time></p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))}
 
   <h2>このサイトの約束</h2>
   <ul>

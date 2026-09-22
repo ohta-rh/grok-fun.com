@@ -84,7 +84,15 @@ public/_headers  public/favicon.svg  public/robots.txt  public/og-default.png(�
 
 **作らない:** 7 製品の空ハブ、製品地図の表、news の自動取り込み、コメント / リアクション（次のスライス）。
 
-## フェーズ 1b: コンテンツ骨格（旧フェーズ 1。TIPS が溜まってから）
+## フェーズ 1b: コンテンツ骨格（2026-09-22 に、TIPS 10 本で一部だけ発動）
+
+Fable の計画は `fable-tips-10-plan.md`。既存のパーマリンクは変えていない。増えた URL は `/tips/chat/` だけ。
+
+やったこと: チャットの一覧、`/tips/` とホームの TIPS を製品別の見出しにした。ホームのニュースは最新 1 本。各 TIPS の末尾に、同じ product のほかの TIPS。series は bot の本数に数えない。
+
+まだやらない: imagine / bot / automations / build / voice / api の一覧（3 本未満か 0 本）、`/pricing/`、料金 changelog、getting-started、7 製品の表、`/models/`、`/news/2026/`、ニュースの自動取り込み。次に 3 本へ届いた製品は、`/tips/chat/` と同じ形で `/tips/<product>/` を足す。
+
+## フェーズ 1b の当時の手順（2026-09-08。上の状態で置き換え済み）
 
 ### 手順
 

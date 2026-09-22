@@ -1,0 +1,25 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  tips: CollectionEntry<'tips'>[];
+  product: string;
+}
+
+const { tips, product } = Astro.props;
+---
+{tips.length > 0 && (
+  <nav class="related" aria-labelledby="same-product-heading">
+    <h2 id="same-product-heading">同じ製品のほかの TIPS</h2>
+    <ul>
+      {tips.map((t) => (
+        <li>
+          <a href={`/tips/${t.id}/`}>{t.data.title}</a>
+        </li>
+      ))}
+    </ul>
+    {product === 'chat' && (
+      <p><a href="/tips/chat/">チャットの TIPS 一覧へ</a></p>
+    )}
+  </nav>
+)}

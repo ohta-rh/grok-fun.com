@@ -134,6 +134,14 @@ export function filesToUrls(files) {
       urls.add(`${SITE}/tips/`);
       continue;
     }
+    if (f === 'src/pages/tips/chat/index.astro') {
+      urls.add(`${SITE}/tips/chat/`);
+      continue;
+    }
+    if (f === 'src/pages/tips/[slug].astro') {
+      for (const s of slugs) urls.add(`${SITE}/tips/${s}/`);
+      continue;
+    }
     if (f.startsWith('src/content/news/') && f.endsWith('.md')) {
       urls.add(`${SITE}/news/${f.slice('src/content/news/'.length, -3)}/`);
       continue;

@@ -1,0 +1,49 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import StaleBanner from '../../../components/StaleBanner.astro';
+import { getCollection } from 'astro:content';
+import { CHAT_BLURB, CHAT_READING_ORDER } from '../../../lib/tip-groups';
+
+const tips = (await getCollection('tips')).filter((t) => t.data.product === 'chat');
+tips.sort((a, b) => {
+  const ia = CHAT_READING_ORDER.indexOf(a.id as (typeof CHAT_READING_ORDER)[number]);
+  const ib = CHAT_READING_ORDER.indexOf(b.id as (typeof CHAT_READING_ORDER)[number]);
+  return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+});
+const lastVerified = tips.map((t) => t.data.last_verified).sort().at(-1) ?? '2026-09-22';
+const description = 'Grok のチャットを使う人向けの TIPS をまとめた一覧です。入口、払う場所、Expert と Heavy、英語で返ったときの直し方を、この順で読めます。Imagine と Bot は、TIPS の一覧にあります。';
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ホーム', item: 'https://grok-fun.com/' },
+    { '@type': 'ListItem', position: 2, name: 'TIPS', item: 'https://grok-fun.com/tips/' },
+    { '@type': 'ListItem', position: 3, name: 'チャット', item: 'https://grok-fun.com/tips/chat/' },
+  ],
+};
+---
+<Base title="チャットの TIPS" description={description} jsonLd={jsonLd}>
+  <Breadcrumbs items={[
+    { href: '/', label: 'ホーム' },
+    { href: '/tips/', label: 'TIPS' },
+    { label: 'チャット' },
+  ]} />
+  <p class="card-head">
+    <span class="tag">chat</span>
+    <span>最終確認 <time datetime={lastVerified}>{lastVerified}</time></span>
+  </p>
+  <h1>チャットの TIPS</h1>
+  <p class="lead">Grok のチャットを使う人向けの TIPS をまとめた一覧です。</p>
+  <StaleBanner lastVerified={lastVerified} />
+  <ol class="tips-list">
+    {tips.map((t, i) => (
+      <li>
+        <span class="num">{i + 1}</span><br />
+        <a href={`/tips/${t.id}/`}>{t.data.title}</a>
+        <p>{CHAT_BLURB[t.id] ?? t.data.description}</p>
+      </li>
+    ))}
+  </ol>
+  <p>Imagine と Bot の TIPS は、<a href="/tips/">TIPS の一覧</a>にあります。</p>
+</Base>
