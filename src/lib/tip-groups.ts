@@ -24,7 +24,7 @@ export const CHAT_READING_ORDER = [
 export const CHAT_BLURB: Record<string, string> = {
   'three-entrances': 'どこから入るか',
   'free-vs-supergrok': '無料で足りるか、払うか',
-  'expert-and-heavy': '払った後にどれを選ぶか',
+  'expert-and-heavy': 'チャットの Heavy と、払う Heavy',
   'japanese-fix': '日本語がおかしい時に直す',
 };
 
