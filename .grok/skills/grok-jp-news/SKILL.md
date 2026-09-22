@@ -13,6 +13,7 @@ Japanese rules live in `.grok/rules/writing.md`. Do not copy that file here. Fig
 
 - URL is `/news/{slug}/`. The slug is the name (`grok-4-7`), not `/news/2026/grok-4-7/`. The date lives in `published`, `last_verified`, and the sitemap. The memo is updated in place.
 - `/news/` is the list. One article is enough. Do not invent empty hubs.
+- The header already links ニュース. That is the home link. Do not add a second one, and do not paste every memo onto the home. One latest title is enough when a list is wanted. The archive stays at `/news/`.
 - Title is the judgment left after reading, ≤60 characters. Description is 150–160 characters, conclusion first. No HTML in the description.
 - Body order: what changed → where a Japanese user meets it and what they pay → the vendor’s own numbers → third parties, named and dated → what was said beforehand → what to do → 取り違え. Short quote plus the original link. Do not translate the announcement.
 - Link TIPS by what they decide, in the sentence and again at the end.
@@ -24,7 +25,7 @@ Japanese rules live in `.grok/rules/writing.md`. Do not copy that file here. Fig
 | 「請求は伸びる」「請求が縮む」 | Money does not 伸びる. 単価は同じでも、払う額は増える. 1件で払う額は、書いた量で増える. 伸びる is for a score, a rank, or a length of text |
 | Vendor table and a third party blended into one number | Say who measured, the date, and the effort. Terminal-Bench 4.0 and 2.1 are different tests. A score the night of launch and the score after an SDK fix are both real. Write both |
 | A pre-launch post treated as the shipped spec | 2.1兆は投稿の数字. The spec is what docs listed that day: context, input, output |
-| An X embed iframe for a benchmark chart | The iframe is a narrow column and does not match the article. Save the chart image, show it at the article width, and name the source under it. Do not add Twitter’s script |
+| An X embed iframe for a benchmark chart | The iframe is a narrow column and does not match the article. Save the chart, show it at the article width (`article-hero`, not a 550px frame), and write only the source under it: 引用元は [誰のいつ の投稿](url) です。 Do not add Twitter’s script |
 | A 5-column markdown table | This site stacks every column after the first. A comparison becomes unreadable. Two columns of one sentence, or a table image in the site’s type. Not a beige card, not a copied chart |
 | One infographic at the top, then a wall of paragraphs | A long memo needs a judgment figure at the section where the decision happens (入口, 払う額, 順位の前後). Open grok-jp-infographic. If a phrase on the figure is wrong, regenerate the file. Do not leave the bad sentence in the JPG |
 | Yellow `<mark>` on a whole sentence or a number | `<mark>` is only the name Grok 4.7, once, at the first mention. A marked phrase that wraps becomes two bars. Other emphasis is `<strong>`. Inline `code` keeps the site’s pale marker wash; do not also wrap it in `<mark>` |
