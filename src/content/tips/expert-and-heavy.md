@@ -28,7 +28,14 @@ image_caption: チャットで選ぶ Heavy は機能です。払う Heavy はプ
 
 2026-09-22 の [grok.com/plans](https://grok.com/plans) は、SuperGrok Heavy の知能を、より大きなエージェントのチームが協力して、いちばん良い返事にする、と書いています。何体か、何分かは、その画面にはありません。約 10 分、Agent が 3 つ、は 2025-07-09 の画面です。今の言い方は、より大きなチームです。
 
-同じ日の [x.ai/grok](https://x.ai/grok) は、複数のエージェントが同時に分け、考えが見えて、1 つの返事にまとまる、と書いています。見出しは Multi-agent です。SuperGrok に含まれる、とも書いています。チャットで選ぶ Heavy と、この Multi-agent は、別の見出しです。
+同じ日の [x.ai/grok](https://x.ai/grok) は、複数のエージェントが同時に分け、考えが見えて、1 つの返事にまとまる、と書いています。見出しは Multi-agent です。
+
+<figure class="article-hero">
+  <img src="/tips/fig-multi-agent.jpg" alt="ノートに Multi-agent とあり、同時に分ける、考えが見える、1つの返事にまとまる、と三つ並んでいる" width="1280" height="720" />
+  <figcaption>見出しは Multi-agent です。同時に分けて、考えが見えて、1 つの返事にまとまります。</figcaption>
+</figure>
+
+SuperGrok に含まれる、とも書いています。チャットで選ぶ Heavy と、この Multi-agent は、別の見出しです。
 
 **Expert mode** も機能です。Heavy ではありません。同じプラン画面は、Lite に「いちばん新しく、いちばん良いモデル」、SuperGrok に「もっと賢い返事と、高い上限」と書いています。
 
