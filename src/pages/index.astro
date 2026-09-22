@@ -64,19 +64,24 @@ const jsonLd = {
   </ul>
 
   <h2>TIPS</h2>
-  <p>上は、最初に読む 5 本です。製品ごとのタイトルと、最後に確かめた日は、<a href="/tips/">TIPS の一覧</a>に全部あります。</p>
-  <ul class="read-paths">
-    {groups.map((g) => (
-      <li>
+  <p>タイトルだけ置きます。説明と、最後に確かめた日は <a href="/tips/">TIPS の一覧</a> です。</p>
+  {groups.map((g) => (
+    <section>
+      <h3>
         {g.product === 'chat' ? (
           <a href="/tips/chat/">{g.label}（{g.items.length} 本）</a>
         ) : (
-          <strong>{g.label}（{g.items.length} 本）</strong>
+          <a href={`/tips/#${g.product}`}>{g.label}（{g.items.length} 本）</a>
         )}
-        <p>{GROUP_BLURB[g.product]}</p>
-      </li>
-    ))}
-  </ul>
+      </h3>
+      <p>{GROUP_BLURB[g.product]}</p>
+      <ul>
+        {g.items.map((t) => (
+          <li><a href={`/tips/${t.id}/`}>{t.data.title}</a></li>
+        ))}
+      </ul>
+    </section>
+  ))}
 
   <h2>このサイトの約束</h2>
   <ul>
