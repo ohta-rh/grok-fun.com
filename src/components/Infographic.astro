@@ -7,6 +7,13 @@ interface Props {
 const { slug } = Astro.props;
 
 const figures: Record<string, { src: string; alt: string; caption: string }[]> = {
+  'grok-automations': [
+    {
+      src: '/tips/fig-automations.jpg',
+      alt: 'ノートに、時刻の予約は誰でも、メールで動かすなら SuperGrok、Grok Bot の定期実行とは別、と書いてある',
+      caption: '時刻で回すなら誰でも使えます。メールが届いたら動かすなら SuperGrok です。',
+    },
+  ],
   'japanese-fix': [
     {
       src: '/tips/fig-jp-paste.jpg',

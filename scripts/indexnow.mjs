@@ -37,6 +37,7 @@ const FIG_TO_SLUG = {
   'fig-entrances': 'three-entrances',
   'fig-imagine-formula': 'imagine-quickstart',
   'fig-imagine-video': 'imagine-video',
+  'fig-automations': 'grok-automations',
   'fig-jp-paste': 'japanese-fix',
   'fig-bot-uses-build': 'bot-uses-build',
   'fig-bot-uses-build-arch': 'bot-uses-build',
