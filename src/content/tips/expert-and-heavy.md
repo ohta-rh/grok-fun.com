@@ -31,8 +31,8 @@ image_caption: チャットで選ぶ Heavy は機能です。払う Heavy はプ
 同じ日の [x.ai/grok](https://x.ai/grok) は、複数のエージェントが同時に分け、考えが見えて、1 つの返事にまとまる、と書いています。見出しは Multi-agent です。
 
 <figure class="article-hero">
-  <img src="/tips/fig-multi-agent.jpg" alt="ノートに Multi-agent とあり、同時に分ける、考えが見える、1つの返事にまとまる、と三つ並んでいる" width="1280" height="720" />
-  <figcaption>見出しは Multi-agent です。同時に分けて、考えが見えて、1 つの返事にまとまります。</figcaption>
+  <img src="/tips/fig-multi-agent.jpg" alt="ノートの図。質問が入ると矢印が同時に分かれ、考えが見えて、1つの返事にまとまる。見出しは Multi-agent" width="1280" height="720" />
+  <figcaption>質問が入ると同時に分かれます。考えが見えて、1 つの返事にまとまります。見出しは Multi-agent です。</figcaption>
 </figure>
 
 SuperGrok に含まれる、とも書いています。チャットで選ぶ Heavy と、この Multi-agent は、別の見出しです。
