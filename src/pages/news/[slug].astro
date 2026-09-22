@@ -4,6 +4,7 @@ import StaleBanner from '../../components/StaleBanner.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ReactionBar from '../../components/ReactionBar.astro';
 import CommentList from '../../components/CommentList.astro';
+import Infographic from '../../components/Infographic.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -66,6 +67,7 @@ const jsonLd = {
     </p>
     <h1>{entry.data.title}</h1>
     <p class="lead">{entry.data.description}</p>
+    <Infographic slug={entry.id} />
     <StaleBanner lastVerified={entry.data.last_verified} />
     {toc.length >= 6 && (
       <details class="toc">

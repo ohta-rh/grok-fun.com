@@ -15,6 +15,12 @@ const ENDPOINT = 'https://api.indexnow.org/indexnow';
 const KEY_URL = `${SITE}/${KEY_FILE}`;
 
 /** fig-* / video filenames that are not the TIPS slug. */
+/** Figures that belong to a news memo, not a TIPS page. */
+const FIG_TO_NEWS = {
+  'fig-grok-4-7': 'grok-4-7',
+  'fig-grok-4-7-price': 'grok-4-7',
+};
+
 const FIG_TO_SLUG = {
   'fig-bill-choose': 'free-vs-supergrok',
   'fig-bill-ladder': 'free-vs-supergrok',
@@ -141,7 +147,11 @@ export function filesToUrls(files) {
       continue;
     }
     if (f.startsWith('public/tips/')) {
-      const stem = basename(f).replace(/\.[^.]+$/, '');
+      const stem = basename(f).replace(/\.[^.]+$/, '').replace(/-(?:720|1280)$/, '');
+      if (FIG_TO_NEWS[stem]) {
+        urls.add(`${SITE}/news/${FIG_TO_NEWS[stem]}/`);
+        continue;
+      }
       const slug = FIG_TO_SLUG[stem] ?? (slugs.has(stem) ? stem : null);
       if (slug) urls.add(`${SITE}/tips/${slug}/`);
     }

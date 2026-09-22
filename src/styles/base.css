@@ -230,6 +230,36 @@ main { flex: 1; padding-bottom: var(--section); }
   color: var(--ink-60);
   margin-top: 0.4rem;
 }
+/* 列の多い表は、段組みに潰さず画像のまま横に読む。狭い画面ではこの枠だけ横に送る */
+.table-shot {
+  overflow-x: auto;
+  margin: 1.15em 0 0.35rem;
+  -webkit-overflow-scrolling: touch;
+}
+.article-hero.table-shot { margin: 1.15em 0 0.35rem; }
+.article-hero.table-shot a { width: max-content; max-width: none; }
+.article-hero.table-shot img {
+  width: 40rem;
+  max-width: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.x-embed { margin: 1.15em 0; }
+.x-embed iframe {
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  height: 720px;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  background: var(--paper);
+}
+.x-embed figcaption {
+  font-size: 0.85rem;
+  color: var(--ink-60);
+  margin-top: 0.4rem;
+}
 
 .infofig {
   margin: 1.25rem 0 0;
