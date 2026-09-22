@@ -17,4 +17,15 @@ const tips = defineCollection({
   }),
 });
 
-export const collections = { tips };
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
+  schema: z.object({
+    title: z.string().max(60),
+    description: z.string().min(150).max(160),
+    published: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    last_verified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    source_url: z.array(z.string().url()).min(1),
+  }),
+});
+
+export const collections = { tips, news };

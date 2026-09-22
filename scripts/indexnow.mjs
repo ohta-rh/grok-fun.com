@@ -57,8 +57,25 @@ function tipSlugs() {
     .map((n) => n.slice(0, -3));
 }
 
+function newsIds(dir = join(ROOT, 'src/content/news'), prefix = '') {
+  const out = [];
+  for (const ent of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, ent.name);
+    if (ent.isDirectory()) out.push(...newsIds(p, `${prefix}${ent.name}/`));
+    else if (ent.name.endsWith('.md')) out.push(`${prefix}${ent.name.slice(0, -3)}`);
+  }
+  return out;
+}
+
 function allPages() {
-  return [`${SITE}/`, `${SITE}/tips/`, `${SITE}/about/`, ...tipSlugs().map((s) => `${SITE}/tips/${s}/`)];
+  return [
+    `${SITE}/`,
+    `${SITE}/tips/`,
+    `${SITE}/news/`,
+    `${SITE}/about/`,
+    ...tipSlugs().map((s) => `${SITE}/tips/${s}/`),
+    ...newsIds().map((id) => `${SITE}/news/${id}/`),
+  ];
 }
 
 function git(args) {
@@ -100,6 +117,19 @@ export function filesToUrls(files) {
     }
     if (f === 'src/pages/tips/index.astro') {
       urls.add(`${SITE}/tips/`);
+      continue;
+    }
+    if (f.startsWith('src/content/news/') && f.endsWith('.md')) {
+      urls.add(`${SITE}/news/${f.slice('src/content/news/'.length, -3)}/`);
+      continue;
+    }
+    if (f === 'src/pages/news/index.astro') {
+      urls.add(`${SITE}/news/`);
+      continue;
+    }
+    if (f === 'src/pages/news/[slug].astro') {
+      urls.add(`${SITE}/news/`);
+      for (const id of newsIds()) urls.add(`${SITE}/news/${id}/`);
       continue;
     }
     if (SITE_WIDE.has(f) || f.startsWith('src/styles/')) {

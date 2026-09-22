@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const tips = (await getCollection('tips')).sort((a, b) => b.data.order - a.data.order);
+const news = (await getCollection('news')).sort((a, b) => b.data.published.localeCompare(a.data.published));
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -23,6 +24,21 @@ const jsonLd = {
   <h1>日本語で Grok を使う人のための場所</h1>
   <p class="lead">Grok を日本語で使うときに困ること、公式ページを読んでも分からないことを、実際に試してから、日付と一次情報のリンクを付けて書いています。記事の数は増やしません。しばらくぶりに戻ってきたとき、ここを見れば足りる状態にしておきます。</p>
   <p>このサイトは <strong>xAI とは関係のない、ファンの非公式サイト</strong>です。公式のロゴは使っていません。料金や制限は変わるので、数字は<a href="https://x.ai/grok">公式ページ</a>で確かめてください。</p>
+
+  {news.length > 0 && (
+    <>
+      <h2>ニュース</h2>
+      <ol class="tips-list">
+        {news.map((n) => (
+          <li>
+            <span class="num">{n.data.published}</span><br />
+            <a href={`/news/${n.id}/`}>{n.data.title}</a>
+            <p>{n.data.description}</p>
+          </li>
+        ))}
+      </ol>
+    </>
+  )}
 
   <h2>どこから読むか</h2>
   <ul class="read-paths">
@@ -64,6 +80,6 @@ const jsonLd = {
   <ul>
     <li>どの TIPS にも、最後に確かめた日と、一次情報のリンクを付けます。確かめられないことは「公式ページを見てください」と書きます。</li>
     <li>公式ニュースの全文は翻訳しません。Bot 用のプロンプト集は <a href="https://grokguide.jp" rel="external">grokguide.jp</a> にあります。ここには載せません。</li>
-    <li>記事の数は増やしません。大きな発表の日に、その日のメモを 1 本だけ足すことがあります。</li>
+    <li>記事の数は増やしません。大きな発表の日に、<a href="/news/">その日のメモ</a>を 1 本だけ足すことがあります。</li>
   </ul>
 </Base>

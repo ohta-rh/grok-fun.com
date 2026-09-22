@@ -9,22 +9,53 @@ import { enhanceHeroImages } from './scripts/enhance-heroes.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 
+/**
+ * @param {string} dir
+ * @param {string[]} out
+ */
+function walkMd(dir, out = []) {
+  for (const ent of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, ent.name);
+    if (ent.isDirectory()) walkMd(p, out);
+    else if (ent.name.endsWith('.md')) out.push(p);
+  }
+  return out;
+}
+
+/**
+ * @param {string} file
+ */
+function verifiedDay(file) {
+  const src = readFileSync(file, 'utf8');
+  return src.match(/^last_verified:\s*"?(\d{4}-\d{2}-\d{2})"?/m)?.[1] ?? '';
+}
+
 /** @returns {Record<string, string>} */
 function lastmods() {
   /** @type {Record<string, string>} */
   const map = {};
-  let newest = '2026-09-08';
-  for (const name of readdirSync(join(root, 'src/content/tips'))) {
-    if (!name.endsWith('.md')) continue;
-    const src = readFileSync(join(root, 'src/content/tips', name), 'utf8');
-    const found = src.match(/^last_verified:\s*"?(\d{4}-\d{2}-\d{2})"?/m);
-    if (!found) continue;
-    const day = found[1];
-    map[`/tips/${name.slice(0, -3)}/`] = day;
-    if (day > newest) newest = day;
+  let newestTip = '2026-09-08';
+  const tipsDir = join(root, 'src/content/tips');
+  for (const file of walkMd(tipsDir)) {
+    const day = verifiedDay(file);
+    if (!day) continue;
+    const id = file.slice(tipsDir.length + 1, -3);
+    map[`/tips/${id}/`] = day;
+    if (day > newestTip) newestTip = day;
   }
+  let newestNews = '';
+  const newsDir = join(root, 'src/content/news');
+  for (const file of walkMd(newsDir)) {
+    const day = verifiedDay(file);
+    if (!day) continue;
+    const id = file.slice(newsDir.length + 1, -3);
+    map[`/news/${id}/`] = day;
+    if (day > newestNews) newestNews = day;
+  }
+  const newest = newestNews > newestTip ? newestNews : newestTip;
   map['/'] = newest;
-  map['/tips/'] = newest;
+  map['/tips/'] = newestTip;
+  map['/news/'] = newestNews || newestTip;
   map['/about/'] = newest;
   return map;
 }

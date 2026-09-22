@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const news = (await getCollection('news')).sort((a, b) => b.data.published.localeCompare(a.data.published));
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ホーム', item: 'https://grok-fun.com/' },
+    { '@type': 'ListItem', position: 2, name: 'ニュース', item: 'https://grok-fun.com/news/' },
+  ],
+};
+---
+<Base title="ニュース" description="Grok の大きな発表の日だけ、日本語のメモを 1 本足します。全文は翻訳しません。2026-09-21 の Grok 4.7 は、総合点では Fable 5.1 と GPT-6 Astra の下で、API の単価は Grok 4.6 と同じです。点数と投稿のリンクを、1 ページに日付付きでまとめています。" jsonLd={jsonLd}>
+  <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'ニュース' }]} />
+  <p class="card-head"><span class="tag">series</span> <span>{news.length} 本</span></p>
+  <h1>ニュース</h1>
+  <p class="lead">大きな発表の日だけ、日本語のメモを 1 本足します。全文は翻訳しません。何が変わったか、日本で使うときにどこが変わるか、原文のリンク、までです。</p>
+  <ol class="tips-list">
+    {news.map((n) => (
+      <li>
+        <span class="num">{n.data.published}</span><br />
+        <a href={`/news/${n.id}/`}>{n.data.title}</a>
+        <p>{n.data.description}</p>
+        <p class="meta">最終確認 <time datetime={n.data.last_verified}>{n.data.last_verified}</time></p>
+      </li>
+    ))}
+  </ol>
+</Base>
