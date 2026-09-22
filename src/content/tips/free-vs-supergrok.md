@@ -19,6 +19,7 @@ related:
   - three-entrances
   - bot-build-chat-map
   - imagine-quickstart
+  - expert-and-heavy
 image: /tips/free-vs-supergrok.jpg
 image_alt: 封蝋の色が違う 4 枚の紙が机に並んでいる
 image_caption: 払う場所は 4 つあります。何をしたいかで、どこで払うかが決まります。
@@ -76,7 +77,7 @@ X Premium に入っても、grok.com は無料のままです。故障ではな�
 
 ただし、料金ページの先頭に並ぶ 3 つの値段には、Heavy の月額は出ていません。ほかのサイトが月 $300 と書いているのは、2025-07 の発表時の報道をもとにしていることが多いです。**今の値段だと断定はしません。** 金額は契約する画面で見てください。
 
-Heavy を考えるのは、SuperGrok（$30）や Plus（$100）では足りないと、Usage の画面で分かってからで足ります。画面の中の Build だけが目的なら、2026-08-19 の発表では全プランに出ています。Heavy は要りません。
+Heavy を考えるのは、SuperGrok（$30）や Plus（$100）では足りないと、Usage の画面で分かってからで足ります。画面の中の Build だけが目的なら、2026-08-19 の発表では全プランに出ています。Heavy は要りません。チャットで Expert と Heavy が並んで見えるときの違いは、<a href="/tips/expert-and-heavy/">Expert は機能で、難しい問題は Heavy</a> に書きました。
 
 チャットと Imagine だけなら、まず $30 を使い切ってみてください。
 
