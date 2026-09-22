@@ -1,6 +1,6 @@
 ---
-title: Expert は機能。難しい問題は Heavy
-description: "Expert はプランの名前ではありません。2026-09-22 の料金ページでは、SuperGrok（月 $30）の機能です。Free のカードには無く、Plus と Heavy にも入ります。極めて難しい問題は Heavy です。月額は契約画面にあり、チャットのモデル名は Grok 4.6 です。"
+title: 考えてほしい返事は Expert。難しい問題は Heavy
+description: "チャットで考えてほしい返事は Expert です。2026-09-22 の料金ページでは、SuperGrok（月 $30）の機能で、Free の一覧には無く、Plus と Heavy にも入ります。極めて難しい問題は Heavy です。月額は契約画面にあり、チャットのモデル名は Grok 4.6 です。"
 order: 10
 product: chat
 last_verified: "2026-09-22"
@@ -8,70 +8,61 @@ source_url:
   - https://x.ai/pricing
   - https://x.ai/bot
   - https://x.ai/grok
-  - https://x.ai/news/grok-4
-  - https://x.ai/news/grok-4-7
-  - https://x.ai/news/grok-build-mode
-  - https://x.ai/news/grok-build-for-everyone
+  - https://docs.x.ai/grok/faq
 related:
   - free-vs-supergrok
-  - bot-build-chat-map
   - grok-automations
   - three-entrances
+  - bot-build-chat-map
 image: /tips/expert-and-heavy.jpg
-image_alt: ノートに、Expert は機能で SuperGrok にあり、Heavy は極めて難しい問題向けのプランで、月額は契約画面で見ると書いてある
-image_caption: Expert は SuperGrok の機能です。極めて難しい問題は Heavy で、月額は契約画面で見ます。
+image_alt: ノートに、考えてほしい返事は Expert、極めて難しい問題は Heavy、月額は契約画面で見る、と書いてある
+image_caption: 考えてほしい返事は Expert です。極めて難しい問題は Heavy で、月額は契約画面で見ます。
 ---
 
-## チャットで並んでいても、種類が違う
+## チャットで、どっちを選ぶか
 
-チャットで Expert と Heavy が並ぶと、同じものの別名に見えます。違います。
+同じ質問でも、すぐ返事がほしいときと、考えてほしいときがあります。チャットに Expert と Heavy が並ぶと、同じものの別名に見えます。違います。
 
-**Expert** はプランの名前ではありません。2026-09-22 の [x.ai/pricing](https://x.ai/pricing) では、SuperGrok（月 $30）の機能一覧に Expert と書いてあります。同じ日の Free（$0）の一覧には、Expert はありません。
+**Expert** はプランの名前ではありません。2026-09-22 の [x.ai/pricing](https://x.ai/pricing) では、SuperGrok（月 $30）の機能一覧に Expert と書いてあります。同じ日の Free（$0）の一覧には、Expert はありません。Plus（月 $100）と Heavy は、SuperGrok にあるものも入るので、Expert も使えます。
 
-**Heavy** はプランです。正式には SuperGrok Heavy。同じページの比較表に列があり、Get Heavy のボタンもあります。Heavy の月額は、先頭に並ぶ Free、SuperGrok、Plus の 3 つのカードには出ていません。金額は契約する画面で見てください。
+**Heavy** はプランです。正式には SuperGrok Heavy。同じページの比較表に列があり、Get Heavy のボタンもあります。2026-09-22 の [x.ai/bot](https://x.ai/bot) では、Heavy の欄にあるのは、使える量がいちばん多いこと、返事がいちばん速いこと、極めて難しい問題に向くこと、いちばん賢いこと、専用のサポート、新しい機能の先出しです。Heavy の月額は、先頭に並ぶ Free、SuperGrok、Plus の 3 つのカードには出ていません。金額は契約する画面で見てください。
 
-X の中の Grok と、grok.com のプランは別です。入口の違いは <a href="/tips/three-entrances/">grok.com、公式アプリ、X</a> に書きました。
+この分け方は、grok.com と公式アプリのチャットの話です。X の中の Grok は、別の入口です。<a href="/tips/three-entrances/">入る場所で、メニューは変わります</a>。
 
-## どのプランで、何が足されるか
-
-2026-09-22 の [x.ai/bot](https://x.ai/bot) では、Grok の有料プランが SuperGrok、Plus、Heavy に分かれています。Plus も Heavy も、SuperGrok にあるものは入っていて、その上に項目が足されます。Expert は SuperGrok の一覧にあるので、Plus と Heavy にも入ります。
+## チャットの中では、こう分ける
 
 <div class="table-scroll">
 
-| 名前 | 金額 | 足されること |
+| したいこと | 名前 | 払う場所 |
 |---|---|---|
-| Expert | 月 $30 の SuperGrok から | SuperGrok で足される機能。Free（$0）のカードには無い |
-| Plus | 月 $100 | SuperGrok の全部。動画は 1080p。使える量が増え、返事が速くなり、混んでいるときに優先され、新しい機能を先に使える |
-| Heavy | 契約画面 | SuperGrok の全部。使える量がいちばん多い。返事がいちばん速い。極めて難しい問題を解く。専用のサポート。新しい機能を先に使える |
+| 考えてほしい返事 | Expert | SuperGrok（月 $30）から。Plus と Heavy にも入る |
+| 量と速さ | Plus | 月 $100。動画は 1080p。混んでいるときに優先される。Expert も入る |
+| 極めて難しい問題 | Heavy | 契約画面。量も速さもいちばん上。Expert も入る |
 
 </div>
 
-公式の Heavy の欄には、いちばん賢い、という項目もあります。$30 と $100 は、[x.ai/pricing](https://x.ai/pricing) の先頭に並ぶカードの金額です。Heavy の金額は、その並びにはありません。ほかの払い方は、<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>に書きました。
+短い質問、下書き、ちょっとした調べものは、今のチャットのままで足ります。じっくり考えてほしい返事のときに、Expert を選びます。
 
-## チャットのモデル名は、別の話
+Expert のまま週に何度もチャットして、混んでいる時間に待たされたくないなら、Plus です。問題そのものが極めて難しく、使える量も返事の速さもいちばん上が要るなら、**Heavy** です。使える量が足りないだけなら、Heavy の前に Plus と、設定の Usage を見てください。
 
-2026-09-22 の料金カードには、SuperGrok の項目に Grok 4.6 model と書いてあります。チャットの Expert のモデル名は、そのカードでは Grok 4.6 です。
+2026-09-22 の [x.ai/grok](https://x.ai/grok) には、SuperGrok にすると使える量が増えて、混んでいるときに優先されて、複数のエージェントが同時に考える、と書いてあります。それぞれの考えが見えて、最後は 1 つの返事にまとまる、ともあります。これは SuperGrok 全体の説明で、料金ページの Expert の欄とは分けて読んでください。極めて難しい問題と書いてあるのは、Heavy の欄です。
 
-Grok 4.7 は 2026-09-21 に出て、入口は Cursor、Grok Build、API です。まとめは <a href="/news/grok-4-7/">Grok 4.7 の発表メモ</a>にあります。
+料金カードに書いてあるチャットのモデル名は Grok 4.6 です。Expert を選んでも、そのカードのモデル名は Grok 4.6 のままです。
 
-SuperGrok の説明にある「複数のエージェント」を、Expert のことだと思う人がいます。2026-09-22 の [x.ai/grok](https://x.ai/grok) には、SuperGrok にすると使える量が増えて、混んでいるときに優先されて、複数のエージェントが同時に考える、と書いてあります。2025-07-09 の [Grok 4 の発表](https://x.ai/news/grok-4) では、複数の仮説を同時に考える Grok 4 Heavy が SuperGrok Heavy で使える、と書いていました。2026-09-22 の料金ページは、Expert と Grok 4 Heavy を同じ項目に並べていません。エージェントの数は、2026-09-22 の料金ページにも、2025-07-09 の発表にも出ていません。
+## チャットの残りは、週に 1 つの枠
 
-## 画面の中の Build のために、Heavy はいらない
+2026-09-22 の [FAQ](https://docs.x.ai/grok/faq) には、2026 年 6 月から、有料で使える量は週に 1 つの枠だ、と書いてあります。チャットも Imagine も Voice も、同じ枠から減ります。チャットの 1 通より、動画や長いコーディングの方が、枠を多く使います。
 
-2026-07-28 の発表では、画面の中の Build は Heavy 向けでした。2026-08-19 の発表では、全プランの Web とスマホに出ています。ターミナルで動く grok コマンドとは別です。サイトやアプリを作るためだけなら、Heavy は要りません。道具の違いは <a href="/tips/bot-build-chat-map/">チャット、Grok Bot、Grok Build は別の道具</a>に書きました。
+残りは、設定の Usage で見ます。使った割合、Chat などの内訳、次に戻る日時が出ます。枠を使い切ると、有料の機能は次の週まで止まります。無料のチャットと Voice は、別の回数として残ります。
 
-## どれを選ぶか
+足りない週が続くなら、FAQ は上のプランの方が得だと書いています。追加のクレジットは、Web の Usage から買えて、最少は $5 です。プランの枠を使い切ったあとに減り、買ってから 1 年で切れます。1 回分の値段は、プランの枠で使うより高くつきます。ほかの払い方は、<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>に書きました。
 
-ふだんのチャットで Expert を使うなら、SuperGrok（月 $30）で足ります。量と速さと 1080p の動画が要るなら、Plus（月 $100）です。
-
-極めて難しい問題で、使える量も返事の速さもいちばん上が要るなら、**Heavy** です。金額は契約する画面で見てから決めてください。使える量が足りないだけなら、Heavy の前に、設定の Usage と Plus（月 $100）を見てください。
-
-時刻でチャットを予約する機能は、Heavy とは別です。<a href="/tips/grok-automations/">時刻の予約は誰でも使えます</a>。
+同じ指示を、決めた時刻に走らせたいなら、Heavy ではなく Automations です。<a href="/tips/grok-automations/">時刻の予約は誰でも使えます</a>。指示を保存するときにモードを選べます。
 
 ## よくある取り違え
 
-- 「Expert はプランの名前」: 機能の名前です。2026-09-22 の SuperGrok（月 $30）の一覧にあります。Free の一覧にはありません
-- 「Heavy は Expert の別名」: 別です。Heavy は SuperGrok より上のプランで、極めて難しい問題を解く、という項目が足されます
-- 「Heavy の月額は $30」: $30 は SuperGrok です。Heavy の月額は料金ページの先頭に出ていません。金額は契約する画面にあります
-- 「チャットの Expert は Grok 4.7」: 2026-09-22 の料金カードのモデル名は Grok 4.6 です。Grok 4.7 の入口は Cursor、Grok Build、API です
-- 「画面の中の Build は Heavy だけ」: 2026-07-28 はそうでした。2026-08-19 からは全プランです
+- 「Expert はプランの名前」: 機能の名前です。2026-09-22 の SuperGrok（月 $30）の一覧にあります。Plus と Heavy にも入ります。Free の一覧にはありません
+- 「Heavy にしないと、考えてほしい返事ができない」: Expert は SuperGrok から使えます。極めて難しい問題で、量も速さもいちばん上が要るときに Heavy です
+- 「Heavy の月額は $30」: $30 は SuperGrok です。Heavy の月額は、先頭のカードに出ていません。金額は契約する画面にあります
+- 「チャットの Expert は Grok 4.7」: 2026-09-22 の料金カードのモデル名は Grok 4.6 です
+- 「使える量が足りないから Heavy」: 先に Usage と Plus（月 $100）を見ます。極めて難しい問題なら Heavy です
