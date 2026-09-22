@@ -2,7 +2,7 @@
 
 日本語の非公式 Grok ファンコミュニティ。Astro 7 の静的サイト + Cloudflare Workers Static Assets。Worker は `/api/*` だけ。`run_worker_first` は **false 固定**（true にすると全リクエストが Worker を通り Free 枠を食う）。
 
-パッケージマネージャは **pnpm**。GitHub Actions は使わない。デプロイは `pnpm build` のあと `wrangler deploy`。繰り返し手順は `.grok/skills/grok-jp-tips`、`.grok/skills/grok-jp-infographic`、`.grok/skills/grok-jp-ship`。TIPS の本文図を出す前に **grok-jp-infographic を開け**。読まずに出すな。
+パッケージマネージャは **pnpm**。GitHub Actions は使わない。デプロイは `pnpm build` のあと `wrangler deploy`。繰り返し手順は `.grok/skills/grok-jp-tips`、`.grok/skills/grok-jp-news`、`.grok/skills/grok-jp-infographic`、`.grok/skills/grok-jp-ship`。TIPS の本文図を出す前に **grok-jp-infographic を開け**。読まずに出すな。発表の当日メモは grok-jp-news。
 
 ## 公開する日本語（最優先）
 

@@ -33,9 +33,9 @@ source_url:
 
 ## 何が変わったか
 
-2026-09-21、x.ai は <strong>Grok 4.7</strong> を出しました。発表ページに書いてある名前は SpaceXAI です。コーディングと、調べて文書にまとめる仕事向けで、<mark>4.6 より大きいモデル</mark>を、前より長く、難しい問題で鍛えた、と書いてあります。<mark>何時間もかかる問題も、前より多く鍛えた</mark>、とも書いてあります。鍛える手法は強化学習です。<mark>自分の出力を見直し</mark>、長い文脈を扱い、Grok Bot の進め方が分かるように訓練した、という説明です。
+2026-09-21、x.ai は <mark>Grok 4.7</mark> を出しました。発表ページに書いてある名前は SpaceXAI です。コーディングと、調べて文書にまとめる仕事向けで、4.6 より大きいモデルを、前より長く、難しい問題で鍛えた、と書いてあります。何時間もかかる問題も、前より多く鍛えた、とも書いてあります。鍛える手法は強化学習です。自分の出力を見直し、長い文脈を扱い、Grok Bot の進め方が分かるように訓練した、という説明です。
 
-見出しは「同じクラスの半分の値段で、2 倍速い」です。本文は「<mark>4.6 と同じ値段、同じ速さ</mark>」です。表の入力は 100 万トークン <mark><span class="num">$2</span></mark> で、GPT-5.6 Sol の <span class="num">$4</span> の半分、Fable 5.1 の <span class="num">$10</span> の 5 分の 1 です。出力は <mark><span class="num">$6</span></mark> で、Sol の <span class="num">$20</span>、Fable の <span class="num">$50</span> より安いです。見出しの「半分」は、<strong>入力の単価を Sol と比べたときの言い方</strong>に近いです。出力の差はもっと大きいです。fast は、出力の速さが 2 倍で、<mark>単価も 2 倍</mark>、と本文にあります。
+見出しは「同じクラスの半分の値段で、2 倍速い」です。本文は「4.6 と同じ値段、同じ速さ」です。表の入力は 100 万トークン <span class="num">$2</span> で、GPT-5.6 Sol の <span class="num">$4</span> の半分、Fable 5.1 の <span class="num">$10</span> の 5 分の 1 です。出力は <span class="num">$6</span> で、Sol の <span class="num">$20</span>、Fable の <span class="num">$50</span> より安いです。見出しの「半分」は、<strong>入力の単価を Sol と比べたときの言い方</strong>に近いです。出力の差はもっと大きいです。fast は、出力の速さが 2 倍で、単価も 2 倍、と本文にあります。
 
 <blockquote>
   <p>It works longer on difficult tasks, checks its own work more carefully, and comes with our best-calibrated safeguards to date. Served at the same price and speed as Grok 4.6.</p>
@@ -60,7 +60,7 @@ source_url:
 
 </div>
 
-案内に名前があるのは、<mark>Cursor、Grok Build、API</mark>、それにルーターです。<strong>grok.com は、開いている画面のモデル名</strong>を見てください。Imagine と Voice は別のモデルです。動画を作れる本数は、Imagine の決まりのままです。
+案内に名前があるのは、Cursor、Grok Build、API、それにルーターです。<strong>grok.com は、開いている画面のモデル名</strong>を見てください。Imagine と Voice は別のモデルです。動画を作れる本数は、Imagine の決まりのままです。
 
 <figure class="article-hero">
   <a href="/tips/fig-grok-4-7-doors.jpg">
@@ -73,7 +73,7 @@ source_url:
 
 ## API の料金
 
-2026-09-21 のリリースノートによると、プロンプトが <mark>20 万トークンを超えると単価が倍</mark>になります。単位は 100 万トークンあたりの USD です。円は書きません。
+2026-09-21 のリリースノートによると、プロンプトが 20 万トークンを超えると単価が倍になります。単位は 100 万トークンあたりの USD です。円は書きません。
 
 <figure class="article-hero table-shot">
   <a href="/tips/fig-grok-4-7-price.jpg">
@@ -82,7 +82,7 @@ source_url:
   <figcaption>100 万トークンあたりの USD です。黄色い行が、ふだんの単価です。2026-09-21 のリリースノート。</figcaption>
 </figure>
 
-キャッシュは、同じ入力を再利用したときの入力単価です。<mark>考えているあいだのトークンも、使った分に入ります。</mark>努力は low、medium、high、xhigh から選べて、既定は <strong>high</strong> です。Artificial Analysis が総合点に使ったのは xhigh です。
+キャッシュは、同じ入力を再利用したときの入力単価です。考えているあいだのトークンも、使った分に入ります。努力は low、medium、high、xhigh から選べて、既定は <strong>high</strong> です。Artificial Analysis が総合点に使ったのは xhigh です。
 
 fast は同じモデルを速い機材で配るもので、トークン単価は <strong>2 倍</strong>です。配っているのは Cursor と Grok Build です。公開 API は<strong>通常の単価</strong>です。Grok Build の無料で試せる枠も、通常のモデルです。
 
@@ -98,11 +98,11 @@ fast は同じモデルを速い機材で配るもので、トークン単価は
 
 CursorBench は長めのコーディング、DeepSWE はソフトウェアの課題、EEBench は電気回路、AA Briefcase は何時間もかかる事務、Terminal-Bench はターミナルで長く作業するテスト、Harvey は法律のエージェント、HealthBench は臨床の推論です。法律と臨床の行は、そのテストの点です。契約や診断を任せてよい、という意味ではありません。
 
-4.6 より上がった行がほとんどです。<strong>Fable 5.1 より上</strong>なのは、<mark>DeepSWE、EEBench、Harvey</mark> です。CursorBench、AA Briefcase、Terminal-Bench、HealthBench は <strong>Fable が上</strong>です。Sol より下なのは DeepSWE と HealthBench で、ほかの行は Sol 以上です。Terminal-Bench は 4.6 の <span class="num">20.3%</span> から <mark><span class="num">38.0%</span></mark> まで上がり、それでも Fable の <strong><span class="num">57.9%</span></strong> とは離れています。
+4.6 より上がった行がほとんどです。<strong>Fable 5.1 より上</strong>なのは、DeepSWE、EEBench、Harvey です。CursorBench、AA Briefcase、Terminal-Bench、HealthBench は <strong>Fable が上</strong>です。Sol より下なのは DeepSWE と HealthBench で、ほかの行は Sol 以上です。Terminal-Bench は 4.6 の <span class="num">20.3%</span> から <span class="num">38.0%</span> まで上がり、それでも Fable の <strong><span class="num">57.9%</span></strong> とは離れています。
 
 ## Astra と Fable と Opus
 
-Artificial Analysis は、自分で測る第三者です。Astra と Opus 5 は、<a href="https://artificialanalysis.ai/articles/benchmarking-grok-4-7" rel="external noopener">2026-09-21 の記事</a>と、2026-09-22 に開いた比較ページで比べます。モデル一覧の総合 1 位は Fable 5.1（max、fallback あり）の <mark><span class="num">53</span></mark> です。GPT-6 Astra（max）も <mark><span class="num">53</span></mark>、Opus 5（max）は <span class="num">51</span>、Grok 4.7（xhigh）は <mark><span class="num">46</span></mark> です。4.7 の high も総合は <span class="num">46</span> です。xAI の表は Max と書き、Artificial Analysis は max（fallback あり）と書いています。努力の名前は別です。
+Artificial Analysis は、自分で測る第三者です。Astra と Opus 5 は、<a href="https://artificialanalysis.ai/articles/benchmarking-grok-4-7" rel="external noopener">2026-09-21 の記事</a>と、2026-09-22 に開いた比較ページで比べます。モデル一覧の総合 1 位は Fable 5.1（max、fallback あり）の <span class="num">53</span> です。GPT-6 Astra（max）も <span class="num">53</span>、Opus 5（max）は <span class="num">51</span>、Grok 4.7（xhigh）は <span class="num">46</span> です。4.7 の high も総合は <span class="num">46</span> です。xAI の表は Max と書き、Artificial Analysis は max（fallback あり）と書いています。努力の名前は別です。
 
 Elo は勝ち抜きの点数で、大きいほど上です。GDPval-AA は、弁護士や看護師や金融の実務を模した仕事です。2026-09-22 の順位表では、Fable 5.1（max）が <span class="num">1,735</span>、Opus 5（max）が <span class="num">1,708</span>、Grok 4.7（xhigh）が <span class="num">1,695</span>、Grok 4.7（high）が <span class="num">1,694</span>、GPT-6 Astra（max）が <span class="num">1,542</span> です。4.6（high）は <span class="num">1,605</span> でした。
 
@@ -115,7 +115,7 @@ Elo は勝ち抜きの点数で、大きいほど上です。GDPval-AA は、弁
 
 書類や表やスライドを作る GDPval では Astra の上で、Opus 5 のすぐ下です。努力を high から xhigh に上げても、総合は 46 のまま、GDPval は 1,694 と 1,695 で、ほとんど動きません。
 
-コーディングは、Grok 4.7（xhigh）を Grok Build で動かした Coding Agent Index が <span class="num">56</span> です。4.6（xhigh）の <span class="num">47</span> から 9 点上がり、GPT-5.6 Sol を超えました。同じ指標で、各社が自分の開発ツールで動かした結果を並べると、<mark>4 番目</mark>です。上位は <strong>Fable 5.1、GPT-6 Astra、Opus 5</strong> です。内訳は、DeepSWE が <span class="num">65%</span> から <span class="num">73%</span>、Terminal-Bench 4.0 が <span class="num">18%</span> から <span class="num">33%</span>、SWE-Atlas-QnA が <span class="num">58%</span> から <span class="num">63%</span> です。
+コーディングは、Grok 4.7（xhigh）を Grok Build で動かした Coding Agent Index が <span class="num">56</span> です。4.6（xhigh）の <span class="num">47</span> から 9 点上がり、GPT-5.6 Sol を超えました。同じ指標で、各社が自分の開発ツールで動かした結果を並べると、4 番目です。上位は <strong>Fable 5.1、GPT-6 Astra、Opus 5</strong> です。内訳は、DeepSWE が <span class="num">65%</span> から <span class="num">73%</span>、Terminal-Bench 4.0 が <span class="num">18%</span> から <span class="num">33%</span>、SWE-Atlas-QnA が <span class="num">58%</span> から <span class="num">63%</span> です。
 
 xAI の表は DeepSWE <span class="num">71.0%</span>（high）、Terminal-Bench <span class="num">38.0%</span> です。同じ名前でも、努力と、動かし方が違えば点は違います。Artificial Analysis は、総合点の方の Terminal-Bench 4.0 は 4.5 点上がった、とも書いています。38% とは別の測り方です。
 
@@ -130,7 +130,7 @@ xAI の表の Fable は <span class="num">1,678</span> で、差は 21 です。
 
 総合点のほかの科目は、4.6（high）とおおむね同じです。上がったのは Terminal-Bench 4.0 が 4.5 点、書類を読む GDP.pdf が 3.0 点です。下がったのは長い文脈の AA-LCR が 3.7 点、作業手順の AutomationBench-AA が 1.1 点です。幻覚の割合は <span class="num">34%</span> から <span class="num">29%</span> です。当たっている割合は 4.6 の <span class="num">48%</span> に対して <span class="num">47%</span> で、ほとんど変わっていません。
 
-トークンは増えています。総合点の 1 問で、4.7（xhigh）の出力は約 <mark><span class="num">81,000</span></mark> トークンです。4.6（high）は約 <strong><span class="num">36,000</span></strong>、4.6（xhigh）は約 <span class="num">38,000</span>、Astra（max）は約 <span class="num">27,000</span> です。<mark>単価が安くても、1 問で書く量は Astra の約 3 倍</mark>です。長いプロンプトの出力速度は約 <span class="num">188</span> トークン/秒、総合点の 1 問に約 <span class="num">7.1</span> 分、と書いてあります。これは fast の宣伝文句とは別の計測です。
+トークンは増えています。総合点の 1 問で、4.7（xhigh）の出力は約 <span class="num">81,000</span> トークンです。4.6（high）は約 <strong><span class="num">36,000</span></strong>、4.6（xhigh）は約 <span class="num">38,000</span>、Astra（max）は約 <span class="num">27,000</span> です。単価が安くても、1 問で書く量は Astra の約 3 倍です。長いプロンプトの出力速度は約 <span class="num">188</span> トークン/秒、総合点の 1 問に約 <span class="num">7.1</span> 分、と書いてあります。これは fast の宣伝文句とは別の計測です。
 
 <figure class="article-hero">
   <a href="/tips/fig-grok-4-7-bill.jpg">
@@ -141,7 +141,7 @@ xAI の表の Fable は <span class="num">1,678</span> で、差は 21 です。
 
 ## Vals の実務テスト
 
-Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="https://www.vals.ai/" rel="external noopener">vals.ai</a> を開くと、各社の一番良いモデルを並べた表で、Grok 4.7 は <mark><span class="num">60.20%</span></mark> です。上は Fable 5.1 の <span class="num">68.83%</span>、GPT-6 Astra の <span class="num">66.61%</span>、Muse Spark 1.3 Max の <span class="num">64.53%</span>、Gemini 3.8 Flash の <span class="num">62.25%</span> です。全モデルの Vals Index では <strong>59 中 10 位</strong>で、誤差は ±1.08 です。1 回 <span class="num">$11.90</span>、待ち時間は 32 分 54 秒、と <a href="https://www.vals.ai/models/grok_grok-4.7" rel="external noopener">モデルページ</a>にあります。4.6 は <span class="num">59.17%</span>、4.5 は <span class="num">51.53%</span> です。測ったのは公式 API の xhigh です。上位 3 つの 1 回は <span class="num">$18.81</span> から <span class="num">$28.92</span> で、総合の 1 回だけ見ると Grok は安いです。
+Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="https://www.vals.ai/" rel="external noopener">vals.ai</a> を開くと、各社の一番良いモデルを並べた表で、Grok 4.7 は <span class="num">60.20%</span> です。上は Fable 5.1 の <span class="num">68.83%</span>、GPT-6 Astra の <span class="num">66.61%</span>、Muse Spark 1.3 Max の <span class="num">64.53%</span>、Gemini 3.8 Flash の <span class="num">62.25%</span> です。全モデルの Vals Index では <strong>59 中 10 位</strong>で、誤差は ±1.08 です。1 回 <span class="num">$11.90</span>、待ち時間は 32 分 54 秒、と <a href="https://www.vals.ai/models/grok_grok-4.7" rel="external noopener">モデルページ</a>にあります。4.6 は <span class="num">59.17%</span>、4.5 は <span class="num">51.53%</span> です。測ったのは公式 API の xhigh です。上位 3 つの 1 回は <span class="num">$18.81</span> から <span class="num">$28.92</span> で、総合の 1 回だけ見ると Grok は安いです。
 
 出荷の直後は、別の数字でした。<a href="https://x.com/ValsAI/status/2102086608476590432" rel="external noopener">2026-09-21 の投稿</a>は 54.2% で 24 位、4.6 の 59.2%（14 位）より下、4.5 の 51.5% より上、と書いています。同じスレッドで、考えたトークンが 4.6 の半分未満だったこと、1 回が <span class="num">$4.78</span> で 4.6 の <span class="num">$4.34</span> より少し高かったこと、Harvey が <span class="num">19.6%</span> で 5 位だったこと、を書いています。この 19.6% は xAI の表と同じ点です。
 
@@ -150,7 +150,7 @@ Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="htt
   <figcaption><a href="https://x.com/ValsAI/status/2102086608476590432" rel="external noopener">Vals の投稿</a>（2026-09-21）。出荷直後のチャートです。</figcaption>
 </figure>
 
-<a href="https://x.com/ValsAI/status/2102217732238516253" rel="external noopener">2026-09-22 の投稿</a>は、xAI が SDK を直したあとに <mark>10 位</mark>になった、と書いています。今の 60.20% と、Harvey の 12.08% は、そのあとの表です。
+<a href="https://x.com/ValsAI/status/2102217732238516253" rel="external noopener">2026-09-22 の投稿</a>は、xAI が SDK を直したあとに 10 位になった、と書いています。今の 60.20% と、Harvey の 12.08% は、そのあとの表です。
 
 <figure class="article-hero">
   <a href="/tips/fig-grok-4-7-rank.jpg">
@@ -173,7 +173,7 @@ Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="htt
 投稿の日付は UTC です。9/21 16:25 UTC は、日本時間の 9/22 1:25 です。x.ai が書いた発表日は 2026-09-21 です。
 
 - <time datetime="2026-07-24">2026-07-24</time> 「4.6 は 2 週間、4.7 は 4 週間」。<a href="https://x.com/elonmusk/status/2080724087593226311" rel="external noopener">投稿</a>
-- <time datetime="2026-07-28">2026-07-28</time> 4.6 は 1.5 兆で 8/7 ごろ、4.7 は <mark>2.1 兆</mark>でその数週間後に出る、と書いています。すべての面で 4.6 より良く、配る速さだけ少し遅く、トークン効率はさらに良い、とも書いています。<a href="https://x.com/elonmusk/status/2082123925283041545" rel="external noopener">投稿</a>
+- <time datetime="2026-07-28">2026-07-28</time> 4.6 は 1.5 兆で 8/7 ごろ、4.7 は 2.1 兆でその数週間後に出る、と書いています。すべての面で 4.6 より良く、配る速さだけ少し遅く、トークン効率はさらに良い、とも書いています。<a href="https://x.com/elonmusk/status/2082123925283041545" rel="external noopener">投稿</a>
 - <time datetime="2026-08-12">2026-08-12</time> 4.6 よりかなり良く、3〜4 週間で出る。SpaceX の社内データを追加で学習している。<a href="https://x.com/elonmusk/status/2087604711767896527" rel="external noopener">投稿</a>
 - <time datetime="2026-08-15">2026-08-15</time> 今のモデル全部を、賢さで超える可能性が高い。<a href="https://x.com/elonmusk/status/2088735708693602427" rel="external noopener">投稿</a>
 - <time datetime="2026-09-02">2026-09-02</time> 10 日で出る。<a href="https://x.com/elonmusk/status/2094983639780204846" rel="external noopener">投稿</a>
@@ -201,13 +201,13 @@ Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="htt
 
 2.1 兆は、2026-07-28 の投稿の数字です。2026-09-21 に docs で確かめた仕様は、文脈 50 万トークン、入力 $2、出力 $6 です。7/28 は「トークン効率はさらに良い」とも書いています。9/21 の測り方では、総合点の 1 問の出力が増えています。社内データの話は 8/12 の投稿にあります。9/21 の発表が説明したのは、モデルを大きくしたこと、学習を長くしたこと、Grok Bot の進め方を覚えたことです。
 
-9/14 の見通しは、総合点では近い結果です。4.7 は Opus 5 の 51 より下の <mark>46</mark> です。GDPval では Opus 5 の 1,708 のすぐ下で、<strong>Astra の 1,542 より上</strong>です。得意不得意がある、という文に近い並びです。8/15 の「全部を超える」は、<mark>この総合点では起きていません</mark>。
+9/14 の見通しは、総合点では近い結果です。4.7 は Opus 5 の 51 より下の 46 です。GDPval では Opus 5 の 1,708 のすぐ下で、<strong>Astra の 1,542 より上</strong>です。得意不得意がある、という文に近い並びです。8/15 の「全部を超える」は、この総合点では起きていません。
 
 ## 日本で使うなら
 
-長いコードを Grok Build に書かせるなら、docs では 4.7 が既定です。イーロンも、Build と一緒に使うと一番良い、と書いています。単価は 4.6 と同じで、Fable の表の単価より安いです。ただし xhigh で長く考えると、1 問の出力は約 <mark>81,000</mark> トークンまで増えます。<strong>安いのは 1 トークンの値段</strong>です。1 件で払う額は、書いた量で増えます。
+長いコードを Grok Build に書かせるなら、docs では 4.7 が既定です。イーロンも、Build と一緒に使うと一番良い、と書いています。単価は 4.6 と同じで、Fable の表の単価より安いです。ただし xhigh で長く考えると、1 問の出力は約 81,000 トークンまで増えます。<strong>安いのは 1 トークンの値段</strong>です。1 件で払う額は、書いた量で増えます。
 
-プロンプトが <mark>20 万トークンを超えると、単価が倍</mark>です。長いログを全部貼る前に、要る部分だけにします。知識の区切りは 2026 年 5 月です。それより新しいことは、API なら web search を付けるか、自分で資料を貼ります。
+プロンプトが 20 万トークンを超えると、単価が倍です。長いログを全部貼る前に、要る部分だけにします。知識の区切りは 2026 年 5 月です。それより新しいことは、API なら web search を付けるか、自分で資料を貼ります。
 
 日本語の試験は、この発表の点数とは別です。英語で返ってきたら、今まで通り <a href="/tips/japanese-fix/"><strong>会話の最初に 3 行貼ります</strong></a>。動画を作れる本数は、Imagine の決まりのままです。
 
@@ -215,12 +215,12 @@ Harvey と HealthBench はテストの点です。契約書や診断の判断に
 
 ## よくある取り違え
 
-- 「4.7 は全部のモデルに勝った」: 2026-08-15 の見通しです。2026-09-21 の総合は <mark>46</mark> で、Fable と Astra の <strong>53</strong>、Opus 5 の 51 の下です
-- 「チャットも今日から 4.7」: 案内されたのは <mark>Cursor、Grok Build、API</mark> です。grok.com は、開いている画面のモデル名を見てください
+- 「4.7 は全部のモデルに勝った」: 2026-08-15 の見通しです。2026-09-21 の総合は 46 で、Fable と Astra の <strong>53</strong>、Opus 5 の 51 の下です
+- 「チャットも今日から 4.7」: 案内されたのは Cursor、Grok Build、API です。grok.com は、開いている画面のモデル名を見てください
 - 「Terminal-Bench は 38%」: それは <strong>xAI の表の 4.0</strong> です。Artificial Analysis が Grok Build で測った 4.0 は 33%、Vals の 2.1 は 73.41% です
-- 「Harvey は 19.6%」: 出荷直後は、xAI の表も Vals の投稿もその点でした。SDK を直したあとの Vals の掲載は <mark>12.08%</mark> です
-- 「Vals では 4.6 より下がった」: 出荷直後は <strong>54.2% で 24 位</strong>、4.6 の 59.2% より下でした。SDK を直したあとの掲載は <mark>60.20% で 10 位</mark>、4.6 の 59.17% の上です
-- 「単価が同じなら請求も同じ」: 単価は同じです。総合点の 1 問で出力が約 <mark>81,000</mark> トークンになり、4.6 の high の約 36,000 より多いです
+- 「Harvey は 19.6%」: 出荷直後は、xAI の表も Vals の投稿もその点でした。SDK を直したあとの Vals の掲載は 12.08% です
+- 「Vals では 4.6 より下がった」: 出荷直後は <strong>54.2% で 24 位</strong>、4.6 の 59.2% より下でした。SDK を直したあとの掲載は 60.20% で 10 位、4.6 の 59.17% の上です
+- 「単価が同じなら請求も同じ」: 単価は同じです。総合点の 1 問で出力が約 81,000 トークンになり、4.6 の high の約 36,000 より多いです
 - 「2.1 兆が仕様」: <strong>2026-07-28 の投稿の数字</strong>です。出荷日に docs で確かめた仕様は、文脈 50 万、入力 $2、出力 $6 です
 
 ## 関連する TIPS
