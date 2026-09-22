@@ -19,6 +19,9 @@ const KEY_URL = `${SITE}/${KEY_FILE}`;
 const FIG_TO_NEWS = {
   'fig-grok-4-7': 'grok-4-7',
   'fig-grok-4-7-price': 'grok-4-7',
+  'fig-grok-4-7-doors': 'grok-4-7',
+  'fig-grok-4-7-bill': 'grok-4-7',
+  'fig-grok-4-7-rank': 'grok-4-7',
 };
 
 const FIG_TO_SLUG = {

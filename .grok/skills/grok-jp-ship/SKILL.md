@@ -9,6 +9,7 @@ No GitHub Actions. Live site is Cloudflare Workers Static Assets from this Mac.
 
 ## Sequence
 
+0. Reader-facing Japanese in the diff has a Fable review for this revision. Follow `.grok/rules/writing.md` 「公開前に Fable」. Do not ship on Grok's read-aloud alone. [must] items are fixed. The record is `docs/grok-fun/fable-*.md`.
 1. `pnpm build`
 2. `pnpm run deploy` (do not set `run_worker_first` true)
 3. Check live HTML with `curl -A 'Mozilla/5.0'` — Python urllib gets 403

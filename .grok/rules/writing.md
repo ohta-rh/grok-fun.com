@@ -29,6 +29,15 @@
 
 テストは音読。title、description、見出し、表の見出し、キャプション、alt、図の中の文字。友達が「なにそれ」と言う文、日本人が使わない言い方（「公式で見る」）は出すな。表の見出しはスマホでラベルになる。
 
+## 公開前に Fable
+
+読者が見る日本語は、Grok の音読だけで出さない。出荷前に Fable の review を必ず通す。Grok は日本語が弱い。
+
+1. `.grok/skills` の fable-consult に従う。brief はファイルに書き、`scripts/run-fable.sh` で回す。記事の本文を brief に凍らせる。
+2. 指摘の [must] は直してから出す。[should] も直す。事実と数字は動かさない。
+3. 記録は `docs/grok-fun/fable-*.md`。Fable の文は書き換えない。文脈が違って採用しなかった指摘は、同じファイルの `## Owner overrides` に理由を書く。
+4. マーカーや太字を足しただけでは、日本語チェックの代わりにならない。
+
 製品名は英語のまま（Grok, SuperGrok, Imagine, Bot, Build, Voice）。節名「TIPS」は変えない。
 
 内部リンクのアンカーは「TIPS 01」ではなく、リンク先の内容が分かる語。本文の文脈リンクと、末尾の「関連する TIPS」の両方。
