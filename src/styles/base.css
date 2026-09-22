@@ -47,7 +47,7 @@ li > ul, li > ol { margin: 0.2em 0; }
 
 code, kbd, pre, time, .mono, .num { font-family: var(--font-mono); font-weight: 500; }
 .num { font-size: 0.95em; letter-spacing: 0; }
-code { font-size: 0.92em; background: color-mix(in oklab, var(--ink) 6%, var(--paper)); padding: 0.05em 0.3em; border-radius: 2px; }
+code { font-size: 0.92em; background: var(--marker-35); padding: 0.05em 0.3em; border-radius: 2px; }
 pre {
   position: relative;
   font-size: 0.9rem;
@@ -245,22 +245,6 @@ main { flex: 1; padding-bottom: var(--section); }
   border-radius: 0;
   background: transparent;
 }
-.x-embed { margin: 1.15em 0; }
-.x-embed iframe {
-  display: block;
-  width: 100%;
-  max-width: 550px;
-  height: 720px;
-  border: 1px solid var(--rule);
-  border-radius: 2px;
-  background: var(--paper);
-}
-.x-embed figcaption {
-  font-size: 0.85rem;
-  color: var(--ink-60);
-  margin-top: 0.4rem;
-}
-
 .infofig {
   margin: 1.25rem 0 0;
   border: 1px solid var(--rule);

@@ -24,23 +24,21 @@ Japanese rules live in `.grok/rules/writing.md`. Do not copy that file here. Fig
 | 「請求は伸びる」「請求が縮む」 | Money does not 伸びる. 単価は同じでも、払う額は増える. 1件で払う額は、書いた量で増える. 伸びる is for a score, a rank, or a length of text |
 | Vendor table and a third party blended into one number | Say who measured, the date, and the effort. Terminal-Bench 4.0 and 2.1 are different tests. A score the night of launch and the score after an SDK fix are both real. Write both |
 | A pre-launch post treated as the shipped spec | 2.1兆は投稿の数字. The spec is what docs listed that day: context, input, output |
-| Someone else’s chart saved into `public/` | Do not download or redraw their chart. Embed the post. See below |
+| An X embed iframe for a benchmark chart | The iframe is a narrow column and does not match the article. Save the chart image, show it at the article width, and name the source under it. Do not add Twitter’s script |
 | A 5-column markdown table | This site stacks every column after the first. A comparison becomes unreadable. Two columns of one sentence, or a table image in the site’s type. Not a beige card, not a copied chart |
 | One infographic at the top, then a wall of paragraphs | A long memo needs a judgment figure at the section where the decision happens (入口, 払う額, 順位の前後). Open grok-jp-infographic. If a phrase on the figure is wrong, regenerate the file. Do not leave the bad sentence in the JPG |
-| Yellow `<mark>` on sentences, numbers, or inline code | The marker is only the name Grok 4.7, once at the first mention. A marked phrase that wraps becomes two orange bars. Everything else is `<strong>`, and not on every line. `code` is not the marker color |
+| Yellow `<mark>` on a whole sentence or a number | `<mark>` is only the name Grok 4.7, once, at the first mention. A marked phrase that wraps becomes two bars. Other emphasis is `<strong>`. Inline `code` keeps the site’s pale marker wash; do not also wrap it in `<mark>` |
 | Fable told “the figure is not at the top” | The ranking figure is injected above the markdown. Say 記事のいちばん上の図. Tell Fable that when the brief is frozen |
 
 ## Third parties and X
 
 Name the measurer in the sentence. Artificial Analysis and Vals are not xAI’s table.
 
-Benchmark charts stay on X. The page embeds the post:
+A benchmark chart from a post is an image in the article, full column width, with the source under it:
 
-- iframe `https://platform.twitter.com/embed/Tweet.html?id={id}&theme=light&dnt=true&hideThread=true`
-- `frame-src` may include `https://platform.twitter.com` and `https://platform.x.com`. Do not add their script, and do not allow `pbs.twimg.com` as our images.
-- Caption is who, the date, and the link. A short Japanese sentence of what the chart decides. Not a transcription of every bar.
+`引用元は [Artificial Analysis の 2026-09-21 の投稿](url) です。`
 
-Our own figure is allowed when it states our judgment in our words (総合は 46 で下、単価はここで選ぶ). That is not a copy of their chart.
+Do not iframe the post. Do not load Twitter’s script. Do not redraw their bars as if they were ours. Our own figure is separate: it states our judgment in our words (総合は 46 で下、単価はここで選ぶ).
 
 ## Table image, when a matrix must be ours
 

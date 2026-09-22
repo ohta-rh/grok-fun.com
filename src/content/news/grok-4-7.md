@@ -108,9 +108,11 @@ Elo は勝ち抜きの点数で、大きいほど上です。GDPval-AA は、弁
 
 記事のいちばん上の図が、この総合です。元のチャートは、下の投稿の中にあります。<strong>コーディングでも Astra の下</strong>です。
 
-<figure class="x-embed">
-  <iframe title="Artificial Analysis の投稿。総合とコーディングのチャート" src="https://platform.twitter.com/embed/Tweet.html?id=2102074898327932987&amp;theme=light&amp;dnt=true&amp;hideThread=true" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-  <figcaption><a href="https://x.com/ArtificialAnlys/status/2102074898327932987" rel="external noopener">Artificial Analysis の投稿</a>（2026-09-21）。チャートは X 上の投稿です。</figcaption>
+<figure class="article-hero">
+  <a href="https://x.com/ArtificialAnlys/status/2102074898327932987" rel="external noopener">
+    <img src="/tips/fig-grok-4-7-aa-index.jpg" alt="Artificial Analysis のチャート。総合は Fable 5.1 と Astra が 53、Opus 5 が 51、Grok 4.7 が 46。コーディングは Grok Build の 4.7 が 56" width="1200" height="955">
+  </a>
+  <figcaption>引用元は <a href="https://x.com/ArtificialAnlys/status/2102074898327932987" rel="external noopener">Artificial Analysis の 2026-09-21 の投稿</a>です。</figcaption>
 </figure>
 
 書類や表やスライドを作る GDPval では Astra の上で、Opus 5 のすぐ下です。努力を high から xhigh に上げても、総合は 46 のまま、GDPval は 1,694 と 1,695 で、ほとんど動きません。
@@ -121,9 +123,11 @@ xAI の表は DeepSWE <span class="num">71.0%</span>（high）、Terminal-Bench 
 
 事務仕事の AA-Briefcase は <span class="num">1,657</span> Elo で、4.6（high）から 111 上がり、Opus 5 と Fable 5.1 のすぐ後ろ、と書いてあります。棒の並びは、この投稿です。
 
-<figure class="x-embed">
-  <iframe title="Artificial Analysis の投稿。AA-Briefcase のチャート" src="https://platform.twitter.com/embed/Tweet.html?id=2102170392924492207&amp;theme=light&amp;dnt=true&amp;hideThread=true" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-  <figcaption><a href="https://x.com/ArtificialAnlys/status/2102170392924492207" rel="external noopener">Artificial Analysis の投稿</a>（2026-09-21）。</figcaption>
+<figure class="article-hero">
+  <a href="https://x.com/ArtificialAnlys/status/2102170392924492207" rel="external noopener">
+    <img src="/tips/fig-grok-4-7-aa-brief.jpg" alt="Artificial Analysis の AA-Briefcase のチャート。Grok 4.7 は 1657 で、Fable 5.1 と Opus 5 の次" width="1600" height="587">
+  </a>
+  <figcaption>引用元は <a href="https://x.com/ArtificialAnlys/status/2102170392924492207" rel="external noopener">Artificial Analysis の 2026-09-21 の投稿</a>です。</figcaption>
 </figure>
 
 xAI の表の Fable は <span class="num">1,678</span> で、差は 21 です。中身の Elo は 1,690 から 1,994 に上がり、見た目の Elo は 1,519 から 1,499 に下がりました。分析は良くなって、スライドの体裁は少し落ちています。
@@ -145,9 +149,11 @@ Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="htt
 
 出荷の直後は、別の数字でした。<a href="https://x.com/ValsAI/status/2102086608476590432" rel="external noopener">2026-09-21 の投稿</a>は 54.2% で 24 位、4.6 の 59.2%（14 位）より下、4.5 の 51.5% より上、と書いています。同じスレッドで、考えたトークンが 4.6 の半分未満だったこと、1 回が <span class="num">$4.78</span> で 4.6 の <span class="num">$4.34</span> より少し高かったこと、Harvey が <span class="num">19.6%</span> で 5 位だったこと、を書いています。この 19.6% は xAI の表と同じ点です。
 
-<figure class="x-embed">
-  <iframe title="Vals の投稿。出荷直後の順位" src="https://platform.twitter.com/embed/Tweet.html?id=2102086608476590432&amp;theme=light&amp;dnt=true&amp;hideThread=true" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-  <figcaption><a href="https://x.com/ValsAI/status/2102086608476590432" rel="external noopener">Vals の投稿</a>（2026-09-21）。出荷直後のチャートです。</figcaption>
+<figure class="article-hero">
+  <a href="https://x.com/ValsAI/status/2102086608476590432" rel="external noopener">
+    <img src="/tips/fig-grok-4-7-vals-first.jpg" alt="Vals のチャート。出荷直後の Grok 4.7 は 54.15% で 59 中 24 位。4.6 は 59.17% で 14 位" width="1280" height="1404">
+  </a>
+  <figcaption>引用元は <a href="https://x.com/ValsAI/status/2102086608476590432" rel="external noopener">Vals の 2026-09-21 の投稿</a>です。出荷直後の順位です。</figcaption>
 </figure>
 
 <a href="https://x.com/ValsAI/status/2102217732238516253" rel="external noopener">2026-09-22 の投稿</a>は、xAI が SDK を直したあとに 10 位になった、と書いています。今の 60.20% と、Harvey の 12.08% は、そのあとの表です。
@@ -159,9 +165,11 @@ Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="htt
   <figcaption>出荷直後は 24 位です。SDK を直したあとは 10 位です。</figcaption>
 </figure>
 
-<figure class="x-embed">
-  <iframe title="Vals の投稿。SDK を直したあとの成績表" src="https://platform.twitter.com/embed/Tweet.html?id=2102217732238516253&amp;theme=light&amp;dnt=true&amp;hideThread=true" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-  <figcaption><a href="https://x.com/ValsAI/status/2102217732238516253" rel="external noopener">Vals の投稿</a>（2026-09-22）。直したあとの成績表は、この投稿の中にあります。</figcaption>
+<figure class="article-hero">
+  <a href="https://x.com/ValsAI/status/2102217732238516253" rel="external noopener">
+    <img src="/tips/fig-grok-4-7-vals-now.jpg" alt="Vals の成績表。SDK を直したあとの Grok 4.7 は 60.20%、59 中 10 位。1 回 11.90 ドル" width="756" height="1374">
+  </a>
+  <figcaption>引用元は <a href="https://x.com/ValsAI/status/2102217732238516253" rel="external noopener">Vals の 2026-09-22 の投稿</a>です。SDK を直したあとの成績表です。</figcaption>
 </figure>
 
 診療記録の MedScribe と、アプリを組む Vibe Code が強いです。証明の ProofBench と、教育の SAGE は弱いです。LegalBench は 84.39% でも 146 中 31 位で、点の高さはそのまま順位になりません。表の Harvey 12.08% は、出荷直後の 19.6% から動いたあとの点です。Terminal-Bench 2.1 の 73.41% は、xAI の Terminal-Bench 4.0 の 38.0% とは版が違います。

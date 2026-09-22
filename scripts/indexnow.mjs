@@ -22,6 +22,10 @@ const FIG_TO_NEWS = {
   'fig-grok-4-7-doors': 'grok-4-7',
   'fig-grok-4-7-bill': 'grok-4-7',
   'fig-grok-4-7-rank': 'grok-4-7',
+  'fig-grok-4-7-aa-index': 'grok-4-7',
+  'fig-grok-4-7-aa-brief': 'grok-4-7',
+  'fig-grok-4-7-vals-first': 'grok-4-7',
+  'fig-grok-4-7-vals-now': 'grok-4-7',
 };
 
 const FIG_TO_SLUG = {
