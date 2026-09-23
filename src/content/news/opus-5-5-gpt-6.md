@@ -7,6 +7,9 @@ source_url:
   - https://www.anthropic.com/claude-opus-5-5
   - https://openai.com/index/introducing-gpt-6-sol-and-luna/
   - https://x.ai/news/grok-4-7
+  - https://x.ai/news/series-e
+  - https://x.ai/colossus
+  - https://x.ai/news/anthropic-compute-partnership
 ---
 
 ## 翌日に、もっと高い点が並んだ
@@ -60,9 +63,13 @@ Anthropic の表に、Grok の列はありません。Astra と Opus 5.5 の点�
 
 長いコードを Grok Build に書かせる使い方なら、前日のメモに書いたとおり、4.7 はまだ十分に使えます。点で一番のモデルが要る仕事なら、この日の発表を見てください。どこにいくら払うかは、<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>に書きました。
 
+次を待つ理由は、計算機です。Colossus のページには、xAI が 122 日で建て、92 日で GPU 20 万台まで倍にした、とあります。2026-01-06 の資金調達の発表は別の数え方で、2025 年末に Colossus I と II を合わせ、H100 の性能に換算して 100 万枚分を超えていた、と書いています。xAI は Colossus のページで、この規模と速さで建てた会社はほかにない、と言い切っています。2026-05-06 には、Colossus 1 を Anthropic にも使わせると発表しています。持っている全部が、次の Grok の学習に向くわけではありません。それでも xAI は、自分で建てて、短期間で増やした会社です。この日の点は負けです。ファンとしては、計算機を増やす速さを見て、次のモデルまでの時間は短いと期待しています。
+
 ## よくある取り違え
 
 - 「同じ日の同じ表で 38% 対 66%」と読む: 37.6% は xAI が 9 月 21 日に出した表の点で、66.4% は Anthropic が 9 月 22 日に出した表の点です。考える量の設定も、動かし方も違います
 - 「Sol は Chat で今すぐ使える」: 発表には、Chat にはまだ無い、と書いてあります。使えるのは Codex と ChatGPT Work と API です
 - 「単価が安いから勝った」: 単価はたしかにまだ安いです。ただ、Terminal-Bench と CursorBench の点は、Opus 5.5 の方が上です
 - 「DeepSWE の 71% が総合一位」: 71.0% は、xAI 自身が high の設定で出した点です。翌日の Sol は max の設定で 68.8% です。同じ条件で測った点ではありません
+- 「計算機が多いから、この日は勝っていた」: 計算機の量は 2025 年末の換算で、点は 9 月 22 日の表です。別の話です。翌日の点は、それでも Opus 5.5 が上です
+- 「持っている計算機が、全部 Grok の学習に向いている」: 2026-05-06 に、Colossus 1 を Anthropic に使わせると発表しています。書いてある用途は Claude Pro と Claude Max の容量です
