@@ -2,7 +2,7 @@
 title: Grok 4.7 は一番ではない。単価を据えて長く働く
 description: "2026-09-21 に Grok 4.7 が出ました。総合点は 46 点で、Fable 5.1 と GPT-6 Astra の 53、Opus 5 の 51 より下です。API は入力 100 万トークン $2、出力 $6 で、Grok 4.6 と同じ単価です。長く考えると出力が増え、払う額は増えます。"
 published: "2026-09-21"
-last_verified: "2026-09-22"
+last_verified: "2026-09-23"
 source_url:
   - https://x.ai/news/grok-4-7
   - https://docs.x.ai/developers/grok-4-7
@@ -98,7 +98,7 @@ fast は同じモデルを速い機材で配るもので、トークン単価は
 
 CursorBench は長めのコーディング、DeepSWE はソフトウェアの課題、EEBench は電気回路、AA Briefcase は何時間もかかる事務、Terminal-Bench はターミナルで長く作業するテスト、Harvey は法律のエージェント、HealthBench は臨床の推論です。法律と臨床の行は、そのテストの点です。契約や診断を任せてよい、という意味ではありません。
 
-4.6 より上がった行がほとんどです。<strong>Fable 5.1 より上</strong>なのは、DeepSWE、EEBench、Harvey です。CursorBench、AA Briefcase、Terminal-Bench、HealthBench は <strong>Fable が上</strong>です。Sol より下なのは DeepSWE と HealthBench で、ほかの行は Sol 以上です。Terminal-Bench は 4.6 の <span class="num">20.3%</span> から <span class="num">38.0%</span> まで上がり、それでも Fable の <strong><span class="num">57.9%</span></strong> とは離れています。
+4.6 より上がった行がほとんどです。<strong>Fable 5.1 より上</strong>なのは、DeepSWE、EEBench、Harvey です。CursorBench、AA Briefcase、Terminal-Bench、HealthBench は <strong>Fable が上</strong>です。Sol より下なのは DeepSWE と HealthBench で、ほかの行は Sol 以上です。Terminal-Bench は 4.6 の <span class="num">20.3%</span> から <span class="num">37.6%</span> まで上がり、それでも Fable の <strong><span class="num">57.9%</span></strong> とは離れています。
 
 ## Astra と Fable と Opus
 
@@ -119,7 +119,7 @@ Elo は勝ち抜きの点数で、大きいほど上です。GDPval-AA は、弁
 
 コーディングは、Grok 4.7（xhigh）を Grok Build で動かした Coding Agent Index が <span class="num">56</span> です。4.6（xhigh）の <span class="num">47</span> から 9 点上がり、GPT-5.6 Sol を超えました。同じ指標で、各社が自分の開発ツールで動かした結果を並べると、4 番目です。上位は <strong>Fable 5.1、GPT-6 Astra、Opus 5</strong> です。内訳は、DeepSWE が <span class="num">65%</span> から <span class="num">73%</span>、Terminal-Bench 4.0 が <span class="num">18%</span> から <span class="num">33%</span>、SWE-Atlas-QnA が <span class="num">58%</span> から <span class="num">63%</span> です。
 
-xAI の表は DeepSWE <span class="num">71.0%</span>（high）、Terminal-Bench <span class="num">38.0%</span> です。同じ名前でも、努力と、動かし方が違えば点は違います。Artificial Analysis は、総合点の方の Terminal-Bench 4.0 は 4.5 点上がった、とも書いています。38% とは別の測り方です。
+xAI の表は DeepSWE <span class="num">71.0%</span>（high）、Terminal-Bench <span class="num">37.6%</span> です。同じ名前でも、努力と、動かし方が違えば点は違います。Artificial Analysis は、総合点の方の Terminal-Bench 4.0 は 4.5 点上がった、とも書いています。37.6% とは別の測り方です。
 
 事務仕事の AA-Briefcase は <span class="num">1,657</span> Elo で、4.6（high）から 111 上がり、Opus 5 と Fable 5.1 のすぐ後ろ、と書いてあります。棒の並びは、この投稿です。
 
@@ -172,7 +172,7 @@ Vals も、自分で課題を回す第三者です。2026-09-22 に <a href="htt
   <figcaption>引用元は <a href="https://x.com/ValsAI/status/2102217732238516253" rel="external noopener">Vals の 2026-09-22 の投稿</a>です。SDK を直したあとの成績表です。</figcaption>
 </figure>
 
-診療記録の MedScribe と、アプリを組む Vibe Code が強いです。証明の ProofBench と、教育の SAGE は弱いです。LegalBench は 84.39% でも 146 中 31 位で、点の高さはそのまま順位になりません。表の Harvey 12.08% は、出荷直後の 19.6% から動いたあとの点です。Terminal-Bench 2.1 の 73.41% は、xAI の Terminal-Bench 4.0 の 38.0% とは版が違います。
+診療記録の MedScribe と、アプリを組む Vibe Code が強いです。証明の ProofBench と、教育の SAGE は弱いです。LegalBench は 84.39% でも 146 中 31 位で、点の高さはそのまま順位になりません。表の Harvey 12.08% は、出荷直後の 19.6% から動いたあとの点です。Terminal-Bench 2.1 の 73.41% は、xAI の Terminal-Bench 4.0 の 37.6% とは版が違います。
 
 長い仕事は高くなります。コードの移植は 1 回 <span class="num">$36.55</span>、Vibe Code は <span class="num">$15.83</span>、IOI は <span class="num">$12.71</span>、Harvey は <span class="num">$11.01</span> です。単価が安くても、課題が長いと 1 回に払う額は上がります。
 
@@ -225,7 +225,7 @@ Harvey と HealthBench はテストの点です。契約書や診断の判断に
 
 - 「4.7 は全部のモデルに勝った」: 2026-08-15 の見通しです。2026-09-21 の総合は 46 で、Fable と Astra の <strong>53</strong>、Opus 5 の 51 の下です
 - 「チャットも今日から 4.7」: 案内されたのは Cursor、Grok Build、API です。grok.com は、開いている画面のモデル名を見てください
-- 「Terminal-Bench は 38%」: それは <strong>xAI の表の 4.0</strong> です。Artificial Analysis が Grok Build で測った 4.0 は 33%、Vals の 2.1 は 73.41% です
+- 「Terminal-Bench は 38%」: xAI の表の 4.0 は <strong>37.6%</strong> です。38% は四捨五入です。Artificial Analysis が Grok Build で測った 4.0 は 33%、Vals の 2.1 は 73.41% です
 - 「Harvey は 19.6%」: 出荷直後は、xAI の表も Vals の投稿もその点でした。SDK を直したあとの Vals の掲載は 12.08% です
 - 「Vals では 4.6 より下がった」: 出荷直後は <strong>54.2% で 24 位</strong>、4.6 の 59.2% より下でした。SDK を直したあとの掲載は 60.20% で 10 位、4.6 の 59.17% の上です
 - 「単価が同じなら請求も同じ」: 単価は同じです。総合点の 1 問で出力が約 81,000 トークンになり、4.6 の high の約 36,000 より多いです

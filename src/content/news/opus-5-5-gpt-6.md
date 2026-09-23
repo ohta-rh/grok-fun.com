@@ -1,6 +1,6 @@
 ---
 title: 翌日の点では、Grok 4.7 は負けた
-description: "2026-09-22 に Claude Opus 5.5 と GPT-6 Sol、GPT-6 Luna が出ました。Terminal-Bench 4.0 は、前日の Grok 4.7 が 38.0% で、Opus 5.5 は 66.4% です。測り方は別です。API の単価は、Grok の方がまだ安いです。"
+description: "2026-09-22 に Claude Opus 5.5 と GPT-6 Sol、GPT-6 Luna が出ました。Terminal-Bench 4.0 は、前日の Grok 4.7 が 37.6% で、Opus 5.5 は 66.4% です。測り方は別です。API の単価は、Grok の方がまだ安いです。"
 published: "2026-09-22"
 last_verified: "2026-09-23"
 source_url:
@@ -13,7 +13,7 @@ source_url:
 
 2026-09-21 に <mark>Grok 4.7</mark> が出ました。その翌日、2026-09-22 に Claude Opus 5.5 と、GPT-6 Sol、GPT-6 Luna が出ました。前日のメモは <a href="/news/grok-4-7/">Grok 4.7 は一番ではない</a> です。その日の総合点も、すでに Fable 5.1 と GPT-6 Astra と Opus 5 の下でした。翌日の表は、その差をさらに広げました。
 
-いちばん上の図は、Terminal-Bench 4.0 です。xAI が 9 月 21 日に出した Grok 4.7 は <span class="num">38.0%</span> です。Anthropic が 9 月 22 日に出した Opus 5.5 は <span class="num">66.4%</span> です。同じ名前のテストでも、動かし方は別です。Anthropic の注では、Opus 5.5 は xhigh、GPT-6 Astra の <span class="num">57.9%</span> は OpenAI が high で出した点です。Grok の 38.0% は、xAI 自身の表です。一つのレースの順位表ではありません。それでも、点の開きは大きいです。<strong>負けています。</strong>
+いちばん上の図は、Terminal-Bench 4.0 です。xAI が 9 月 21 日に出した Grok 4.7 は <span class="num">37.6%</span> です。Anthropic が 9 月 22 日に出した Opus 5.5 は <span class="num">66.4%</span> です。同じ名前のテストでも、動かし方は別です。Anthropic の注では、Opus 5.5 は xhigh、GPT-6 Astra の <span class="num">57.9%</span> は OpenAI が high で出した点です。Grok の 37.6% は、xAI 自身の表です。一つのレースの順位表ではありません。それでも、点の開きは大きいです。<strong>負けています。</strong>
 
 ## どこで会うか
 
@@ -45,7 +45,7 @@ DeepSWE は、努力が揃っていません。xAI の表は Grok 4.7 が <span 
 
 Anthropic の表に、Grok の列はありません。そこに並ぶ GPT-6 Astra は、Terminal-Bench 4.0 が <span class="num">57.9%</span>、FrontierCode が <span class="num">53.3%</span>、GDPval-AA が <span class="num">1542</span>、AutomationBench が <span class="num">41.4%</span>、科学の Terminal-Bench-Science が <span class="num">64.6%</span> です。Opus 5.5 は Terminal-Bench <span class="num">66.4%</span>、FrontierCode <span class="num">54.4%</span>、GDPval-AA <span class="num">1846</span>、AutomationBench <span class="num">40.0%</span>、科学は <span class="num">58.7%</span> です。Astra が上なのは、この表では AutomationBench と科学の行です。ほかは Opus 5.5 が上です。
 
-安全装置が働いたとき、Anthropic はサイバーの課題を Opus 4.8 に、生物とフロンティアの開発課題を Opus 5 に回した、と注に書いています。その分、Opus 5.5 の点は下がりやすい、とも書いています。下がったあとの 66.4% でも、Grok の 38.0% より上です。
+安全装置が働いたとき、Anthropic はサイバーの課題を Opus 4.8 に、生物とフロンティアの開発課題を Opus 5 に回した、と注に書いています。その分、Opus 5.5 の点は下がりやすい、とも書いています。下がったあとの 66.4% でも、Grok の 37.6% より上です。
 
 ## ファンとして、残る理由と、残らない理由
 
@@ -55,7 +55,7 @@ Anthropic の表に、Grok の列はありません。そこに並ぶ GPT-6 Astr
 
 ## よくある取り違え
 
-- 「同じ日の同じ表で 38% 対 66%」: 38.0% は xAI の 9 月 21 日の表です。66.4% は Anthropic の 9 月 22 日の表です。努力も動かし方も違います
+- 「同じ日の同じ表で 38% 対 66%」: 37.6% は xAI の 9 月 21 日の表です。66.4% は Anthropic の 9 月 22 日の表です。努力も動かし方も違います
 - 「Sol は Chat で今すぐ使える」: Chat には、まだ無い、と発表に書いてあります。Codex と ChatGPT Work と API です
 - 「単価が安いから勝った」: 単価はまだ安いです。Terminal-Bench と CursorBench の点は、Opus 5.5 の方が上です
 - 「DeepSWE の 71% が総合一位」: high の自社の点です。翌日の Sol は max で 68.8% です。同じ条件ではありません
