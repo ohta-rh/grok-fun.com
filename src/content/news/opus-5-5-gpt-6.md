@@ -37,11 +37,11 @@ Grok 4.7 は、入力 <span class="num">$2</span>、出力 <span class="num">$6<
 
 点で上にいるのは Opus 5.5 で、単価は Grok より高いです。Sol は、入力は Grok と同じで、出力は Grok より高いです。ですから、安いから Grok に残る、という言い方はまだできます。ただ、点で選ぶなら、この日の表で選ぶ先は Grok ではありません。それに、1 件で払う額は単価だけでは決まりません。長く書かせるほど、払う額は増えます。その話は前日のメモに書きました。
 
-## ほかの行も、先頭ではない
+## ほかのテストでも、Grok は一番ではない
 
 CursorBench 4.0 は、Anthropic の表では Opus 5.5 が <span class="num">57.8%</span>、Fable 5.1 が <span class="num">51.8%</span>、Opus 5 が <span class="num">46.6%</span>、GPT-5.6 Sol が <span class="num">41.7%</span> です。Astra のマスは空欄です。xAI が前日に出した Grok 4.7 は <span class="num">46.3%</span> です。並べると、Opus 5.5 と Fable 5.1 の下で、Opus 5 とほぼ同じで、GPT-5.6 Sol よりは上です。
 
-DeepSWE は、考える量の設定が各社でそろっていません。xAI の表では、Grok 4.7 は high の設定で <span class="num">71.0%</span> です。OpenAI の発表では、GPT-6 Sol は max の設定で <span class="num">68.8%</span> で、Fable 5 が xhigh で出した <span class="num">69.9%</span> に近い、とあります。設定がそろっていないので、この行だけは勝ち負けを言いません。
+DeepSWE は、考える量の設定が各社でそろっていません。xAI の表では、Grok 4.7 は high の設定で <span class="num">71.0%</span> です。OpenAI の発表では、GPT-6 Sol は max の設定で <span class="num">68.8%</span> で、Fable 5 が xhigh で出した <span class="num">69.9%</span> に近い、とあります。設定がそろっていないので、このテストだけは勝ち負けを言いません。
 
 Anthropic の表に、Grok の列はありません。Astra と Opus 5.5 の点は、下の図にあります。
 
@@ -56,9 +56,9 @@ Anthropic の表に、Grok の列はありません。Astra と Opus 5.5 の点�
 
 ## ファンとして、残る理由と、残らない理由
 
-単価を見れば、残る理由はあります。点を見れば、一番だとは言えません。前日の第三者の総合点は 46 で、Fable 5.1 と Astra の 53、Opus 5 の 51 の下でした。翌日に出た公式の表では、先頭にいるのは Opus 5.5 です。
+単価を見れば、残る理由はあります。点を見れば、一番だとは言えません。前日の第三者の総合点は 46 で、Fable 5.1 と Astra の 53、Opus 5 の 51 の下でした。翌日に出た公式の表では、一番なのは Opus 5.5 です。
 
-長いコードを Grok Build に書かせる使い方なら、前日のメモに書いたとおり、4.7 はまだ十分に使えます。点で先頭のモデルが要る仕事なら、この日の発表を見てください。どこにいくら払うかは、<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>に書きました。
+長いコードを Grok Build に書かせる使い方なら、前日のメモに書いたとおり、4.7 はまだ十分に使えます。点で一番のモデルが要る仕事なら、この日の発表を見てください。どこにいくら払うかは、<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>に書きました。
 
 ## よくある取り違え
 
