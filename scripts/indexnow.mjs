@@ -26,6 +26,9 @@ const FIG_TO_NEWS = {
   'fig-grok-4-7-aa-brief': 'grok-4-7',
   'fig-grok-4-7-vals-first': 'grok-4-7',
   'fig-grok-4-7-vals-now': 'grok-4-7',
+  'fig-next-day-loss': 'opus-5-5-gpt-6',
+  'fig-next-day-price': 'opus-5-5-gpt-6',
+  'fig-next-day-door': 'opus-5-5-gpt-6',
 };
 
 const FIG_TO_SLUG = {
