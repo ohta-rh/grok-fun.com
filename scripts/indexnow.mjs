@@ -46,6 +46,7 @@ const FIG_TO_SLUG = {
   'fig-multi-agent': 'expert-and-heavy',
   'fig-jp-paste': 'japanese-fix',
   'fig-bot-uses-build': 'bot-uses-build',
+  'fig-bot-claude-code': 'bot-uses-claude-code',
   'fig-bot-uses-build-arch': 'bot-uses-build',
   'vid-cat': 'imagine-video',
   'vid-lantern': 'imagine-video',
