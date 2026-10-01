@@ -61,7 +61,7 @@ image_caption: 時刻で回すなら誰でも使えます。メールで動か�
 
 ## よくある取り違え
 
-- 「Automations は Grok Bot」: grok.com と公式アプリの、チャットの予約です。Bot が、Bot 自身のコンピュータで繰り返す仕事は、別のアプリです。そちらは、パソコンを閉じていても走り、Slack や GitHub からも起動できます。<a href="/tips/grok-bot-cloud-computer/">Grok Bot はクラウドにコンピュータを持ちます</a>
+- 「Automations は Grok Bot」: grok.com と公式アプリの、チャットの予約です。Bot が、Bot 自身のコンピュータで繰り返す仕事は、別のアプリです。そちらは、パソコンを閉じていても走り、Slack や GitHub からも起動できます。<a href="/tips/grok-bot-cloud-computer/">Grok Bot はクラウドにコンピュータがあります</a>
 - 「メールの起動も誰でも」: 時刻の予約は誰でもです。メールで動かせるのは、SuperGrok の人だけです
 - 「一度の返事が、毎朝届く」: 毎回、新しい会話です。指示は同じで、材料はそのときのデータです
 - 「モードは選べない」: 指示と一緒にモードを選びます。発表の画面例は Auto です

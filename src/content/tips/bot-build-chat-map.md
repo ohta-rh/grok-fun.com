@@ -31,7 +31,7 @@ image_caption: チャットと Grok Bot と Grok Build は、同じ机に載っ�
 | 名前 | 何をする | どこで | 誰に |
 |---|---|---|---|
 | **チャット** | その場で質問して答えをもらう。会話が終われば終わり | grok.com、公式アプリ、X | 全員 |
-| **Grok Bot** | クラウドに自分用のコンピュータを持っていて、仕事を任せられる相手。チャットの前置きを保存するものではない | Grok Bot のアプリ、Cursor | 仕事を任せておきたい人 |
+| **Grok Bot** | クラウドに自分用のコンピュータがある。仕事を任せられる相手で、チャットの前置きを保存するものではない | Grok Bot のアプリ、Cursor | 仕事を任せておきたい人 |
 | **Grok Build** | ファイルを触る、または画面の中でサイトやアプリを作る。場所によって別物 | ターミナル、または grok.com と公式アプリ | ファイルを触らせたい人、画面の中で作りたい人 |
 
 </div>
@@ -48,7 +48,7 @@ image_caption: チャットと Grok Bot と Grok Build は、同じ机に載っ�
 
 ## Grok Bot: 仕事を任せる別のアプリ
 
-FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だと書いています。クラウド上にコンピュータを持ち、アプリにログインして仕事を進めてくれる相手です。デスクトップアプリ（macOS、Windows、Linux）は <a href="https://x.ai/bot" rel="external">x.ai/bot</a> から入れます。チャットの前置きを保存する機能ではありません。
+FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だと書いています。クラウドにコンピュータがあり、アプリにログインして仕事を進めてくれる相手です。デスクトップアプリ（macOS、Windows、Linux）は <a href="https://x.ai/bot" rel="external">x.ai/bot</a> から入れます。チャットの前置きを保存する機能ではありません。
 
 作るときは、名前と、主にやってもらう仕事と、進め方を書きます。指示が長くなるときは、この形が使いやすいです。
 
@@ -59,7 +59,7 @@ FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だ
 やらないこと: ○○（例: 文体を変えない。英語で答えない）
 ```
 
-対象のプランは、公式の中で書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあります。同じ日の導入ページは Plus、Heavy と、Cursor の Pro+ 以上だけです。Cursor の個人向け Pro は月 $20 で Grok Bot access とあります。**自分のプランで使えるかは、契約する画面で確かめてください。** Bot の使用量は、Grok や Cursor で使える量とは別に数えます。grok.com のチャットや Imagine の使える量は増えません（<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
+対象のプランは、公式の中で書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあります。同じ日の導入ページは Plus、Heavy と、Cursor の Pro+ 以上だけです。Cursor の個人向け Pro は月 $20 で Grok Bot access とあります。**自分のプランで使えるかは、契約する画面で確かめてください。** Grok や Cursor で使っても、Bot で使える分は減りません。grok.com のチャットや Imagine の使える量は増えません（<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
 
 Bot 用のプロンプトは、<a href="https://grokguide.jp" rel="external">grokguide.jp</a> にたくさんまとまっています。このサイトでは Bot のプロンプト集は作りません。作り方の形と、日本語で使うときの注意だけを書いています。
 

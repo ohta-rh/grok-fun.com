@@ -128,7 +128,7 @@ X の中の Grok は X のプランで動きます。grok.com は SuperGrok の�
 
 ## Cursor から Grok Bot を使う
 
-<a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26 の発表</a>では、Grok Bot は SuperGrok、Plus、Heavy と、Cursor の Pro、Pro+、Ultra、Teams に含まれる、とあります。Bot の使用量は Grok や Cursor で使える量とは別に数える、とも書いてあります。
+<a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26 の発表</a>では、Grok Bot は SuperGrok、Plus、Heavy と、Cursor の Pro、Pro+、Ultra、Teams に含まれる、とあります。Grok や Cursor で使っても、Bot で使える分は減らない、とも書いてあります。
 
 <a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-09-17）の個人向けは、Pro が月 <span class="num">$20</span>、Pro+ が月 <span class="num">$60</span>、Ultra が月 <span class="num">$200</span> です。Pro から **Grok Bot access** と書いてあります。Pro+ と Ultra は Bot の使える量が増えます。無料の Hobby には Grok Bot の記載がありません。
 

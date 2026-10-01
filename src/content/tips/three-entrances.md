@@ -39,7 +39,7 @@ Web は **grok.com** を使います。公式の FAQ によると、grok.x.ai �
 
 1. 今いる画面のメニューを全部開いてみる
 2. 公式アプリと grok.com を入れ替えてみる
-3. Imagine と、画面の中の Build と、ターミナルの grok は、X の中では探さない。仕事を任せる Grok Bot も、この 3 つの入口とは別のアプリです（<a href="/tips/grok-bot-cloud-computer/">クラウドにコンピュータを持つ</a>）
+3. Imagine と、画面の中の Build と、ターミナルの grok は、X の中では探さない。仕事を任せる Grok Bot も、この 3 つの入口とは別のアプリです（<a href="/tips/grok-bot-cloud-computer/">クラウドにコンピュータがある</a>）
 
 ## アカウント
 

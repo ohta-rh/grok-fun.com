@@ -25,7 +25,7 @@ source_url:
 
 ## 何が変わったか
 
-2026-09-29、サンフランシスコの DevDay で、OpenAI は dots を出しました。ChatGPT の中に置いて、仕事を任せておけるエージェントです。頭脳は GPT-6 Astra だと、発表のページに書いてあります。dot はクラウドに専用のコンピュータとブラウザを持ち、あなたが繋いだアプリを使います。
+2026-09-29、サンフランシスコの DevDay で、OpenAI は dots を出しました。ChatGPT の中に置いて、仕事を任せておけるエージェントです。頭脳は GPT-6 Astra だと、発表のページに書いてあります。dot は、クラウドに専用のコンピュータとブラウザがあります。使うのは、自分が繋いだアプリです。
 
 OpenAI は、こう書いています。「Dots are remarkably capable, always-on agents built to handle everything.」何でも任せられるように作った、いつも動いているエージェントだ、という書き方です。全文は [Introducing dots](https://openai.com/index/introducing-dots/) です。同じ日の [DevDay 2026 Recap](https://openai.com/index/devday-2026-recap/) にも、短い紹介があります。
 
@@ -83,7 +83,7 @@ specialist dots は、会社の中で一つの仕事を受け持つ dot です�
 
 頭脳の名前から違います。dots は GPT-6 Astra と書いてあります。Grok Bot の [設定のページ](https://docs.x.ai/grok-bot/settings-and-notifications) では、モデルは Cursor が選びます。選ぶ画面はありません。Grok のバージョン番号も、案内には出ていません。
 
-コンピュータも違います。発表の安全の節には、各 dot が自分のクラウドコンピュータで動く、と書いてあります。今プランに入るのは最初の 1 体です。Grok Bot の [FAQ](https://docs.x.ai/grok-bot/faq) には、アカウントの Bot 全部が 1 台を使う、と書いてあります。画面は Bot ごとにあります。ファイルも、ブラウザのログインも、ターミナルのログインも、同じ台の中です。ログインを分けたい仕事は、Cursor のユーザーを分けます。この話は <a href="/tips/grok-bot-cloud-computer/">クラウドのコンピュータは 1 台</a> に書いてあります。
+コンピュータも違います。発表の安全の節には、各 dot が自分のクラウドコンピュータで動く、と書いてあります。今プランに入るのは最初の 1 体です。Grok Bot の [FAQ](https://docs.x.ai/grok-bot/faq) には、アカウントの Bot 全部が 1 台を使う、と書いてあります。画面は Bot ごとにあります。ファイルも、ブラウザのログインも、ターミナルのログインも、同じ台の中です。ログインを分けたい仕事には、Cursor のユーザーを別に用意します。この話は <a href="/tips/grok-bot-cloud-computer/">クラウドのコンピュータは 1 台</a> に書いてあります。
 
 始め方も違います。dots では、読み取りだけで先に調べる動きに、proactive research という名前が付いています。Grok Bot の [概要](https://docs.x.ai/grok-bot/overview) と、[Skill と Routine](https://docs.x.ai/grok-bot/skills-routines-and-automations) のページに、これに当たる動きは見当たりません。話しかけていないあいだに動くのは、すでに頼んだ仕事、自分で置いた Routine、Slack や GitHub の出来事で起動するよう自分で書いた規則です。Routine は、1 体の Bot に 50 までです。実行の記録は、新しい方から 20 件まで残ります。
 
