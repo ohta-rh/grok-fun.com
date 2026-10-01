@@ -23,6 +23,8 @@ Japanese rules live in `.grok/rules/writing.md`. Do not copy that file here. Fig
 | Failure | Do this |
 |---|---|
 | 「請求は伸びる」「請求が縮む」 | Money does not 伸びる. 単価は同じでも、払う額は増える. 1件で払う額は、書いた量で増える. 伸びる is for a score, a rank, or a length of text |
+| seat を「席」 | A paid headcount is 「シート」. Premium シート、Standard シート. Do not invent 席 for an English seat |
+| 足し算にならない、秘密の境界、オンにするまでオフ、「とは書いていません」 | These are English sentence shapes. Drop the paragraph and rewrite it from a LINE 3-liner. Do not swap one word |
 | Vendor table and a third party blended into one number | Say who measured, the date, and the effort. Terminal-Bench 4.0 and 2.1 are different tests. A score the night of launch and the score after an SDK fix are both real. Write both |
 | A pre-launch post treated as the shipped spec | 2.1兆は投稿の数字. The spec is what docs listed that day: context, input, output |
 | An X embed iframe for a benchmark chart | The iframe is a narrow column and does not match the article. Save the chart, show it at the article width (`article-hero`, not a 550px frame), and write only the source under it: 引用元は [誰のいつ の投稿](url) です。 Do not add Twitter’s script |
