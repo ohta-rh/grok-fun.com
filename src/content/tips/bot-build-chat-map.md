@@ -3,7 +3,7 @@ title: チャット、Grok Bot、Grok Build は別の道具
 description: Grok の名前が付いたものは、チャット、Grok Bot、Grok Build の 3 つあって、それぞれ別の道具です。質問したいだけならチャットで足ります。Bot は仕事を任せる別のアプリです。Build はターミナルと、画面の中とで場所が違います。混ぜて検索すると、どれを開けばいいか分かりません。
 order: 6
 product: series
-last_verified: "2026-09-17"
+last_verified: "2026-10-07"
 source_url:
   - https://x.ai/news/grok-build-cli
   - https://x.ai/news/grok-bot-more-plans
@@ -59,7 +59,7 @@ FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だ
 やらないこと: ○○（例: 文体を変えない。英語で答えない）
 ```
 
-対象のプランは、公式の中で書き方が揃っていません。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあります。同じ日の導入ページは Plus、Heavy と、Cursor の Pro+ 以上だけです。Cursor の個人向け Pro は月 $20 で Grok Bot access とあります。**自分のプランで使えるかは、契約する画面で確かめてください。** Grok や Cursor で使っても、Bot で使える分は減りません。grok.com のチャットや Imagine の使える量は増えません（<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
+Grok Bot が付くプランは、公式の書き方が日付で変わっています。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあり、2026-10-07 に開いても同じです。2026-09-17 の導入ページは Plus、Heavy と、Cursor の Pro+ 以上だけ、と書いていました。2026-10-07 の導入ページでは、対象は個人の有料 Cursor の全部か Cursor Teams、または Cursor のアカウントにつないだ個人の SuperGrok、Plus、Heavy です。Cursor の個人向け Pro は月 $20 で Grok Bot access とあります。**自分のプランで使えるかは、契約する画面で確かめてください。** Grok や Cursor で使っても、Bot で使える分は減りません。grok.com のチャットや Imagine の使える量は増えません（<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
 
 Bot 用のプロンプトは、<a href="https://grokguide.jp" rel="external">grokguide.jp</a> にたくさんまとまっています。このサイトでは Bot のプロンプト集は作りません。作り方の形と、日本語で使うときの注意だけを書いています。
 

@@ -3,7 +3,7 @@ title: 動画は、先に絵を出してから動きを一つ書く（Imagine）
 description: Imagine で動画を作るときは、いきなり動画にせず、先に静止画を出して、それに動きを一つだけ書き足します。雨が降る、ゆっくり寄る、どれか一つです。入口は grok.com か公式アプリです。画風は静止画の段階で決めます。動画はチャットより早く使える量が減ります。720p が 480p になるのは故障ではありません。
 order: 5
 product: imagine
-last_verified: "2026-09-17"
+last_verified: "2026-10-07"
 source_url:
   - https://grok.com/imagine
   - https://x.ai/news/grok-imagine-video-1-5

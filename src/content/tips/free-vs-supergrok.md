@@ -3,7 +3,7 @@ title: Grok の有料は 1 つじゃない。やりたいことで払う場所�
 description: Grok の有料は 1 つではありません。チャットと Imagine なら grok.com の SuperGrok、X の中だけなら X Premium、Grok Bot だけなら Cursor、アプリから呼ぶなら API と、やりたいことで払う場所が変わります。X で払っても grok.com は無料のままです。
 order: 3
 product: chat
-last_verified: "2026-09-17"
+last_verified: "2026-10-07"
 source_url:
   - https://x.ai/pricing
   - https://docs.x.ai/grok/faq
@@ -130,9 +130,9 @@ X の中の Grok は X のプランで動きます。grok.com は SuperGrok の�
 
 <a href="https://x.ai/news/grok-bot-more-plans" rel="external">2026-08-26 の発表</a>では、Grok Bot は SuperGrok、Plus、Heavy と、Cursor の Pro、Pro+、Ultra、Teams に含まれる、とあります。Grok や Cursor で使っても、Bot で使える分は減らない、とも書いてあります。
 
-<a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-09-17）の個人向けは、Pro が月 <span class="num">$20</span>、Pro+ が月 <span class="num">$60</span>、Ultra が月 <span class="num">$200</span> です。Pro から **Grok Bot access** と書いてあります。Pro+ と Ultra は Bot の使える量が増えます。無料の Hobby には Grok Bot の記載がありません。
+<a href="https://cursor.com/pricing" rel="external">cursor.com/pricing</a>（2026-10-07）の個人向けは、まず Pro が月 <span class="num">$20</span> で出ています。同じカードで Pro+、Ultra に切り替えられます。そのカードに **Grok Bot access** と書いてあります。Pro+ と Ultra は、Cursor の案内では Bot で使える量が増えます。Pro+ と Ultra の金額は、切り替えると出ます。無料の Hobby には Grok Bot の記載がありません。
 
-公式の書き方は揃っていません。2026-09-17 の料金ページの SuperGrok（$30）にも Grok Bot access とあります。同じ日の<a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a>は Plus、Heavy と、Cursor の Pro+ 以上だけです。**自分のプランで Bot が使えるかは、契約する画面で確かめてください。**
+2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあり、2026-10-07 に開いても同じです。2026-09-17 の<a href="https://docs.x.ai/grok-bot/get-started" rel="external">導入ページ</a>は Plus、Heavy と、Cursor の Pro+ 以上だけ、と書いていました。2026-10-07 の導入ページでは、対象は個人の有料 Cursor の全部か Cursor Teams、または Cursor のアカウントにつないだ個人の SuperGrok、Plus、Heavy です。**自分のプランで Bot が使えるかは、契約する画面で確かめてください。**
 
 Grok Bot だけが目的で、もう Cursor を使っているなら、Cursor の個人向け Pro（確認した時点で <span class="num">$20</span>）のほうが SuperGrok（$30）より安くすみます。ただし grok.com で使える量も、API のクレジットも付いてきません。
 

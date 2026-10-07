@@ -3,7 +3,7 @@ title: Heavy は機能でも、プランでもある
 description: "Heavy はチャットの機能でも、払うプランの名前でもあります。2026-09-22 のプラン画面は、より大きなエージェントのチームが協力して、いちばん良い返事にする、と書いています。Expert mode は別の機能です。Heavy の月額は契約画面にあります。チャットのモデル名は Grok 4.6 です。"
 order: 10
 product: chat
-last_verified: "2026-09-22"
+last_verified: "2026-10-07"
 source_url:
   - https://grok.com/plans
   - https://x.ai/grok
