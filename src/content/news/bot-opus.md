@@ -1,6 +1,6 @@
 ---
 title: Grok Bot の本体は、Claude Opus 5.5 で動く
-description: "2026-10-07、Grok Bot の開発者は、本体が Claude Opus 5.5 で動く、と書きました。Musk は、仕事に合うモデルを使う、と書き、Midjourney と Suno も挙げました。いつから、いくらはありません。翌日の Video 1.5 Lite は、480p が秒 $0.02 です。"
+description: "2026-10-07、Grok Bot の開発者は、本体が Claude Opus 5.5 で動く、と書きました。Musk は Midjourney と Suno も挙げました。いつから、いくらはありません。Video 1.5 Lite は日本時間 2026-10-09 に出て、480p が秒 $0.02 です。"
 published: "2026-10-07"
 last_verified: "2026-10-09"
 source_url:
@@ -12,6 +12,7 @@ source_url:
   - https://x.com/elonmusk/status/2108294618597216470
   - https://docs.x.ai/developers/models/grok-imagine-video-1.5-lite
   - https://docs.x.ai/grok-bot/faq
+  - https://x.ai/bot
   - https://x.ai/news/introducing-grok-bot
   - https://x.ai/news/grok-4-7
 ---
@@ -30,7 +31,9 @@ source_url:
 
 使う場所は、Grok Bot のアプリです。入口は [x.ai/bot](https://x.ai/bot) です。grok.com のチャットで、モデルの名前を選ぶ話ではありません。
 
-2026-10-09 に開いた FAQ では、Grok Bot は Cursor の有料の個人プランと、Cursor Teams に入っています。個人の SuperGrok、SuperGrok Plus、SuperGrok Heavy を繋いでも使えます。使用量は週ごとです。週の分を使い切ったあとは、オンデマンドにすると、モデルとトークンの費用から請求されます。
+2026-10-09 に開いた FAQ では、Grok Bot は Cursor の有料の個人プランに入っています。個人の SuperGrok、SuperGrok Plus、SuperGrok Heavy を繋いでも使えます。使用量は週ごとです。オンデマンドを足すと、使ったモデルとトークンの分が請求されます。同じ FAQ では、Cursor Teams の Standard と Premium のシートに入っています。Enterprise への提供は、今広げているところです。
+
+同じ日に開いた [x.ai/bot](https://x.ai/bot) では、Enterprise も今使える、と書いてあります。並んでいるのは、Cursor の Pro、Pro+、Ultra、SuperGrok、SuperGrok Plus、Heavy、Standard と Premium の Teams、Enterprise です。二つのページは、ここがずれています。
 
 Opus だけの金額は、この FAQ にも、2026-10-07 の投稿にもありません。
 
@@ -39,11 +42,11 @@ Opus だけの金額は、この FAQ にも、2026-10-07 の投稿にもあり�
 ## 軽い動画の単価は、解像度で変わる
 
 <figure class="article-hero">
-  <img src="/tips/fig-video-15-lite.jpg" alt="ノートに、軽い動画の単価は、解像度で変わる、と書いてある。Video 1.5 Lite。2026-10-08 の公式。480p は秒 $0.02、720p は秒 $0.03、1080p は秒 $0.14。Bot が自動で使う、と Musk は書いた" width="1280" height="720" />
-  <figcaption>480p は秒 $0.02、720p は秒 $0.03、1080p は秒 $0.14 です。Bot が自動で使う、と書いたのは 2026-10-08 の Musk の返信です。</figcaption>
+  <img src="/tips/fig-video-15-lite.jpg" alt="ノートに、軽い動画の単価は、解像度で変わる、と書いてある。Video 1.5 Lite。日本時間では 2026-10-09。480p は秒 $0.02、720p は秒 $0.03、1080p は秒 $0.14。Bot が自動で使う、と Musk は書いた" width="1280" height="720" />
+  <figcaption>480p は秒 $0.02、720p は秒 $0.03、1080p は秒 $0.14 です。Bot が自動で使う、と書いたのは、日本時間 2026-10-09 の Musk の返信です。</figcaption>
 </figure>
 
-翌日の 2026-10-08、Grok Imagine の公式アカウントは、Video 1.5 Lite が API で使える、と書きました。「$0.02/sec at 480p」「$0.03/sec at 720p」「$0.14/sec at 1080p」です。全文は [2026-10-08 の投稿](https://x.com/imagine/status/2108280250673352929) です。続きの投稿に、[モデルのページ](https://docs.x.ai/developers/models/grok-imagine-video-1.5-lite) へのリンクがあります。
+Grok Imagine の公式アカウントが書いたのは、2026-10-08 19:35 UTC です。日本時間では 2026-10-09 4:35 です。Video 1.5 Lite が API で使える、と書いてあります。「$0.02/sec at 480p」「$0.03/sec at 720p」「$0.14/sec at 1080p」です。全文は [Imagine の公式アカウントの投稿](https://x.com/imagine/status/2108280250673352929) です。続きの投稿に、[モデルのページ](https://docs.x.ai/developers/models/grok-imagine-video-1.5-lite) へのリンクがあります。
 
 2026-10-09 にそのページを開くと、解像度の表は同じ数字でした。モデル名は `grok-imagine-video-1.5-lite` です。
 
@@ -59,13 +62,13 @@ Opus だけの金額は、この FAQ にも、2026-10-07 の投稿にもあり�
 
 そのページの料金表には、出力は秒 <span class="num">$0.02</span>、とあります。解像度の表の 480p と同じ金額です。画像の入力は <span class="num">$0.01</span> です。出した動画は秒ごとに課金する、とページにあります。動画や画像を入力に渡したときも課金する、とあります。使える地域は us-east-1 と us-west-2 です。
 
-Musk は同じ日、その投稿へ「Automatically used by Grok @Bot.」と返信しました。Bot が自動で使う、という書き方です。返信は [Bot が自動で使う、と書いた返信](https://x.com/elonmusk/status/2108294618597216470) です。モデルのページの表に、Bot の行はありません。
+Musk は 2026-10-08 20:33 UTC に、その投稿へ「Automatically used by Grok @Bot」と返信しました。日本時間では 2026-10-09 5:33 です。Bot が自動で使う、という書き方です。返信は [Bot が自動で使う、と書いた返信](https://x.com/elonmusk/status/2108294618597216470) です。モデルのページの表に、Bot の行はありません。
 
 grok.com で出す動画の長さと枠は、この API の秒単価とは別です。整理は <a href="/tips/imagine-video/">先に絵を出してから、動きを一つ書く</a> に書いてあります。
 
 ## 前に書いてあったこと
 
-xAI が自分で作ったモデルは、2026-09-21 に出た Grok 4.7 です。メモは <a href="/news/grok-4-7/">Grok 4.7 は一番ではない</a> です。翌日に点を並べたメモは <a href="/news/opus-5-5-gpt-6/">翌日の点では、Grok 4.7 は負けた</a> です。今回の投稿は、その点数を更新するものではありません。
+2026-09-21 の発表は、Grok 4.7 です。メモは <a href="/news/grok-4-7/">Grok 4.7 は一番ではない</a> です。翌日に点を並べたメモは <a href="/news/opus-5-5-gpt-6/">翌日の点では、Grok 4.7 は負けた</a> です。今回の投稿は、その点数を更新するものではありません。
 
 Grok Bot のアプリは、2026-08-11 に出ています。原文は [Introducing Grok Bot](https://x.ai/news/introducing-grok-bot) です。
 
@@ -90,4 +93,4 @@ Midjourney と Suno は、Musk が名前を挙げたところまでです。始�
 - 「grok.com のチャットが Opus 5.5 になった」: 投稿が名前を挙げたのは Grok Bot です。grok.com のチャットの話は、その投稿にありません
 - 「Opus にすると、追加の月額がある」: Opus だけの金額は、2026-10-07 の投稿にも、2026-10-09 の FAQ にもありません。使用量は週ごとのままです
 - 「秒 $0.02 は、どの解像度でも同じ」: 料金表の出力は秒 $0.02 です。解像度の表では 480p が秒 $0.02、720p が秒 $0.03、1080p が秒 $0.14 です
-- 「モデルのページに、Bot が自動で使うとある」: そう書いたのは、2026-10-08 の Musk の返信です。モデルのページの表に、Bot の行はありません
+- 「モデルのページに、Bot が自動で使うとある」: そう書いたのは、日本時間 2026-10-09 の Musk の返信です。モデルのページの表に、Bot の行はありません
