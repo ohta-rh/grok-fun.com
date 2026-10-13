@@ -4,6 +4,8 @@
 
 パッケージマネージャは **pnpm**。GitHub Actions は使わない。デプロイは `pnpm build` のあと `wrangler deploy`。繰り返し手順は `.grok/skills/grok-jp-tips`、`.grok/skills/grok-jp-news`、`.grok/skills/grok-jp-infographic`、`.grok/skills/grok-jp-ship`、`.grok/skills/grok-jp-stale`。TIPS の本文図を出す前に **grok-jp-infographic を開け**。読まずに出すな。発表の当日メモは grok-jp-news。
 
+TIPS かニュースの本文を更新したら、その作業は deploy と push までが終わりである。下書きで止めない。別の「公開して」を待たない。Fable の [must] と [should] を直したあと `.grok/skills/grok-jp-ship` に従う。`main` に commit し、`git push origin main` する。force-push はしない。`run_worker_first` は false のまま。
+
 ## 公開する日本語（最優先）
 
 正本は **`.grok/rules/writing.md`**。先に、主語と述語のある普通の日本語 3 行。文を崩せば口語になるのではない。事実は日付と数字。英語の公式を日本語に載せない。直訳は語を換えず、段落を書き直す。音読。表の見出しはスマホでラベルになる。読者が見る日本語は、出荷前に Fable の review を通す。Grok の音読だけでは出さない。
