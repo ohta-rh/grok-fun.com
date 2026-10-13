@@ -3,7 +3,7 @@ title: 動画は、先に絵を出してから動きを一つ書く（Imagine）
 description: Imagine で動画を作るときは、いきなり動画にせず、先に静止画を出して、それに動きを一つだけ書き足します。雨が降る、ゆっくり寄る、どれか一つです。入口は grok.com か公式アプリです。画風は静止画の段階で決めます。動画はチャットより早く使える量が減ります。720p が 480p になるのは故障ではありません。
 order: 5
 product: imagine
-last_verified: "2026-10-07"
+last_verified: "2026-10-13"
 source_url:
   - https://grok.com/imagine
   - https://x.ai/news/grok-imagine-video-1-5
@@ -84,11 +84,11 @@ image_caption: 下の動画は、この静止画をもとに動かしたもの�
 
 ## 使える量と画質
 
-2026 年 6 月から、使える量は 1 週間ごとに決まっていて、チャットと Imagine は同じ量から減ります（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。動画を出すと、チャットより早く尽きます。残りは設定の Usage で見ます。払う場所は <a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a> に書きました。
+2026 年 6 月から、使える量は 1 週間ごとに決まっていて、チャットと Imagine は同じ量から減ります（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。動画を出すと、チャットより早く尽きます。残りは設定の Usage で見ます。払う場所は <a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a> に書きました。
 
 - **透かしは消せません。** 生成した画像と動画には Grok の透かしが入ります。消したり隠したりすることは利用規約で禁じられています（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）
 - **720p が 480p になるのは故障ではありません。** その解像度の分を使い切ると落ちます。Usage を見てください
-- 1080p の動画は SuperGrok Plus からです（2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a>）
+- 1080p の動画は SuperGrok Plus からです（2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a>）。2026-10-13 に開いた新しい料金カードには、1080p の行はありませんでした
 - 無料と SuperGrok で何本出せるかは、時期で変わるのでこのページには書きません
 
 ## API は別

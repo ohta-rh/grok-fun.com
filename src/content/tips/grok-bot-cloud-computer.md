@@ -3,7 +3,7 @@ title: Grok Bot はチャットの続きではない。クラウドにコンピ�
 description: Grok Bot は、クラウドに自分用のコンピュータがある別のアプリです。同じアカウントの Bot は 1 台を共有します。PC を閉じても仕事は続きます。チャットの前置きを保存するものではありません。入口は x.ai/bot で、サインインは Cursor のアカウントです。動かしているのは Cursor です。
 order: 7
 product: bot
-last_verified: "2026-10-07"
+last_verified: "2026-10-13"
 source_url:
   - https://x.ai/news/introducing-grok-bot
   - https://x.ai/news/grok-bot-more-plans
@@ -16,6 +16,9 @@ source_url:
   - https://docs.x.ai/grok-bot/teams-and-enterprises
   - https://cursor.com/help/grok-bot/plans
   - https://x.ai/bot
+  - https://x.ai/news/x-subscription
+  - https://x.ai/pricing
+  - https://docs.x.ai/x-subscription/pricing
 related:
   - bot-uses-build
   - bot-build-chat-map
@@ -48,7 +51,7 @@ Grok Bot は、この困りごとのために出た別のアプリです。ク�
 
 Bot はデスクトップアプリ（macOS、Windows、Linux）と、iPhone、iPad、Android のアプリから使います。サインインしている端末のあいだで、同じ会話が続きます。iPad は iPadOS 18 以降で、iPhone と同じアプリです。
 
-Grok のチャットや Cursor で使っても、Bot で使える分は減りません。Bot が使えるようになっても、grok.com の Imagine の枚数は増えません（<a href="/tips/free-vs-supergrok/">払う場所は別</a>）。
+2026-10-07 までの契約では、Grok のチャットや Cursor で使っても、Bot で使える分は減りません。切り替えない限り、Bot が使えるようになっても、grok.com の Imagine の枚数は増えません。2026-10-13 の新しい契約では、同じ週の分から減ります（<a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a>）。
 
 ## コンピュータは 1 台
 
@@ -138,7 +141,7 @@ Grok Bot はクラウドにデータを置く前提です。Cursor の Legacy Pr
 
 ## プランと使用量
 
-2026-10-07 の導入ページでは、対象は個人の有料 Cursor の全部か Cursor Teams、または Cursor のアカウントにつないだ個人の SuperGrok、Plus、Heavy です。2026-09-17 に開いたときは、導入ページが対象を Plus、Heavy と、Cursor の Pro+ 以上だけ、と書いていて、同じ日の料金ページとは揃っていませんでした。**自分のプランで使えるかは、契約する画面で確かめてください。**
+2026-10-07 の導入ページでは、対象は個人の有料 Cursor の全部か Cursor Teams、または Cursor のアカウントにつないだ個人の SuperGrok、Plus、Heavy です。2026-09-17 に開いたときは、導入ページが対象を Plus、Heavy と、Cursor の Pro+ 以上だけ、と書いていて、同じ日の料金ページとは揃っていませんでした。2026-10-13 の新規は、The X Subscription です。Bot は Premium からです。今の Cursor や SuperGrok は、切り替えない限り、この対象のままです。
 
 <div class="table-scroll">
 
@@ -149,14 +152,15 @@ Grok Bot はクラウドにデータを置く前提です。Cursor の Legacy Pr
 | 2026-09-17 の料金 | SuperGrok（$30）に Grok Bot access とある |
 | 2026-10-07 の導入ページ | 個人の有料 Cursor 全部か、Cursor Teams。つないだ個人の SuperGrok、Plus、Heavy |
 | Cursor の案内 | 個人の有料 Cursor 全部。個人の SuperGrok、Plus、Heavy。X Premium+。Lite は対象外 |
+| 2026-10-13 の新しい料金 | 新規の Bot は Premium、Super、Ultra。Plus には無い |
 
 </div>
 
-Cursor の案内では、個人の SuperGrok や X Premium+ に入っている人は、Grok Bot の画面からそのプランをつなぎます（画面の表記はリンク）。Cursor のプランが変わるわけではありません。すでに Cursor の有料プランに入っているときは、つないでも、二つのプランの使える分は合わさりません。FAQ には、Cursor と SuperGrok の両方があるときは、多いほうを使う、と書いてあります。
+2026-10-07 までに確認した Cursor の案内では、個人の SuperGrok や X Premium+ に入っている人は、Grok Bot の画面からそのプランをつなぎます（画面の表記はリンク）。Cursor のプランが変わるわけではありません。すでに Cursor の有料プランに入っているときは、つないでも、二つのプランの使える分は合わさりません。同じ時期の FAQ には、Cursor と SuperGrok の両方があるときは、多いほうを使う、と書いてあります。これは、The X Subscription に切り替える前の話です。
 
 使用量は 1 週間ごとです。macOS と iOS（iPhone と iPad）は、同じ Cursor アカウントなら同じ残りです。使い切ったあとは、Cursor 側の On-demand が付いていれば続きます。付いていなければ、リセットまで止まります。無料の試用は、使った分のクレジットです。Cursor の案内には、7 日の期限も付く、とあります。長い仕事 1 回で尽きることがあります。戻ってきません。
 
-Grok Bot だけが目的で、もう Cursor を使っているなら、Cursor の個人向け Pro のほうが SuperGrok より安くすむことがあります。ただし grok.com で使える量も、API のクレジットも付いてきません（<a href="/tips/free-vs-supergrok/">払う場所は 4 つ</a>）。
+2026-10-13 の新しい契約では、Bot で使った分も、そのプランの週の分から減ります。新規の Bot は Premium、Super、Ultra です。Plus にはありません。2026-10-07 までに Cursor の個人向け Pro に入っていて、切り替えない人は、Grok Bot だけが目的なら、当時の SuperGrok（月 $30）より安くすむことがあります。2026-10-13 の cursor.com/pricing に、新規の Pro 月 $20 はありません。払う場所は、<a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a>です。
 
 ## 始め方
 

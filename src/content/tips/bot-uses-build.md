@@ -3,7 +3,7 @@ title: Grok Bot に全部やらせない。重い仕事は Grok Build に渡す
 description: SuperGrok の人向けです。とくに Heavy。Bot に調査も絵も全部頼むと会話の残りがすぐ減るので、コンピュータの Grok Build に渡してください。Bot には「やってください」だけ頼みます。出てきたものは読んでから使います。チャットだけで足りる人は、この手順はやらなくて大丈夫です。
 order: 8
 product: bot
-last_verified: "2026-09-17"
+last_verified: "2026-10-13"
 source_url:
   - https://docs.x.ai/grok-bot/computer-and-apps
   - https://x.ai/news/grok-build-cli
@@ -11,6 +11,7 @@ source_url:
   - https://docs.x.ai/grok-bot/skills-routines-and-automations
   - https://docs.x.ai/grok-bot/faq
   - https://x.ai/news/introducing-grok-bot
+  - https://x.ai/news/x-subscription
 related:
   - grok-bot-cloud-computer
   - bot-build-chat-map
@@ -25,9 +26,9 @@ image_caption: 調査も Imagine も、Bot のコンピュータに入れた Gro
 
 Grok Bot に長い調査を頼むと、会話が長くなります。Imagine で絵も出させて、下書きも書かせると、もっと長くなります。使える量は、その会話から減っていきます。ノートを閉じても仕事は続きます。続きがあるのに、残りだけ先に尽きます。
 
-この書き方は、**SuperGrok に入っている人向け**です。とくに Heavy で、調査も Imagine も長い仕事を Bot の会話に全部載せている人です。チャットだけで足りる人は、やらなくて大丈夫です。
+この書き方は、**SuperGrok に入っている人向け**です。とくに Heavy で、調査も Imagine も長い仕事を Bot の会話に全部載せている人です。チャットだけで足りる人は、やらなくて大丈夫です。2026-10-12 からの新規は The X Subscription です。Bot は Premium からです。今の SuperGrok、とくに Heavy に入っている人は、切り替えない限り、この手順がそのまま使えます。
 
-チャットと Bot と Build は、別の道具です。分け方は <a href="/tips/bot-build-chat-map/">3 つは別</a> に書きました。プランの話は <a href="/tips/free-vs-supergrok/">払う場所は 4 つ</a> です。
+チャットと Bot と Build は、別の道具です。分け方は <a href="/tips/bot-build-chat-map/">3 つは別</a> に書きました。プランの話は <a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a> です。
 
 ## 何を分けるか
 
@@ -50,14 +51,14 @@ Bot には「やってください」「これを通していいですか」だ�
 
 Grok Bot は、クラウドにコンピュータがあります。ブラウザも、ファイルも、ターミナルもあります（<a href="/tips/grok-bot-cloud-computer/">コンピュータは 1 台</a>）。そのターミナルに Grok Build を入れます。
 
-2026-05-25 の発表では、入れるコマンドは次です。発表時点の対象は SuperGrok と X Premium+。**自分のプランで使えるかは、契約する画面で確かめてください。**
+2026-05-25 の発表では、入れるコマンドは次です。発表時点の対象は SuperGrok と X Premium+ です。**自分のプランで使えるかは、契約する画面で確かめてください。**
 
 ```
 curl -fsSL https://x.ai/cli/install.sh | bash
 grok
 ```
 
-入り方は、grok.com のアカウントか、API キーです。Bot の会話の残りとは別に減ります。どっちが減るかは、どちらで入ったかで決まります。払う場所は <a href="/tips/free-vs-supergrok/">4 つ</a> あります。
+入り方は、grok.com のアカウントか、API キーです。Bot の会話の残りとは別に減ります。どっちが減るかは、どちらで入ったかで決まります。払う場所は、<a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a> に書きました。
 
 2026-09-16 の発表で、ターミナルの grok は次のセッションでもプロジェクトの決まりごとを読む、とあります。新しいセッションから効きます。それでも、出てきたものは読んでから使います。Skill に書いたやり方の代わりにはなりません。
 

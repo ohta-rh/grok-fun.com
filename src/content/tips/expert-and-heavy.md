@@ -3,11 +3,12 @@ title: Heavy は機能でも、プランでもある
 description: "Heavy はチャットの機能でも、払うプランの名前でもあります。2026-09-22 のプラン画面は、より大きなエージェントのチームが協力して、いちばん良い返事にする、と書いています。Expert mode は別の機能です。Heavy の月額は契約画面にあります。チャットのモデル名は Grok 4.6 です。"
 order: 10
 product: chat
-last_verified: "2026-10-07"
+last_verified: "2026-10-13"
 source_url:
   - https://grok.com/plans
   - https://x.ai/grok
   - https://x.ai/pricing
+  - https://x.ai/news/x-subscription
   - https://x.ai/bot
   - https://docs.x.ai/grok/faq
 related:
@@ -58,7 +59,9 @@ SuperGrok に含まれる、とも書いています。チャットで選ぶ Hea
 
 短い質問は、今のチャットのままで足ります。じっくり考えてほしい返事なら、機能の Expert mode です。Lite から書いてあります。問題を、より大きなチームに分けるなら、チャットの機能として Heavy を選びます。その機能が付くのは、プランの Heavy です。2026-09-22 のプラン画面は、そう書いています。使える量が足りないだけなら、先に Plus と、設定の Usage を見てください。
 
-この分け方は、grok.com と公式アプリのチャットです。X の中の Grok は、別の入口です。<a href="/tips/three-entrances/">入る場所で、メニューは変わります</a>。どこにいくら払うかは、<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a>に書きました。
+2026-10-13 に開いた [x.ai/pricing](https://x.ai/pricing) の先頭は、Free が $0、Plus が月 $8、Premium が月 $30、Super が月 $100、Ultra が月 $200 です。その先頭に Heavy という名前はありません。今入っている SuperGrok Heavy は、切り替えない限り残ります。Ultra の月 $200 は、Heavy の月額ではありません。上の表は、2026-09-22 のカードです。
+
+この分け方は、grok.com と公式アプリのチャットです。X の中の Grok は、別の入口です。<a href="/tips/three-entrances/">入る場所で、メニューは変わります</a>。新規の人が払うプランは、<a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a>に書きました。
 
 ## プランの残りは、週に 1 つの枠
 
@@ -71,5 +74,6 @@ SuperGrok に含まれる、とも書いています。チャットで選ぶ Hea
 - 「Heavy はプランの名前だけ」: チャットで選ぶ機能でもあります。払うプランの名前でもあります
 - 「Expert mode は Heavy」: 別の機能です。2026-09-22 のプラン画面は、Lite と SuperGrok に Expert mode と書いています
 - 「今の Heavy は約 10 分、Agent が 3 つ」: それは 2025-07-09 の画面です。2026-09-22 のプラン画面は、より大きなエージェントのチーム、と書いています
-- 「Heavy の月額は $30」: $30 は SuperGrok です。Heavy の月額は契約画面にあります
+- 「Heavy の月額は $30」: $30 は、2026-09-22 の SuperGrok です。Heavy の月額は契約画面にあります
+- 「Ultra の月 $200 は Heavy の月額」: 別の名前です。2026-10-13 の料金ページの先頭に、Heavy はありません。今入っている Heavy は残ります
 - 「チャットのモデル名は Grok 4.7」: 2026-09-22 の料金カードは Grok 4.6 です

@@ -3,12 +3,13 @@ title: Grok は grok.com、公式アプリ、X の 3 か所から使える
 description: Grok は grok.com、公式アプリ、X の中の 3 か所から使えます。同じ Grok でも、入る場所によって出てくるメニューが違います。無いと思ったら設定より先に、別の入口を開いてください。X Premium に入っても grok.com は別です。入れるアプリは、開発元が xAI かを見てください。
 order: 2
 product: chat
-last_verified: "2026-09-17"
+last_verified: "2026-10-13"
 source_url:
   - https://grok.com
   - https://x.ai/grok
   - https://help.x.com/en/using-x/about-grok
   - https://docs.x.ai/grok/faq
+  - https://x.ai/news/x-subscription
 related:
   - japanese-fix
   - free-vs-supergrok
@@ -53,9 +54,9 @@ Web は **grok.com** を使います。公式の FAQ によると、grok.x.ai �
 
 X の中の Grok には、公開している投稿や Grok との会話が学習に使われる設定があります。使われたくないときは、X の設定のプライバシーから外します。画面の名前は時期で変わるので、<a href="https://help.x.com/en/using-x/about-grok" rel="external">X の解説</a>を見てください。grok.com 側の学習の設定とは別です。
 
-## 払う場所も入口ごとに別
+## 切り替えない限り、払う契約は別
 
-**X Premium に入っても、grok.com の SuperGrok は付いてきません。** 契約する場所が違います。Cursor のプランに入っていると Grok Bot が使えることがありますが、それも grok.com で使える量とは別です。何をしたいときにどこで払うかは、<a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a> に書きました。
+2026-10-07 までは、X Premium に入っても、grok.com の SuperGrok は付いてきませんでした。切り替えない限り、今も別の契約です。Cursor に入っていても、切り替えない限り、grok.com で使える量は増えません。2026-10-12 から、新規は The X Subscription です。個人の X をつなぐと、Grok と Cursor と X が 1 つの月額になります。手順は <a href="/news/x-subscription/">新しい有料は1つ。今の契約はそのまま残せる</a> に書きました。払う場所は <a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a> です。
 
 ## 公式アプリの見分け方
 

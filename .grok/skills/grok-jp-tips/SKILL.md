@@ -28,7 +28,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 
 1. Thicken existing TIPS. No new pages unless asked.
 2. **Before any figure:** open **grok-jp-infographic** and follow it. Required. Do not generate, raster, or replace a body figure with that file closed.
-3. Billing: grok.com / X / Cursor / API stay separate. Heavy is a real plan. Amounts shown on 2026-09-17: Free $0, SuperGrok $30, Plus $100. Cursor Pro $20, Pro+ $60, Ultra $200. Screen Build is on every plan as of 2026-08-19; terminal grok is not the same thing. Memory in terminal grok is from 2026-09-16.
+3. Billing as of 2026-10-13: new signups are The X Subscription (Free $0, Plus $8, Premium $30, Super $100, Ultra $200). Bot starts at Premium. Existing SuperGrok, Cursor, and X Premium keep their price and features until the person switches. Do not write Heavy’s monthly price. Ultra $200 is not Heavy. Dated 2026-09-17 and 2026-10-07 cards stay dated. Screen Build is on every plan as of 2026-08-19; terminal grok is not the same thing. Memory in terminal grok is from 2026-09-16.
 4. Write the LINE 3-liner first. Then add dates and numbers. If a sentence is English in Japanese clothes, rewrite the section — never search-replace one word.
 5. After the draft exists, read the **whole article** aloud, not the diff. Calque → rewrite that section from the 3-liner before touching figures.
 6. **Fable reviews the Japanese before ship.** Grok's read-aloud is not the check. Follow `.grok/rules/writing.md` 「公開前に Fable」. Apply [must] and [should]. Then **grok-jp-ship**.
