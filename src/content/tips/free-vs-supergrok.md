@@ -1,6 +1,6 @@
 ---
-title: 新規は1つの契約。今のプランは残せる
-description: 2026-10-12から、新規は The X Subscription です。Grok と Cursor と X が1つの月額で、Plus は月 $8、Bot は Premium の月 $30 からです。今のプランは、請求の画面から移すまで残ります。切り替えると、使っていない日数の分が元の支払いに戻ります。
+title: 移るなら、先に解約しない。払うと古い契約は止まる
+description: 今の SuperGrok、Cursor、X Premium から移るとき、ウェブの契約は自分で先に解約しません。切り替えの支払いを終えると、選んだ古い契約は止まります。使っていない日数の分は、元の支払いへ戻ります。残す人は何もしません。App Store で払っている Cursor だけ、切り替えたあと自分で止めます。
 order: 3
 product: chat
 last_verified: "2026-10-13"
@@ -10,6 +10,9 @@ source_url:
   - https://docs.x.ai/x-subscription/pricing
   - https://docs.x.ai/x-subscription/unify-accounts
   - https://docs.x.ai/x-subscription/eligibility
+  - https://docs.x.ai/x-subscription/invoices-and-refunds
+  - https://docs.x.ai/x-subscription/overview
+  - https://docs.x.ai/x-subscription/cancel
   - https://cursor.com/pricing
   - https://docs.x.ai/grok/faq
   - https://x.ai/news/grok-bot-more-plans
@@ -26,26 +29,27 @@ related:
   - expert-and-heavy
 image: /tips/free-vs-supergrok.jpg
 image_alt: 封蝋の色が違う 4 枚の紙が机に並んでいる
-image_caption: 新規は1つの契約です。今の SuperGrok、Cursor、X Premium は、切り替えない限り残ります。
+image_caption: ウェブの旧プランは、自分で先に解約しません。支払いを終えると、古い契約は止まります。
 ---
 
 ## 先に決めること
 
-新規の有料は、1つの契約です。今の SuperGrok も、Cursor も、X Premium も、切り替えない限り残ります。新規の人で Bot も使うなら、Premium からです。
+今の SuperGrok、Cursor、X Premium から移るとき、ウェブの契約は自分で先に解約しません。切り替えの支払いを終えると、選んだ古い契約は止まります。使っていない日数の分は、元の支払いへ戻ります。残す人は、何もしません。
 
-2026-10-12、SpaceXSI は The X Subscription を出しました。Grok と Cursor と X が、1つの月額です。発表は <a href="https://x.ai/news/x-subscription" rel="external">Introducing The X Subscription</a> です。今入っている人の値段と中身は、移すまでそのままです。
+2026-10-12、SpaceXSI は The X Subscription を出しました。Grok と Cursor と X が、1つの月額です。発表は <a href="https://x.ai/news/x-subscription" rel="external">Introducing The X Subscription</a> です。移す手順は <a href="https://docs.x.ai/x-subscription/unify-accounts" rel="external">How to unify accounts</a> です。今入っている人の値段と中身は、移すまでそのままです。
 
 <div class="table-scroll">
 
 | 今の立場 | どうする |
 |---|---|
+| ウェブの契約から移る | 自分で先に解約しません。支払いを終えると、選んだ古い契約が止まります |
+| 今の契約を残す | 何もしません。値段も中身も残ります |
+| 移らずにやめる | 払った場所で止めます。移る人は、これをしません |
 | まだ払っていない | The X Subscription。Plus は月 $8。Bot は Premium の月 $30 から |
-| 今の契約を残す | 何もしない。SuperGrok、Cursor、X Premium は残る |
-| 1つの請求にまとめる | Web の請求から移す。使っていない日数の分は、元の支払いに戻る |
 
 </div>
 
-手順の全体は <a href="/news/x-subscription/">新しい有料は1つ。今の契約はそのまま残せる</a> に書きました。入口の違いは <a href="/tips/three-entrances/">grok.com、公式アプリ、X の 3 か所</a>です。チャットと Bot と Build の違いは <a href="/tips/bot-build-chat-map/">別の道具</a> に書きました。
+画面のキャプチャは <a href="/news/x-subscription/">新しい有料は1つ。今の契約はそのまま残せる</a> にあります。入口の違いは <a href="/tips/three-entrances/">grok.com、公式アプリ、X の 3 か所</a>です。チャットと Bot と Build の違いは <a href="/tips/bot-build-chat-map/">別の道具</a> に書きました。
 
 ## 新規の月額
 
@@ -76,22 +80,47 @@ Plus のカードには、Grok のチャット、Voice、Imagine、Build、Grok 
 
 チームは、Premium がシート月 <span class="num">$30</span>、Super がシート月 <span class="num">$100</span>、Ultra がシート月 <span class="num">$200</span> です。Plus はチームにありません。
 
-## 切り替える
+## 移す手順
 
-残す人は、何もしません。移る人は、Web でやります。今払っている人は、スマホアプリから始めても Web に飛ばされます。
+残す人は、何もしません。移る人は、ウェブでやります。今払っている人は、スマホアプリから始めてもウェブに飛ばされます。まだ払っていない人だけ、アプリの中で契約できて、その支払いは App Store か Google Play です。
 
 <div class="table-scroll">
 
 | 今の支払い | 始めるページ |
 |---|---|
-| Cursor | <a href="https://cursor.com/unify">cursor.com/unify</a> |
+| Cursor | <a href="https://cursor.com/unify">cursor.com/unify</a>。Get started |
 | Grok | grok.com の設定の請求。または <a href="https://accounts.x.ai/unify">accounts.x.ai/unify</a> |
-| X だけ | x.com の契約設定。Cursor は入らない |
+| X だけ | x.com の契約設定。Cursor も払っているなら、上の Cursor の行です |
 | チーム | <a href="https://cursor.com/unify/team">cursor.com/unify/team</a>。管理者だけ |
 
 </div>
 
-使っていない日数の分は、元の支払い方法へ、別の返金で戻ります。発表の手順では、新しい契約は満額で、すぐ始まります。2026-10-13 の切り替え画面には、初月だけ割引、と出ていました。一度まとめると戻せません。クレジットカードで grok.com に払っている人は、grok.com のサブスクリプションで止めます。Apple の設定で止めるのは、App Store の定期購入です。Google Play の止め方と、画面のキャプチャは、<a href="/news/x-subscription/">新しい有料は1つ</a> に書きました。
+Cursor を払っている人は、cursor.com/unify で Get started を押します。足すアカウントを選んで、Plus、Premium、Super、Ultra のどれかを選んで、支払いを終えます。Grok から始める人は、設定の請求で Get started を押すか、accounts.x.ai/unify を開きます。X だけを払っていて Cursor の有料が無い人は、x.com の契約設定からで足ります。
+
+支払いを終えると、選んだ Cursor、SuperGrok、有料の X Premium は止まります。使っていない日数の分は、元の支払い方法へ、別の返金で戻ります。新しい契約の金額からは引きません。新しい請求は、切り替えた日から始まります。発表の手順では、新しい契約は満額です。2026-10-13 の切り替え画面には、初月だけ割引、と出ていました。割引がいつまで出るかは、自分の画面で確認します。一度まとめると戻せません。あとから The X Subscription を止めても、前の Cursor、SuperGrok、X Premium は戻りません。
+
+2026-10-13 の画面では、Ultra の支払いを開いているあいだも、SuperGrok Heavy はレガシーで、アクティブのままでした。次の請求サイクルは 2026-10-17 に開始します、とあります。これは解約の日ではありません。支払いを終える前なので、契約は続いています。
+
+チームに入っても、今払っている個人の契約は止まりません。要らなくなったら、自分で止めます。切り替えに入れなかったアカウントも、そのまま続きます。要らなければ、自分で止めます。
+
+## 自分で止めるのは、このときだけ
+
+grok.com、cursor.com、x.com で払っている契約は、自分で先に止めません。自分で止めるのは、次のときです。
+
+<div class="table-scroll">
+
+| どれ | いつ止める |
+|---|---|
+| App Store の Cursor | 切り替えたあと、iPhone か iPad の設定で止めます。返金は Apple に頼みます。運営は止められません |
+| App Store の Grok、Grok Bot、X Premium | 自分では止めません。運営が止めて、Apple に返金を頼みます。金額は Apple が決めます。断られると更新は止まり、払った期間の終わりまで残ります |
+| Google Play の Grok、Grok Bot、X Premium | 切り替えたあと、更新が残っていたら Play で止めます |
+| 移らずにやめる | grok.com のクレジットカードなら、サブスクリプションで止めます |
+
+</div>
+
+贈られた X Premium と、Apple のファミリー共有で使っている分は、解約も返金もされません。App Store の Cursor は、切り替えのあとメールが来ます。届かなければ迷惑メールも見ます。
+
+2026-10-13 に開いた grok.com のサブスクリプションは、移す画面ではありません。SuperGrok Heavy がレガシーで、契約は続いていました。移らずにやめる人が、ここで止めます。キャプチャは <a href="/news/x-subscription/">新しい有料は1つ</a> にあります。
 
 ## 2026-10-07 までに並んでいたカード
 
@@ -198,11 +227,13 @@ X の中の Grok は X のプランで動きます。grok.com は SuperGrok の�
 
 ## やめるときは、払った場所で
 
+移らずにやめるときの場所です。移す人は、ここから始めません。
+
 <div class="table-scroll">
 
 | 払った場所 | やめる場所 |
 |---|---|
-| grok.com のクレジットカード（今の契約） | grok.com のサブスクリプション。2026-10-13 は SuperGrok Heavy がレガシーで、契約は続いていました |
+| grok.com のクレジットカード（今の契約） | 移らずにやめるとき。grok.com のサブスクリプション。2026-10-13 は SuperGrok Heavy がレガシーで、契約は続いていました |
 | grok.com（Web） | grok.com の請求画面。広告ブロッカーが入っているとボタンが開かないことがあります |
 | 2026-10-13 からの新しい契約 | grok.com の請求画面。止めたあとも、払った期間の終わりまでは使えます |
 | iPhone / iPad の App Store | Apple の定期購入 |
@@ -220,14 +251,15 @@ Web とアプリで別のアカウントに入っていると、片方だけ有�
 
 ## 決め方
 
-1. 今の契約で足りているなら、何もしません
-2. 新規で、チャットと Imagine だけなら Plus の月 $8 です。Bot も要るなら Premium の月 $30 からです
-3. 1つの請求にまとめるなら、Web で移します。使っていない日数の分は、元の支払いに戻ります。一度まとめると戻せません
-4. 今の SuperGrok や Cursor を残して、量だけ足りない人は、Usage を見てから上へ移ります。Heavy の月額は、契約する画面で見ます。Ultra の月 $200 は、Heavy の月額ではありません
+1. ウェブの SuperGrok、Cursor、X Premium から移るなら、自分で先に解約しません。支払いを終えると、選んだ古い契約が止まり、使っていない日数の分は元の支払いに戻ります
+2. 今の契約で足りているなら、何もしません
+3. 新規で、チャットと Imagine だけなら Plus の月 $8 です。Bot も要るなら Premium の月 $30 からです
+4. Apple の App Store で Cursor を払っている人は、切り替えたあと自分で止めます。移らずにやめる人は、払った場所で止めます
 
 ## よくある取り違え
 
-- 「今の SuperGrok が、今日消える」: 残ります。新規の申込が、新しい契約です
+- 「一度解約して、新しいプランで契約し直す」: ウェブの契約は、自分で先に止めません。支払いを終えると、選んだ古い契約が止まります。2026-10-13 の画面では、支払いを終える前の SuperGrok Heavy が、レガシーでアクティブのままでした
+- 「今の SuperGrok が、今日消える」: 残ります。切り替えの支払いを終えるまで、今の契約です
 - 「Plus の月 $8 にも Bot が付く」: Bot は Premium、Super、Ultra です
 - 「Ultra の月 $200 は、SuperGrok Heavy の月額」: 別の名前です。2026-10-13 の先頭カードに、Heavy はありません。今入っている Heavy は残ります
 - 「X Premium なのに grok.com が無料のまま」: 切り替えない限り、別の契約なので、これで正常です

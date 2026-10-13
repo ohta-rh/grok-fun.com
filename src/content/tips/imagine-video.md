@@ -84,7 +84,7 @@ image_caption: 下の動画は、この静止画をもとに動かしたもの�
 
 ## 使える量と画質
 
-2026 年 6 月から、使える量は 1 週間ごとに決まっていて、チャットと Imagine は同じ量から減ります（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。動画を出すと、チャットより早く尽きます。残りは設定の Usage で見ます。払う場所は <a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a> に書きました。
+2026 年 6 月から、使える量は 1 週間ごとに決まっていて、チャットと Imagine は同じ量から減ります（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。動画を出すと、チャットより早く尽きます。残りは設定の Usage で見ます。払う場所は <a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a> に書きました。
 
 - **透かしは消せません。** 生成した画像と動画には Grok の透かしが入ります。消したり隠したりすることは利用規約で禁じられています（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）
 - **720p が 480p になるのは故障ではありません。** その解像度の分を使い切ると落ちます。Usage を見てください

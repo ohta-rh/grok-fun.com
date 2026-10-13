@@ -28,7 +28,7 @@ Grok Bot に長い調査を頼むと、会話が長くなります。Imagine で
 
 この書き方は、**SuperGrok に入っている人向け**です。とくに Heavy で、調査も Imagine も長い仕事を Bot の会話に全部載せている人です。チャットだけで足りる人は、やらなくて大丈夫です。2026-10-12 からの新規は The X Subscription です。Bot は Premium からです。今の SuperGrok、とくに Heavy に入っている人は、切り替えない限り、この手順がそのまま使えます。
 
-チャットと Bot と Build は、別の道具です。分け方は <a href="/tips/bot-build-chat-map/">3 つは別</a> に書きました。プランの話は <a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a> です。
+チャットと Bot と Build は、別の道具です。分け方は <a href="/tips/bot-build-chat-map/">3 つは別</a> に書きました。プランの話は <a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a> です。
 
 ## 何を分けるか
 
@@ -58,7 +58,7 @@ curl -fsSL https://x.ai/cli/install.sh | bash
 grok
 ```
 
-入り方は、grok.com のアカウントか、API キーです。Bot の会話の残りとは別に減ります。どっちが減るかは、どちらで入ったかで決まります。払う場所は、<a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a> に書きました。
+入り方は、grok.com のアカウントか、API キーです。Bot の会話の残りとは別に減ります。どっちが減るかは、どちらで入ったかで決まります。払う場所は、<a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a> に書きました。
 
 2026-09-16 の発表で、ターミナルの grok は次のセッションでもプロジェクトの決まりごとを読む、とあります。新しいセッションから効きます。それでも、出てきたものは読んでから使います。Skill に書いたやり方の代わりにはなりません。
 

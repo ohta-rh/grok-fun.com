@@ -10,6 +10,8 @@ source_url:
   - https://docs.x.ai/x-subscription/pricing
   - https://docs.x.ai/x-subscription/unify-accounts
   - https://docs.x.ai/x-subscription/eligibility
+  - https://docs.x.ai/x-subscription/invoices-and-refunds
+  - https://docs.x.ai/x-subscription/cancel
   - https://cursor.com/pricing
 ---
 
@@ -55,7 +57,7 @@ Grok Bot は Premium、Super、Ultra に入っています。Plus には入っ�
 
 SuperGrok Heavy の月額は、2026-10-07 の料金ページの先頭にありませんでした。2026-10-13 の新しい料金ページの先頭にも、Heavy という名前はありません。Ultra の月 $200 は、Heavy の月額ではありません。
 
-払う場所の整理は、<a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a>に書きました。チャットの Heavy と、払う Heavy の違いは、<a href="/tips/expert-and-heavy/">Heavy は機能でも、プランでもある</a>です。
+旧プランからの移し方は、<a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a>に書きました。チャットの Heavy と、払う Heavy の違いは、<a href="/tips/expert-and-heavy/">Heavy は機能でも、プランでもある</a>です。
 
 ## どうするか
 
@@ -69,7 +71,7 @@ SuperGrok Heavy の月額は、2026-10-07 の料金ページの先頭にあり�
 |---|---|
 | Cursor | <a href="https://cursor.com/unify">cursor.com/unify</a> |
 | Grok | grok.com の設定の請求。または <a href="https://accounts.x.ai/unify">accounts.x.ai/unify</a> |
-| X だけ | x.com の契約設定。Cursor は入らない |
+| X だけ | x.com の契約設定。Cursor も払っているなら、上の Cursor の行です |
 | チーム | <a href="https://cursor.com/unify/team">cursor.com/unify/team</a>。管理者だけ |
 
 </div>
@@ -82,23 +84,23 @@ Cursor を払っている人は、cursor.com/unify で Get started を押しま�
 
 使っていない日数の分は、元の支払い方法へ、別の返金で戻ります。新しい契約の金額からは引きません。発表の手順では、新しい契約は満額で、すぐ始まります。返金が口座に出るまで、数日かかることがあります。
 
-クレジットカードで grok.com に払っている人は、iPhone の設定では止めません。止める場所は、grok.com のサブスクリプションです。2026-10-13 の画面では、今の SuperGrok Heavy が「レガシー」と「アクティブ」と出ていました。次の請求は 2026-10-17 から、とあります。レガシーは、古い契約の印です。アクティブなので、請求は続きます。
+2026-10-13 の画面では、Ultra の支払いを開いているあいだも、SuperGrok Heavy は「レガシー」と「アクティブ」のままでした。次の請求サイクルは 2026-10-17 に開始します、とあります。これは解約の日ではありません。支払いを終える前なので、契約は続いています。ウェブの古い契約は、自分で先に止めません。支払いを終えると、選んだ古い契約が止まります。
 
 <figure class="article-hero">
   <img src="/tips/fig-x-sub-legacy.jpg" alt="grok.com のサブスクリプション画面。SuperGrok Heavy にレガシーとアクティブのバッジ。次の請求サイクルは 2026/10/17 に開始します" width="520" height="226" />
-  <figcaption>クレジットカードの契約は、この画面に残ります。レガシーと出ていても、契約は続いています。</figcaption>
+  <figcaption>支払いを終える前は、この画面のままです。レガシーと出ていても、契約は続いています。</figcaption>
 </figure>
 
 同じ日、Ultra に移す画面には、Apple Pay とクレジットカードが並んでいました。この画面の Apple Pay も、クレジットカードも、grok.com の支払いです。iPhone の設定の定期購入ではありません。税込みで、初月は <span class="num">¥17,400</span>、その後は月 <span class="num">¥34,800</span>、と出ています。50% オフは初月の 1 か月だけ、と書いてあります。公式の月額は $200 です。上の円の金額は、2026-10-13 にこの画面に出ていたものです。自分の画面に出る金額で確認します。
 
 <figure class="article-hero">
   <img src="/tips/fig-x-sub-checkout.jpg" alt="Ultra のプランを設定する画面。初月は税込み ¥17,400、その後は月 ¥34,800。支払いは Apple Pay とクレジットカード" width="1790" height="1108" />
-  <figcaption>クレジットカードで払う人は、ここで新しい契約に入ります。止める場所は、上の図のサブスクリプション画面です。</figcaption>
+  <figcaption>ここで支払いを終えると、ウェブの古い契約は止まります。上の画面で、自分で先に止めることはしません。</figcaption>
 </figure>
 
-止め方は、どこで払っているかで違います。
+止め方は、移る手順とは別です。移る人は、ウェブの契約を自分で先に止めません。
 
-- grok.com にクレジットカードで払っている人は、上の図のサブスクリプション画面で止めます
+- 移らずにやめる人は、grok.com のクレジットカード払いなら、上の図のサブスクリプション画面で止めます
 - Cursor を iPhone か iPad の App Store で払っている人は、運営側では止められません。設定の定期購入で止めて、返金は Apple に頼みます。切り替えのあと、メールが来ます。届かなければ迷惑メールも見ます
 - Grok、Grok Bot、X Premium を App Store で払っている人は、運営が解約して、Apple に未使用分の返金を頼みます。金額は Apple が決めます。断られると更新は止まって、払った期間の終わりまでは残ります
 - Grok、Grok Bot、X Premium を Google Play で払っている人は、切り替えたあと Play の定期購入を見ます。更新が残っていたら、そこで止めます
@@ -112,7 +114,7 @@ Cursor を払っている人は、cursor.com/unify で Get started を押しま�
 
 ## 関連する TIPS
 
-払う場所は、<a href="/tips/free-vs-supergrok/">新規は1つの契約で、今のプランは残せる</a>です。入口の違いは、<a href="/tips/three-entrances/">grok.com、公式アプリ、X の 3 か所</a>です。Grok Bot のコンピュータは、<a href="/tips/grok-bot-cloud-computer/">クラウドにコンピュータがある</a>です。
+旧プランから移す手順は、<a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a>です。入口の違いは、<a href="/tips/three-entrances/">grok.com、公式アプリ、X の 3 か所</a>です。Grok Bot のコンピュータは、<a href="/tips/grok-bot-cloud-computer/">クラウドにコンピュータがある</a>です。
 
 ## よくある取り違え
 
@@ -120,7 +122,8 @@ Cursor を払っている人は、cursor.com/unify で Get started を押しま�
 - 「Plus の月 $8 にも Bot が付く」: Bot は Premium、Super、Ultra です
 - 「Ultra の月 $200 は、SuperGrok Heavy の月額」: 別の名前です。Heavy の月額は、2026-10-13 の料金ページの先頭にありません
 - 「切り替えると、日割りが新しい請求から引かれる」: 使っていない日数の分は、元の支払いへ別で戻ります。発表の手順では、新しい契約は満額です。2026-10-13 の切り替え画面には、初月だけ 50% オフ、と出ていました
-- 「クレジットカードなのに、iPhone の設定で解約する」: grok.com のサブスクリプションで止めます。iPhone の設定で止まるのは、App Store で払っている定期購入です
+- 「一度解約して、新しいプランで契約し直す」: ウェブの契約は、自分で先に止めません。支払いを終えると、選んだ古い契約が止まります
+- 「クレジットカードなのに、iPhone の設定で解約する」: 移るなら、自分で先に止めません。移らずにやめるなら、grok.com のサブスクリプションです。iPhone の設定で止まるのは、App Store の定期購入です
 - 「Apple で Cursor を払っていても、運営が止めてくれる」: Cursor の App Store 課金は、自分で止めます
 - 「X Premium のまま、grok.com も有料になる」: 切り替えない限り、別の契約のままです
 - 「まとめたあと、また別々に戻せる」: 一度まとめると戻せません
