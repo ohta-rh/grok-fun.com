@@ -32,6 +32,8 @@ const FIG_TO_NEWS = {
   'fig-next-day-table': 'opus-5-5-gpt-6',
   'fig-bot-opus': 'bot-opus',
   'fig-x-subscription': 'x-subscription',
+  'fig-x-sub-legacy': 'x-subscription',
+  'fig-x-sub-checkout': 'x-subscription',
   'fig-video-15-lite': 'bot-opus',
   'fig-dots-computer': 'dots',
   'fig-dots-pay': 'dots',
