@@ -1,11 +1,13 @@
 ---
 name: grok-jp-ship
-description: Build, deploy, ping IndexNow for changed pages, visually check, and push grok-fun.com. Use when the user says デプロイ, wrangler, 公開, pushまで, IndexNow, ブラウザで見て, 肉眼テスト, /grok-jp-ship, or after TIPS/CSS/Worker changes that should go live.
+description: Build, deploy, ping IndexNow for changed pages, visually check, and push grok-fun.com. Use when the user says デプロイ, wrangler, 公開, pushまで, IndexNow, ブラウザで見て, 肉眼テスト, /grok-jp-ship, after a TIPS or news article was updated, or after TIPS/CSS/Worker changes that should go live. An article update is not finished until deploy and push.
 ---
 
 # Ship grok-fun.com
 
 No GitHub Actions. Live site is Cloudflare Workers Static Assets from this Mac.
+
+A TIPS or news edit in this task ends here. Do not wait for a separate 公開して. Fable still comes first, in `.grok/rules/writing.md`. Then this sequence, including `pnpm run deploy` and `git push origin main`.
 
 ## Sequence
 

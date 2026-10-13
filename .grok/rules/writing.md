@@ -41,6 +41,7 @@
 2. 指摘の [must] は直してから出す。[should] も直す。事実と数字は動かさない。
 3. 記録は `docs/grok-fun/fable-*.md`。Fable の文は書き換えない。文脈が違って採用しなかった指摘は、同じファイルの `## Owner overrides` に理由を書く。
 4. マーカーや太字を足しただけでは、日本語チェックの代わりにならない。
+5. Fable のあとが終わりではない。TIPS かニュースを更新したら、同じ作業で `.grok/skills/grok-jp-ship` までやる。`pnpm build`、`pnpm run deploy`、IndexNow、`main` への commit、`git push origin main`。別の「公開して」を待たない。
 
 製品名は英語のまま（Grok, SuperGrok, Imagine, Bot, Build, Voice）。節名「TIPS」は変えない。
 

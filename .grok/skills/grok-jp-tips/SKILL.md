@@ -23,6 +23,7 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 | Cut a figure and leave the page thinner | Move the figure’s facts into the body in the same commit |
 | Markdown table without `.table-scroll` | Wrap it in `<div class="table-scroll">`. First column is the row heading; remaining cells stack to the right. Do not squeeze columns or rely on horizontal scroll |
 | 取り違えが事実ダンプ、困ることの再掲、禁止の命令文 | Quoted mix-up then the judgment. Canonical: `free-vs-supergrok` and `imagine-video` |
+| Stop after the draft and wait to be asked to publish | An article update ends in the same task with **grok-jp-ship**: deploy and `git push origin main`. Do not wait for a separate 公開して |
 
 ## Do
 
@@ -31,4 +32,4 @@ Rules live in `.grok/rules/writing.md`. Follow that file; do not copy it here.
 3. Billing as of 2026-10-13: new signups are The X Subscription (Free $0, Plus $8, Premium $30, Super $100, Ultra $200). Bot starts at Premium. Existing SuperGrok, Cursor, and X Premium keep their price and features until the person switches. Direct-billed web plans included in a switch are cancelled at checkout; do not tell the reader to cancel first and subscribe again. Self-cancel is for quitting without switching, Apple Cursor after the switch, a leftover Google Play renewal, an account left out of the switch, and a personal plan when joining a team. App Store Grok, Grok Bot, and X Premium are cancelled by the operator. Do not write Heavy’s monthly price. Ultra $200 is not Heavy. Dated 2026-09-17 and 2026-10-07 cards stay dated. Screen Build is on every plan as of 2026-08-19; terminal grok is not the same thing. Memory in terminal grok is from 2026-09-16.
 4. Write the LINE 3-liner first. Then add dates and numbers. If a sentence is English in Japanese clothes, rewrite the section — never search-replace one word.
 5. After the draft exists, read the **whole article** aloud, not the diff. Calque → rewrite that section from the 3-liner before touching figures.
-6. **Fable reviews the Japanese before ship.** Grok's read-aloud is not the check. Follow `.grok/rules/writing.md` 「公開前に Fable」. Apply [must] and [should]. Then **grok-jp-ship**.
+6. **Fable reviews the Japanese before ship.** Grok's read-aloud is not the check. Follow `.grok/rules/writing.md` 「公開前に Fable」. Apply [must] and [should]. Then **grok-jp-ship** in the same task: deploy and push `origin main`. Do not stop at the draft.

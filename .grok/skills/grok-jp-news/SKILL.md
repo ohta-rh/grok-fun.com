@@ -1,6 +1,6 @@
 ---
 name: grok-jp-news
-description: Write or revise one grok-fun.com news memo. Use when the user says ニュース書いて, /news, 発表メモ, 当日メモ, ベンチマーク記事, or a model ships and the page should be /news/{slug}/. Open grok-jp-infographic before any body figure. Japanese is not done until Fable reviews it.
+description: Write or revise one grok-fun.com news memo. Use when the user says ニュース書いて, /news, 発表メモ, 当日メモ, ベンチマーク記事, or a model ships and the page should be /news/{slug}/. Open grok-jp-infographic before any body figure. Japanese is not done until Fable reviews it. An article update is not done until deploy and push.
 ---
 
 # Grok JP news
@@ -32,6 +32,7 @@ Japanese rules live in `.grok/rules/writing.md`. Do not copy that file here. Fig
 | One infographic at the top, then a wall of paragraphs | A long memo needs a judgment figure at the section where the decision happens (入口, 払う額, 順位の前後). Open grok-jp-infographic. If a phrase on the figure is wrong, regenerate the file. Do not leave the bad sentence in the JPG |
 | Yellow `<mark>` on a whole sentence or a number | `<mark>` is only the name Grok 4.7, once, at the first mention. A marked phrase that wraps becomes two bars. Other emphasis is `<strong>`. Inline `code` keeps the site’s pale marker wash; do not also wrap it in `<mark>` |
 | Fable told “the figure is not at the top” | The ranking figure is injected above the markdown. Say 記事のいちばん上の図. Tell Fable that when the brief is frozen |
+| Stop after the draft and wait to be asked to publish | An article update ends in the same task with **grok-jp-ship**: deploy and `git push origin main`. Do not wait for a separate 公開して |
 
 ## Third parties and X
 
@@ -52,4 +53,4 @@ Only for numbers we are typesetting ourselves, such as the API price grid. Paper
 1. Write the LINE 3-liner first. Then dates and numbers.
 2. Open **grok-jp-infographic** before any body figure.
 3. Freeze the article into the Fable brief. Apply [must] and [should]. Record `docs/grok-fun/fable-*.md`.
-4. Then **grok-jp-ship**.
+4. Then **grok-jp-ship** in the same task. Deploy and push `origin main`. Do not stop at the draft.
