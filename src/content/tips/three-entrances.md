@@ -56,7 +56,7 @@ X の中の Grok には、公開している投稿や Grok との会話が学習
 
 ## 切り替えない限り、払う契約は別
 
-2026-10-07 までは、X Premium に入っても、grok.com の SuperGrok は付いてきませんでした。切り替えない限り、今も別の契約です。Cursor に入っていても、切り替えない限り、grok.com で使える量は増えません。2026-10-12 から、新規は The X Subscription です。個人の X をつなぐと、Grok と Cursor と X が 1 つの月額になります。手順は <a href="/news/x-subscription/">新しい有料は1つ。今の契約はそのまま残せる</a> に書きました。払う場所は <a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a> です。
+2026-10-07 までは、X Premium に入っても、grok.com の SuperGrok は付いてきませんでした。切り替えない限り、今も別の契約です。Cursor に入っていても、切り替えない限り、grok.com で使える量は増えません。2026-10-12 から、新規は The X Subscription です。個人の X をつなぐと、Grok と Cursor と X が 1 つの月額になります。手順は <a href="/news/x-subscription/">新しい有料は1つ。今の契約はそのまま残せる</a> に書きました。払う場所は <a href="/tips/free-vs-supergrok/">Heavy を解約して入り直した</a> です。
 
 ## 公式アプリの見分け方
 

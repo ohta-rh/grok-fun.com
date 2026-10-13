@@ -25,15 +25,15 @@ source_url:
 
 <strong>本体は Claude Opus 5.5 です。</strong>いちばん上の図に書いたのは、そのことです。全員に届く日は、その投稿にありません。
 
-2026-10-09 に開いた [FAQ](https://docs.x.ai/grok-bot/faq) に並んでいるのは、対象のプランと、週ごとの使用量です。モデルの名前は、そのページにありません。
+2026-10-09 の [FAQ](https://docs.x.ai/grok-bot/faq) に並んでいるのは、対象のプランと、週ごとの使用量です。モデルの名前は、そのページにありません。
 
 ## どこで使えて、いくら払うか
 
 使う場所は、Grok Bot のアプリです。入口は [x.ai/bot](https://x.ai/bot) です。grok.com のチャットで、モデルの名前を選ぶ話ではありません。
 
-2026-10-09 に開いた FAQ では、Grok Bot は Cursor の有料の個人プランに入っています。個人の SuperGrok、SuperGrok Plus、SuperGrok Heavy を繋いでも使えます。使用量は週ごとです。オンデマンドを足すと、使ったモデルとトークンの分が請求されます。同じ FAQ では、Cursor Teams の Standard と Premium のシートに入っています。Enterprise への提供は、今広げているところです。
+2026-10-09 の FAQ では、Grok Bot は Cursor の有料の個人プランに入っています。個人の SuperGrok、SuperGrok Plus、SuperGrok Heavy を繋いでも使えます。使用量は週ごとです。オンデマンドを足すと、使ったモデルとトークンの分が請求されます。同じ FAQ では、Cursor Teams の Standard と Premium のシートに入っています。Enterprise への提供は、今広げているところです。
 
-同じ日に開いた [x.ai/bot](https://x.ai/bot) では、Enterprise も今使える、と書いてあります。並んでいるのは、Cursor の Pro、Pro+、Ultra、SuperGrok、SuperGrok Plus、Heavy、Standard と Premium の Teams、Enterprise です。二つのページは、ここがずれています。
+同じ日の [x.ai/bot](https://x.ai/bot) では、Enterprise も今使える、とあります。並んでいるのは、Cursor の Pro、Pro+、Ultra、SuperGrok、SuperGrok Plus、Heavy、Standard と Premium の Teams、Enterprise です。二つのページは、ここがずれています。
 
 Opus だけの金額は、この FAQ にも、2026-10-07 の投稿にもありません。
 

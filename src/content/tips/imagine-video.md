@@ -33,7 +33,7 @@ image_caption: 下の動画は、この静止画をもとに動かしたもの�
 3. 動きを**一つだけ**書きます。雨が降る、ゆっくり寄る、提灯が揺れる、のどれか一つです
 4. その静止画から動画にします
 
-2026-06-16 の公式発表で、grok.com/imagine と公式アプリに **Video 1.5 Fast** が入りました。6 秒の 720p が、以前より短い時間で出ると書かれています。入口は <a href="/tips/three-entrances/">grok.com か公式アプリ</a>です。2026-09-17 に開いた <a href="https://x.ai/grok" rel="external">x.ai/grok</a> には、動画は 720p で最長 15 秒、とあります。
+2026-06-16 の公式発表で、grok.com/imagine と公式アプリに **Video 1.5 Fast** が入りました。6 秒の 720p が、以前より短い時間で出ると書かれています。入口は <a href="/tips/three-entrances/">grok.com か公式アプリ</a>です。2026-09-17 の <a href="https://x.ai/grok" rel="external">x.ai/grok</a> では、動画は 720p、最長 15 秒です。
 
 ## このページの作例
 
@@ -84,11 +84,11 @@ image_caption: 下の動画は、この静止画をもとに動かしたもの�
 
 ## 使える量と画質
 
-2026 年 6 月から、使える量は 1 週間ごとに決まっていて、チャットと Imagine は同じ量から減ります（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。動画を出すと、チャットより早く尽きます。残りは設定の Usage で見ます。払う場所は <a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a> に書きました。
+2026 年 6 月から、使える量は 1 週間ごとに決まっていて、チャットと Imagine は同じ量から減ります（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）。動画を出すと、チャットより早く尽きます。残りは設定の Usage で見ます。払う場所は <a href="/tips/free-vs-supergrok/">Heavy を解約して入り直した</a> に書きました。
 
 - **透かしは消せません。** 生成した画像と動画には Grok の透かしが入ります。消したり隠したりすることは利用規約で禁じられています（<a href="https://docs.x.ai/grok/faq" rel="external">FAQ</a>）
 - **720p が 480p になるのは故障ではありません。** その解像度の分を使い切ると落ちます。Usage を見てください
-- 1080p の動画は SuperGrok Plus からです（2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a>）。2026-10-13 に開いた新しい料金カードには、1080p の行はありませんでした
+- 1080p の動画は SuperGrok Plus からです（2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a>）。2026-10-13 の新しい料金カードには、1080p の行はありませんでした
 - 無料と SuperGrok で何本出せるかは、時期で変わるのでこのページには書きません
 
 ## API は別

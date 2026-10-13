@@ -35,7 +35,7 @@ OpenAI は、こう書いています。「Dots are remarkably capable, always-o
 
 <figure class="article-hero">
   <img src="/tips/fig-dots-pay.jpg" alt="ノートに、払う場所が違う、と書いてある。dots は ChatGPT Pro か Business Premium。Pro は月 $100、$200、$500。Grok Bot は Cursor の月 $20 から。日付は 2026-10-01" width="1280" height="720" />
-  <figcaption>dots は ChatGPT の Pro か Business Premium です。Grok Bot は Cursor の有料プランに入っています。金額は、2026-10-01 に開いた案内の数字です。</figcaption>
+  <figcaption>dots は ChatGPT の Pro か Business Premium です。Grok Bot は Cursor の有料プランに入っています。金額は、2026-10-01 の案内の数字です。</figcaption>
 </figure>
 
 日本から使う人は、まず自分のプラン画面を見ます。
@@ -44,9 +44,9 @@ dot を作れるのは、ChatGPT のデスクトップアプリか、パソコ�
 
 対象は、発表のページでは Pro、Business Premium、Enterprise です。Help Center はもう少し細かいです。Pro は、欧州経済領域とスイスと英国以外から、順に使えるようになります。Business Premium は、ChatGPT が使える地域ならどこでも対象です。Enterprise と Edu と Healthcare はベータで、管理者が許可するまで使えません。届くまで数日かかることがあります。Pro の対象外に、日本は入っていません。
 
-料金は、2026-10-01 に開いた [Pro の Help Center](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) の数字です。Pro は 3 種類で、月 <span class="num">$100</span>、月 <span class="num">$200</span>、月 <span class="num">$500</span> です。$500 のものは Pro 500 で、[2026-09-29 のリリースノート](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) に、新しく加わったと書いてあります。Ultrafast が付くのは、Pro の中ではこれだけです。dots の案内には、Pro とまとめて書いてあります。$100 と $200 と $500 のどこまで含むかは、そのページからは読めません。
+料金は、2026-10-01 の [Pro の Help Center](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers) の数字です。Pro は 3 種類で、月 <span class="num">$100</span>、月 <span class="num">$200</span>、月 <span class="num">$500</span> です。$500 のものは Pro 500 で、[2026-09-29 のリリースノート](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) に、新しく加わったと書いてあります。Ultrafast が付くのは、Pro の中ではこれだけです。dots の案内には、Pro とまとめて書いてあります。$100 と $200 と $500 のどこまで含むかは、そのページからは読めません。
 
-Business の Premium シートは、[2026-08-10 の発表](https://openai.com/index/premium-seats-chatgpt-business/) と、2026-10-01 に開いた [Business の FAQ](https://help.openai.com/en/articles/8542115-chatgpt-business-general-faq) では、月払いで 1 人 <span class="num">$125</span>、年払いなら 1 人あたり月 <span class="num">$100</span> です。Standard シートは月 <span class="num">$25</span>、年払いなら月 <span class="num">$20</span> です。dots が入るのは Premium シートです。案内の金額はドル建てです。日本の契約画面に出る数字は、その画面で見てください。
+Business の Premium シートは、[2026-08-10 の発表](https://openai.com/index/premium-seats-chatgpt-business/) と、2026-10-01 の [Business の FAQ](https://help.openai.com/en/articles/8542115-chatgpt-business-general-faq) では、月払いで 1 人 <span class="num">$125</span>、年払いなら 1 人あたり月 <span class="num">$100</span> です。Standard シートは月 <span class="num">$25</span>、年払いなら月 <span class="num">$20</span> です。dots が入るのは Premium シートです。案内の金額はドル建てです。日本の契約画面に出る数字は、その画面で見てください。
 
 最初の 1 体は、Pro か Business Premium の料金に含まれていて、追加の月額はかからない、と発表にあります。dot との会話は、ChatGPT の使用量に入りません。時間のかかる重い仕事には枠があり、公開から 1 か月は枠が広い、ともあります。枠の数字は、そのページにありません。dot に Codex や ChatGPT Work の仕事を始めさせると、その仕事はいつもの使用量に入ります。dot を増やすこと、速さを上げること、1 か月に任せられる量を増やすことは、これからだ、と書いてあります。
 
@@ -76,7 +76,7 @@ specialist dots は、会社の中で一つの仕事を受け持つ dot です�
 
 <figure class="article-hero">
   <img src="/tips/fig-dots-start.jpg" alt="ノートに、仕事の始め方、と書いてある。dots の先回りは読み取りだけ。Grok Bot は Routine を置いて動かす。日付は 2026-09-29 と 2026-08-11" width="1280" height="720" />
-  <figcaption>dots の先回りは、読むだけだと 2026-09-29 のページにあります。Grok Bot が出たのは 2026-08-11 です。2026-10-01 に開いた手順のページにあるのは、頼んだ仕事と Routine です。</figcaption>
+  <figcaption>dots の先回りは、読むだけだと 2026-09-29 のページにあります。Grok Bot が出たのは 2026-08-11 です。2026-10-01 の手順のページにあるのは、頼んだ仕事と Routine です。</figcaption>
 </figure>
 
 2026-10-01 に、両方の案内を開きました。テストの点を並べた表は、2026-09-29 の発表にありません。

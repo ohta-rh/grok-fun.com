@@ -61,9 +61,9 @@ FAQ は、Grok Bot を grok.com のチャットや公式アプリとは別物だ
 やらないこと: ○○（例: 文体を変えない。英語で答えない）
 ```
 
-Grok Bot が付くプランは、公式の書き方が日付で変わっています。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあり、2026-10-07 に開いても同じです。2026-09-17 の導入ページは Plus、Heavy と、Cursor の Pro+ 以上だけ、と書いていました。2026-10-07 の導入ページでは、対象は個人の有料 Cursor の全部か Cursor Teams、または Cursor のアカウントにつないだ個人の SuperGrok、Plus、Heavy です。Cursor の個人向け Pro は、2026-10-07 に開いたとき月 $20 で、Grok Bot access とありました。
+Grok Bot が付くプランは、公式の書き方が日付で変わっています。2026-08-26 のニュースは SuperGrok と Cursor Pro を含めています。2026-09-17 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> の SuperGrok（$30）にも Grok Bot access とあり、2026-10-07 の料金ページも同じです。2026-09-17 の導入ページは、対象が Plus、Heavy と、Cursor の Pro+ 以上だけでした。2026-10-07 の導入ページでは、対象は個人の有料 Cursor の全部か Cursor Teams、または Cursor のアカウントにつないだ個人の SuperGrok、Plus、Heavy です。Cursor の個人向け Pro は、2026-10-07 の料金で月 $20、Grok Bot access とありました。
 
-2026-10-13 の新しい料金では、新規の Bot は Premium、Super、Ultra です。Plus にはありません。切り替えると、Bot も同じ週の分から減ります。2026-10-07 までの契約のままなら、当時の発表のとおり、Grok や Cursor で使っても Bot の分は減りません。grok.com のチャットや Imagine の使える量は、切り替えない限り増えません（<a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
+2026-10-13 の新しい料金では、新規の Bot は Premium、Super、Ultra です。Plus にはありません。切り替えると、Bot も同じ週の分から減ります。2026-10-07 までの契約のままなら、当時の発表のとおり、Grok や Cursor で使っても Bot の分は減りません。grok.com のチャットや Imagine の使える量は、切り替えない限り増えません（<a href="/tips/free-vs-supergrok/">Heavy を解約して入り直した</a>）。重い調査や Imagine は、Bot の会話でやらずに Grok Build へ渡す書き方もあります（<a href="/tips/bot-uses-build/">重い仕事は Grok Build に渡す</a>）。
 
 Bot 用のプロンプトは、<a href="https://grokguide.jp" rel="external">grokguide.jp</a> にたくさんまとまっています。このサイトでは Bot のプロンプト集は作りません。作り方の形と、日本語で使うときの注意だけを書いています。
 

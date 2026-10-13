@@ -102,7 +102,7 @@ CursorBench は長めのコーディング、DeepSWE はソフトウェアの課
 
 ## Astra と Fable と Opus
 
-Artificial Analysis は、自分で測る第三者です。Astra と Opus 5 は、<a href="https://artificialanalysis.ai/articles/benchmarking-grok-4-7" rel="external noopener">2026-09-21 の記事</a>と、2026-09-22 に開いた比較ページで比べます。モデル一覧の総合 1 位は Fable 5.1（max、fallback あり）の <span class="num">53</span> です。GPT-6 Astra（max）も <span class="num">53</span>、Opus 5（max）は <span class="num">51</span>、Grok 4.7（xhigh）は <span class="num">46</span> です。4.7 の high も総合は <span class="num">46</span> です。xAI の表は Max と書き、Artificial Analysis は max（fallback あり）と書いています。努力の名前は別です。
+Artificial Analysis は、自分で測る第三者です。Astra と Opus 5 は、<a href="https://artificialanalysis.ai/articles/benchmarking-grok-4-7" rel="external noopener">2026-09-21 の記事</a>と、2026-09-22 の比較ページで比べます。モデル一覧の総合 1 位は Fable 5.1（max、fallback あり）の <span class="num">53</span> です。GPT-6 Astra（max）も <span class="num">53</span>、Opus 5（max）は <span class="num">51</span>、Grok 4.7（xhigh）は <span class="num">46</span> です。4.7 の high も総合は <span class="num">46</span> です。xAI の表は Max と書き、Artificial Analysis は max（fallback あり）と書いています。努力の名前は別です。
 
 Elo は勝ち抜きの点数で、大きいほど上です。GDPval-AA は、弁護士や看護師や金融の実務を模した仕事です。2026-09-22 の順位表では、Fable 5.1（max）が <span class="num">1,735</span>、Opus 5（max）が <span class="num">1,708</span>、Grok 4.7（xhigh）が <span class="num">1,695</span>、Grok 4.7（high）が <span class="num">1,694</span>、GPT-6 Astra（max）が <span class="num">1,542</span> です。4.6（high）は <span class="num">1,605</span> でした。
 

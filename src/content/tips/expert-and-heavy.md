@@ -59,9 +59,9 @@ SuperGrok に含まれる、とも書いています。チャットで選ぶ Hea
 
 短い質問は、今のチャットのままで足ります。じっくり考えてほしい返事なら、機能の Expert mode です。Lite から書いてあります。問題を、より大きなチームに分けるなら、チャットの機能として Heavy を選びます。その機能が付くのは、プランの Heavy です。2026-09-22 のプラン画面は、そう書いています。使える量が足りないだけなら、先に Plus と、設定の Usage を見てください。
 
-2026-10-13 に開いた [x.ai/pricing](https://x.ai/pricing) の先頭は、Free が $0、Plus が月 $8、Premium が月 $30、Super が月 $100、Ultra が月 $200 です。その先頭に Heavy という名前はありません。今入っている SuperGrok Heavy は、切り替えない限り残ります。Ultra の月 $200 は、Heavy の月額ではありません。上の表は、2026-09-22 のカードです。
+2026-10-13 の [x.ai/pricing](https://x.ai/pricing) の先頭は、Free が $0、Plus が月 $8、Premium が月 $30、Super が月 $100、Ultra が月 $200 です。その先頭に Heavy という名前はありません。今入っている SuperGrok Heavy は、切り替えない限り残ります。Ultra の月 $200 は、Heavy の月額ではありません。上の表は、2026-09-22 のカードです。
 
-この分け方は、grok.com と公式アプリのチャットです。X の中の Grok は、別の入口です。<a href="/tips/three-entrances/">入る場所で、メニューは変わります</a>。新規の人が払うプランは、<a href="/tips/free-vs-supergrok/">移るなら、先に解約しない</a>に書きました。
+この分け方は、grok.com と公式アプリのチャットです。X の中の Grok は、別の入口です。<a href="/tips/three-entrances/">入る場所で、メニューは変わります</a>。新規の人が払うプランは、<a href="/tips/free-vs-supergrok/">Heavy を解約して入り直した</a>に書きました。
 
 ## プランの残りは、週に 1 つの枠
 
