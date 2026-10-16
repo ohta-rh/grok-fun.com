@@ -3,7 +3,7 @@ title: Heavy を解約して入り直した。支払い画面を開いただけ�
 description: 2026-10-13、クレジットカードの SuperGrok Heavy を解約して、新しいプランで契約し直しました。支払い画面を開いても、Heavy は「レガシー」と「アクティブ」のままでした。公式の切り替えでは、支払いを終えると古い契約が止まります。残す人は何もしません。自分で止めた分の返金は、申請のあと審査です。
 order: 3
 product: chat
-last_verified: "2026-10-13"
+last_verified: "2026-10-16"
 source_url:
   - https://x.ai/news/x-subscription
   - https://x.ai/pricing
@@ -80,7 +80,7 @@ image_caption: このアカウントは、Heavy を解約してから入り直�
 
 Plus には、Grok のチャット、Voice、Imagine、Build、Grok API、Cursor が入ります。Plus で使えるモデルは Grok だけです。ほかの会社のモデルは Premium からで、プランの分とは別に、API の定価で払います。
 
-使える量は、週が変わると戻ります。Grok の中では、チャット、Imagine、Voice、Bot、API が同じ分から減ります。Cursor で使う Grok のモデルも、同じ分です。製品によって減る量は違います。
+使える量は、週が変わると戻ります。Grok の中では、チャット、Imagine、Voice、Bot が同じ分から減ります。Cursor で使う Grok のモデルも、同じ分です。Grok の API は、その分から減りません。使った分は、API の定価で別に払います。製品によって減る量は違います。
 
 チームは、Premium がシート月 <span class="num">$30</span>、Super がシート月 <span class="num">$100</span>、Ultra がシート月 <span class="num">$200</span> です。Plus はチームにありません。
 
@@ -253,7 +253,7 @@ X の中の Grok は X のプランで動きます。grok.com は SuperGrok の�
 
 </div>
 
-2026-10-07 までの FAQ では、console.x.ai のクレジットは返金されません。当時の SuperGrok に入っても、そのクレジットは付きませんでした。2026-10-13 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> では、Plus のカードに Grok API があります。Grok の中の API も、週の同じ分から減ります。
+2026-10-07 までの FAQ では、console.x.ai のクレジットは返金されません。当時の SuperGrok に入っても、そのクレジットは付きませんでした。2026-10-16 の <a href="https://x.ai/pricing" rel="external">x.ai/pricing</a> では、Plus に Grok API が付いています。使う分は、週の分から減りません。API の定価で、別に払います。
 
 ### 前の契約をやめる場所
 
@@ -277,7 +277,7 @@ Web とアプリで別のアカウントに入っていると、片方だけ有�
 
 - 「X Premium なのに grok.com が無料のまま」: 切り替えない限り、別の契約なので、これで正常です
 - 「Cursor Pro なのに Imagine の枚数が変わらない」: 2026-10-07 までの Cursor で払っているのは、Grok Bot の分です。切り替えると、1つの週の分から減ります
-- 「SuperGrok なのに API が使えない」: 2026-10-07 までは、console.x.ai で別に払います。今の Plus のカードには Grok API があります
+- 「SuperGrok なのに API が使えない」: 2026-10-07 までは、console.x.ai で別に払います。今の Plus には Grok API が付いています。使った分は、週の分から減らず、API の定価で払います
 - 「X Premium なのにターミナルの Build が使えない」: 2026-05-25 の発表では、Premium+ か SuperGrok です
 - 「画像の残りが急に減った」: 同じ週の分を、別の作業で使っています
 - 「円の値段が公式の USD と合わない」: ストアの値段が正しいです
