@@ -25,7 +25,7 @@ export const CHAT_READING_ORDER = [
 export const GROUP_BLURB: Record<string, string> = {
   chat: '入口、払い方、チャットで選ぶ Heavy と Expert mode。',
   imagine: '1 枚目の出し方と、動画にする順番。',
-  bot: 'クラウドのコンピュータと、重い仕事の渡し方。',
+  bot: 'クラウドのコンピュータ、重い仕事、役を分けた並べ方。',
   automations: '決めた時刻に、チャットの仕事を走らせる。',
   series: 'チャット、Grok Bot、Grok Build は別の道具。',
 };

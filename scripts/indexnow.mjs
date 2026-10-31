@@ -55,6 +55,7 @@ const FIG_TO_SLUG = {
   'fig-expert-heavy': 'expert-and-heavy',
   'fig-multi-agent': 'expert-and-heavy',
   'fig-jp-paste': 'japanese-fix',
+  'fig-bot-as-company': 'bot-as-company',
   'fig-bot-uses-build': 'bot-uses-build',
   'fig-bot-claude-code': 'bot-uses-claude-code',
   'fig-bot-uses-build-arch': 'bot-uses-build',
