@@ -37,6 +37,34 @@ export const CHAT_BLURB: Record<string, string> = {
   'japanese-fix': '日本語がおかしい時に直す',
 };
 
+/** Days after `published` that a TIPS stays in the NEW block. Fact-check dates do not count. */
+export const NEW_TIP_DAYS = 14;
+
+export function todayJst(now = new Date()): string {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(now);
+}
+
+export function isNewTip(published: string | undefined, today = todayJst()): boolean {
+  if (!published) return false;
+  if (published > today) return false;
+  const start = Date.parse(`${published}T00:00:00+09:00`);
+  const end = Date.parse(`${today}T00:00:00+09:00`);
+  if (Number.isNaN(start) || Number.isNaN(end)) return false;
+  const days = Math.round((end - start) / 86_400_000);
+  return days >= 0 && days <= NEW_TIP_DAYS;
+}
+
+export function newTips(tips: CollectionEntry<'tips'>[], today = todayJst()) {
+  return tips
+    .filter((tip) => isNewTip(tip.data.published, today))
+    .sort((a, b) => (b.data.published ?? '').localeCompare(a.data.published ?? ''));
+}
+
 export function groupTips(tips: CollectionEntry<'tips'>[]) {
   const byProduct = new Map<string, CollectionEntry<'tips'>[]>();
   for (const tip of tips) {

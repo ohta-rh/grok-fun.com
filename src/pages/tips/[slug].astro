@@ -9,6 +9,7 @@ import CommentList from '../../components/CommentList.astro';
 import Infographic from '../../components/Infographic.astro';
 import HeroFigure from '../../components/HeroFigure.astro';
 import { getCollection, render } from 'astro:content';
+import { isNewTip, todayJst } from '../../lib/tip-groups';
 import type { CollectionEntry } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -33,6 +34,7 @@ export async function getStaticPaths() {
 }
 
 const { entry, prev, next, related, sameProduct } = Astro.props;
+const showNew = isNewTip(entry.data.published, todayJst());
 const { Content, headings } = await render(entry);
 const toc = headings.filter((h) => h.depth === 2);
 const url = `https://grok-fun.com/tips/${entry.id}/`;
@@ -85,6 +87,7 @@ const jsonLd = {
   ]} />
   <article>
     <p class="card-head">
+      {showNew && <span class="new-mark">NEW</span>}
       <span class="tag">{entry.data.product}</span>
       <span>TIPS {String(entry.data.order).padStart(2, '0')}</span>
       <span>最終確認 <time datetime={entry.data.last_verified}>{entry.data.last_verified}</time></span>

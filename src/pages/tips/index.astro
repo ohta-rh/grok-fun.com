@@ -2,9 +2,13 @@
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { groupTips } from '../../lib/tip-groups';
+import { groupTips, isNewTip, newTips, todayJst } from '../../lib/tip-groups';
+import NewTips from '../../components/NewTips.astro';
 
-const groups = groupTips(await getCollection('tips'));
+const tips = await getCollection('tips');
+const today = todayJst();
+const groups = groupTips(tips);
+const freshTips = newTips(tips, today);
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -18,7 +22,8 @@ const jsonLd = {
   <Breadcrumbs items={[{ href: '/', label: 'ホーム' }, { label: 'TIPS' }]} />
   <p class="card-head"><span class="tag">series</span> <span>{groups.reduce((n, g) => n + g.items.length, 0)} 本</span></p>
   <h1>TIPS</h1>
-  <p class="lead">ここが全部の一覧です。ホームはタイトルだけです。説明と、最後に確かめた日はここにあります。更新は <a href="/rss.xml">RSS</a> でも受け取れます。</p>
+  <p class="lead">ここが全部の一覧です。ホームに説明が出るのは新しい TIPS だけで、ほかはタイトルだけです。説明と、最後に確かめた日はここにあります。更新は <a href="/rss.xml">RSS</a> でも受け取れます。</p>
+  <NewTips tips={freshTips} />
   {groups.map((g) => (
     <section id={g.product}>
       <h2>
@@ -29,7 +34,8 @@ const jsonLd = {
       <ol class="tips-list">
         {g.items.map((t) => (
           <li>
-            <span class="num">TIPS {String(t.data.order).padStart(2, '0')}</span><br />
+            <span class="num">TIPS {String(t.data.order).padStart(2, '0')}</span>
+            {isNewTip(t.data.published, today) && <span class="new-mark">NEW</span>}<br />
             <a href={`/tips/${t.id}/`}>{t.data.title}</a>
             <p>{t.data.description}</p>
             <p class="meta">最終確認 <time datetime={t.data.last_verified}>{t.data.last_verified}</time></p>

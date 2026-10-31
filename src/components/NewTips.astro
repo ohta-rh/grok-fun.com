@@ -1,0 +1,22 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  tips: CollectionEntry<'tips'>[];
+}
+const { tips } = Astro.props;
+---
+{tips.length > 0 && (
+  <section class="new-tips" aria-label="新しい TIPS">
+    <h2><span class="new-mark" aria-hidden="true">NEW</span>新しい TIPS</h2>
+    <ol class="tips-list">
+      {tips.map((t) => (
+        <li>
+          <span class="num"><time datetime={t.data.published}>{t.data.published}</time></span><br />
+          <a href={`/tips/${t.id}/`}>{t.data.title}</a>
+          <p>{t.data.description}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+)}

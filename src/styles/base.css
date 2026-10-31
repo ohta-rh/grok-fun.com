@@ -471,6 +471,31 @@ main { flex: 1; padding-bottom: var(--section); }
 .tips-list p { margin: 0.25rem 0 0; font-size: 0.95rem; }
 .tips-list .meta { font-family: var(--font-mono); font-size: 0.8rem; color: var(--ink-60); margin-top: 0.25rem; }
 
+.new-mark {
+  display: inline-block;
+  margin-right: 0.4rem;
+  border: 2px solid var(--stamp);
+  color: var(--stamp);
+  border-radius: 2px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.35rem;
+  transform: rotate(-8deg);
+  vertical-align: 0.1em;
+  white-space: nowrap;
+}
+.new-tips h2 { display: flex; align-items: center; gap: 0.55rem; }
+.new-tips h2 .new-mark,
+.card-head .new-mark { flex: none; }
+h3 .new-mark, .card-head .new-mark, .tips-list .new-mark {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.3rem;
+  margin-right: 0.3rem;
+}
+
 /* source box */
 .sources { border: 1px solid var(--rule); padding: 1rem; margin-top: var(--section); }
 .sources h2 { margin-top: 0; border: 0; font-size: 1rem; }

@@ -1,11 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
-import { GROUP_BLURB, groupTips } from '../lib/tip-groups';
+import { GROUP_BLURB, groupTips, isNewTip, newTips, todayJst } from '../lib/tip-groups';
+import NewTips from '../components/NewTips.astro';
 
 const tips = await getCollection('tips');
 const news = await getCollection('news');
 const groups = groupTips(tips);
+const today = todayJst();
+const freshTips = newTips(tips, today);
 const latestNews = news.sort((a, b) => b.data.published.localeCompare(a.data.published))[0];
 const siteUpdated = [...tips.map((t) => t.data.last_verified), ...news.map((n) => n.data.last_verified)].sort().at(-1) ?? '';
 const jsonLd = {
@@ -28,6 +31,8 @@ const jsonLd = {
   <h1>日本語で Grok を使う人のための場所</h1>
   <p class="lead">Grok を日本語で使うときに困ること、公式ページを読んでも分からないことを、実際に試してから、日付と一次情報のリンクを付けて書いています。記事の数は増やしません。しばらくぶりに戻ってきたとき、ここを見れば足りる状態にしておきます。</p>
   <p>このサイトは <strong>xAI とは関係のない、ファンの非公式サイト</strong>です。公式のロゴは使っていません。料金や制限は変わるので、数字は<a href="https://x.ai/grok">公式ページ</a>で確かめてください。</p>
+
+  <NewTips tips={freshTips} />
 
   {latestNews && (
     <>
@@ -80,7 +85,10 @@ const jsonLd = {
       <p>{GROUP_BLURB[g.product]}</p>
       <ul>
         {g.items.map((t) => (
-          <li><a href={`/tips/${t.id}/`}>{t.data.title}</a></li>
+          <li>
+            {isNewTip(t.data.published, today) && <span class="new-mark">NEW</span>}
+            <a href={`/tips/${t.id}/`}>{t.data.title}</a>
+          </li>
         ))}
       </ul>
     </section>

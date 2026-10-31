@@ -19,7 +19,7 @@ export async function GET(context: APIContext) {
     ...tips.map((t) => ({
       title: t.data.title,
       description: t.data.description,
-      pubDate: new Date(`${t.data.last_verified}T00:00:00+09:00`),
+      pubDate: new Date(`${t.data.published ?? t.data.last_verified}T00:00:00+09:00`),
       link: `/tips/${t.id}/`,
       categories: [t.data.product],
     })),
