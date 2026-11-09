@@ -3,12 +3,13 @@ title: Claude Code は、Bot のコンピュータで動かす
 description: "Claude Code は、自分の Mac には入れません。Grok Bot のコンピュータに入れて、Bot には頼むだけにします。実行は claude -p です。ログインはそのコンピュータのブラウザです。払う先は Anthropic で、SuperGrok や Cursor とは別です。契約が先に要ります。"
 order: 11
 product: bot
-last_verified: "2026-09-26"
+last_verified: "2026-11-09"
 source_url:
   - https://docs.x.ai/grok-bot/computer-and-apps
   - https://docs.x.ai/grok-bot/overview
   - https://docs.x.ai/grok-bot/computers
   - https://docs.x.ai/grok-bot/mobile
+  - https://docs.x.ai/grok-bot/faq
   - https://code.claude.com/docs/en/setup
   - https://code.claude.com/docs/en/authentication
   - https://code.claude.com/docs/en/headless
@@ -64,7 +65,7 @@ Grok は頼みます。ファイルを読んで説明するのは Claude Code �
 
 ## 払う場所
 
-Grok Bot を動かす分は、Cursor か SuperGrok です。Claude Code を動かす分は、Anthropic です。SuperGrok や Cursor に入っていても、Claude Code を使う分は入っていません。サブスクリプションにするか、Console の API にするかは、ログインのときに選びます。金額は、自分の Claude の画面で見てください。どこにいくら払うかの分け方は <a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a> に書きました。
+Grok Bot を動かす分は、新規なら The X Subscription の Premium、Super、Ultra です。以前からの Cursor の有料プランと、繋いだ SuperGrok でも動きます。Claude Code を動かす分は、Anthropic に払います。SuperGrok や Cursor に入っていても、Claude Code を使う分は入っていません。サブスクリプションにするか、Console の API にするかは、ログインのときに選びます。金額は、自分の Claude の画面で見てください。どこにいくら払うかの分け方は <a href="/tips/free-vs-supergrok/">やりたいことで払う場所が決まる</a> に書きました。
 
 <div class="table-scroll">
 

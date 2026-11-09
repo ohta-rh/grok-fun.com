@@ -2,7 +2,7 @@
 title: 声の API は Voice 3.0。分 $0.08 のまま
 description: "2026-10-14、Grok Voice 3.0 が API に出ました。分あたり $0.08 で、前の Voice 2.0 と同じ値段です。grok-voice-latest は、すでに 3.0 です。Bot の音声モードでも動きます。2026-10-13 の音声指標は 86.9 で 1 位です。"
 published: "2026-10-14"
-last_verified: "2026-10-16"
+last_verified: "2026-11-09"
 source_url:
   - https://x.ai/news/grok-voice-3
   - https://docs.x.ai/developers/pricing

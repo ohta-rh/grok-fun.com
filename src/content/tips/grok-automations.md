@@ -3,7 +3,7 @@ title: 時刻の予約は誰でも。メールなら SuperGrok
 description: "Grok の Automations は、一度書いた仕事を、決めた時刻か届いたメールで走らせる機能です。場所は grok.com と公式アプリです。時刻の予約は誰でも使えます。メールで動かせるのは、SuperGrok の人だけです。Grok Bot が、Bot 自身のコンピュータで繰り返す仕事とは、別の道具です。"
 order: 9
 product: automations
-last_verified: "2026-09-22"
+last_verified: "2026-11-09"
 source_url:
   - https://x.ai/news/grok-automations
   - https://grok.com/automations

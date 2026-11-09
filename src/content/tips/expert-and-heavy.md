@@ -1,9 +1,9 @@
 ---
 title: Heavy は機能でも、プランでもある
-description: "Heavy はチャットの機能でも、払うプランの名前でもあります。2026-09-22 のプラン画面は、より大きなエージェントのチームが協力して、いちばん良い返事にする、と書いています。Expert mode は別の機能です。Heavy の月額は契約画面にあります。チャットのモデル名は Grok 4.6 です。"
+description: "Heavy はチャットの機能でも、払うプランの名前でもあります。Expert mode は別の機能です。Heavy の月額は契約画面にあります。2026-11-09 の grok.com では、Expert も Heavy も Grok 4.7 です。2026-09-22 の料金カードは Grok 4.6 でした。"
 order: 10
 product: chat
-last_verified: "2026-10-13"
+last_verified: "2026-11-09"
 source_url:
   - https://grok.com/plans
   - https://x.ai/grok
@@ -27,7 +27,7 @@ image_caption: チャットで選ぶ Heavy は機能です。払う Heavy はプ
 
 ## チャットの機能
 
-2026-09-22 の [grok.com/plans](https://grok.com/plans) は、SuperGrok Heavy の知能を、より大きなエージェントのチームが協力して、いちばん良い返事にする、と書いています。何体か、何分かは、その画面にはありません。約 10 分、Agent が 3 つ、は 2025-07-09 の画面です。今の言い方は、より大きなチームです。
+2026-09-22 の [grok.com/plans](https://grok.com/plans) は、SuperGrok Heavy の知能を、より大きなエージェントのチームが協力して、いちばん良い返事にする、と書いています。何体か、何分かは、その画面にはありません。約 10 分、Agent が 3 つ、は 2025-07-09 の画面です。その日の言い方は、より大きなチームです。2026-11-09 の grok.com では、Heavy の説明は Team of Experts、モデルは Grok 4.7 です。
 
 同じ日の [x.ai/grok](https://x.ai/grok) は、複数のエージェントが同時に分け、考えが見えて、1 つの返事にまとまる、と書いています。見出しは Multi-agent です。
 
@@ -40,7 +40,7 @@ SuperGrok に含まれる、とも書いています。チャットで選ぶ Hea
 
 **Expert mode** も機能です。Heavy ではありません。同じプラン画面は、Lite に「いちばん新しく、いちばん良いモデル」、SuperGrok に「もっと賢い返事と、高い上限」と書いています。
 
-2026-09-22 の [x.ai/pricing](https://x.ai/pricing) のカードに書いてあるチャットのモデル名は Grok 4.6 です。
+2026-09-22 の [x.ai/pricing](https://x.ai/pricing) のカードに書いてあるチャットのモデル名は Grok 4.6 です。2026-11-09 の [grok.com](https://grok.com/) のモード一覧では、Expert も Heavy も Grok 4.7 です。
 
 ## 払うプラン
 
@@ -76,4 +76,5 @@ SuperGrok に含まれる、とも書いています。チャットで選ぶ Hea
 - 「今の Heavy は約 10 分、Agent が 3 つ」: それは 2025-07-09 の画面です。2026-09-22 のプラン画面は、より大きなエージェントのチーム、と書いています
 - 「Heavy の月額は $30」: $30 は、2026-09-22 の SuperGrok です。Heavy の月額は契約画面にあります
 - 「Ultra の月 $200 は Heavy の月額」: 別の名前です。2026-10-13 の料金ページの先頭に、Heavy はありません。今入っている Heavy は残ります
-- 「チャットのモデル名は Grok 4.7」: 2026-09-22 の料金カードは Grok 4.6 です
+- 「2026-09-22 の料金カードも Grok 4.7」: その日のカードは Grok 4.6 です
+- 「grok.com のモードも Grok 4.6」: 2026-11-09 の grok.com では、Expert も Heavy も Grok 4.7 です

@@ -1,8 +1,8 @@
 ---
 title: 今日頼むなら Grok Bot。Claude Duet は米国の順番待ち
-description: "2026-10-21、朝の要点は、Claude Duet が送ってきます。今入れるのは、米国の Pro と Max の順番待ちです。届く日は決まっていません。試験中の追加料金はなく、使う分はそのプランから減ります。今日から仕事を頼むなら Grok Bot です。新規は Premium の月 $30 からです。"
+description: "2026-10-21、朝の要点は、Claude Duet が送ってきます。今入れるのは、米国の Pro、Max、Ultra の順番待ちです。届く日は決まっていません。試験中の追加料金はなく、使う分はそのプランから減ります。今日から仕事を頼むなら Grok Bot です。新規は Premium の月 $30 からです。"
 published: "2026-10-21"
-last_verified: "2026-10-22"
+last_verified: "2026-11-09"
 source_url:
   - https://claude.com/resources/articles/claude-duet
   - https://claude.com/product/claude-duet
@@ -16,6 +16,7 @@ source_url:
   - https://docs.x.ai/grok-bot/mobile
   - https://docs.x.ai/grok-bot/skills-routines-and-automations
   - https://docs.x.ai/grok-bot/settings-and-notifications
+  - https://docs.x.ai/grok-bot/faq
   - https://x.ai/news/introducing-grok-bot
 ---
 
@@ -29,13 +30,15 @@ source_url:
 
 ## どこで使えて、いくら払うか
 
-Claude Duet に今入れるのは、米国の Pro と Max だけです。招待は、何回かに分けて届きます。届く日は決まっていません。順番待ちに入れるメールアドレスは、Claude のアカウントと、スマホの Apple か Google のアカウントで、同じものにします。Team と Enterprise は、まだ対象外です。あとから入れる、と始め方のページにあります。
+Claude Duet に今入れるのは、米国の Pro、Max、Ultra です。入口は順番待ちで、招待は何回かに分けて届きます。届く日は決まっていません。順番待ちのメールアドレスは、Claude のアカウントと、スマホの Apple か Google のアカウントで、同じものにします。Team と Enterprise は、まだ対象外です。あとから入れる、と始め方のページにあります。
 
 始め方のページにあるのは、iPhone と Android の専用アプリと、claude.ai です。いつもの Claude のアプリとは別です。
 
 2026-10-22 の [Claude の料金](https://claude.com/pricing) では、Pro は月 <span class="num">$20</span>、年払いなら月あたり <span class="num">$17</span>（先に $200）です。Max は月 <span class="num">$100</span> からです。カードでは、Pro の 5 倍か 20 倍かを選びます。FAQ では、その倍率は 5 時間ごとに使える量の話です。税は別です。同じカードの $100 と $200 は、月の API クレジットです。契約の月額は、ページの先頭にある月 $100 からです。
 
-試験のあいだ、Claude Duet の追加料金はありません。使う分は、Pro と Max の 5 時間の分と、週の分から減ります。始め方のページは、Claude のチャットと同じ基準で減る、と書いています。朝の要点も、数時間おきの確認も、その分に入ります。チャットだけのときより早く、上限に届くことがあります。発表のページは、普通の会話とは使い方が違う、と書いています。朝の確認は分に入り、資金計画の表やスライドのような大きな仕事は、使う分が大きくなります。入ったときに、5 時間の分と週の分を、一度だけ最初の状態に戻せます。戻せるのは 2026-11-30 までです。同じ Pro と Max の分は、Claude Code も使います。
+試験のあいだ、Claude Duet の追加料金はありません。対象は Pro、Max、Ultra です。使う分は、そのプランの分から減ります。5 時間で戻る分があるプランは、その分も減ります。週の分も減ります。始め方のページは、Claude のチャットと同じ基準で減る、と書いています。朝の要点も、数時間おきの確認も、その分に入ります。チャットだけのときより早く、上限に届くことがあります。発表のページは、普通の会話とは使い方が違う、と書いています。朝の確認も使う分に数えます。資金計画の表やスライドのような大きな仕事は、使う分がさらに増えます。
+
+試験のあいだは、5 時間の分と週の分を一度に戻せる回数が決まっています。Pro は 3 回、Max と Ultra は 1 回です。1 回使うと、5 時間の分と週の分の両方が戻ります。使わない回数は 2026-12-15 に切れます。戻すのは、ウェブか Claude Desktop の Settings にある Usage からです。同じプランの分は、Claude Code も使います。
 
 Grok Bot に新しく入る案内は、2026-10-22 の [x.ai/bot](https://x.ai/bot) にあります。Premium は月 <span class="num">$30</span> で、Grok Bot のコンピュータと、週の使用量が付きます。Super は月 <span class="num">$100</span> で、Premium の使用量の 3.5 倍です。Ultra は月 <span class="num">$200</span> で、Premium の使用量の 12 倍です。週の分を超えたあとは、トークンの定価で追加します。Premium、Super、Ultra、Teams、Enterprise にすでに入っている人には、Grok Bot が付いています。税は別です。
 
@@ -73,7 +76,7 @@ Grok Bot で、話しかけていないあいだに動くものとして案内�
 
 コンピュータは、同じアカウントの Grok Bot が 1 台を共有します。ファイルと、ブラウザのログインは分かれません。この話は <a href="/tips/grok-bot-cloud-computer/">クラウドにコンピュータがある</a> に書いてあります。複数の Bot が同時に動き、互いにメッセージを送れます。チャット、Bot、Build が別の道具だという話は <a href="/tips/bot-build-chat-map/">チャット、Grok Bot、Grok Build は別の道具</a> に書いてあります。
 
-モデルの案内も違います。2026-10-17 の [設定](https://docs.x.ai/grok-bot/settings-and-notifications) は、モデルは Cursor が選ぶ、選ぶ画面は無い、と書いています。2026-10-07 の開発者の投稿は、本体は Opus 5.5 で広がっている、と書きました。今日の docs に、その名前はありません。投稿の話は <a href="/news/bot-opus/">Grok Bot の本体は、Claude Opus 5.5 で動く</a> です。
+モデルの案内も違います。2026-10-17 の [設定](https://docs.x.ai/grok-bot/settings-and-notifications) は、モデルは Cursor が選ぶ、選ぶ画面は無い、と書いていました。2026-11-09 の同じページは、選ぶのは Grok Bot で、選ぶ画面は無い、と書いています。2026-11-09 の [FAQ](https://docs.x.ai/grok-bot/faq) は、仕事ごとにモデルが変わり、名前は出ない、と書いています。Opus 5.5 に回しても、トークンごとの金額は変わらない、とも書いています。2026-10-07 の開発者の投稿は、本体は Opus 5.5 で広がっている、と書きました。投稿の話は <a href="/news/bot-opus/">Grok Bot は、仕事ごとにモデルを選ぶ</a> です。
 
 声も違います。Claude Duet の声は、録音したメッセージです。Grok Bot の概要にある声は、音声の会話と、音声メモです。
 
@@ -91,7 +94,7 @@ Claude Code を Grok Bot のコンピュータに入れる話も、別です。�
 
 ## どうするか
 
-米国の Pro か Max がある人は、[順番待ち](https://claude.com/product/claude-duet) に入ります。届く日は決まっていません。
+米国の Pro、Max、Ultra がある人は、[順番待ち](https://claude.com/product/claude-duet) に入ります。届く日は決まっていません。
 
 今日から仕事を頼むなら、Grok Bot です。新規のカードは、月 $30 の Premium からです。Grok Bot をやめて待つ、という話にはしません。請求は、別の会社から来ます。
 
@@ -105,11 +108,11 @@ grok.com の時刻の予約は、Grok Bot の定期の仕事とは別です。�
 
 ## よくある取り違え
 
-- 「今日から日本でも、Claude Duet が使える」: 今入れるのは、米国の Pro と Max の順番待ちです。届く日は決まっていません
+- 「今日から日本でも、Claude Duet が使える」: 今入れるのは、米国の Pro、Max、Ultra の順番待ちです。届く日は決まっていません
 - 「Grok Bot も、朝の要点を自分から送る」: 話しかけていないあいだに動くものとして案内にあるのは、自分で置いた定期の仕事と、出来事の規則です
-- 「同じ Opus 5.5 だから、同じ製品」: Claude Duet の案内は Opus 5.5 です。Grok Bot の 2026-10-17 の設定は、モデルを Cursor が選びます。2026-10-07 の投稿は、本体が Opus 5.5 で広がっている、と書きました
+- 「同じ Opus 5.5 だから、同じ製品」: Claude Duet の案内は Opus 5.5 です。2026-11-09 の Grok Bot の FAQ は、仕事ごとにモデルを選び、名前は出さない、と書いています。2026-10-07 の投稿は、本体が Opus 5.5 で広がっている、と書きました
 - 「Claude Code を入れた Bot が、Claude Duet」: Claude Code は、Grok Bot のコンピュータに自分で入れる道具です。払う先は Anthropic で、Claude Duet とは別です
 - 「途中のブラウザを見て、自分で操作できる」: 見て、引き取れるのは Grok Bot です。Claude Duet は、ブラウザを見ることも、引き取ることもできません
 - 「Max の 20 倍は、月 $200」: 2026-10-22 の料金の先頭は、Max は月 $100 からです。カードの $100 と $200 は、月の API クレジットです
 - 「接続の数で、Grok Bot の方が少ない」: Claude は 6,000 を超える、と書いています。Grok Bot の数は案内に無いので、数では比べません
-- 「Claude Duet は、追加の月額がある」: 試験のあいだ、追加料金はありません。使う分は、Pro と Max の分から減ります
+- 「Claude Duet は、追加の月額がある」: 試験のあいだ、追加料金はありません。使う分は、Pro、Max、Ultra の分から減ります
