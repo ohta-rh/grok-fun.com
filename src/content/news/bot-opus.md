@@ -2,7 +2,7 @@
 title: Grok Bot は、仕事ごとにモデルを選ぶ。名前は出ない
 description: "2026-11-09 の FAQ では、Grok Bot が仕事ごとにモデルを選びます。選ぶ画面は無く、名前も出ません。Opus 5.5 に回しても、トークンごとの金額は変わりません。2026-10-07 の投稿は、本体が Opus 5.5 で広がっている、と書きました。480p は秒 $0.02 です。"
 published: "2026-10-07"
-last_verified: "2026-11-09"
+last_verified: "2026-11-16"
 source_url:
   - https://x.com/elonmusk/status/2107724314451878104
   - https://x.com/poteto/status/2107733029879943391

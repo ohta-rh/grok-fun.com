@@ -2,7 +2,7 @@
 title: Grok 4.7 は一番ではない。単価を据えて長く働く
 description: "2026-09-21 に Grok 4.7 が出ました。総合点は 46 点で、Fable 5.1 と GPT-6 Astra の 53、Opus 5 の 51 より下です。API は入力 100 万トークン $2、出力 $6 で、Grok 4.6 と同じ単価です。長く考えると出力が増え、払う額は増えます。"
 published: "2026-09-21"
-last_verified: "2026-09-23"
+last_verified: "2026-11-16"
 source_url:
   - https://x.ai/news/grok-4-7
   - https://docs.x.ai/developers/grok-4-7
@@ -84,7 +84,7 @@ source_url:
 
 キャッシュは、同じ入力を再利用したときの入力単価です。考えているあいだのトークンも、使った分に入ります。努力は low、medium、high、xhigh から選べて、既定は <strong>high</strong> です。Artificial Analysis が総合点に使ったのは xhigh です。
 
-fast は同じモデルを速い機材で配るもので、トークン単価は <strong>2 倍</strong>です。配っているのは Cursor と Grok Build です。公開 API は<strong>通常の単価</strong>です。Grok Build の無料で試せる枠も、通常のモデルです。
+fast は同じモデルを速い機材で配るものです。2026-11-16 の [料金](https://docs.x.ai/developers/pricing) では、プロンプトが 20 万トークン未満だと単価が <strong>2 倍</strong>です。20 万以上は <strong>1.5 倍</strong>で、100 万トークンあたり入力 <span class="num">$6</span>、キャッシュ <span class="num">$1.50</span>、出力 <span class="num">$18</span> です。fast を使えるのは、Cursor と Grok Build です。公開 API で選べるのは通常のモデルで、単価も<strong>通常</strong>です。Grok Build の無料で試せる枠も、通常のモデルです。
 
 モデル名は `grok-4.7` です。文脈は 50 万トークンで、4.6 と同じです。知識の区切りは <strong>2026 年 5 月</strong>です。入力はテキストと画像、出力はテキストです。docs はテキスト出力について “No text output limit” と書いています。grok.com で使える回数とは別の話です。
 

@@ -30,6 +30,7 @@ const FIG_TO_NEWS = {
   'fig-next-day-price': 'opus-5-5-gpt-6',
   'fig-next-day-door': 'opus-5-5-gpt-6',
   'fig-next-day-table': 'opus-5-5-gpt-6',
+  'fig-grok-bot-1': 'grok-bot-1',
   'fig-bot-opus': 'bot-opus',
   'fig-grok-voice-3': 'grok-voice-3',
   'fig-claude-duet': 'claude-duet',

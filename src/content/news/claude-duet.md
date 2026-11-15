@@ -2,7 +2,7 @@
 title: 今日頼むなら Grok Bot。Claude Duet は米国の順番待ち
 description: "2026-10-21、朝の要点は、Claude Duet が送ってきます。今入れるのは、米国の Pro、Max、Ultra の順番待ちです。届く日は決まっていません。試験中の追加料金はなく、使う分はそのプランから減ります。今日から仕事を頼むなら Grok Bot です。新規は Premium の月 $30 からです。"
 published: "2026-10-21"
-last_verified: "2026-11-09"
+last_verified: "2026-11-16"
 source_url:
   - https://claude.com/resources/articles/claude-duet
   - https://claude.com/product/claude-duet
@@ -70,7 +70,9 @@ Claude Duet との会話は、一つの流れです。文字でも、録音し�
 
 ## Grok Bot と並べる
 
-Grok Bot で、話しかけていないあいだに動くものとして案内にあるのは、自分で置いた定期の仕事と、出来事で起動するよう自分で書いた規則です。2026-10-12 の [Skill と Routine](https://docs.x.ai/grok-bot/skills-routines-and-automations) です。定期の仕事は、1 体の Bot に 50 まで置けます。記録は新しい方から 20 件残ります。間隔は 5 分以上です。送る、買う、消す、公開する、動いているシステムを変える。この前には確認を求めなさい、と書いてあるのは、定期の仕事の書き方の章です。送る前の下書きを自分が見る、という文は、概要にあります。
+2026-10-12 の [Skill と Routine](https://docs.x.ai/grok-bot/skills-routines-and-automations) では、話しかけていないあいだに Bot が動く場面は二つです。自分で登録した定期の仕事と、何かが起きたら動くように自分で書いた規則です。定期の仕事は、1 体の Bot に 50 まで置けます。記録は新しい方から 20 件残ります。間隔は 5 分以上です。2026-11-16 の同じページでも、この三つの数字はそのままです。定期の仕事の書き方の章には、送る、買う、消す、公開する、動いているシステムを変える、の前には確認を求めなさい、とあります。送る前の下書きを自分が見る、という文は、概要にあります。
+
+2026-11-11 の [Bot が自分から提案する機能の案内](https://docs.x.ai/grok-bot/initiative) では、主な Bot が仕事を見つけて、やることを提案します。危ない操作の前には、確認を求めます。朝の要点を送る文は、そのページにありません。続きは <a href="/news/grok-bot-1/">Grok Bot 1.0 は、頼まれる前に仕事を提案する</a> に書きました。
 
 2026-10-17 のスマホの案内では、Grok Bot のブラウザの仕事を自分のスマホで見て、パスワードや二要素や CAPTCHA のときは自分で操作を引き取り、終わったら Bot に返します。Claude Duet は、ブラウザを見ることも、自分で引き取ることもできません。ノートパソコンを閉じても、クラウドの仕事は、どちらも続きます。
 
@@ -86,7 +88,7 @@ Grok Bot で、話しかけていないあいだに動くものとして案内�
 
 ## 前に言っていたこと
 
-Grok Bot の公開は 2026-08-11 です。原文は [Introducing Grok Bot](https://x.ai/news/introducing-grok-bot) です。その日の文には、こうあります。「Over time they become more proactive, picking up work before you need to ask and knowing when something needs your attention.」そのうち、頼まれる前に仕事に取りかかるようになる、という書き方です。2026-10-12 の手順にあるのは、頼んだ仕事と、自分で置いた定期の仕事と、自分で書いた出来事の規則です。
+Grok Bot の公開は 2026-08-11 です。原文は [Introducing Grok Bot](https://x.ai/news/introducing-grok-bot) です。その日の文には、こうあります。「Over time they become more proactive, picking up work before you need to ask and knowing when something needs your attention.」そのうち、頼まれる前に仕事に取りかかるようになる、という書き方です。2026-10-12 の手順にあるのは、頼んだ仕事と、自分で登録した定期の仕事と、何かが起きたら動くように自分で書いた規則です。2026-11-02 の Grok Bot 1.0 と、2026-11-11 の案内では、提案するところまで来ています。
 
 OpenAI の dots は、別の製品です。違いは <a href="/news/dots/">dots は 1 体が 1 台</a> に書きました。dots の金額は、そのメモの日付のままです。今日の比較には使いません。
 
@@ -109,7 +111,7 @@ grok.com の時刻の予約は、Grok Bot の定期の仕事とは別です。�
 ## よくある取り違え
 
 - 「今日から日本でも、Claude Duet が使える」: 今入れるのは、米国の Pro、Max、Ultra の順番待ちです。届く日は決まっていません
-- 「Grok Bot も、朝の要点を自分から送る」: 話しかけていないあいだに動くものとして案内にあるのは、自分で置いた定期の仕事と、出来事の規則です
+- 「Grok Bot も、朝の要点を自分から送る」: 2026-11-11 の案内にあるのは、主な Bot が仕事を見つけて提案する、というところまでです。朝の要点を送る文は、そのページにありません。2026-10-12 の定期の仕事と出来事の規則は、そのまま残っています
 - 「同じ Opus 5.5 だから、同じ製品」: Claude Duet の案内は Opus 5.5 です。2026-11-09 の Grok Bot の FAQ は、仕事ごとにモデルを選び、名前は出さない、と書いています。2026-10-07 の投稿は、本体が Opus 5.5 で広がっている、と書きました
 - 「Claude Code を入れた Bot が、Claude Duet」: Claude Code は、Grok Bot のコンピュータに自分で入れる道具です。払う先は Anthropic で、Claude Duet とは別です
 - 「途中のブラウザを見て、自分で操作できる」: 見て、引き取れるのは Grok Bot です。Claude Duet は、ブラウザを見ることも、引き取ることもできません
